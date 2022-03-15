@@ -1,0 +1,16 @@
+# Post-visit
+
+At the end of every home visit (for each participant), you will upload the following:
+
+1. **exactly 4 videos** (to your Databrary repository)
+<br>&nbsp; - One-hour naturalistic play (include: decibel measure, shoes if child is wearing them in the house)
+<br>&nbsp; - House walk-through (include: measurements of each room, sleeping arrangements, clothing, books, toys, shoes if child is barefoot)
+<br>&nbsp; - 5-min structured play (focus on child and mom, even if they leave mat area)
+<br>&nbsp; - Questionnaires (set up camera on tripod, focus on mom)
+2. **exactly 1 decibel meter file** (to your Databrary repository)
+3. **exactly 3 questionnaire files** (through the KoBo Toolbox app)
+<br>&nbsp; - demographics questionnaire
+<br>&nbsp; - home visit questionnaire
+<br>&nbsp; - post-visit notes
+<br>
+

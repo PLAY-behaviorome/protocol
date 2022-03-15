@@ -1,0 +1,174 @@
+# Objects
+
+## Workflow
+
+1. Choose whether to code child or mom object interaction first
+2. Code each pass according to definitions in Datavyu Object Interaction Codes
+3. Run Ruby script to check for typos
+
+## Child object interaction pass
+
+### Datavyu Object Interaction Codes for Child
+
+There are 3 columns associated with child object interaction codes: id for child object, child object column, and a comments column for the child object coding.
+
+#### Child object id Column {-}
+
+**Column name**: `obj_id_child`</br>
+**Code**: (\<lab_id\>, \<childobj_coder\>, \<childobj_date\>, \<childobj_mins\>,  \<relchildobj_coder\>, \<relchildobj_date\>)
+
+Code the `obj_id_child` column according to the definitions for coding the id column.
+
+#### Child object interaction Column {-}
+
+**Column name**: `childobj`</br>
+**Code**: (\<obj_o\>)
+
+##### `childobj` General Orientation
+
+This code captures the times that the child is manually engaged with an object by manipulating or moving it. Coders score only when object events occur, not when they don't occur. This is an event code, where gray spaces between cells indicate times when the child is not engaged with an object.
+
+##### Value list {-}
+
+[‘o’ = object](#child_object)
+[‘.’  = child’s hands are off camera and the coder cannot determine if there is an object interaction](#child_hands_off_camera)
+ 
+##### `childobj` Operational Definitions {-}
+
+###### Object interactions (o) {- #child_object}
+
+An object is defined as any manipulable, moveable item that may be detached or moved through space (e.g., toys, household items, food, and smaller moveable elements of larger objects). Code ‘o’ if the child is engaged with an object by making contact and displacing the item with the hand(s). Even minimal movement counts as displacement, but the object must be displaced to code as ‘o’. If the object never moves (e.g., the child has a hand on the stroller but does not displace it), then this is not coded as ‘o’.  The displacement rule differentiates object engagement episodes from instances when the child is exploring a surface, resting hands on a surface or object, touching an object without moving it, or using a surface for support. 
+Contact with the object(s) can be with any part of the hand (fingers, palm, side of hand, back of hand) and includes lifting, holding, pressing, grasping, shaking, banging, or any other type of manipulation that displaces an object. The child does not have to be looking at the object for the event to count as an object engagement (e.g., child is carrying an object). Once the object is in a child’s hand, it is coded as ‘o’ until the object is released for more than 3 seconds. All manual object interactions that displace an object  count as ‘o’ regardless of the intention. Falling on an object or accidentally swiping counts as 'o' if any part of the hand displaces the object.
+In cases of larger objects (i.e., a stroller, a box, a chair, a table, etc.), the object engagement begins when any part of the object is moved (e.g., refrigerator door, beads on a busy box, doorknob). If the large object never moves (e.g., the child has a hand on a table but does not displace it), then this is not coded as ‘o’.
+
+Onset & Offset for ‘o’
+
+Onset is the first frame when the child contacts and moves an object with any part of their hand(s). If the child touches an object, but does not move it until later, code onset as the first frame when the child moves the object, not when they touch it.
+Offset is the frame when the child is no longer in manual contact with an object for at least 3 seconds OR when the child is in manual contact but the object is no longer being displaced for at least 3 s.
+ 
+There is no minimum duration for an object manipulation to be scored as ‘o’. If the child is in manual contact with an object in one hand and makes contact with another object with their second hand, count this as the same object bout. If a child is touching multiple objects, the offset of ‘o’ is when the child is no longer in manual contact with the final object for greater than 3 s.  Instances where the child transitions between one or more objects, with <3s between each onset of manipulation, would count as a single, uninterrupted bout of object manipulation.
+ 
+Notes and specific rules for coding objects:
+
+Cruising/crawling: Depressing objects while cruising (using surface of support to walk upright) or crawling does not count as ‘o’. Any incidental depression of an object as a result of locomotion (object doesn’t move) does not count. Displacements and depressions caused by the hands on bedding, couches and other soft surfaces does not count as object interaction unless the child does something other than bear weight. 
+
+Pillows,cushions, and blankets: Depression of pillows, cushions, and blankets covering beds or couches does not count unless they are completely removed from furniture or displaced in space. Throw pillows on couches and blankets not covering a couch or bed count as objects if a child manipulates them.
+
+Pointing: Pointing does not count as ‘o’ unless the object moves (this is relevant when the child is engaged with books.) Like other object interaction, code the onset when the object is moved. 
+
+Clothes: Manipulations of clothing are only considered object interactions when the clothing is not being worn by the child or mom. For example, a child picking up laundry is coded as ‘o’ but a child fiddling with his pants or handling mom’s shirt are NOT coded as ‘o’.  This includes clothes, hats, socks, shoes, etc. as well as part of clothes like shoe laces, hoodie strings, ties or ribbons, etc.  If the child is removing their own clothes or the mom’s clothes, code the onset of ‘o’ on the first frame when the clothes or accessories are off the body.
+
+Accessories: Manipulations of hair accessories, glasses, necklaces, earings, etc are coded as ‘o’. Playing with watches and rings is an exception and are not coded as ‘o’ because it is too difficult to see.
+
+People and pets: Interactions with people and animals are not coded as 'o'. This includes playing with mom’s hair or hair extensions. Same as clothes and accessories, items being worn by pets do not count unless they are off the pet’s body (e.g., dog collar).
+
+Water and liquids: Water and other liquids that are impossible to manipulate (e.g., water during hand washing) do not count as 'o', but solids (e.g., ice or snow) is considered an object interaction.
+
+Eating and feeding: If the child is eating, set offset as soon as the hand touches the mouth. If food is hanging out of the mouth and the child manipulates it do not code as ‘o’.
+
+Riding Toys: Any interaction with a riding toy, as long as hands are on the toy and the toy is being displaced, counts as object interaction. 
+
+Objects operated by a button: For objects operated by a button, do not guess when the button was pressed if it is not clearly visible. If the coder cannot determine if the child is pressing a button, code as ‘.’.
+
+###### Missing (.) {- #child_hands_off_camera}
+
+If the child’s hands are out of view, and/or the coder cannot determine if the child is manipulating an object, code as ‘.’ (e.g., hands are in a toy chest). If the coder can see part of the object but not the hands, and can infer that the child is still manipulating an object, code as ‘o’. 
+If the child’s hands go out of view (while holding an object or without holding an object)  and come back into view with no change (still holding the same object or hand is still empty) for less than 3 seconds, do not code as ‘.’.
+
+Onset & Offset for ‘.’
+
+Onset is the first frame when the coder cannot determine if the child is manually engaged with an object or not. The onset of ‘.’ can be when the hands disappear from camera view or when hands are occluded by the mom, other objects or furniture.
+Offset is the frame when the child’s hands or object are in view and the coder can determine if the child is manually engaged with an object or not.
+Note: Periods of ‘.’ can occur in the middle of two ‘o’ bouts, before or after an ‘o’ bout, or as an isolated event.
+
+#### Child object comments Column {-}
+
+**Column name**: `childloc_comments`</br> 
+**Code**: (\<comment\>)
+
+Use this column as a space to write questions, comments, or messages about child object coding for the PLAY coding team to review.
+
+Onset & Offset: set accordingly so that the comments are next to the relevant event.
+
+#### `childobj` How to Code the Child Object Interaction Column {-}
+
+- Set “JUMP-BACK-BY” key to 3 s.
+- Enable cell highlighting (cmd + shift +F). Enable temporal mode (cmd T).
+- Watch in real time for the child’s hand(s). As soon as you see the hand(s) touch an object (as defined above), continue watching for a couple of seconds to see if the child moves/manipulates the object. If the object was moved/manipulated according to the rules in this manual, hit #4-SHUTTLEBACK to get to the onset of the cell. The Onset is the first frame when the child makes manual contact with the item. Set this onset by hitting ENTER to set a new cell with that onset time. Now, continue watching the object bout in real time and set the Offset when the child breaks manual contact or stops moving the object (e.g., stroller) for at least 3 s. Once you’ve determined that the bout has ended, set the offset by hitting #5-STOP and then #4-SHUTTLEFORWARD or #6-SHUTTLEBACK to the last frame where the child is no longer in manual contact with the item and/or when the child is no longer moving it. Then, hit #9-SETOFFSET.
+- Continue watching in real time for the next object bout. If the child is carrying an object while crawling or walking around, you can watch faster by #6-SHUTTLING at 2x speed to find the end of the object engagement.
+- To check whether a 3-s pause has occurred between object engagements, go to the offset of the previous object cell and watch until you reach the next instance of ‘o’. Then, hit the ‘JUMP-BACK-BY’ key (which should be set for 3 s) and check to see if the previous cell becomes highlighted. If it does, then the two cells are < 3 s apart and should be combined into one bout of ‘o’ by copying the offset of the final cell, pasting it as the offset in the first cell, and  deleting the extra cell(s).
+
+#### Check the final Child Object Interaction Coded Pass {-}
+
+When finished coding, run the script to check for typos in the child object column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive ‘o’ cells that are less than 3s appart (and should be merged), and any invalid codes (any characters besides ‘o’ or ‘.’). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
+
+## Mom object interaction pass
+### Datavyu Object Codes for Mom
+
+There are 3 columns associated with mom object interaction codes: id for mom object, mom object column, and comments column for the mom object coding.
+
+#### Mom object id Column {-}
+
+**Column name**: `obj_id_mom`</br>
+**Code**: (\<lab_id\>, \<momobj_coder\>, \<momobj_date\>, \<momobj_mins\>,  \<relmomobj_coder\>, \<relchidobj_date\>)
+
+Code the `obj_id_mom` column according to the definitions for coding the id column.
+
+#### Mom object interaction Column {-}
+
+**Column name**: `momobj`</br>
+**Code**: \<obj_o\>
+ 
+##### General Orientation {-}
+
+This code captures the times that the mom is manually engaged with an object. Coders score only when object events occur, not when they don't occur. This is an event code, where gray spaces between cells mean that the mom is not engaged with an object.
+ 
+##### `momobj` Value list {-}
+
+[‘o’ = object](#mom_obj)</br>
+[‘.’  = mom is off camera or her hands are out of view and the coder cannot determine if there is an object in hand](#mom_hands_off_camera)
+
+##### Operational Definitions {-}
+
+###### Object interactions (o) {- #mom_obj}
+
+An object is defined as any manipulable, moveable item that may be detached and moved through space (e.g., toys, household items). Objects can include parts of a stationary object (e.g., door knob on door, clasp on drawer) that can be moved or manipulated. Objects can include large objects that mom may move (chairs), but does not include immobile objects such as walls. Code ‘o’ if mom is engaged with an object by manipulating the item with her hand(s). Even minimal movement counts as displacement, but the object must be displaced to code as ‘o’. Contact with the object(s) can be with any part of the hand (fingers, palm, side of hand) and include lifting, holding, pressing, grasping, shaking, banging, or any other type of displacement event.) The mom does not have to be looking at the object for the event to count as an object engagement (e.g., mom is carrying an object). 
+In cases of larger objects (i.e., a stroller, a box, a chair, a table, etc.), the object engagement begins when the object starts to move. If the large object never moves (e.g., the mom has a hand on the stroller but does not displace it), then this is not coded as ‘o’. 
+
+Onset & Offset for ‘o’
+
+Onset is the frame when mom first makes contact with an object with her hands. 
+Offset is the frame when mom is no longer in manual contact with an object for at least 3 s. If the mom has multiple items in hand, the onset of ‘o’ is when a hand(s) contacts the first object in the multiple-object-bout and the offset is when the hand(s) release the last object.
+ 
+###### Missing (.) {- #mom_hands_off_camera}
+
+If the mom is not in the camera view, code this with a ‘.’ as missing data. If the mom’s hands are out of view, and/or the coder cannot determine if she is manipulating an object code as ‘.’ 
+Onset & Offset for ‘.’
+
+Onset is the first frame when the coder cannot determine if the mom is manually engaged with an object or not.
+Offset is the frame when the mom’s hands are in view and the coder can determine if the mom is manually engaged with an object or not.
+
+#### Mom object comments Column {-}
+
+**Column name**: `momloc_comments`</br> 
+**Code**: (\<comment\>)
+
+Use this column as a space to write questions, comments, or messages, about mom object coding for the PLAY coding team to review.
+
+Onset & Offset: set accordingly.
+
+### How to Code the Mom Object Interaction Column {-}
+
+- Set “JUMP-BACK-BY” key to 3 s.
+- Enable cell highlighting.
+- Watch in real-time for the mom’s hand(s). As soon as you see the hand(s) touch an object (as defined above), continue watching for a couple of seconds to see if the mom moves/manipulates the object (which would make this an instance of Object). Then, hit #4-SHUTTLEBACK to get to the onset of the cell. The Onset is the first frame when the mom makes manual contact with the item and moves it through space. Set this onset by hitting ENTER to set a new cell with that onset time. Now, continue watching the Object bout in real time and set the Offset when the mom breaks manual contact or stops moving the object for at least 3 s (i.e., Object bouts that are interrupted by gray space are more than 3 s apart).
+- There is no necessary minimum duration for object engagement during the ‘o’ bout to be coded as Object. In other words, the mom can engage with an item or as little or as much time as they would like, however, the mom must make manual contact and move it through space to count.
+- Once you’ve determined that the bout has ended, set the offset by hitting #5-STOP and then #4-SHUTTLEFORWARD or #6-SHUTTLEBACK to the last frame where the mom is no longer in manual contact with the item and/or when the mom is no longer moving it. Then, hit #9-SETOFFSET.
+- Continue watching in real time for the next object bout. If the mom is walking with an object, watch at 2x speed.
+- Do not agonize. If the mom goes in and out of the camera view, but you know she is still holding the same object and has not put it down, code it in the same bout of ‘o’. Do not mark the “.” for every few seconds she is out of frame. .
+- Code as Object even if mom’s back is to the camera, but you see her arms moving and she overtly appears to be manipulating something—even if you can’t see exactly what it is.
+- Many times, onsets and offsets are coded when mom goes in and out of frame. In these instances, hit the 0 key to set a continuous cell, that way the onset of the next cell is automatically set to 1-ms after the previous cell’s offset.
+
+### Check the final Mom Object Interaction Coded Pass {-}
+
+When finished coding, run the script to check for typos in the mom object column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive ‘o’ cells that are less than 3s appart (and should be merged), and any invalid codes (any characters besides ‘o’ or ‘.’). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
