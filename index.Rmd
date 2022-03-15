@@ -1,0 +1,238 @@
+--- 
+title: "Play & Learning Across a Year (PLAY): The Protocol"
+author: "Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+url: https://PLAY-behaviorome.github.io/protocol
+cover-image: img/PLAY-logo.png
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: PLAY-behaviorome/protocol
+---
+
+# About
+
+This document is a web-book that describes in detail how the PLAY project team is collecting, curating, analyzing, and sharing data.
+
+## Themes
+
+The Play & Learning Across a Year (PLAY) Project has three major priorities.
+
+### Behavior {- #behavior}
+
+We believe that developmental science can and must focus on *behavior*.
+
+### Video {- #video}
+
+We believe that video is a uniquely powerful and inexpensive tool for capturing behavior and analyzing it. And we also believe that video has unheralded and under-exploited power as a means of documenting research procedures.
+
+### Openness and transparency {- #openness}
+
+We believe that psychological science will be more robust and reproducible, make important advances more quickly, and have a greater impact on society if we embrace openness and transparency throughout our work.
+
+PLAY is committed to open science. We are developing our protocol in the open and publishing it publicly. We will be sharing all of the collected data with the research community using the [Databrary data library](https://databrary.org) at the end of the grant period. Our analysis code is shared on [GitHub](https://github.com/PLAY-behaviorome), and we use free and open source software tools as much as possible.
+
+## People 
+
+### Principal Investigators {#pis}
+
+<table>
+<tr>
+<td><img src="img/people-karen.png" width="150"><br><br><br></td>
+<td style="padding:10px">
+**Karen E. Adolph, Ph.D**.</br>
+New York University</br>
+Principal Investigator
+<br><a href="mailto:karen.adolph@nyu.edu">email</a>
+</td>
+</tr>
+
+<tr>
+<td><img src="img/people-cathie.png" width="150"><br><br><br></td>
+<td style="padding:10px">
+**Catherine Tamis-LeMonda, Ph.D.**</br>
+New York University</br>
+Co-Principal Investigator
+<br><a href="mailto:catherine.tamis-lemonda@nyu.edu">email</a>
+</td>
+</tr>
+
+<tr>
+<td><img src="img/people-rick.png" width="150"><br><br><br></td>
+<td style="padding:10px">
+**Rick O. Gilmore, Ph.D.**</br>
+The Pennsylvania State University</br>
+Co-Principal Investigator
+<br><a href="mailto:rog1@psu.edu">email</a>
+</td>
+</tr>
+</table>
+
+
+### Team {#staff}
+
+<div class="row">
+  <div class="column-left">
+  <img src="img/people-kasey.png" width="150"></br>
+  **Kasey Soska, Ph.D.**</br>
+  Scientific Director
+  <br><a href="mailto:kasey.soska@databrary.org">email</a>
+  </div>
+  <div class="column-right">
+  <img src="img/people-orit.jpg" width="150"></br>
+  **Orit Herzberg-Keller, D.P.T.**</br>
+  Research Scientist
+  <br><a href="mailto:ohk2@nyu.edu">email</a>
+  </div>
+</div>
+<br><br>
+<div class="row">
+  <div class="column-left">
+  <img src="img/people-tiger.png" width="150"></br>
+  **Tiger Teng, B.A.**</br>
+  Research Associate
+  <br><a href="mailto:tyt228@nyu.edu">email</a>
+  </div>
+</div>
+<br><br>
+
+### Collaborating Investigators {#collaborators}
+
+<!-- Used this website to create table in markdown: https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/-->
+
+| Full name               | Institution                                | Location            | Role                |
+|-------------------------|--------------------------------------------|---------------------|---------------------|
+| Karen Adolph            | New York University                        | New York, NY        | Collecting & Coding |
+| Dima Amso               | Brown University                           | Providence, RI      | Contributor         |
+| Rachel Barr             | Georgetown University                      | Washington, DC      | Collecting & Coding |
+| Sheri Berenbaum         | Penn State University                      | State College, PA   | Contributor         |
+| Marc Bornstein          | NICHD                                      | Rockville, MD       | Contributor         |
+| Jean-Paul Boudreau      | Mount Allison University                   | Sackville, NB       | Coding              |
+| Bob Bradley             | Arizona State University                   | Tempe, AZ           | Contributor         |
+| Amanda Brandone         | Lehigh University                          | Lehigh, PA          | Coding              |
+| Rebecca Brooker         | Texas A&M                                  | College Station, TX | Coding              |
+| Kristin Buss            | Penn State University                      | State College, PA   | Coding              |
+| Marianella Casasola     | Cornell University                         | Ithaca, NY          | Collecting & Coding |
+| Guangqing Chi           | Penn State University                      | State College, PA   | Contributor         |
+| Laura Claxton           | Purdue University                          | W. Lafayette, IN    | Collecting & Coding |
+| Elizabeth Davis         | University of California at Riverside      | Riverside, CA       | Coding              |
+| Kaya de Barbaro         | University of Texas at Austin              | Austin, TX          | Coding              |
+| Stacey Dusing           | Virginia Commonwealth University           | Richmond, VA        | Collecting & Coding |
+| Gary Evans              | Cornell University                         | Ithaca, NY          | Contributor         |
+| Caitlin Fausey          | University of Oregon                       | Eugene, OR          | Collecting & Coding |
+| John Franchak           | University of California at Riverside      | Riverside, CA       | Collecting & Coding |
+| Mike Frank              | Stanford University                        | Palo Alto, CA       | Collecting & Coding |
+| Janet Frick             | University of Georgia                      | Athens, GA          | Collecting & Coding |
+| Simone Gill             | Boston University                          | Boston, MA          | Collecting & Coding |
+| Rick Gilmore            | Penn State University                      | State College, PA   | Collecting & Coding |
+| Susan Goldin-Meadow     | University of Chicago                      | Chicago, IL         | Contributor         |
+| Mike Goldstein          | Cornell University                         | Ithaca, NY          | Contributor         |
+| Julie Gros-Louis        | University of Iowa                         | Iowa City           | Collecting          |
+| Jeff Haddad             | Purdue University                          | W. Lafayette, IN    | Coding              |
+| May Ling Halim          | California State University at Long Beach  | Long Beach, CA      | Collecting          |
+| Amie Hane               | Williams College                           | Williamstown, MA    | Coding              |
+| Janet Hauck             | Michigan State University                  | East Lansing, MI    | Coding              |
+| Jill Heathcock          | Ohio State University                      | Columbus, OH        | Collecting & Coding |
+| Heather Henderson       | University of Waterloo                     | Waterloo, ON        | Coding              |
+| Kathy Hirsh-Pasek       | Temple University                          | Philadelphia, PA    | Contributor         |
+| Jana Iverson            | University of Pittsburgh                   | Pittsburgh, PA      | Collecting & Coding |
+| Lana Karasik            | CUNY -- College of Staten Island           | Staten Island, NY   | Collecting & Coding |
+| Do Kyeong Lee           | California State University at Fullerton   | Fullerton, CA       | Collecting & Coding |
+| Mei-Hua Lee             | Michigan State University                  | East Lansing, MI    | Collecting & Coding |
+| Cristine Legare         | University of Texas at Austin              | Austin, TX          | Collecting & Coding |
+| Casey Lew-Williams      | Princeton University                       | Princeton, NJ       | Collecting & Coding |
+| Klaus Libertus          | University of Pittsburgh                   | Pittsburgh, PA      | Coding              |
+| Vanessa LoBue           | Rutgers University                         | Newark, NY          | Collecting & Coding |
+| Jeff Lockman            | Tulane University                          | New Orleans, LA     | Collecting & Coding |
+| Brian MacWhinney        | Carnegie Mellon University                 | Pittsburgh, PA      | Contributor         |
+| Dan Messinger           | University of Miami                        | Miami, FL           | Collecting & Coding |
+| Letitia Naigles         | University of Connecticut                  | Storrs, CT          | Coding              |
+| Laura Namy              | Society for Research In Child Development  | Washington, DC      | Contributor         |
+| Amy Needham             | Vanderbilt University                      | Nashville, TN       | Collecting & Coding |
+| Nora Newcombe           | Temple University                          | Philadelphia, PA    | Contributor         |
+| Lisa Oakes              | University of California at Davis          | Davis, CA           | Collecting & Coding |
+| Kristina Olson          | University of Washington                   | Seattle, WA         | Contributor         |
+| Koraly Perez-Edgar      | Penn State University                      | State College, PA   | Coding              |
+| Eva Pomerantz           | University of Illinois at Urbana-Champagne | Champaign, IL       | Contributor         |
+| Laura Prosser           | Children's Hospital of Philadelphia        | Philadelphia, PA    | Collecting & Coding |
+| Meredith Rowe           | Harvard University                         | Cambridge, MA       | Coding              |
+| Mark Schmuckler         | University of Toronto Scarborough          | Toronto, ON         | Coding              |
+| Adam Sheya              | University of Connecticut                  | Storrs, CT          | Collecting & Coding |
+| Melanie Soderstrom      | University of Manitoba                     | Winnipeg, MB        | Contributor         |
+| Lulu Song               | Brooklyn College                           | Brooklyn, NY        | Coding              |
+| Catherine Tamis-LeMonda | New York University                        | New York, NY        | Coding              |
+| Peter Vishton           | College of William & Mary                  | Williamsburg, VA    | Contributor         |
+| Eric Walle              | University of California at Merced         | Merced, CA          | Collecting & Coding |
+| Su-hua Wang             | University of California at Santa Cruz     | Santa Cruz, CA      | Collecting & Coding |
+| Anne Warlaumont         | University of California at Los Angeles    | Los Angeles, CA     | Coding              |
+| Hanako Yoshida          | University of Houston                      | Houston, TX         | Collecting & Coding |
+| Chen Yu                 | Indiana University                         | Bloomington, IN     | Collecting & Coding |
+| Dan Yurovsky            | Carnegie Mellon University                 | Chicago, IL         | Coding              |
+
+
+### Advisory {#advisors}
+
+<br>
+
+<div>
+<table width="100%">
+<tr>
+<td valign="top" width="45%">
+<b> Internal advisors </b>
+
+Rachel Barr
+: Georgetown University  
+<br>
+
+Kathy Hirsch-Pasek
+: Temple University  
+<br>
+
+Jeff Lockman
+: Tulane  
+<br>
+
+Laura Prosser
+: Children’s Hospital of Philadelphia   
+<br>
+
+Meredith Rowe
+: Harvard   
+<br>
+
+Dan Yurovsky
+: CMU
+<br>
+
+</td>
+<td width="10%">
+</td>
+<td valign="top" width="45%">
+<b> External advisors </b>
+
+Helen Egger
+: NYU  
+<br>
+_Helen Egger is the Chair of NYU’s Department of Child and Adolescent Psychiatry and has expertise in social-emotional development, naturalistic home studies, and apps for collecting parent report and live data.  _
+<br><br>
+
+David Hunter
+: Penn State  
+<br>
+_David Hunter is Professor of Statistics at the Pennsylvania State University and leads the University’s data science initiative (https://datascience.psu.edu/).  _
+</td>
+</tr>
+</table>
+</div>
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

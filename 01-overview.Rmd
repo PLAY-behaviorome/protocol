@@ -1,0 +1,117 @@
+# Project Overview {#overview}
+
+To answer questions about infant behaviours in their natural environments, the PLAY project will collect, code, and share 900 hours of video collected in the homes of children at 12, 18, and 24 months of age drawn from 30 sites across North America.  
+
+Materials (videos, questionnaires, links to Databrary volumes) for the PLAY project are included in this site, where we document data collection protocols, workflows, coding strategies, and operational definitions.  
+
+Below is the project-wide workflow. The PLAY team will provide training, quality assurance, transcription, reliability coding, and collating data for the final PLAY database. The collaborating sites will perform data collection and various levels of data coding.
+<br>
+<br>
+
+```{r overview_fig, echo=FALSE, fig.cap="PLAY Project Workflow"}
+knitr::include_graphics("img/overview-project.png")
+```
+
+<div class="row">
+<div class="column-1third">
+<br>
+<h4> &nbsp;&nbsp; <u>Direct Links</u> </h3>
+<br>
+<a href="recruitment.html#participant_recruitment"> <img src="img/link-recruitment.png"> </a>  
+<a href="collection.html#home_visit"> <img src="img/link-collection.png"> </a>  
+<a href="collection.html#clean_up_and_upload"> <img src="img/link-upload.png"> </a>  
+<br><br>
+<a href="coding.html#gesture_pass"> <img src="img/link-gesture.png"> </a>  
+<a href="coding.html#locomotion_passes"> <img src="img/link-locomotion.png"> </a>  
+<a href="coding.html#emotion_passes"> <img src="img/link-emotion.png"> </a>  
+<a href="coding.html#object_interaction_passes"> <img src="img/link-object.png"> </a>  
+<a href="coding.html#communication_passes"> <img src="img/link-communication.png"> </a>  
+</div>
+</div>
+<br>
+<br>
+
+## Participants {#participants}
+
+The collaborating sites in PLAY perform a variety of roles (see [people](people.html) for details). Each site that performs a **collecting** role is pre-assigned to complete all of the collecting functions (see in blue below). This page contains detailed help for the recruitment of participants. Click here for information about the <a href="collection.html"><font color="#5B9BD5"><b> data collection </b></font></a> and <a href="collection.html#clean_up_and_upload"><font color="#5B9BD5"><b> data upload </b></font></a> processes.
+
+PLAY aims to set new standards for conducting open, transparent, and reproducible behavioral science by i) publishing the protocol, and ii) making extensive use of video exemplars to demonstrate phenomena and illustrate behavioral codes. For confidentiality reasons, access to video exemplars is restricted to researchers with authorized access to [Databrary](http://databrary.org). To register for access, visit <http://databrary.org/register>.
+
+Please ensure that you are  [**currently logged in at Databrary**](https://nyu.databrary.org/user/login) to view embedded video examples in this webpage and gain access to phone and home questionnaires.  
+
+<br>
+
+## Sampling
+
+PLAY will produce a widely varied and rich set of data, most of which will be openly shared with the research community at the end of the five-year NIH grant period in late 2023. Infants' natural play in the home is characterized by tremendous variability including variations in: geographic location, climate, SES, maternal/paternal employment, childcare experiences, infants’ and mothers’ ages, language environment, physical layout and characteristics of the home, availability of media, toys for play, and so on. Researchers will be able to explore the effects of any/all such factors.  
+
+## Inclusion/Exclusion Criteria
+
+Although PLAY endeavours to sample as much of the rich variations that the collection sites present, based on conversations with the launch group and to ensure a sufficient sample size, we will limit variability along several dimensions. To be included in the PLAY sample of 900 sessions, participants must: 
+
+- be 12, 18, or 24 months of age (+/- 1 week)
+- be a single child (i.e., no living siblings)
+- come from English or Spanish monolingual or bilingual homes (i.e., no other language exposure in the home)
+- be born full-term (37-43 weeks), of normal birth weight (>= 5.5 lbs), without known disabilities
+- come from two-parent or single-parent households
+
+Additionally, the mother must act as the caregiver during the one-hour natural interaction, which will be scheduled at a time when _only_ the mother and infant are present.
+
+## Collection sites
+
+Data will come from 30 geographically diverse sites across the US representing rural, suburban, and urban communities with different races, ethnicities, and socio-economic status, including English- and Spanish-speaking households.  
+
+The aim is to collect data that approximate county-level demographic characteristics as reflected in U.S. Census data.
+
+### Map
+
+<img src="img/PLAY-collection-sites-labeled.png"/>
+
+### Racial composition
+
+<img src="img/race-by-county-all-regions-plot-1.png"/>
+
+### Socio-economic status
+
+<img src="img/per-capita-income-plot-1.png"/>
+
+### Education
+
+<img src="img/ed-attain-bars-plot-1.png"/>
+
+### Languages spoken
+
+<img src="img/spanish-speaking-plot-1.png"/>
+
+## Video
+
+All data collections will be recorded on video.
+Parents will be asked for their permission to share the video recordings and other data with the research community.
+When that permission is granted the videos and related data will be shared with the research community via [Databrary](http://databrary.org):
+
+- Adolph, K., Tamis-LeMonda, C., Gilmore, R.O. & Soska, K. (2016). PLAY Project: NICHD Workshop (2016-12-16). Databrary. Retrieved August 23, 2018 from http://doi.org/10.17910/B7.254.
+- Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2017). PLAY Project: Pilot Data Collections. Databrary. Retrieved August 23, 2018 from https://nyu.databrary.org/volume/444.
+- Adolph, K., Tamis-LeMonda, C., Gilmore, R.O. & Soska, K. (2018). Play & Learning Across a Year (PLAY) Project Summit (2018-06-29 Philadelphia). Databrary. Retrieved August 23, 2018 from http://doi.org/10.17910/B7.724
+
+##### Full PLAY home visit protocol - example
+
+This is a video of the full PLAY home visit protocol that is available to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. You must be logged in to [Databrary](http://databrary.org) to view it. 
+
+<div class="videobuttons">
+  <img src="img/icon-video.png" width="25">
+  <button size="xs" type="button" data-toggle="collapse" data-target="#fullvideohomevisit">
+Full-length video of home visit
+  </button>
+</div>
+<div id="fullvideohomevisit" class="collapse" aria-expanded="false" style="height: 0px;">
+  <video width="100%" controls="" preload="none">
+    <source src="https://nyu.databrary.org/slot/43224/7821438,11460201/asset/223780/download?inline=true" type="video/mp4"> Your browser does not support html5 video.
+  </video>
+</div>
+
+_NOTE: This participant was not the only child in the home, so would not meet inclusion criteria for PLAY._
+
+## Parent-report (questionnaire) data
+
+PLAY researchers will collect and share a substantial corpus of parent-report (questionnaire) data. The full set of self-report questions can be found [here](collection_homevisit_questionnaires.html).
+
