@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 12 Data management | Play &amp; Learning Across a Year (PLAY): The Protocol</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 12 Data management | Play &amp; Learning Across a Year (PLAY): The Protocol" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://PLAY-behaviorome.github.io/protocol" />
+  <meta property="og:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png" />
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="PLAY-behaviorome/protocol" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 12 Data management | Play &amp; Learning Across a Year (PLAY): The Protocol" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="twitter:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png" />
+
+<meta name="author" content="Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore" />
+
+
+<meta name="date" content="2022-03-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="locomotion.html"/>
+<link rel="next" href="quality-assurance.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">PLAY Project Protocol</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#themes"><i class="fa fa-check"></i><b>1.1</b> Themes</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#behavior"><i class="fa fa-check"></i>Behavior</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#video"><i class="fa fa-check"></i>Video</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#openness"><i class="fa fa-check"></i>Openness and transparency</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#people"><i class="fa fa-check"></i><b>1.2</b> People</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#pis"><i class="fa fa-check"></i><b>1.2.1</b> Principal Investigators</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#staff"><i class="fa fa-check"></i><b>1.2.2</b> Team</a></li>
+<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#collaborators"><i class="fa fa-check"></i><b>1.2.3</b> Collaborating Investigators</a></li>
+<li class="chapter" data-level="1.2.4" data-path="index.html"><a href="index.html#advisors"><i class="fa fa-check"></i><b>1.2.4</b> Advisory</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="overview.html"><a href="overview.html"><i class="fa fa-check"></i><b>2</b> Project Overview</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="overview.html"><a href="overview.html#participants"><i class="fa fa-check"></i><b>2.1</b> Participants</a></li>
+<li class="chapter" data-level="2.2" data-path="overview.html"><a href="overview.html#sampling"><i class="fa fa-check"></i><b>2.2</b> Sampling</a></li>
+<li class="chapter" data-level="2.3" data-path="overview.html"><a href="overview.html#inclusionexclusion-criteria"><i class="fa fa-check"></i><b>2.3</b> Inclusion/Exclusion Criteria</a></li>
+<li class="chapter" data-level="2.4" data-path="overview.html"><a href="overview.html#collection-sites"><i class="fa fa-check"></i><b>2.4</b> Collection sites</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="overview.html"><a href="overview.html#map"><i class="fa fa-check"></i><b>2.4.1</b> Map</a></li>
+<li class="chapter" data-level="2.4.2" data-path="overview.html"><a href="overview.html#racial-composition"><i class="fa fa-check"></i><b>2.4.2</b> Racial composition</a></li>
+<li class="chapter" data-level="2.4.3" data-path="overview.html"><a href="overview.html#socio-economic-status"><i class="fa fa-check"></i><b>2.4.3</b> Socio-economic status</a></li>
+<li class="chapter" data-level="2.4.4" data-path="overview.html"><a href="overview.html#education"><i class="fa fa-check"></i><b>2.4.4</b> Education</a></li>
+<li class="chapter" data-level="2.4.5" data-path="overview.html"><a href="overview.html#languages-spoken"><i class="fa fa-check"></i><b>2.4.5</b> Languages spoken</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="overview.html"><a href="overview.html#video-1"><i class="fa fa-check"></i><b>2.5</b> Video</a></li>
+<li class="chapter" data-level="2.6" data-path="overview.html"><a href="overview.html#parent-report-questionnaire-data"><i class="fa fa-check"></i><b>2.6</b> Parent-report (questionnaire) data</a></li>
+</ul></li>
+<li class="part"><span><b>I Collection</b></span></li>
+<li class="chapter" data-level="3" data-path="recruitment.html"><a href="recruitment.html"><i class="fa fa-check"></i><b>3</b> Recruitment</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="recruitment.html"><a href="recruitment.html#scheduling-visit"><i class="fa fa-check"></i><b>3.1</b> Scheduling visit</a></li>
+<li class="chapter" data-level="3.2" data-path="recruitment.html"><a href="recruitment.html#initial-recruiting-phone-call"><i class="fa fa-check"></i><b>3.2</b> Initial recruiting phone call</a>
+<ul>
+<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#english_instructions"><i class="fa fa-check"></i>English instructions</a></li>
+<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#spanish_instructions"><i class="fa fa-check"></i>Spanish instructions</a></li>
+<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#initial-recruiting-voicemail"><i class="fa fa-check"></i>Initial recruiting voicemail</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="recruitment.html"><a href="recruitment.html#initial-recruiting-email"><i class="fa fa-check"></i><b>3.3</b> Initial recruiting email</a>
+<ul>
+<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#english-template"><i class="fa fa-check"></i>English template</a></li>
+<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#spanish-template"><i class="fa fa-check"></i>Spanish template</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="home-visit.html"><a href="home-visit.html"><i class="fa fa-check"></i><b>4</b> Home Visit</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="home-visit.html"><a href="home-visit.html#arrival-introduction"><i class="fa fa-check"></i><b>4.1</b> 1. Arrival introduction</a></li>
+<li class="chapter" data-level="4.2" data-path="home-visit.html"><a href="home-visit.html#consent-to-participate"><i class="fa fa-check"></i><b>4.2</b> 2. Consent to participate</a></li>
+<li class="chapter" data-level="4.3" data-path="home-visit.html"><a href="home-visit.html#one-hour-natural-play-video-noise-measurement"><i class="fa fa-check"></i><b>4.3</b> 3. One-hour natural play video &amp; noise measurement</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="home-visit.html"><a href="home-visit.html#decibel-meter"><i class="fa fa-check"></i><b>4.3.1</b> 3.1 Decibel Meter</a></li>
+<li class="chapter" data-level="4.3.2" data-path="home-visit.html"><a href="home-visit.html#one-hour-natural-play-video"><i class="fa fa-check"></i><b>4.3.2</b> 3.2 One-Hour Natural Play Video</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="home-visit.html"><a href="home-visit.html#video-house-walk-through-while-measuring-rooms"><i class="fa fa-check"></i><b>4.4</b> 4. Video House Walk-through while measuring rooms</a></li>
+<li class="chapter" data-level="4.5" data-path="home-visit.html"><a href="home-visit.html#five-minute-structured-mother-child-play"><i class="fa fa-check"></i><b>4.5</b> 5. Five-minute Structured Mother-Child Play</a></li>
+<li class="chapter" data-level="4.6" data-path="home-visit.html"><a href="home-visit.html#questionnaires"><i class="fa fa-check"></i><b>4.6</b> 6. Questionnaires</a></li>
+<li class="chapter" data-level="4.7" data-path="home-visit.html"><a href="home-visit.html#visit-wrap-up"><i class="fa fa-check"></i><b>4.7</b> 7. Visit wrap-up</a></li>
+<li class="chapter" data-level="4.8" data-path="home-visit.html"><a href="home-visit.html#full-play-home-visit-protocol---example-1"><i class="fa fa-check"></i><b>4.8</b> 8. Full PLAY home visit protocol - example</a></li>
+<li class="chapter" data-level="4.9" data-path="home-visit.html"><a href="home-visit.html#post-visit-notes-clean-up-and-upload"><i class="fa fa-check"></i><b>4.9</b> Post Visit notes, Clean up, and Upload</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="post-visit.html"><a href="post-visit.html"><i class="fa fa-check"></i><b>5</b> Post-visit</a></li>
+<li class="part"><span><b>II Coding</b></span></li>
+<li class="chapter" data-level="6" data-path="transcription.html"><a href="transcription.html"><i class="fa fa-check"></i><b>6</b> Transcription</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="transcription.html"><a href="transcription.html#file-locations-and-saving"><i class="fa fa-check"></i><b>6.1</b> File Locations and Saving</a></li>
+<li class="chapter" data-level="6.2" data-path="transcription.html"><a href="transcription.html#where-to-locate-datavyu-templates"><i class="fa fa-check"></i><b>6.2</b> Where to locate Datavyu Templates</a></li>
+<li class="chapter" data-level="6.3" data-path="transcription.html"><a href="transcription.html#what-is-an-utterance"><i class="fa fa-check"></i><b>6.3</b> What is an utterance?</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="transcription.html"><a href="transcription.html#whose-language-is-transcribed"><i class="fa fa-check"></i><b>6.3.1</b> Whose language is transcribed?</a></li>
+<li class="chapter" data-level="6.3.2" data-path="transcription.html"><a href="transcription.html#rules-for-transcribing-the-content-of-utterances"><i class="fa fa-check"></i><b>6.3.2</b> Rules for Transcribing the Content of Utterances</a></li>
+<li class="chapter" data-level="6.3.3" data-path="transcription.html"><a href="transcription.html#when-an-utterance-does-not-contain-words"><i class="fa fa-check"></i><b>6.3.3</b> When an utterance does not contain words</a></li>
+<li class="chapter" data-level="6.3.4" data-path="transcription.html"><a href="transcription.html#general-rules"><i class="fa fa-check"></i><b>6.3.4</b> General rules</a></li>
+<li class="chapter" data-level="6.3.5" data-path="transcription.html"><a href="transcription.html#special-cases-for-utterances"><i class="fa fa-check"></i><b>6.3.5</b> Special Cases for Utterances</a></li>
+<li class="chapter" data-level="6.3.6" data-path="transcription.html"><a href="transcription.html#retractedincomplete-words"><i class="fa fa-check"></i><b>6.3.6</b> Retracted/incomplete words</a></li>
+<li class="chapter" data-level="6.3.7" data-path="transcription.html"><a href="transcription.html#assimilated-words"><i class="fa fa-check"></i><b>6.3.7</b> Assimilated Words</a></li>
+<li class="chapter" data-level="6.3.8" data-path="transcription.html"><a href="transcription.html#spelling-and-pronunciation"><i class="fa fa-check"></i><b>6.3.8</b> Spelling and Pronunciation</a></li>
+<li class="chapter" data-level="6.3.9" data-path="transcription.html"><a href="transcription.html#regionalisms-and-colloquialisms"><i class="fa fa-check"></i><b>6.3.9</b> Regionalisms and Colloquialisms</a></li>
+<li class="chapter" data-level="6.3.10" data-path="transcription.html"><a href="transcription.html#adult-babble"><i class="fa fa-check"></i><b>6.3.10</b> Adult babble</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="transcription.html"><a href="transcription.html#transcribing-using-datavyu"><i class="fa fa-check"></i><b>6.4</b> Transcribing Using Datavyu</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="gesture.html"><a href="gesture.html"><i class="fa fa-check"></i><b>7</b> Gesture</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="gesture.html"><a href="gesture.html#workflow"><i class="fa fa-check"></i><b>7.1</b> Workflow</a></li>
+<li class="chapter" data-level="7.2" data-path="gesture.html"><a href="gesture.html#datavyu-gesture-codes-for-child"><i class="fa fa-check"></i><b>7.2</b> Datavyu Gesture Codes for Child</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="gesture.html"><a href="gesture.html#communication-id-column"><i class="fa fa-check"></i><b>7.2.1</b> Communication id Column</a></li>
+<li class="chapter" data-level="" data-path="gesture.html"><a href="gesture.html#gesture-column"><i class="fa fa-check"></i>Gesture Column</a></li>
+<li><a href="gesture.html#gesture-general-orientation"><code>gesture</code> General Orientation</a></li>
+<li><a href="gesture.html#gesture_value_list"><code>gesture</code> Value List</a></li>
+<li><a href="gesture.html#gesture-operational-definitions"><code>gesture</code> Operational Definitions</a></li>
+<li class="chapter" data-level="" data-path="gesture.html"><a href="gesture.html#show_offer_bid"><i class="fa fa-check"></i>Show/offer/ bid</a></li>
+<li class="chapter" data-level="7.2.2" data-path="gesture.html"><a href="gesture.html#how-to-code"><i class="fa fa-check"></i><b>7.2.2</b> How to Code</a></li>
+<li class="chapter" data-level="7.2.3" data-path="gesture.html"><a href="gesture.html#check-the-final-coded-child-communication-pass"><i class="fa fa-check"></i><b>7.2.3</b> Check the Final Coded Child Communication Pass</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="communication.html"><a href="communication.html"><i class="fa fa-check"></i><b>8</b> Communication</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="communication.html"><a href="communication.html#workflow-1"><i class="fa fa-check"></i><b>8.1</b> Workflow</a></li>
+<li class="chapter" data-level="8.2" data-path="communication.html"><a href="communication.html#datavyu-communication-codes-for-child"><i class="fa fa-check"></i><b>8.2</b> Datavyu Communication Codes for Child</a>
+<ul>
+<li><a href="communication.html#communication-id-com_id-column">Communication id (<code>com_id</code>) column</a></li>
+<li><a href="communication.html#child-communication-childutterancetype-column">Child communication (<code>childutterancetype</code>) column</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="communication.html"><a href="communication.html#mom-communication-pass"><i class="fa fa-check"></i><b>8.3</b> Mom communication pass</a>
+<ul>
+<li class="chapter" data-level="" data-path="communication.html"><a href="communication.html#datavyu-communication-codes-for-mom"><i class="fa fa-check"></i>Datavyu Communication Codes for Mom</a></li>
+<li class="chapter" data-level="" data-path="communication.html"><a href="communication.html#communication-id-column-1"><i class="fa fa-check"></i>Communication id Column</a></li>
+<li class="chapter" data-level="" data-path="communication.html"><a href="communication.html#mom-communication-column"><i class="fa fa-check"></i>Mom communication Column</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="emotion.html"><a href="emotion.html"><i class="fa fa-check"></i><b>9</b> Emotion</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="emotion.html"><a href="emotion.html#workflow-2"><i class="fa fa-check"></i><b>9.1</b> Workflow</a></li>
+<li class="chapter" data-level="9.2" data-path="emotion.html"><a href="emotion.html#datavyu-emotion-codes-for-child"><i class="fa fa-check"></i><b>9.2</b> Datavyu Emotion Codes for Child</a>
+<ul>
+<li class="chapter" data-level="" data-path="emotion.html"><a href="emotion.html#child-emotion-id-column"><i class="fa fa-check"></i>Child emotion id Column</a></li>
+<li class="chapter" data-level="" data-path="emotion.html"><a href="emotion.html#child-emotion-column"><i class="fa fa-check"></i>Child emotion Column</a></li>
+<li class="chapter" data-level="" data-path="emotion.html"><a href="emotion.html#how-to-code-the-child-emotion-column"><i class="fa fa-check"></i>How to Code the Child Emotion Column</a></li>
+<li class="chapter" data-level="" data-path="emotion.html"><a href="emotion.html#check-the-final-coded-pass"><i class="fa fa-check"></i>Check the final coded pass</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="emotion.html"><a href="emotion.html#datavyu-emotion-codes-for-mom"><i class="fa fa-check"></i><b>9.3</b> Datavyu emotion Codes for Mom</a>
+<ul>
+<li class="chapter" data-level="" data-path="emotion.html"><a href="emotion.html#mom-emotion-id-column"><i class="fa fa-check"></i>Mom emotion id Column</a></li>
+<li class="chapter" data-level="" data-path="emotion.html"><a href="emotion.html#mom-emotion-column"><i class="fa fa-check"></i>Mom emotion Column</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="objects.html"><a href="objects.html"><i class="fa fa-check"></i><b>10</b> Objects</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="objects.html"><a href="objects.html#workflow-3"><i class="fa fa-check"></i><b>10.1</b> Workflow</a></li>
+<li class="chapter" data-level="10.2" data-path="objects.html"><a href="objects.html#child-object-interaction-pass"><i class="fa fa-check"></i><b>10.2</b> Child object interaction pass</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="objects.html"><a href="objects.html#datavyu-object-interaction-codes-for-child"><i class="fa fa-check"></i><b>10.2.1</b> Datavyu Object Interaction Codes for Child</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="objects.html"><a href="objects.html#mom-object-interaction-pass"><i class="fa fa-check"></i><b>10.3</b> Mom object interaction pass</a>
+<ul>
+<li class="chapter" data-level="10.3.1" data-path="objects.html"><a href="objects.html#datavyu-object-codes-for-mom"><i class="fa fa-check"></i><b>10.3.1</b> Datavyu Object Codes for Mom</a></li>
+<li class="chapter" data-level="" data-path="objects.html"><a href="objects.html#how-to-code-the-mom-object-interaction-column"><i class="fa fa-check"></i>How to Code the Mom Object Interaction Column</a></li>
+<li class="chapter" data-level="" data-path="objects.html"><a href="objects.html#check-the-final-mom-object-interaction-coded-pass"><i class="fa fa-check"></i>Check the final Mom Object Interaction Coded Pass</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="locomotion.html"><a href="locomotion.html"><i class="fa fa-check"></i><b>11</b> Locomotion</a></li>
+<li class="part"><span><b>III Data Management &amp; Quality Assurance</b></span></li>
+<li class="chapter" data-level="12" data-path="data-management.html"><a href="data-management.html"><i class="fa fa-check"></i><b>12</b> Data management</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="data-management.html"><a href="data-management.html#coding-workflow"><i class="fa fa-check"></i><b>12.1</b> Coding workflow</a></li>
+<li class="chapter" data-level="12.2" data-path="data-management.html"><a href="data-management.html#kobotoolbox-workflow"><i class="fa fa-check"></i><b>12.2</b> KoBoToolbox workflow</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="quality-assurance.html"><a href="quality-assurance.html"><i class="fa fa-check"></i><b>13</b> Quality assurance</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="quality-assurance.html"><a href="quality-assurance.html#quality-assurance-for-play-project"><i class="fa fa-check"></i><b>13.1</b> Quality Assurance for PLAY Project</a>
+<ul>
+<li class="chapter" data-level="13.1.1" data-path="quality-assurance.html"><a href="quality-assurance.html#databrary-and-demographic-information"><i class="fa fa-check"></i><b>13.1.1</b> Databrary and demographic information</a></li>
+<li class="chapter" data-level="13.1.2" data-path="quality-assurance.html"><a href="quality-assurance.html#hour-natural-play"><i class="fa fa-check"></i><b>13.1.2</b> 1-hour natural play</a></li>
+<li class="chapter" data-level="13.1.3" data-path="quality-assurance.html"><a href="quality-assurance.html#decibel-meter-1"><i class="fa fa-check"></i><b>13.1.3</b> Decibel meter</a></li>
+<li class="chapter" data-level="13.1.4" data-path="quality-assurance.html"><a href="quality-assurance.html#house-walkthrough"><i class="fa fa-check"></i><b>13.1.4</b> House walkthrough</a></li>
+<li class="chapter" data-level="13.1.5" data-path="quality-assurance.html"><a href="quality-assurance.html#min-structured-play"><i class="fa fa-check"></i><b>13.1.5</b> 5-min structured play</a></li>
+<li class="chapter" data-level="13.1.6" data-path="quality-assurance.html"><a href="quality-assurance.html#questionnaires-1"><i class="fa fa-check"></i><b>13.1.6</b> Questionnaires</a></li>
+<li class="chapter" data-level="13.1.7" data-path="quality-assurance.html"><a href="quality-assurance.html#post-visit-notes"><i class="fa fa-check"></i><b>13.1.7</b> Post-visit notes</a></li>
+</ul></li>
+<li class="chapter" data-level="13.2" data-path="quality-assurance.html"><a href="quality-assurance.html#quality-assurance-feedback"><i class="fa fa-check"></i><b>13.2</b> Quality Assurance Feedback</a></li>
+</ul></li>
+<li class="part"><span><b>IV Ethics</b></span></li>
+<li class="chapter" data-level="14" data-path="irb.html"><a href="irb.html"><i class="fa fa-check"></i><b>14</b> IRB</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="irb.html"><a href="irb.html#collection"><i class="fa fa-check"></i><b>14.1</b> Collection</a></li>
+<li class="chapter" data-level="14.2" data-path="irb.html"><a href="irb.html#coding"><i class="fa fa-check"></i><b>14.2</b> Coding</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Play &amp; Learning Across a Year (PLAY): The Protocol</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-management" class="section level1" number="12">
+<h1><span class="header-section-number">Chapter 12</span> Data management</h1>
+<div id="coding-workflow" class="section level2" number="12.1">
+<h2><span class="header-section-number">12.1</span> Coding workflow</h2>
+</div>
+<div id="kobotoolbox-workflow" class="section level2" number="12.2">
+<h2><span class="header-section-number">12.2</span> KoBoToolbox workflow</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="locomotion.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="quality-assurance.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/11-data_management.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
