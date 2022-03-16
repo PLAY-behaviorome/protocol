@@ -8,7 +8,7 @@
 
 <br>
 
-## FAQ about scheduling and recruitment
+## FAQ about [scheduling and recruitment](#scheduling)
 
 ##### How far can we go to visit a family for a home visit? {-}
  - The only restriction is that the family must live in the same state as the site. It is up to the PI and research team what the maximum distance they want to travel is. Depending on the location, some sites may have longer commute times than others.   
@@ -164,48 +164,30 @@ Say <say>You can go anywhere inside your home. We  ask that you not go outside, 
 -	If mom just starts doing it: Record from a discrete angle (from the mom’s back) so you know where the child and mom are and roughly what they are doing.
 -	If mom asks “Is it okay to breastfeed [CHILD]?”, say <say>Sure, is it ok that I keep recording from behind you?</say>
 
-<div class="videobuttons">
-<img src="img/icon-video.png" width="25">
-<button size="xs" type="button" data-toggle="collapse" data-target="#faq-breastfeeding-1">
-Example 1
-</button>
-</div>
-<div id="faq-breastfeeding-1" class="collapse" aria-expanded="false" style="height: 0px;">
-<video width="100%" controls="" preload="none">
+**Example 1**
+
+<video width="70%" controls="" preload="auto">
 <source src="https://nyu.databrary.org/volume/876/slot/35422/edit?asset=219707" type="video/mp4"> Your browser does not support html5 video.
 </video>
-</div>
-&emsp;
-<div class="videobuttons">
-<img src="img/icon-video.png" width="25">
-<button size="xs" type="button" data-toggle="collapse" data-target="#faq-breastfeeding-2">
-Example 2
-</button>
-</div>
-<div id="faq-breastfeeding-2" class="collapse" aria-expanded="false" style="height: 0px;">
-<video width="100%" controls="" preload="none">
+
+**Example 2**
+<video width="70%" controls="" preload="auto">
 <source src="https://nyu.databrary.org/volume/876/slot/35422/edit?asset=219703" type="video/mp4"> Your browser does not support html5 video.
 </video>
-</div>
 
 ##### What if child gets naked or gets a diaper change? {-}
 -	If mom does not make request to point camera elsewhere, continue recording, shifting position if necessary to record the face and hands, avoid getting a direct shot of the pelvic area.
 -	If mom asks “Is it ok if I change [CHILD]?”, say <say>Is it ok if record from behind you just to get their face?</say>
 -	If mom requests not to record while she changes the child, ask if she is okay with you turning your camera away to look at something else but continue recording to capture the language.
 
-<div class="videobuttons">
-<img src="img/icon-video.png" width="25">
-<button size="xs" type="button" data-toggle="collapse" data-target="#faq-diaper">
-Example
-</button>
-</div>
-<div id="faq-diaper" class="collapse" aria-expanded="false" style="height: 0px;">
-<video width="100%" controls="" preload="none">
+**Example**
+
+<video width="100%" controls="" preload="auto">
 <source src="https://nyu.databrary.org/volume/876/slot/35422/edit?asset=219699" type="video/mp4"> Your browser does not support html5 video.
 </video>
-</div>
 
 ##### At any point, if mom asks “Do you mind not recording this?”  {-}
+
 - Say <say>Is it ok that I point camera somewhere else and continue recording?</say>  
 - Make sure mom sees you are doing this. That way we can account for the amount of time and language is being recorded.
 - If mom says no, then turn off camera and resume recording when it's okay.

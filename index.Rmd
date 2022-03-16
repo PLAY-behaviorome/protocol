@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, play.bib, packages.bib]
-biblio-style: apa6
+biblio-style: apalike
 url: https://PLAY-behaviorome.github.io/protocol
 cover-image: img/PLAY-logo.png
 description: "Protocol for the Play & Learning Across a Year (PLAY) Project"

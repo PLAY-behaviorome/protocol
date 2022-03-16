@@ -3,6 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
+  12pt,
 ]{book}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -73,7 +74,7 @@
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
-\bibliographystyle{plainnat}
+\bibliographystyle{apalike}
 
 \title{Play \& Learning Across a Year (PLAY): The Protocol}
 \author{Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore}
@@ -86,13 +87,17 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{about}{%
-\chapter{About}\label{about}}
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
+
+\begin{center}\href{https://play-project.org}{\includegraphics[width=0.7\linewidth]{img/PLAY-logo} }\end{center}
 
 This document is a web-book that describes in detail how the PLAY project team is collecting, curating, analyzing, and sharing data.
 
 \hypertarget{themes}{%
-\section{Themes}\label{themes}}
+\section*{Themes}\label{themes}}
+\addcontentsline{toc}{section}{Themes}
 
 The Play \& Learning Across a Year (PLAY) Project has three major priorities or themes.
 
@@ -100,13 +105,13 @@ The Play \& Learning Across a Year (PLAY) Project has three major priorities or 
 \subsection*{Behavior}\label{behavior}}
 \addcontentsline{toc}{subsection}{Behavior}
 
-We believe that developmental science can and must focus on \emph{behavior}.
+We believe that developmental science can and must focus on \emph{behavior} \citep{Adolph2020-rj}.
 
 \hypertarget{video}{%
 \subsection*{Video}\label{video}}
 \addcontentsline{toc}{subsection}{Video}
 
-We believe that video is a uniquely powerful and inexpensive tool for capturing behavior and analyzing it. And we also believe that video has unheralded and under-exploited power as a means of documenting research procedures.
+We believe that video is a uniquely powerful and inexpensive tool for capturing behavior and analyzing it. And we also believe that video has unheralded and under-exploited power as a means of documenting research procedures \citep{Adolph_KE_Gilmore_RO_Kennedy_JL2017-va, Gilmore2017-wd}.
 
 \hypertarget{openness}{%
 \subsection*{Openness and transparency}\label{openness}}
@@ -117,10 +122,12 @@ We believe that psychological science will be more robust and reproducible, make
 PLAY is committed to open science. We are developing our protocol in the open and publishing it publicly. We will be sharing all of the collected data with the research community using the \href{https://databrary.org}{Databrary data library} at the end of the grant period. Our analysis code is shared on \href{https://github.com/PLAY-behaviorome}{GitHub}, and we use free and open source software tools as much as possible.
 
 \hypertarget{people}{%
-\section{People}\label{people}}
+\section*{People}\label{people}}
+\addcontentsline{toc}{section}{People}
 
 \hypertarget{pis}{%
-\subsection{Principal Investigators}\label{pis}}
+\subsection*{Principal Investigators}\label{pis}}
+\addcontentsline{toc}{subsection}{Principal Investigators}
 
 \textbf{Karen E. Adolph, Ph.D}.
 New York University
@@ -138,7 +145,8 @@ Co-Principal Investigator
 email
 
 \hypertarget{staff}{%
-\subsection{Team}\label{staff}}
+\subsection*{Team}\label{staff}}
+\addcontentsline{toc}{subsection}{Team}
 
 \textbf{Kasey Soska, Ph.D.}
 Scientific Director
@@ -153,7 +161,8 @@ Research Associate
 email
 
 \hypertarget{collaborators}{%
-\subsection{Collaborating Investigators}\label{collaborators}}
+\subsection*{Collaborating Investigators}\label{collaborators}}
+\addcontentsline{toc}{subsection}{Collaborating Investigators}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2252}}
@@ -242,7 +251,8 @@ Dan Yurovsky & Carnegie Mellon University & Chicago, IL & Coding \\
 \end{longtable}
 
 \hypertarget{advisors}{%
-\subsection{Advisory}\label{advisors}}
+\subsection*{Advisory}\label{advisors}}
+\addcontentsline{toc}{subsection}{Advisory}
 
 Internal advisors
 
@@ -283,7 +293,7 @@ Materials (videos, questionnaires, links to Databrary volumes) for the PLAY proj
 
 Below is the project-wide workflow. The PLAY team will provide training, quality assurance, transcription, reliability coding, and collating data for the final PLAY database. The collaborating sites will perform data collection and various levels of data coding.
 
-\includegraphics[width=0.7\linewidth]{img/overview-project}
+\begin{center}\includegraphics[width=0.7\linewidth]{img/overview-project} \end{center}
 
 \hypertarget{participants}{%
 \section{Participants}\label{participants}}
@@ -364,9 +374,6 @@ When that permission is granted the videos and related data will be shared with 
 
 This is a video of the full PLAY home visit protocol that is available to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. You must be logged in to \href{http://databrary.org}{Databrary} to view it.
 
-Full-length video of home visit
-
-\leavevmode\vadjust pre{\hypertarget{fullvideohomevisit}{}}%
 Your browser does not support html5 video.
 
 \emph{NOTE: This participant was not the only child in the home, so would not meet inclusion criteria for PLAY.}
@@ -377,13 +384,14 @@ Your browser does not support html5 video.
 PLAY researchers will collect and share a substantial corpus of parent-report (questionnaire) data. The full set of self-report questions can be found \href{collection_homevisit_questionnaires.html}{here}.
 
 \hypertarget{part-collection}{%
-\part{Collection}\label{part-collection}}
+\part*{Collection}\label{part-collection}}
+\addcontentsline{toc}{part}{Collection}
 
 \hypertarget{recruitment}{%
 \chapter{Recruitment}\label{recruitment}}
 
-\hypertarget{scheduling-visit}{%
-\section{Scheduling visit}\label{scheduling-visit}}
+\hypertarget{scheduling}{%
+\section{Scheduling visit}\label{scheduling}}
 
 To schedule a visit, you will be making two phone calls to each family: the initial recruiting call and the confirmation call (if the family agrees to participate). Depending on the availability of the mother, you will complete the \href{link\%20to\%20questionnaires}{participant paperwork}.
 
@@ -394,7 +402,7 @@ To schedule a visit, you will be making two phone calls to each family: the init
 \subsection*{English instructions}\label{english_instructions}}
 \addcontentsline{toc}{subsection}{English instructions}
 
-(See video at the end of the script)
+(See video at the end of the script)\footnote{Videos used in this section may be found at \url{https://nyu.databrary.org/volume/876/slot/35422/-}}.
 
 Hi, may I speak with {[}MOM{]}?
 My name is {[}CALLER NAME{]} and I'm calling from {[}LAB{]}. Like local businesses that are re-opening, university research activities are starting up again following local safety guidelines. I'm calling today about a home study on how moms and children interact with each other. We'd be visiting your home, and for your participation, you'd receive a \$50 gift card at the end of the session. Can I tell you more about the study and the safety precautions we have in place?
@@ -523,13 +531,9 @@ Before the study, we have a few questions that we'd like to ask. It should only 
 
 So I have you and {[}CHILD{]} for our study on {[}DATE{]} at {[}TIME{]}. We'll be calling you the day before (if study is on Monday: the Friday before) your appointment to confirm that that time still works for you. Have a great day!
 
-Initial recruiting phone call
-
-Your browser does not support html5 video.
-
- 
-
-Demographics questionnaire
+\hypertarget{recruiting_call_video}{%
+\subsubsection*{Video example}\label{recruiting_call_video}}
+\addcontentsline{toc}{subsubsection}{Video example}
 
 Your browser does not support html5 video.
 
@@ -665,13 +669,9 @@ Por ultimo, tenemos un cuestionario que solo tomará 5 minutos necesitamos compl
 
 Entonces tenemos agendada la visita para el día {[}FECHA{]} a las {[}HORA{]}. La llamaremos el día anterior /el viernes anterior (si la visita es un lunes) para confirmar que aun están disponibles para a la visita. Excelente, que tenga un buen día!
 
-Initial recruiting phone call
-
-Your browser does not support html5 video.
-
- 
-
-Demographics questionnaire
+\hypertarget{recruiting_call_video_spanish}{%
+\subsubsection*{Video example}\label{recruiting_call_video_spanish}}
+\addcontentsline{toc}{subsubsection}{Video example}
 
 Your browser does not support html5 video.
 
@@ -687,7 +687,9 @@ If you reach the family's voicemail, please leave the following message:
 
 Hi, this message is for {[}MOM{]}. My name is {[}NAME{]} and I'm calling from {[}LAB{]}. I'm calling because we have a fun study for {[}12 / 18 / 24{]}-month-olds and {[}CHILD{]} is the perfect age. You would receive a \$50 gift card for participating in the study and if you are interested in hearing more, please give us a call back. Our phone number is {[}XXX-XXX-XXXX{]}. Thank you and we hope to hear from you soon!
 
-Initial recruiting voicemail
+\hypertarget{voicemail_video}{%
+\paragraph*{Video example}\label{voicemail_video}}
+\addcontentsline{toc}{paragraph}{Video example}
 
 Your browser does not support html5 video.
 
@@ -697,7 +699,9 @@ Your browser does not support html5 video.
 
 Hola, este mensaje es para {[}MAMÁ{]}. Mi nombre es {[}NOMBRE{]} y estoy llamando de {[}LAB{]}. Estoy llamando porque tenemos un estudio para niños de {[}12 / 18 / 24{]}- meses y {[}NIÑO{]} tiene la edad perfecta. Usted recibiría una tarjeta de regalo de \$50 por participar en este estudio y si usted esta interesado en saber más sobre este estudio, por favor llámenos de vuelta. Nuestro número de teléfono es {[}XXX-XXX-XXXX{]}. ¡Gracias y esperamos su llamada!
 
-Initial recruiting voicemail
+\hypertarget{voicemail_video_spanish}{%
+\paragraph*{Video example}\label{voicemail_video_spanish}}
+\addcontentsline{toc}{paragraph}{Video example}
 
 Your browser does not support html5 video.
 
@@ -1216,7 +1220,7 @@ At the end of every home visit (for each participant), you will upload the follo
 \textbf{Pro tip:} The easiest way to find answers to your question is to ``Find'' (\texttt{Cmd+F} on a Mac or \texttt{Ctrl+F} on Windows) and type the simplest form of the word you're looking for. For example, searching for the word \texttt{dog} will bring up the FAQ ``What if doorbell rings for the dog walker, delivery, etc.?''
 
 \hypertarget{faq-about-scheduling-and-recruitment}{%
-\section{FAQ about scheduling and recruitment}\label{faq-about-scheduling-and-recruitment}}
+\section{\texorpdfstring{FAQ about \protect\hyperlink{scheduling}{scheduling and recruitment}}{FAQ about scheduling and recruitment}}\label{faq-about-scheduling-and-recruitment}}
 
 \hypertarget{how-far-can-we-go-to-visit-a-family-for-a-home-visit}{%
 \paragraph*{How far can we go to visit a family for a home visit?}\label{how-far-can-we-go-to-visit-a-family-for-a-home-visit}}
@@ -1622,14 +1626,11 @@ Say You can go anywhere inside your home. We ask that you not go outside, becaus
   If mom asks ``Is it okay to breastfeed {[}CHILD{]}?'', say Sure, is it ok that I keep recording from behind you?
 \end{itemize}
 
-Example 1
+\textbf{Example 1}
 
 Your browser does not support html5 video.
 
- 
-
-Example 2
-
+\textbf{Example 2}
 Your browser does not support html5 video.
 
 \hypertarget{what-if-child-gets-naked-or-gets-a-diaper-change}{%
@@ -1646,7 +1647,7 @@ Your browser does not support html5 video.
   If mom requests not to record while she changes the child, ask if she is okay with you turning your camera away to look at something else but continue recording to capture the language.
 \end{itemize}
 
-Example
+\textbf{Example}
 
 Your browser does not support html5 video.
 
@@ -1830,7 +1831,8 @@ Your browser does not support html5 video.
 \end{itemize}
 
 \hypertarget{part-coding}{%
-\part{Coding}\label{part-coding}}
+\part*{Coding}\label{part-coding}}
+\addcontentsline{toc}{part}{Coding}
 
 \hypertarget{transcription}{%
 \chapter{Transcription}\label{transcription}}
@@ -2754,7 +2756,8 @@ variant of ``jugo'' (i.e., juice)
 \section{Child communication pass}\label{child-communication-pass}}
 
 \hypertarget{datavyu-communication-codes-for-child}{%
-\subsection{Datavyu Communication Codes for Child}\label{datavyu-communication-codes-for-child}}
+\subsection*{Datavyu Communication Codes for Child}\label{datavyu-communication-codes-for-child}}
+\addcontentsline{toc}{subsection}{Datavyu Communication Codes for Child}
 
 There are 4 columns associated with child communication codes: id for communication (\texttt{com\_id}), child vocalization column (\texttt{childvoc}), child utterance type column (\texttt{childutterancetype}), and a comments column for communication.
 
@@ -2907,8 +2910,8 @@ When finished coding, run the script to check for typos. The script will flag an
 There are 4 columns associated with mother communication codes: id for communication, mom speech column, mom utterance type column, and a comments column for communication.
 
 \hypertarget{communication-id-column}{%
-\subsection*{Communication id Column}\label{communication-id-column}}
-\addcontentsline{toc}{subsection}{Communication id Column}
+\subsubsection*{Communication id Column}\label{communication-id-column}}
+\addcontentsline{toc}{subsubsection}{Communication id Column}
 
 \textbf{Column name}: \texttt{com\_id}
 \textbf{Code}: (\textless lab\_id\textgreater, \textless com\_coder\textgreater, \textless childcom\_date\textgreater, \textless childcom\_mins\textgreater, \textless relchildcom\_coder\textgreater, \textless relchildcom\_date\textgreater, \textless momcom\_date\textgreater, \textless momcom\_mins\textgreater, \textless relmomcom\_coder\textgreater, \textless relmomcom\_date\textgreater{} \textless gest\_date\textgreater, \textless gest\_mins\textgreater, \textless relgest\_coder\textgreater, \textless relgest\_date\textgreater)
@@ -2916,15 +2919,15 @@ There are 4 columns associated with mother communication codes: id for communica
 Code the \texttt{com\_id} column according to the definitions for coding the id column.
 
 \hypertarget{mom-communication-column}{%
-\subsection*{Mom communication Column}\label{mom-communication-column}}
-\addcontentsline{toc}{subsection}{Mom communication Column}
+\subsubsection*{Mom communication Column}\label{mom-communication-column}}
+\addcontentsline{toc}{subsubsection}{Mom communication Column}
 
 \textbf{Column name}: \texttt{momutterancetype}
 \textbf{Code}: (\textless directives\_look\_l\_do\_d\_comm\_c\textgreater,\textless prohibitions\_p\textgreater,\textless provideinfo\_i\_maintainengage\_m\textgreater,\textless read\_r\_sing\_s\textgreater,\textless filleraffirmation\_f\textgreater,\textless unintell\_x\_notchild\_z\textgreater)
 
 \hypertarget{general-orientation}{%
-\subsubsection*{General Orientation}\label{general-orientation}}
-\addcontentsline{toc}{subsubsection}{General Orientation}
+\paragraph*{General Orientation}\label{general-orientation}}
+\addcontentsline{toc}{paragraph}{General Orientation}
 
 You will receive video files that have been transcribed by the PLAY team. These transcriptions have been divided into two columns: \texttt{childvoc} and \texttt{momspeech}. Cells in these columns include the transcribed content of each speaker's utterances and vocalizations. For the Mom communication pass, the focus is on the \texttt{momspeech} column. Each utterance and vocalization in the \texttt{momspeech} column will have it's own corresponding, time matched cell, in the \texttt{momutterancetype} column.
 \texttt{momspeech} column Orientation
@@ -2934,8 +2937,8 @@ The code xxx in a cell in the \texttt{momspeech} column denotes instances in the
 Some utterances include the symbol //. This indicates that an utterance had a pause, and was divided into two. Utterances with // and the following utterance go together, and should be coded as the same code.
 
 \hypertarget{momutterancetype-orientation}{%
-\subsubsection*{\texorpdfstring{\texttt{momutterancetype} Orientation}{momutterancetype Orientation}}\label{momutterancetype-orientation}}
-\addcontentsline{toc}{subsubsection}{\texttt{momutterancetype} Orientation}
+\paragraph*{momutterancetype` Orientation}\label{momutterancetype-orientation}}
+\addcontentsline{toc}{paragraph}{momutterancetype` Orientation}
 
 In the \texttt{momutterancetype} column, coders categorize the utterances in the \texttt{momspeech} column as a specific type of speech form. Read the utterance transcribed in the \texttt{momspeech} column and categorize each utterance based on codes detailed under \protect\hyperlink{momutterancetype_value_list}{Value List} below.
 Codes are mutually exclusive. The prompts/arguments in the code are designed to speed the coder through the easiest to detect and easiest to code categories (directives to look, do , and communicate, prohibitions, etc. ) down through the more nuanced and time-consuming codes. Once the proper code has been found, enter it into the prompt you are at, then code the rest as periods ''.''. For instance, if the mother didn't direct the child to look, act or communicate, but did prohibit them from performing a certain behavior, code \textless.,p,.,.,.\textgreater.
@@ -2971,12 +2974,12 @@ After completing the coding pass for the entire video, coders should rewatch the
 \protect\hyperlink{not_directed_to_child}{z = not directed to child}
 
 \hypertarget{momutterancetype-operational-definitions}{%
-\subsubsection*{\texorpdfstring{\texttt{momutterancetype} operational definitions}{momutterancetype operational definitions}}\label{momutterancetype-operational-definitions}}
-\addcontentsline{toc}{subsubsection}{\texttt{momutterancetype} operational definitions}
+\paragraph*{\texorpdfstring{\texttt{momutterancetype} operational definitions}{momutterancetype operational definitions}}\label{momutterancetype-operational-definitions}}
+\addcontentsline{toc}{paragraph}{\texttt{momutterancetype} operational definitions}
 
 \hypertarget{directive_to_look}{%
-\paragraph*{Directive to look (l)}\label{directive_to_look}}
-\addcontentsline{toc}{paragraph}{Directive to look (l)}
+\subparagraph*{Directive to look (l)}\label{directive_to_look}}
+\addcontentsline{toc}{subparagraph}{Directive to look (l)}
 
 Utterances that function to direct the child's attention, which may include naming the object or activity of attention. Utterances such as ``Look'', ``See what we did?'', ``Look at the truck'', ``Hey'', or calling the child's name are examples of directives to look. The main function of the utterance is to encourage a child to attend to something in the environment.
 
@@ -2986,8 +2989,8 @@ Words like ``here'' or ``over there'' are sometimes used to direct the child's a
 Some utterances may include the words such as look or see, but their primary function is NOT to call the child's attention (e.g., ``Let's see if it will fit'' would be coded as action directive if the mother is suggesting inserting a shape in a shape sorter, ``She looks sad'' would be provide information). Mothers may say utterances such as ``Pay attention to me''. If the function of the utterance is for the child to look at the mother then code as directive to look. However these are different from instances where the mother might say ``Pay attention to what you're doing'', which would count as an action directive.
 
 \hypertarget{directive_to_do}{%
-\paragraph*{Directive to do (d)}\label{directive_to_do}}
-\addcontentsline{toc}{paragraph}{Directive to do (d)}
+\subparagraph*{Directive to do (d)}\label{directive_to_do}}
+\addcontentsline{toc}{subparagraph}{Directive to do (d)}
 
 Utterances with a main function of directing the child to engage in a specific action or instructing the child about how to do something. Action directives can involve the mother prompting the child to engage in a specific behavior (e.g., play with an object, retrieve an item). Examples include ``Put it there'', ``Flip it over'', ``Turn the page''.
 Action directives may specify information about the object or action or may contain generalized statements (e.g., ``That will fit if you press it'', ``Markers go in the box'', ``We pet the dog gently''), but the main function is to guide children's actions and thus would not be categorized as provide information. Action directives may also function to tell a child how to do something (e.g., ``Walk slowly, ``Play nicely'', ``Be careful'', ``Watch your head''). Note, the child does not need to comply with the action being prompted for an utterance to be coded as an action directive.
@@ -3000,16 +3003,16 @@ Syntactically, action directives may be framed as questions (e.g., ``Can you fee
 Directives to inform the child about a correct way to do something, such as saying ``The block doesn't go in there'', ``Be gentle'' would instead be coded as prohibit `p'. Generally, if the mom is inviting the child to do a new action, code as `d', but if the mom is trying to get the child to stop and action or redirect them then `p'.
 
 \hypertarget{directive_to_communicate}{%
-\paragraph*{Directive to communicate (c)}\label{directive_to_communicate}}
-\addcontentsline{toc}{paragraph}{Directive to communicate (c)}
+\subparagraph*{Directive to communicate (c)}\label{directive_to_communicate}}
+\addcontentsline{toc}{subparagraph}{Directive to communicate (c)}
 
 Utterances that function to prompt the child to communicate or vocalize. Communication can include speaking or gesturing. Many such utterances by the mother are formulated as questions (e.g., ``What color is that?'', ``Can you count?'', ``What letter does ball start with?''). Other examples include the mother explicitly eliciting words from the child (``Say bye-bye''). Mothers offering a choice (e.g., mother holding out two toys, mother asking if child wants to play on floor or couch) for the child to respond by selecting the object or location would also count as directives to communicate (the action choice is the intended communicative action). Sometimes moms say ``Are you ready?/ Ready?'', because the mom is asking the child about their state to perform code as directive to communicate. Situations where mom is asking child if they ``remember'' how something works or how to act should be coded as directive to communicate.
 Mothers may also repeat a word the child says in the form of a question (e.g., child says ``water'' and mom responds ``water?''), code as a directive to communicate. In these instances mothers are likely looking for clarification or elicit more communication from the child.
 Note, the child does not need to provide a verbal or gestural response for an utterance to be coded as elicit verbal, but often if the child DOES respond verbally or through gesture or action to the mother's utterance then it is likely a directive to communicate.
 
 \hypertarget{prohibit_correct}{%
-\paragraph*{Prohibit/correct (p)}\label{prohibit_correct}}
-\addcontentsline{toc}{paragraph}{Prohibit/correct (p)}
+\subparagraph*{Prohibit/correct (p)}\label{prohibit_correct}}
+\addcontentsline{toc}{subparagraph}{Prohibit/correct (p)}
 
 Utterances that function to stop, curb, slow down, or correct the child's actions (e.g., ``Stop that'', ``No'', ``Don't do that'', ``Stop crying'', ``Don't pick that up'', ``No hitting'', ``Put it down''). Prohibitive utterances often include the words no or don't (but always pay attention to the context). Other examples can include ``Be quiet'', ``Leave that on the ground'', ``The square doesn't fit there'', ``Hold on'', ``Wait'', where the goal is to curb or correct the child's actions. Short words such as ``Uhuh'' or ``Mnm mnm'' count as prohibitions/corrections.
 Additional Guidelines and Rules:
@@ -3019,8 +3022,8 @@ Prohibitions can be phrased as questions as another indirect way of stopping or 
 Utterances where mother corrects the child's speech or gesture while using ``no'' (e.g., ``No that's not a triangle'' in response to the child calling a circle a triangle, ``No that isn't dad'', ``That's not blue'' if the child points to green after the mother asks ``Where is the blue one?'') are coded as provide information `i' utterances, and do not count as a prohibition.
 
 \hypertarget{provide_info}{%
-\paragraph*{Provide information (i)}\label{provide_info}}
-\addcontentsline{toc}{paragraph}{Provide information (i)}
+\subparagraph*{Provide information (i)}\label{provide_info}}
+\addcontentsline{toc}{subparagraph}{Provide information (i)}
 
 Utterances that function to provide information about objects and activities or contain explicit referential information. These can include labeling objects (``That's your bottle'', ``The blocks fell''), narrating actions by the child or by the mother (``You're eating'', ``I'm cooking''), or commenting on states or emotions (``He's sad'', ``I'm tired'', ``You're cranky'' , ``You hurt your foot''). Utterances that include comparisons (e.g., ``Looks like a square''), reference a past experience related to the object or event (``It looks like the one from grandma's house'') or describe objects or events (``The little one''), should be coded as provide information. Sometimes mothers will provide information as questions (``Is that your baba?''). Usually these rhetorical questions are about objects or events the mother is naming to provide information to the child.
 A general rule of thumb for deciding between a code of `i' or maintenance/engagement `m': if an utterance includes a noun, adjective, verb, or location (and does not fall under a directive or prohibit code), it likely will fall under the provide information code. Examples include ``You want a bigger train?'', ``How about this one here?'')
@@ -3035,8 +3038,8 @@ Utterances that contain the word ``no'' but are meant to offer correct informati
 Utterances where the mother is counting ``One, two, three\ldots{}'' (e.g., during hide and seek, while counting blocks) should be coded as ``i''. Utterances where the mother is saying letters of the alphabet (``a@ b@ c@'') but NOT singing them fall under provide information.
 
 \hypertarget{maintenance_engagement}{%
-\paragraph*{Maintenance and engagement (m)}\label{maintenance_engagement}}
-\addcontentsline{toc}{paragraph}{Maintenance and engagement (m)}
+\subparagraph*{Maintenance and engagement (m)}\label{maintenance_engagement}}
+\addcontentsline{toc}{subparagraph}{Maintenance and engagement (m)}
 
 An utterance that functions to continue the flow of conversation or as a nonspecific response to a child's vocalization or action. Often maintenance and engagement utterances serve to further comment on the ongoing events after another type of utterance (after providing information or directive to communicate). For example, mother says ``You're gently moving it'' (coded as `i'), then she says ``I noticed'' (would be coded as `m'). Maintenance and engagement utterances also include instances when the mother repeats what the child said without adding more information (e.g., repeating the child's utterance; child says ``hug'' mother repeats and says ``hug'') EXCEPT in situations where the mother's repetition of the word is intended for the child to repeat the word as well (code as `c').
 
@@ -3048,22 +3051,22 @@ Sound effects alone (e.g., ``choo choo'', ``mwah'', ``woof woof'', ``boo''), wit
 Instances where the mother says the child's name (or a pet name such as ``sweetie, honey, sweetheart, etc.'') and nothing else, and the utterance does not fall under a directive or prohibition, code as maintenance.
 
 \hypertarget{reading}{%
-\paragraph*{Reading (r)}\label{reading}}
-\addcontentsline{toc}{paragraph}{Reading (r)}
+\subparagraph*{Reading (r)}\label{reading}}
+\addcontentsline{toc}{subparagraph}{Reading (r)}
 
 An utterance in which mother reads from a book or other source, thus the sequence of words is not self-generated/created. If based off of mothers tone/intonation and content you can tell the mother is not reading verbaitum, do not code as reading. If the mother uses some of the text verbatim but adds additional words, code as provide information (``Look the fish is saying ``Bloop bloop'').
 If you are unsure if the mother is reading, and the pages of the book are visible on the video, try to see if you can identify the text on the book and if it matches what the mother is saying.
 
 \hypertarget{singing}{%
-\paragraph*{Singing (s)}\label{singing}}
-\addcontentsline{toc}{paragraph}{Singing (s)}
+\subparagraph*{Singing (s)}\label{singing}}
+\addcontentsline{toc}{subparagraph}{Singing (s)}
 
 An utterance in which the mother is singing from memory or along to a song. If the intonation of the voice is singing for any utterance, and the utterance does not fall under any prior codes (e.g., directives, prohibitions, etc.), code as singing. If the mother uses some of the words from the song verbatim but adds additional words, code as provide information (``GIVE EXAMPLE'')
 Singing the alphabet counts towards the singing code, but if mother is saying letters without singing, count as provide information.
 
 \hypertarget{filler_affirmation}{%
-\paragraph*{Filler or affirmation (f)}\label{filler_affirmation}}
-\addcontentsline{toc}{paragraph}{Filler or affirmation (f)}
+\subparagraph*{Filler or affirmation (f)}\label{filler_affirmation}}
+\addcontentsline{toc}{subparagraph}{Filler or affirmation (f)}
 
 An utterance in which mother acknowledges the child's behavior, uses words as conversational fillers, or provides a short affirmation. For instance, when the mother says ``There you go'' when the child successfully completes a puzzle, or when she says ``Yeah'', or ``Uh huh''. A list of common conversation fillers is \protect\hyperlink{filler_words}{provided below}.
 Incomplete thoughts by the mother that are never finished, and cannot be coded due to lack of further detail can be coded as filler/affirmation.
@@ -3073,23 +3076,24 @@ Any utterance that contains an affirmation plus the child's name or a pet name (
 Instances where the mother repeats a filler/affirmation that the child said should be coded as maintenance NOT as filler.
 
 \hypertarget{unintelligible_mom}{%
-\paragraph*{Unintelligible (x)}\label{unintelligible_mom}}
-\addcontentsline{toc}{paragraph}{Unintelligible (x)}
+\subparagraph*{Unintelligible (x)}\label{unintelligible_mom}}
+\addcontentsline{toc}{subparagraph}{Unintelligible (x)}
 
 An utterance was not intelligible to the communication coder.
 Transcription content in the momutterancetype column will use ``xxx'' for words or full utterances where the transcriber could not decipher the content of the utterance (e.g., ``Why don't you xxx?''). Double check these instances when coding in the momutterancetype column. Even if the original transcription indicates that a word or full utterance is unintelligible (``xxx''), sometimes coder can detect if the utterance was an action directive, prohibition, etc. based on intonation, other words, or other aspects of the utterance and video context.
 The unintelligible code is NOT used as an ``I'm not sure'' code. If a coder is unsure of a code, they must use their best judgement and process of elimination to narrow down the code.
 
 \hypertarget{not_directed_to_child}{%
-\paragraph*{Not directed to child (z)}\label{not_directed_to_child}}
-\addcontentsline{toc}{paragraph}{Not directed to child (z)}
+\subparagraph*{Not directed to child (z)}\label{not_directed_to_child}}
+\addcontentsline{toc}{subparagraph}{Not directed to child (z)}
 
 This code is used when the mother is speaking to a voice assistant (e.g., Alexa, Google Home, etc), on the phone, or to a pet. These would count as words that would be overheard by the child, but are not intended as speech directed to the child.
 If the mother is narrating her actions or talking about ongoing things in a performative way with the child this does not count as `z'. Usually this is the mom talking to the child by talking to herself about what she is doing, or maybe talking for the camera and so codes will usually follow the rules for other codes ( `i' or `m').
 HOWEVER, situations where mom is talking to herself because of something that happened (e.g., mom dropped something and swears, stubs her toe, etc.) that isn't child directed speech/there is a change in tone, can be code as `z'.
 
-\hypertarget{momutterancetype-how-to-code}{%
-\subsubsection{\texorpdfstring{\texttt{momutterancetype} How to Code}{momutterancetype How to Code}}\label{momutterancetype-how-to-code}}
+\hypertarget{how-to-code-1}{%
+\subsection*{How to Code}\label{how-to-code-1}}
+\addcontentsline{toc}{subsection}{How to Code}
 
 Set the JUMP-BACK-BY key for 2 s.
 Press control and t to space out the cells on the Datavyu spreadsheet temporally. This will align the \texttt{momspeech} cells with their corresponding momutterancetype cells and will make coding easier.
@@ -3100,8 +3104,8 @@ Run the ``add\_periods\_momutterancetype.rb'' periodically to add periods to emp
 You can use the content in the \texttt{momspeech} column to help guide you as you code in the momutterancetype column. However, do not rely on the \texttt{momspeech} column alone. Listen to the audio and watch the video when you move into each cell to code.
 
 \hypertarget{filler_words}{%
-\subsubsection*{List of Filler and Affirmation Phrases and Words}\label{filler_words}}
-\addcontentsline{toc}{subsubsection}{List of Filler and Affirmation Phrases and Words}
+\subsection*{List of Filler and Affirmation Phrases and Words}\label{filler_words}}
+\addcontentsline{toc}{subsection}{List of Filler and Affirmation Phrases and Words}
 
 Filler words and affirmations are coded as `f' for the \texttt{momutterancetype} communication pass. These are words that provide limited information beyond simple agreement or are used commonly to keep the flow of conversation going. When used as a filler or affirmation they are usually said alone with no other words. Note that sometimes these words or phrases are part of longer utterances that should be coded as another code. (``Oh thats your dolly'', ``What color is the duck?'', ``Play nice''. Just because an utterance includes one of these words it does not automatically mean the utterance should be coded as a filler/affirmation.
 
@@ -3164,28 +3168,33 @@ You're welcome
   Run Ruby script to check for typos
 \end{enumerate}
 
+\hypertarget{child-gesture-pass}{%
+\section{Child gesture pass}\label{child-gesture-pass}}
+
 \hypertarget{datavyu-gesture-codes-for-child}{%
-\section{Datavyu Gesture Codes for Child}\label{datavyu-gesture-codes-for-child}}
+\subsection*{Datavyu Gesture Codes for Child}\label{datavyu-gesture-codes-for-child}}
+\addcontentsline{toc}{subsection}{Datavyu Gesture Codes for Child}
 
 There are 4 columns associated with gesture codes: id for communication, gesture column, and a comments column for gesture.
 
 \hypertarget{communication-id-column-1}{%
-\subsection{Communication id Column}\label{communication-id-column-1}}
+\subsubsection*{Communication id Column}\label{communication-id-column-1}}
+\addcontentsline{toc}{subsubsection}{Communication id Column}
 
 \textbf{Column name}: \texttt{com\_id}
 \textbf{Code}: (\textless lab\_id\textgreater, \textless com\_coder\textgreater, \textless childcom\_date\textgreater, \textless childcom\_mins\textgreater, \textless relchildcom\_coder\textgreater, \textless relchildcom\_date\textgreater, \textless momcom\_date\textgreater, \textless momcom\_mins\textgreater, \textless relmomcom\_coder\textgreater, \textless relmomcom\_date\textgreater{} \textless gest\_date\textgreater, \textless gest\_mins\textgreater, \textless relgest\_coder\textgreater, \textless relgest\_date\textgreater)
 Code the com\_id\_column according to the definitions for coding the id column.
 
 \hypertarget{gesture-column}{%
-\subsection*{Gesture Column}\label{gesture-column}}
-\addcontentsline{toc}{subsection}{Gesture Column}
+\subsubsection*{Gesture Column}\label{gesture-column}}
+\addcontentsline{toc}{subsubsection}{Gesture Column}
 
 \textbf{Column name}: \texttt{gesture}
 \textbf{Code}: (\textless source\_mc\textgreater, \textless gesture\_psic\textgreater)
 
 \hypertarget{gesture-general-orientation}{%
-\subsection*{\texorpdfstring{\texttt{gesture} General Orientation}{gesture General Orientation}}\label{gesture-general-orientation}}
-\addcontentsline{toc}{subsection}{\texttt{gesture} General Orientation}
+\paragraph*{\texorpdfstring{\texttt{gesture} General Orientation}{gesture General Orientation}}\label{gesture-general-orientation}}
+\addcontentsline{toc}{paragraph}{\texttt{gesture} General Orientation}
 
 Gestures are segmented, durative, event-based behaviors. Watch the video paying attention to the communicative gestures used by the parent and the child. When coding for gesture, focus on the mother's or child's hands.
 Code mother and child gesture simultaneously in one pass. Only onsets are coded to expedite coding.
@@ -3193,8 +3202,8 @@ Gesturing by either mom or child to the investigator/experimenter (or anyone els
 Making the transcribe column visible during gesture coding can help with deciphering ambiguous gestures and to reorient yourself after pausing or moving forward or backwards in the video.
 
 \hypertarget{gesture_value_list}{%
-\subsection*{\texorpdfstring{\texttt{gesture} Value List}{gesture Value List}}\label{gesture_value_list}}
-\addcontentsline{toc}{subsection}{\texttt{gesture} Value List}
+\paragraph*{\texorpdfstring{\texttt{gesture} Value List}{gesture Value List}}\label{gesture_value_list}}
+\addcontentsline{toc}{paragraph}{\texttt{gesture} Value List}
 
 \textless source\_mc\textgreater{}
 \protect\hyperlink{mom}{m = mom}
@@ -3207,24 +3216,24 @@ Making the transcribe column visible during gesture coding can help with deciphe
 \protect\hyperlink{conventional_gesture}{c = conventional gesture}
 
 \hypertarget{gesture-operational-definitions}{%
-\subsection*{\texorpdfstring{\texttt{gesture} Operational Definitions}{gesture Operational Definitions}}\label{gesture-operational-definitions}}
-\addcontentsline{toc}{subsection}{\texttt{gesture} Operational Definitions}
+\paragraph*{\texorpdfstring{\texttt{gesture} Operational Definitions}{gesture Operational Definitions}}\label{gesture-operational-definitions}}
+\addcontentsline{toc}{paragraph}{\texttt{gesture} Operational Definitions}
 
 \hypertarget{mom}{%
-\subsubsection*{Mom (m)}\label{mom}}
-\addcontentsline{toc}{subsubsection}{Mom (m)}
+\subparagraph*{Mom (m)}\label{mom}}
+\addcontentsline{toc}{subparagraph}{Mom (m)}
 
 Code `m' if the mom is the source of the gesture.
 
 \hypertarget{child}{%
-\subsubsection*{Child (c)}\label{child}}
-\addcontentsline{toc}{subsubsection}{Child (c)}
+\subparagraph*{Child (c)}\label{child}}
+\addcontentsline{toc}{subparagraph}{Child (c)}
 
 Code `c' if the child is the source of the gesture.
 
 \hypertarget{point}{%
-\subsubsection*{Point (p)}\label{point}}
-\addcontentsline{toc}{subsubsection}{Point (p)}
+\subparagraph*{Point (p)}\label{point}}
+\addcontentsline{toc}{subparagraph}{Point (p)}
 
 Code `p' when the child or mom extends a single finger to indicate reference to objects, people, events, or locations in the environment. The pointing finger can be any finger (does not need to be the index finger).
 Repetitive points should be coded as separate gesture events. (e.g., every time there is a pause in between new instances of pointing, or pointing to different objects/events in sequence). Each instance of a new referent, or when a point goes away or changes direction is considered a new instance of pointing. A new referent is usually a new object but could also be a different part of an object (e.g., mom points to a button a busy box and then mom points to a hole on that same busy box) or a different picture or feature of an object (e.g., mom points to one animal on a page of a book and then points to a different animal on the same page of the book). Frequent/successive tapping to the same object/event should not be considered separate instances of pointing.
@@ -3233,8 +3242,8 @@ If the mom or child extends a finger to manipulate an object (e.g., mom extends 
 Onset is the frame when the finger is fully extended in space toward a referent, or when the point finger is extended and makes contact with the object (whichever happens first).
 
 \hypertarget{show_offer_bid}{%
-\subsection*{Show/offer/ bid}\label{show_offer_bid}}
-\addcontentsline{toc}{subsection}{Show/offer/ bid}
+\subparagraph*{Show/offer/ bid}\label{show_offer_bid}}
+\addcontentsline{toc}{subparagraph}{Show/offer/ bid}
 
 Code `s' when the child or mom holds up an object off of a surface/in the air to present it as if to say: ``look at this'' (i.e., show) or ``do you want this'' (i.e., offer) or ``I want you to give me that'' (i.e., bid). Mom or child must be holding up a moveable object unattached to mom or child (e.g., body parts do not count). Shows/offers/bids by the mother should occur towards the child (e.g., tilting an object towards the child, holding in the air forward towards the child) and must involve a movement toward the child, not involved in bringing the object closer to grasp, but is about communicating intent. NOTE: Just pausing before the child/mother takes an object isn't enough to count as an offer. Similarly, shows/offers/bids by the child should also occur towards their mother.\\
 Repetitive instances of showing/offering/bidding with an object should be coded as separate events (e.g., every time there is a pause in between new instances of showing/offering/bidding). To count as a new gesture, the mother's or the child's hand or arm needs to return to a neutral position down to their side or lowered. Successive actions from a single movement where the arm is up (and the arm never goes down) should be code as one bout.
@@ -3243,20 +3252,24 @@ Do not count as show: instances of mom or child reorienting or repositioning an 
 Onset is the frame when the object is fully held up or out to show it. If there is something obscuring the showing bout, but other cues in the video indicate a show is happening, and there is one frame where you can see part of the hand during the gesture (not before or after), anchor the onset around where you see the hand. If this is not possible (e.g., there are no frames where you see part of the showing hand) do not code as there is no reliable way to code the show onset.
 
 \hypertarget{iconic_gesture}{%
-\subsubsection*{Iconic Gesture (i)}\label{iconic_gesture}}
-\addcontentsline{toc}{subsubsection}{Iconic Gesture (i)}
+\subparagraph*{Iconic Gesture (i)}\label{iconic_gesture}}
+\addcontentsline{toc}{subparagraph}{Iconic Gesture (i)}
 
 Code `i' when the child or mom engages in an iconic gesture. They are called iconic because they represent an object, idea, or action that can't easily be referenced with a deictic (point/show) or conventional gesture. The movement of these gestures usually calls to mind something about the nature of the object, idea or action being referenced. For example, you could move your arms back and forth to represent running, or you could trace a square in the air with your finger, flap your arms as if flying, or use your fingers to count or ``show'' a number. Instances of pretend play with an objects (e.g., holding up an object to pretend it is a phone) do not count as a gesture.
 Onset is the frame when the child or mom has clearly begun the iconic gesture, and the coder can clearly identify this as gesture but does fall into the conventional gesture category (see ). Repetitive instances of an iconic gesture should be coded as separate gesture events (e.g., every time there is a pause in between new instances of an iconic gesture).
-Conventional Gesture (c)
+
+\hypertarget{conventional_gesture}{%
+\subparagraph*{Conventional Gesture (c)}\label{conventional_gesture}}
+\addcontentsline{toc}{subparagraph}{Conventional Gesture (c)}
 
 Code `c' when the child or mom engages in a conventional gesture. Conventional gestures are culturally-agreed-upon hand with a specific meaning, like moving the finger to lips to indicate ``be quiet'', wagging the finger to say ``no'', waving ``hello'', facing the palm upwards and motioning the fingers to indicate ``come here''.
 If a gesture is conventional, you should be able to understand its meaning just by seeing it in isolation, without knowing any of the context. Some additional examples of conventional gestures include: waving, clapping, flipping arms out to side to indicate ``I don't know' or ``where is it'', sit down gesture (pats ground), pickup gesture (child holds up arms to be picked up or mom extends arms out to encourage the child to move/come closer to pick them up), thumbs up, hug me (hold arms out asking for hug), puts hand on head to signal exasperation, hand on chin to think, etc.
 Conventional gestures must include the hands and cannot be head or shoulders only (e.g., shaking the head ``no'' or ``yes'', shrugging the shoulders DO NOT count as conventional gestures for this code). We chose to remove these non manual gestures to improve coder attention and reliability, but could be coded in a separate pass.
-Onset is the frame when the child or mom has clearly begun the conventional gesture, and the coder can clearly identify this as gesture but does fall into the iconic gesture category (see ). Repetitive instances of a conventional gesture should be coded as separate gesture events (e.g., every time there is a pause in between new instances of a conventional gesture).
+Onset is the frame when the child or mom has clearly begun the conventional gesture, and the coder can clearly identify this as gesture but does fall into the iconic gesture category (see \textless i\textgreater). Repetitive instances of a conventional gesture should be coded as separate gesture events (e.g., every time there is a pause in between new instances of a conventional gesture).
 
-\hypertarget{how-to-code-1}{%
-\subsection{How to Code}\label{how-to-code-1}}
+\hypertarget{how-to-code-2}{%
+\subsection*{How to Code}\label{how-to-code-2}}
+\addcontentsline{toc}{subsection}{How to Code}
 
 \begin{itemize}
 \tightlist
@@ -3274,9 +3287,15 @@ Onset is the frame when the child or mom has clearly begun the conventional gest
 \end{itemize}
 
 \hypertarget{check-the-final-coded-child-communication-pass}{%
-\subsection{Check the Final Coded Child Communication Pass}\label{check-the-final-coded-child-communication-pass}}
+\subsection*{Check the Final Coded Child Communication Pass}\label{check-the-final-coded-child-communication-pass}}
+\addcontentsline{toc}{subsection}{Check the Final Coded Child Communication Pass}
 
 When finished coding, run the script to check for typos. The script will flag any occurrence of typos that arise from an error due to any invalid codes (any characters besides `m', `c', `p', `s', `i'). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
+
+\hypertarget{mom-gesture-pass}{%
+\section{Mom gesture pass}\label{mom-gesture-pass}}
+
+TBD
 
 \hypertarget{emotion}{%
 \chapter{Emotion}\label{emotion}}
@@ -3538,7 +3557,8 @@ When finished coding, run the script to check for typos in the mom emotion colum
 \section{Child object interaction pass}\label{child-object-interaction-pass}}
 
 \hypertarget{datavyu-object-interaction-codes-for-child}{%
-\subsection{Datavyu Object Interaction Codes for Child}\label{datavyu-object-interaction-codes-for-child}}
+\subsection*{Datavyu Object Interaction Codes for Child}\label{datavyu-object-interaction-codes-for-child}}
+\addcontentsline{toc}{subsection}{Datavyu Object Interaction Codes for Child}
 
 There are 3 columns associated with child object interaction codes: id for child object, child object column, and a comments column for the child object coding.
 
@@ -3559,7 +3579,8 @@ Code the \texttt{obj\_id\_child} column according to the definitions for coding 
 \textbf{Code}: (\textless obj\_o\textgreater)
 
 \hypertarget{childobj-general-orientation}{%
-\paragraph{\texorpdfstring{\texttt{childobj} General Orientation}{childobj General Orientation}}\label{childobj-general-orientation}}
+\paragraph*{\texorpdfstring{\texttt{childobj} General Orientation}{childobj General Orientation}}\label{childobj-general-orientation}}
+\addcontentsline{toc}{paragraph}{\texttt{childobj} General Orientation}
 
 This code captures the times that the child is manually engaged with an object by manipulating or moving it. Coders score only when object events occur, not when they don't occur. This is an event code, where gray spaces between cells indicate times when the child is not engaged with an object.
 
@@ -3636,8 +3657,8 @@ Use this column as a space to write questions, comments, or messages about child
 Onset \& Offset: set accordingly so that the comments are next to the relevant event.
 
 \hypertarget{childobj-how-to-code-the-child-object-interaction-column}{%
-\subsubsection*{\texorpdfstring{\texttt{childobj} How to Code the Child Object Interaction Column}{childobj How to Code the Child Object Interaction Column}}\label{childobj-how-to-code-the-child-object-interaction-column}}
-\addcontentsline{toc}{subsubsection}{\texttt{childobj} How to Code the Child Object Interaction Column}
+\subsection*{\texorpdfstring{\texttt{childobj} How to Code the Child Object Interaction Column}{childobj How to Code the Child Object Interaction Column}}\label{childobj-how-to-code-the-child-object-interaction-column}}
+\addcontentsline{toc}{subsection}{\texttt{childobj} How to Code the Child Object Interaction Column}
 
 \begin{itemize}
 \tightlist
@@ -3654,8 +3675,8 @@ Onset \& Offset: set accordingly so that the comments are next to the relevant e
 \end{itemize}
 
 \hypertarget{check-the-final-child-object-interaction-coded-pass}{%
-\subsubsection*{Check the final Child Object Interaction Coded Pass}\label{check-the-final-child-object-interaction-coded-pass}}
-\addcontentsline{toc}{subsubsection}{Check the final Child Object Interaction Coded Pass}
+\subsection*{Check the final Child Object Interaction Coded Pass}\label{check-the-final-child-object-interaction-coded-pass}}
+\addcontentsline{toc}{subsection}{Check the final Child Object Interaction Coded Pass}
 
 When finished coding, run the script to check for typos in the child object column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive `o' cells that are less than 3s appart (and should be merged), and any invalid codes (any characters besides `o' or `.'). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
 
@@ -3663,7 +3684,8 @@ When finished coding, run the script to check for typos in the child object colu
 \section{Mom object interaction pass}\label{mom-object-interaction-pass}}
 
 \hypertarget{datavyu-object-codes-for-mom}{%
-\subsection{Datavyu Object Codes for Mom}\label{datavyu-object-codes-for-mom}}
+\subsection*{Datavyu Object Codes for Mom}\label{datavyu-object-codes-for-mom}}
+\addcontentsline{toc}{subsection}{Datavyu Object Codes for Mom}
 
 There are 3 columns associated with mom object interaction codes: id for mom object, mom object column, and comments column for the mom object coding.
 
@@ -3768,58 +3790,89 @@ When finished coding, run the script to check for typos in the mom object column
 \hypertarget{locomotion}{%
 \chapter{Locomotion}\label{locomotion}}
 
-Workflow
+\hypertarget{workflow-4}{%
+\section{Workflow}\label{workflow-4}}
 
-Choose whether to code child or mom locomotion first
-Code each pass according to definitions in Datavyu Locomotion Codes
-Run Ruby script to check for typos
-Child locomotion pass
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Choose whether to code child or mom locomotion first
+\item
+  Code each pass according to definitions in Datavyu Locomotion Codes
+\item
+  Run Ruby script to check for typos
+\end{enumerate}
 
-Datavyu Gesture Codes for Child
+\hypertarget{child-locomotion-pass}{%
+\section{Child locomotion pass}\label{child-locomotion-pass}}
+
+\hypertarget{datavyu-locomotion-codes-for-child}{%
+\subsection*{Datavyu locomotion codes for child}\label{datavyu-locomotion-codes-for-child}}
+\addcontentsline{toc}{subsection}{Datavyu locomotion codes for child}
 
 There are 3 columns associated with child locomotion codes: id for child locomotion, child locomotion column, and a comments column for the child locomotion coding.
 
-Child locomotion id Column
+\hypertarget{child-locomotion-id-column}{%
+\subsubsection*{Child locomotion id Column}\label{child-locomotion-id-column}}
+\addcontentsline{toc}{subsubsection}{Child locomotion id Column}
 
-Column name: obj\_id\_child
-Code: (, , , , , )
+\textbf{Column name}: \texttt{obj\_id\_child}
+\textbf{Code}: (\textless lab\_id\textgreater, \textless childloc\_coder\textgreater, \textless childloc\_date\textgreater, \textless childloc\_mins\textgreater, \textless relchildloc\_coder\textgreater, \textless relchildloc\_date\textgreater)
+
 Code the loc\_id\_child column according to the definitions for coding the id column.
-Child locomotion Column
 
-Column name: childloc
-Code: ()
-General Orientation
+\hypertarget{child-locomotion-column}{%
+\subsubsection*{Child locomotion Column}\label{child-locomotion-column}}
+\addcontentsline{toc}{subsubsection}{Child locomotion Column}
+
+Column name: \texttt{childloc}
+Code: (\textless loc\_lfmdr\textgreater)
+
+\hypertarget{general-orientation-3}{%
+\paragraph*{General Orientation}\label{general-orientation-3}}
+\addcontentsline{toc}{paragraph}{General Orientation}
 
 This code captures the times that the child is engaged in salient self-generated locomotion in any form (i.e., bum shuffling, scooting, belly crawling, hands-knees crawling, cruising, supported walking, independent walking, etc.). Also included in this pass are the times when the child is riding a locomotor device, the child is being held by mom or mom is restricting locomotion, the times child is constrained in child furniture (e.g., a belted chair, highchair, or stroller) OR when locomotion cannot be reliably coded (coded as missing in this pass). Coders do not score instances when the child is stationary but could have locomoted. Bouts of locomotion are scored as events, where the gray spaces between cells mean the child is stationary but not held and not constrained.
 Coders are watching/tagging the duration of each of these events (locomotion, falls, mom-constrained, device-constrained, riding a toy with wheels, not visible) by marking onset/offset times. To determine locomotion, coders are watching for steps with the feet, the knees, or movements with the bum. Any other movements that are not initiated from these three body locations are considered to be a transition between postures and are counted as stationary, because it is likely a transition rather than salient locomotion.
 
-Value list
+\hypertarget{child_locomotion_values}{%
+\paragraph*{Value list}\label{child_locomotion_values}}
+\addcontentsline{toc}{paragraph}{Value list}
 
-`l' = locomotion
-`f' = fall
-`m' = mom constrained. Mother is constraining child locomotion by holding or carrying.
-`d' = device constrained. Child's locomotion is restricted by a device (highchair, stroller, changing table, bathtub, car seat, etc.)
-`r' = riding a locomotive device (bike, scooter, car, etc.)
-`.' = when the child is off camera or the child's feet/knees/bum are off camera and the coder cannot see or infer whether the child is locomoting.
-Operational Definitions
+\protect\hyperlink{child_locomotion}{`l' = locomotion}
+\protect\hyperlink{child_fall}{`f' = fall}
+\protect\hyperlink{mom_constrained}{`m' = mom constrained}. Mother is constraining child locomotion by holding or carrying.
+\protect\hyperlink{device_constrained}{`d' = device constrained}. Child's locomotion is restricted by a device (highchair, stroller, changing table, bathtub, car seat, etc.)
+\protect\hyperlink{ride}{`r' = riding a locomotive device (bike, scooter, car, etc.)}
+\protect\hyperlink{child_missing}{`.' = when the child is off camera or the child's feet/knees/bum are off camera and the coder cannot see or infer whether the child is locomoting.}
 
-Locomotion (l)
+\hypertarget{operational-definitions-1}{%
+\paragraph*{Operational Definitions}\label{operational-definitions-1}}
+\addcontentsline{toc}{paragraph}{Operational Definitions}
+
+\hypertarget{child_locomotion}{%
+\subparagraph{Locomotion (l)}\label{child_locomotion}}
 
 Code `l' when the child is engaged in self-generated locomotion in any form (i.e.~bum shuffling, scooting, belly crawling, hands-knees crawling, hands-feet crawling, cruising, supported walking, independent walking, marching in place, jumping, hopping, etc.). Locomotion occurs when the entire body is displaced in any direction in space---forward, sideways, backward, in-place--- because the child is taking a ``step''. A child takes a ``step'' by shifting weight from one foot/knee onto the other (i.e., weight must be shifting onto a swinging foot/knee in the air to count as moving; if not, this is stationary).
 This code counts locomotion regardless of whether the child maintains balance independently or the child's balance is supported by a parent or external object/apparatus. This code also counts even if the child is taking uncontrolled steps while losing balance (i.e.~stumbling steps before a fall). Any self-generated locomotion where the child is using a toy, baby walker, furniture, etc. for support and pushing or moving the object, counts as locomotion. (NOTE: If the child is on top and riding a toy with wheels, this does not count as locomotion. See rules for riding).
+
 If the child is upright:
 
 If the child is upright on both feet without support, every step counts.
 NOTE: Do not include pivots. Be careful of bouts that start or end with ``pivots'' -- part of the child's foot is moving but the entire foot is not displaced (e.g.~toes move in air but heel rotates on floor, heel moves in air while toes rotate on floor). If a bout starts or ends with one of these pivots, do not include pivot movements as part of the locomotion bout.
 
 If child is upright but using a surface for support:
-If a child is upright on both feet while supported by furniture, toy, or mom, the duration of each step has to be less than or equal to 1 second in duration. If the child is using hands for support while swinging one leg for more than 1 second, do not code as locomotion. We want to exclude time when the child is not locomoting but one foot is in the air for an extended period of time (\textgreater1s).
+If a child is upright on both feet while supported by furniture, toy, or mom, the duration of each step has to be less than or equal to 1 second in duration. If the child is using hands for support while swinging one leg for more than 1 second, do not code as locomotion. We want to exclude time when the child is not locomoting but one foot is in the air for an extended period of time (\textgreater{} 1s).
+
 If child is NOT upright:
 If the child is NOT upright on both feet (e.g., crawling on belly, hands knees crawling, bum shuffling, etc.) then a bout has to include 3 or more consecutive steps with foot, knee, or bum to count as locomotion. Do not try to code one bum shuffle (child scoots bum back once while sitting on the floor) or one crawl step (moves the knee one time when on the floor). Most likely that is just a shift of position or the beginning of a transition (which is not coded. See rules for transitions). Do not count turning of the body if the bum does not displace (turning with their hands/feet).
+
 NOTE for hands/feet crawling:
 
 For hands/feet crawling, both hands need to be on the floor. So if the first or last step only has one hand on the floor, consider this a transition.
 Crawling can be a mix between knee and foot crawling. Code onset based on which body part begins the movement (foot or knee)
+
 NOTE for belly crawling or bum shuffling:
 
 Only code locomotion if the child makes at least 3 reliable belly-crawling movements (RARE).
@@ -3841,11 +3894,16 @@ If the child is locomoting on the floor and stops for more than 1 s before climb
 NOTE for locomoting up/down stairs:
 If the child is going up/down stairs in any manner (walking, crawling, belly-crawling, bum shuffling), count all possible locomotion using regular locomotion codes. Stairs are different from climbing onto/down from the furniture note above.
 
-Setting the Onset \& Offset of a locomotion bout:
+\hypertarget{setting-the-onset-offset-of-a-locomotion-bout}{%
+\subparagraph*{Setting the Onset \& Offset of a locomotion bout:}\label{setting-the-onset-offset-of-a-locomotion-bout}}
+\addcontentsline{toc}{subparagraph}{Setting the Onset \& Offset of a locomotion bout:}
 
 Onset of an upright ``locomotion bout'' is the first frame when the whole foot is displaced (i.e when the foot lifted off the ground). The foot doesn't necessarily have to come off the ground, but the foot has to slide forward, backward or sideways. The onset for a non-upright ``locomotion bout'' is the first frame when the knee/foot or bum is displaced in space.
 Offset is the frame when the child takes the last step before a 1s pause.
-Falls (f)
+
+\hypertarget{child_fall}{%
+\paragraph*{Falls (f)}\label{child_fall}}
+\addcontentsline{toc}{paragraph}{Falls (f)}
 
 Code `f' if the child loses control over his/her body (i.e., balance) and cannot recover on his/her own before his/her body hits the ground. If the child loses balance, but catches him/herself before the above body parts hit the ground, do not count as a fall.
 All falls count. They can happen while upright, on/off furniture or other elevation, while sitting, or while engaged in locomotion (walking or crawling). Falls can happen while the mom is holding the child's hand or while the child is holding onto furniture or another support.
@@ -3853,7 +3911,9 @@ A loss of balance must occur before any of the body parts hit the ground. Someti
 Parent-involved falls should only be coded as a fall if the parent catches the child after the child loses balance, effectively supporting the child's entire weight. In this scenario, the child would have fallen if not for parent rescue (i.e., the body part would have hit the ground). Parents must catch after the child has begun to lose balance.
 Falling can occur immediately after mom-constrained if mom and child fell together. Falling can occur immediately after device-constrained if device tips over or the mechanism of constraint fails. Falling can occur immediately after riding if falls off of the riding device.
 
-Setting the Onset \& Offset for falls:
+\hypertarget{setting-the-onset-offset-for-falls}{%
+\subparagraph*{Setting the Onset \& Offset for falls:}\label{setting-the-onset-offset-for-falls}}
+\addcontentsline{toc}{subparagraph}{Setting the Onset \& Offset for falls:}
 
 Falls can be coded as separate events (child is standing stationary and then falls) or immediately following another code (child is locomoting and then falls). There should only be 1ms between the previous code and the onset of the falling event if the fall ends the previous code (continuous coding).
 
@@ -3864,7 +3924,10 @@ Offset when the child's body (as defined below) hits the floor.
 From an upright or squatting position: a loss of balance results in the hands, knees, or a toy in the hands hitting the ground; child's bum hitting the ground; or head hitting the ground.
 From a crawling position: a loss of balance results in the face, head, chest, or side of the torso hitting the ground.
 From a sitting position: a loss of balance results in the head, chest, side of torso, or back hitting the ground.
-Mom-constrained (m)
+
+\hypertarget{mom_constrained}{%
+\paragraph*{Mom-constrained (m)}\label{mom_constrained}}
+\addcontentsline{toc}{paragraph}{Mom-constrained (m)}
 
 Code `m' when the child is being constrained and supported by the mother. During a mother constraint, the mother can be moving (carrying) or stationary (holding). Code `m' when any of the following scenarios occur:
 Child feet in the air: Both feet are in the air because of mom lifting up the child, child sitting on mom's lap while the mom is sitting on furniture, child is on a surface with mom constraining the movement of the child with her hands. Exception: If child and mom are playing a ``bouncing/jumping'' game, where the feet are leaving the surface of support repeatedly, code as `m'. If the child takes steps while supported then this should be coded `l'.
@@ -3873,7 +3936,10 @@ Mom is acting as the base of support: Child's surface of support is mom, legs ca
 Note: Child sitting on the floor between the mom's legs or on the couch next to mom, even if the mom is touching the child would not be coded as `m', this is considered stationary.
 Mom constrains the child while on an elevated surface. The child's feet are not in the air but the mom is restricting the movements, possibly for safety, while the child is on an elevated surface (e.g., mom holding child while sitting on the kitchen counter, mom holding child at the trunk while going down a slide). Note: If the child is sitting directly on a piece of furniture with legs dangling but mom is not constraining or supporting the child in any way, and the child could stand and locomote on their own, do not code as `m'. This would be considered stationary. If the child is in a device code as `d'.
 NOTE: if the child is crawling or walking on a surface but the mom is providing support (e.g., holding the child's hands or waist) code this as `l', because this is considered supported locomotion.
-Setting the Onset \& Offset of mom-constrained:
+
+\hypertarget{setting-the-onset-offset-of-mom-constrained}{%
+\subparagraph*{Setting the Onset \& Offset of mom-constrained:}\label{setting-the-onset-offset-of-mom-constrained}}
+\addcontentsline{toc}{subparagraph}{Setting the Onset \& Offset of mom-constrained:}
 
 Onset of ``mom-constrained'' is the first frame when mom lifts up the child's whole body off the current surface and up into the air in mom's arms (as defined below).
 
@@ -3904,7 +3970,10 @@ If the child immediately starts locomoting when mom is putting the child back do
 In cases of ``missing'' followed by ``mom-constrained''
 
 If the child is being held by mom and taken outside of the camera's view (missing, around the corner, etc.), continue coding for mom-constrained if the child is still constrained when back in view.
-Device (d)
+
+\hypertarget{device_constrained}{%
+\paragraph*{Device (d)}\label{device_constrained}}
+\addcontentsline{toc}{paragraph}{Device (d)}
 
 Code `d' if the child is constrained (could be strapped or not) in a device that restricts locomotion (e.g., a highchair, stroller, car seat, etc.). The device could restrict locomotion by binding the child from the front or sides (bumbo seat), lifting them off the ground (high chair, changing table), constraining their freedom to move upright (car seat, stroller), or strapped in. Devices can never be household furniture (e.g.~couch, chair, or bed) not intended for children. Child-designed furniture (e.g.~wooden or plastic child chair) is not a device unless the child is strapped into it and locomotion is restricted.
 NOTE: Child walker is NOT a device. This would count as supported walking because that's the whole point of a child walker. Jolly jumpers and exersaucers count as a device even though the child is moving or jumping around because this restricts locomotion.
@@ -3924,74 +3993,122 @@ Setting the Onset \& Offset for device:
 Onset of device constrained is when the child's butt first touches the restrictive device. Do not wait until the child is strapped to the device.
 Offset of constrained is when the butt leaves the device as the parent starts to take the child out (usually by lifting them out). (See also mom-constrained section)..
 
-Ride (r)
+\hypertarget{ride}{%
+\paragraph*{Ride (r)}\label{ride}}
+\addcontentsline{toc}{paragraph}{Ride (r)}
 
 Code `r' if the child is riding a locomotive toy (e.g.~child car, bike, scooter, doll stroller, etc.) with wheels. The child can be sitting (bum on the seat), kneeling with one knee, standing (on a scooter), straddling on a bicycle or tricycle with both legs on opposite sides of a central support riding toy. The device does not necessarily need to be in motion for you to code this as `r'. If a riding toy does not have wheels then it does not count as `r' and should be considered stationary (e.g.~if a child is sitting on a rocking horse).
 
 Do not code as `r' if the child's bum, knee, or feet is not on the riding device. Taking steps while pushing a riding toy while not straddling, sitting, or kneeling on it or while walking around the toy count as locomotion. If steps occur as the child is moving onto/off of the device, follow codes for `l' (remember not to code transitions).
 
-Setting the Onset \& Offset for ride:
+\hypertarget{setting-the-onset-offset-for-ride}{%
+\subparagraph*{Setting the Onset \& Offset for ride:}\label{setting-the-onset-offset-for-ride}}
+\addcontentsline{toc}{subparagraph}{Setting the Onset \& Offset for ride:}
 
 Onset of ride is when the child's bum or knee first touches the riding toy (if sitting in a bike or car) or the second foot is off the ground (if standing on a scooter). Straddling begins when both feet are on the ground.
 Offset of ride is when the child's bum, knee, or both feet leave the riding toy.
-Missing (.)
+
+\hypertarget{child_missing}{%
+\paragraph*{Missing (.)}\label{child_missing}}
+\addcontentsline{toc}{paragraph}{Missing (.)}
 
 Code `.' if the child is not fully visible and you cannot reliably code `l', `d', `m', or `r'. Child could be completely out of view or their lower body could be occluded and it is not clear based on the movement of the top half of the body if the child is locomoting. A missing bout must last for at least 1 second.
 
 If child is missing for less than 1s:
 
 If missing time less than 1s occurs between 2 identical codes (e.g.~`l' and `l') do not split bout; instead, continue locomotion bout from original cell until end of that locomotion bout.
-If missing time (\textless1s) occurs between 2 non-identical codes, (e.g.~`l' before missing, stationary after missing), code offset of the locomotion cell as the first frame where you cannot see the child.
+If missing time (\textless{} 1s) occurs between 2 non-identical codes, (e.g.~`l' before missing, stationary after missing), code offset of the locomotion cell as the first frame where you cannot see the child.
 
 If child is missing for more than 1s:
 Code CONTINUOUSLY so that the `.' fills all of the time in the spreadsheet between the two events that are visible. For example, if the child is locomoting, then feet aren't visible, and then reappears constrained in a car seat, there should only be 1ms between the cells (press the `0' key on the numpad to do this automatically).
+
 Going around corners:
 
-This should be coded according to the above rules. After the child is fully out of view (and this lasts for at least 1s), code as missing. Begin coding locomotion again when the child is back in view. This is a continuous code (see above for when missing (\textgreater1s) captures all time between two cells).
+This should be coded according to the above rules. After the child is fully out of view (and this lasts for at least 1s), code as missing. Begin coding locomotion again when the child is back in view. This is a continuous code (see above for when missing (\textgreater{} 1s) captures all time between two cells).
 If child's lower body is occluded (by furniture, mom, toys) or is outside of camera view:
 
 Code as `.' if you cannot see both knees or both feet to determine the onset and offset of locomotion (e.g.~when a child is locomoting behind furniture, but you cannot tell when they started taking a step). If this occurs BUT you can determine the onset and offset from a clear view of their ankle/foot, code as locomotion as normal. Do not make judgment calls if you cannot clearly determine the onset and offset even if the child is visibly locomoting. NOTE: it still has to follow the 1-second rule of occlusion
+
 Setting the Onset \& Offset for missing \textless.\textgreater:
 
 Onset of missing is the first frame when the child's locomotion cannot be reliably coded (see above rules for specific instances).
 Offset of missing is the first frame when the child's locomotion status can reliably be coded (see above rules for specific instances).
-How to Code the Child Locomotion Column
 
-Set ``JUMP-BACK-BY'' key to 1 s.
-Enable cell highlighting (cmd + shift +F). Enable temporal mode (cmd T).
-Watch in real time for the child's movement.
-Watch the child's feet and knees.
-As soon as you see child's foot/knee lift up off of the ground; hit \#5-STOP and then hit ``JUMP-BACK-BY'' to go back to the timestamp that is just before the lift. Then JOG forward by hitting \#3-JOGFORWARD until you reach the Onset of that cell. If you go too far, you can JOG backward by hitting \#1-JOGBACK. You will likely have to hit the JOG keys numerous times. If you feel that you have either jumped too far back or went too far forward, hold the JOG keys to move in either direction a bit faster. Hit ENTER to create a new cell at this Onset.
-Now, watch in real time to see when the child stops moving. The Offset is when the child stops moving for at least 0.5 s (the pause has to look and feel like an actual pause when you are watching in real time; don't simply end a bout of locomotion because there was a1s pause, especially if it looks like the child is about to take another step). The first frame when the foot/knee stops moving or when the foot settles into its final position (sometimes infants stop their walking bout on their tip-toes) is the offset. The same applies to sliding steps.
-To set the Offset, use the same rules for mechanics as with the onset. Hit \#5-STOP and then hit ``JUMP-BACK-BY'' to go back to the timestamp that is just before the lift. Then JOG forward by hitting \#3-JOGFORWARD until you reach the Offset of that cell. If you go to far, you can JOG backward by hitting \#1-JOGBACK. You will likely have to hit the JOG keys numerous times. If you feel that you have either jumped too far back or went too far forward, hold the JOG buttons to move in either direction a bit faster.
-Check the final coded pass
+\hypertarget{how-to-code-the-child-locomotion-column}{%
+\subsection*{How to Code the Child Locomotion Column}\label{how-to-code-the-child-locomotion-column}}
+\addcontentsline{toc}{subsection}{How to Code the Child Locomotion Column}
+
+\begin{itemize}
+\tightlist
+\item
+  Set ``JUMP-BACK-BY'' key to 1 s.
+\item
+  Enable cell highlighting (cmd + shift +F). Enable temporal mode (cmd T).
+\item
+  Watch in real time for the child's movement.
+\item
+  Watch the child's feet and knees.
+\item
+  As soon as you see child's foot/knee lift up off of the ground; hit \#5-STOP and then hit ``JUMP-BACK-BY'' to go back to the timestamp that is just before the lift. Then JOG forward by hitting \#3-JOGFORWARD until you reach the Onset of that cell. If you go too far, you can JOG backward by hitting \#1-JOGBACK. You will likely have to hit the JOG keys numerous times. If you feel that you have either jumped too far back or went too far forward, hold the JOG keys to move in either direction a bit faster. Hit ENTER to create a new cell at this Onset.
+\item
+  Now, watch in real time to see when the child stops moving. The Offset is when the child stops moving for at least 0.5 s (the pause has to look and feel like an actual pause when you are watching in real time; don't simply end a bout of locomotion because there was a1s pause, especially if it looks like the child is about to take another step). The first frame when the foot/knee stops moving or when the foot settles into its final position (sometimes infants stop their walking bout on their tip-toes) is the offset. The same applies to sliding steps.
+\item
+  To set the Offset, use the same rules for mechanics as with the onset. Hit \#5-STOP and then hit ``JUMP-BACK-BY'' to go back to the timestamp that is just before the lift. Then JOG forward by hitting \#3-JOGFORWARD until you reach the Offset of that cell. If you go to far, you can JOG backward by hitting \#1-JOGBACK. You will likely have to hit the JOG keys numerous times. If you feel that you have either jumped too far back or went too far forward, hold the JOG buttons to move in either direction a bit faster.
+\end{itemize}
+
+\hypertarget{check-the-final-coded-pass-2}{%
+\subsection*{Check the final coded pass}\label{check-the-final-coded-pass-2}}
+\addcontentsline{toc}{subsection}{Check the final coded pass}
 
 When finished coding, run the script to check for typos in the child locomotion column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive `l' cells that are less than 1s apart (and should be merged), and any invalid codes (any characters besides `l', `f', `m', `d', `r', or `.'). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
-Mom locomotion pass
 
-Datavyu Locomotion Codes for Mom
+\hypertarget{mom-locomotion-pass}{%
+\section{Mom locomotion pass}\label{mom-locomotion-pass}}
+
+\hypertarget{datavyu-locomotion-codes-for-mom}{%
+\subsection*{Datavyu Locomotion Codes for Mom}\label{datavyu-locomotion-codes-for-mom}}
+\addcontentsline{toc}{subsection}{Datavyu Locomotion Codes for Mom}
+
 There are 3 columns associated with mom locomotion codes: id for mom locomotion, mom locomotion column, and comments column for the mom locomotion coding.
-Mom locomotion id Column
 
-Column name: obj\_id\_mom
-Code: (, , , , , )
+\hypertarget{mom-locomotion-id-column}{%
+\subsubsection*{Mom locomotion id Column}\label{mom-locomotion-id-column}}
+\addcontentsline{toc}{subsubsection}{Mom locomotion id Column}
+
+\textbf{Column name}: \texttt{obj\_id\_mom}
+\textbf{Code}: (\textless lab\_id\textgreater, \textless momloc\_coder\textgreater, \textless momloc\_date\textgreater, \textless momloc\_mins\textgreater, \textless relmomloc\_coder\textgreater, \textless relmomloc\_date\textgreater)
+
 Code the loc\_id\_mom column according to the definitions for coding the id column.
-Mom locomotion Column
 
-Column name: momloc
-Code: ()
-General Orientation
+\hypertarget{mom-locomotion-column}{%
+\subsubsection*{Mom locomotion Column}\label{mom-locomotion-column}}
+\addcontentsline{toc}{subsubsection}{Mom locomotion Column}
+
+\textbf{Column name}: \texttt{momloc}
+\textbf{Code}: (\textless loc\_lf\textgreater)
+
+\hypertarget{general-orientation-4}{%
+\paragraph*{General Orientation}\label{general-orientation-4}}
+\addcontentsline{toc}{paragraph}{General Orientation}
 
 This code captures the times that mom is engaged in locomotion or falls. Bouts of locomotion are scored as events, where the gray spaces between cells mean the mom is stationary. Coders are watching/tagging each of these events by marking onset/offset times for the duration of locomotion bouts. Coders are watching for steps with the feet, the knees, or the bum. Any other movements that are not initiated from these three body locations is considered to be a transition between postures and is subsumed by stationary, as it is not locomotion. Bouts that are coded as `.' means that mom is off camera or her legs are off camera, and the coder cannot see or infer whether mom is stationary or moving.
-Value list
 
-`l' = locomotion
-`f' = fall
-`.' = when mom is off camera or the mom's feet/knees/bum are off camera and the coder cannot see or infer whether the mom is locomoting at any point during this period of missing.
-`x' = when mom's feet/knees/bum are off camera, coder cannot set a reliable onset and offset, but coder can infer that mom is locomoting at some point of this period of missing.
-Operational Definitions
+\hypertarget{value-list-1}{%
+\paragraph*{Value list}\label{value-list-1}}
+\addcontentsline{toc}{paragraph}{Value list}
 
-Locomotion (l)
+\protect\hyperlink{mom_locomotion}{`l' = locomotion}
+\protect\hyperlink{mom_fall}{`f' = fall}
+\protect\hyperlink{mom-missing}{`.' = when mom is off camera or the mom's feet/knees/bum are off camera and the coder cannot see or infer whether the mom is locomoting at any point during this period of missing}.
+\protect\hyperlink{mom_undetermined}{`x' = when mom's feet/knees/bum are off camera, coder cannot set a reliable onset and offset, but coder can infer that mom is locomoting at some point of this period of missing.}
+
+\hypertarget{operational-definitions-2}{%
+\paragraph*{Operational Definitions}\label{operational-definitions-2}}
+\addcontentsline{toc}{paragraph}{Operational Definitions}
+
+\hypertarget{mom_locomotion}{%
+\subparagraph*{Locomotion (l)}\label{mom_locomotion}}
+\addcontentsline{toc}{subparagraph}{Locomotion (l)}
 
 Code `l' when the mom is engaged in locomotion of any form (i.e., walking, scooting, knee-walking, crawling).
 If you're not sure whether the mom is moving or stationary (e.g., occlusion behind furniture or unclear video footage), then this is missing data and the offset of the locomotion bout should be set to the last frame where you can see mom.
@@ -4001,37 +4118,43 @@ However, if you can infer that mom is moving or stationary (i.e., head is bobbin
 Do not include any transitions
 Do not include any movement with foot/knee as part of a transition to another posture. For example, if the mom transitions from sitting on the floor to standing, the onset of the locomotor bout would be the first step once she is walking.
 Do not include mom holding or swinging one foot in the air
-If mom is upright on both feet---regardless of if they are using their hands for support on furniture, toy, and so on---the duration of each step has to be less than or equal to 1 second in duration. That is, in any position, if the mom is standing with one foot in the air for more than 1 second, do not code as locomotion. Set the offset of the locomotor bout when the last foot (i.e.~the mom's standing leg) made contact with the floor. We want to exclude time when the mom is not locomoting but one foot is in the air for an extended period of time (\textgreater1s)---even if she eventually lowers than foot.
+If mom is upright on both feet---regardless of if they are using their hands for support on furniture, toy, and so on---the duration of each step has to be less than or equal to 1 second in duration. That is, in any position, if the mom is standing with one foot in the air for more than 1 second, do not code as locomotion. Set the offset of the locomotor bout when the last foot (i.e.~the mom's standing leg) made contact with the floor. We want to exclude time when the mom is not locomoting but one foot is in the air for an extended period of time (\textgreater{} 1s)---even if she eventually lowers than foot.
+
 Setting the Onset \& Offset of a locomotion bout:
 
 Onset is the first frame when the whole foot is displaced (i.e when the foot lifted off the ground). The foot doesn't necessarily have to come off the ground, but the foot has to slide forward, backward or sideways.
 Offset is the frame when the mom takes the last step before a 1s pause.
 
-Falls (f)
+\hypertarget{mom_fall}{%
+\subparagraph*{Falls (f)}\label{mom_fall}}
+\addcontentsline{toc}{subparagraph}{Falls (f)}
 
 Code `f' if the mom loses control of her body (i.e., balance) and cannot recover on her own before the body (bum, hands, torso) hits the ground. All falls count. They can happen while upright, on/off furniture or other elevation, while sitting, or while engaged in locomotion.
 From an upright or squatting position: a loss of balance results in the hands, knees, or a toy in the hands hitting the ground.
-Onset \& Offset for `f'
+
+Onset \& Offset for `f' \{-\}
 
 Onset is the first frame when mom begins to lose balance.
 
 Offset when mom's body hits the floor. Usually the hands to arrest fall.
 
-Missing (.)
+\hypertarget{mom_missing}{%
+\subparagraph*{Missing (.)}\label{mom_missing}}
+\addcontentsline{toc}{subparagraph}{Missing (.)}
 
 Code `.' if mom's lower body is occluded such that you cannot see at least the knees or below, you cannot reliably code `l', or `f'. Mom's locomotion can be coded from the feet, ankles, shins, or knees---but not from the thighs, hips, upper body, or head alone. DO NOT infer movement if you cannot at least see the feet, ankles, shins, or knees, even if you can clearly tell that mom is locomoting. Onsets/offsets may not be reliable and small steps will be hard to see. The goal is to make coding easy and reliable with a hard rule, rather than having to guess. (Other labs can always go back and code mom locomotion during the occluded periods.)
+
 Stationary and seated
+
 If mom is stationary and seated (e.g., on the floor, couch, chair), and as long as you can see any part of her trunk or lower body to determine she has not locomoted do not code as `.' (see rules below). If mom is stationary and out of view for less than 30 seconds, and does not move from the same location, do not code as `.'. If mom is stationary and out of view, and when she is visible again, she has moved from the previous location code as `.' on the first frame when she was out of view (i.e., rewind back to time when she went out of view for the first time, before she locomoted).
-If mom is out of view less than 1s:
 
-If missing time less than 1s occurs between 2 identical codes (e.g.~`l' and `l') do not split bout; instead, continue locomotion bout from original cell until end of that locomotion bout.
-If missing time (\textless1s) occurs between 2 non-identical codes, (e.g.~`l' before missing, stationary after missing), code offset of the locomotion cell as the first frame where you cannot see the mom.
-If mom is out of view for more than 1s:
+If mom is out of view less than 1s: If missing time less than 1s occurs between 2 identical codes (e.g.~`l' and `l') do not split bout; instead, continue locomotion bout from original cell until end of that locomotion bout.
+If missing time (\textless{} 1s) occurs between 2 non-identical codes, (e.g.~`l' before missing, stationary after missing), code offset of the locomotion cell as the first frame where you cannot see the mom.
 
-Code CONTINUOUSLY so that the `.' fills all of the time in the spreadsheet between the two events that are visible. For example, if the mom is locomoting, then feet aren't visible, and then reappears locomoting, there should only be 1ms between the cells (press the `0' key on the numpad to do this automatically).
+If mom is out of view for more than 1s: Code CONTINUOUSLY so that the `.' fills all of the time in the spreadsheet between the two events that are visible. For example, if the mom is locomoting, then feet aren't visible, and then reappears locomoting, there should only be 1ms between the cells (press the `0' key on the numpad to do this automatically).
 If mom is going around corners:
 
-This should be coded according to the above rules. After mom is fully out of view (and this lasts for at least 1s), code as missing. Begin coding locomotion again when mom is back in view. This is a continuous code (see above for when missing (\textgreater1s) captures all time between two cells).
+This should be coded according to the above rules. After mom is fully out of view (and this lasts for at least 1s), code as missing. Begin coding locomotion again when mom is back in view. This is a continuous code (see above for when missing (\textgreater{} 1s) captures all time between two cells).
 If mom's lower body is occluded (by furniture, child, toys) or is outside of camera view:
 
 Code as `.' if you cannot see at least the ball of foot or heel of both feet (it doesn't need to be the same part on both feet). NOTE: it still has to follow the 1-second rule of occlusion.
@@ -4040,6 +4163,7 @@ If mom is out of view
 Setting the Onset \& Offset for missing \textless.\textgreater:
 
 Code onset and offset depending on the relevant body part in view for the type of posture:
+
 Locomotor postures:
 
 Walking = feet
@@ -4048,35 +4172,56 @@ Bum shuffling = bum
 Hands-knees crawling = knees
 Cruising = feet
 Jumping = feet
+
 Sedentary postures:
 
 Sitting = bum or feet
 Standing = feet
 Quadruped = knees
+
 Onset \& Offset for `.'
+
 Onset of missing is the first frame where mom's locomotion cannot be reliably coded (see above rules for specific instances).
 
 Offset of missing is the first frame where mom's locomotion status can reliably be coded (see above rules for specific instances).
 
-Undetermined (x)
+\hypertarget{mom_undetermined}{%
+\subparagraph*{Undetermined (x)}\label{mom_undetermined}}
+\addcontentsline{toc}{subparagraph}{Undetermined (x)}
 
 Code `x' if mom is not fully visible and you cannot reliably code `l', or `f', but you can tell that mom is in motion. It is clear based on the movement of the top half of the body that mom is locomoting but it is impossible to code the exact onset and offset of the locomotor bout. An `x' bout must last for at least 1 second.
 Do not make judgment calls if you cannot clearly determine the onset and offset even if the mom is visibly locomoting. Code instead as `x'.
 The goal of this code is that it uses the exact same criteria for onset and offset of missing, but allows the coder to indicate that at some point during this missing, the mom clearly locomoted.
-How to Code the Mom Locomotion Column
 
-Set ``JUMP-BACK-BY'' key to 1 s.
-Enable cell highlighting on the controller (cmd + shift +F). Enable temporal mode (cmd T).
-Watch in real time for the mom's feet and knees movement.
-As soon as you see mom's foot/knee lift up off of the ground; hit \#5-STOP and then hit ``JUMP-BACK-BY'' to go back to the timestamp that is just before the lift. Then JOG forward by hitting \#3-JOGFORWARD until you reach the onset of that cell. If you go too far, you can JOG backward by hitting \#1-JOGBACK. If you feel that you have either jumped too far back or went too far forward, hold the JOG keys to move in either direction a bit faster. Hit ENTER to create a new cell at this Onset.
-Now, watch in real time to see when the mom stops moving. The Offset is when the mom stops moving for at least 0.5 s (the pause has to look and feel like an actual pause when you are watching in real time; don't simply end a bout of locomotion because there was a 0.5-s pause, especially if it looks like the mom is about to take another step). The first frame when the foot/knee stops moving or when the foot settles into its final position is the offset. The same applies to sliding steps.
-To set the Offset, use the same rules for mechanics as with the Onset. Hit \#5-STOP and then hit ``JUMP-BACK-BY'' to go back to the timestamp that is just before the lift. Then JOG forward by hitting \#3-JOGFORWARD until you reach the Offset of that cell. If you go too far, you can JOG backward by hitting \#1-JOGBACK. You will likely have to hit the JOG keys numerous times. If you feel that you have either jumped too far back or went too far forward, hold the JOG keys to move in either direction a bit faster.
-Check the final Mom Locomotion Coded Pass
+\hypertarget{how-to-code-the-mom-locomotion-column}{%
+\subsection*{How to Code the Mom Locomotion Column}\label{how-to-code-the-mom-locomotion-column}}
+\addcontentsline{toc}{subsection}{How to Code the Mom Locomotion Column}
+
+\begin{itemize}
+\tightlist
+\item
+  Set ``JUMP-BACK-BY'' key to 1 s.
+\item
+  Enable cell highlighting on the controller (cmd + shift +F). Enable temporal mode (cmd T).
+\item
+  Watch in real time for the mom's feet and knees movement.
+\item
+  As soon as you see mom's foot/knee lift up off of the ground; hit \#5-STOP and then hit ``JUMP-BACK-BY'' to go back to the timestamp that is just before the lift. Then JOG forward by hitting \#3-JOGFORWARD until you reach the onset of that cell. If you go too far, you can JOG backward by hitting \#1-JOGBACK. If you feel that you have either jumped too far back or went too far forward, hold the JOG keys to move in either direction a bit faster. Hit ENTER to create a new cell at this Onset.
+\item
+  Now, watch in real time to see when the mom stops moving. The Offset is when the mom stops moving for at least 0.5 s (the pause has to look and feel like an actual pause when you are watching in real time; don't simply end a bout of locomotion because there was a 0.5-s pause, especially if it looks like the mom is about to take another step). The first frame when the foot/knee stops moving or when the foot settles into its final position is the offset. The same applies to sliding steps.
+\item
+  To set the Offset, use the same rules for mechanics as with the Onset. Hit \#5-STOP and then hit ``JUMP-BACK-BY'' to go back to the timestamp that is just before the lift. Then JOG forward by hitting \#3-JOGFORWARD until you reach the Offset of that cell. If you go too far, you can JOG backward by hitting \#1-JOGBACK. You will likely have to hit the JOG keys numerous times. If you feel that you have either jumped too far back or went too far forward, hold the JOG keys to move in either direction a bit faster.
+\end{itemize}
+
+\hypertarget{check-the-final-mom-locomotion-coded-pass}{%
+\subsection*{Check the final Mom Locomotion Coded Pass}\label{check-the-final-mom-locomotion-coded-pass}}
+\addcontentsline{toc}{subsection}{Check the final Mom Locomotion Coded Pass}
 
 When finished coding, run the script to check for typos in the mom locomotion column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive `l' cells that are less than 1s apart (and should be merged), and any invalid codes (any characters besides `l', `f', `.' or `x'). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
 
 \hypertarget{part-data-management-quality-assurance}{%
-\part{Data Management \& Quality Assurance}\label{part-data-management-quality-assurance}}
+\part*{Data Management \& Quality Assurance}\label{part-data-management-quality-assurance}}
+\addcontentsline{toc}{part}{Data Management \& Quality Assurance}
 
 \hypertarget{data-management}{%
 \chapter{Data management}\label{data-management}}
@@ -4233,6 +4378,20 @@ The data collection IRB is BRANY, with the involvement of SmartIRB for some site
 
 The data coding IRB is NYU.
 
-  \bibliography{book.bib,packages.bib}
+\hypertarget{appendix-appendix}{%
+\appendix}
+
+
+\hypertarget{appendix-a}{%
+\chapter{Appendix A}\label{appendix-a}}
+
+Datavyu scripts
+
+\hypertarget{appendix-b}{%
+\chapter{Appendix B}\label{appendix-b}}
+
+Equipment taken on visits
+
+  \bibliography{book.bib,play.bib,packages.bib}
 
 \end{document}

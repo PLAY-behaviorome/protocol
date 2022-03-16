@@ -2,7 +2,7 @@
 
 # Recruitment
 
-## Scheduling visit
+## Scheduling visit {#scheduling}
 
 To schedule a visit, you will be making two phone calls to each family: the initial recruiting call and the confirmation call (if the family agrees to participate). Depending on the availability of the mother, you will complete the [participant paperwork](link to questionnaires).
 
