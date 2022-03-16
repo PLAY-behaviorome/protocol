@@ -313,7 +313,7 @@ Start recording and say: <say>Please sit next to [CHILD] on this mat. I’ll giv
 
 [FAQs about House Structured Play](#faqs_structured_play)
 
-## 6. Questionnaires
+## Questionnaires
 
 [FAQs about Questionnaires](#faqs_questionnaires)
 
