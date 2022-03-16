@@ -9,7 +9,7 @@
 
 ## Child communication pass
 
-### Datavyu Communication Codes for Child
+### Datavyu Communication Codes for Child {-}
 
 There are 4 columns associated with child communication codes: id for communication (`com_id`), child vocalization column (`childvoc`), child utterance type column (`childutterancetype`), and a comments column for communication.
 
@@ -118,19 +118,19 @@ When finished coding, run the script to check for typos. The script will flag an
 
 There are 4 columns associated with mother communication  codes: id for communication, mom speech column, mom utterance type  column, and a comments column for communication.
 
-### Communication id Column {-}
+#### Communication id Column {-}
 
 **Column name**: `com_id`</br>
 **Code**: (\<lab_id\>, \<com_coder\>, \<childcom_date\>, \<childcom_mins\>,  \<relchildcom_coder\>, \<relchildcom_date\>, \<momcom_date\>, \<momcom_mins\>,  \<relmomcom_coder\>, \<relmomcom_date\> \<gest_date\>, \<gest_mins\>,  \<relgest_coder\>, \<relgest_date\>)
 
 Code the `com_id` column according to the definitions for coding the id column.
 
-### Mom communication Column {-}
+#### Mom communication Column {-}
 
 **Column name**: `momutterancetype`</br>
 **Code**: (\<directives_look_l_do_d_comm_c\>,\<prohibitions_p\>,\<provideinfo_i_maintainengage_m\>,\<read_r_sing_s\>,\<filleraffirmation_f\>,\<unintell_x_notchild_z\>)
 
-#### General Orientation {-}
+##### General Orientation {-}
 
 You will receive video files that have been transcribed by the PLAY team. These transcriptions have been divided into two columns: `childvoc` and `momspeech`. Cells in these columns include the transcribed content of each speaker’s utterances and vocalizations. For the Mom communication pass, the focus is on the `momspeech` column. Each utterance and vocalization in the `momspeech` column will have it’s own corresponding, time matched cell, in the `momutterancetype` column.
 `momspeech` column Orientation
@@ -139,7 +139,7 @@ You will receive video files that have been transcribed by the PLAY team. These 
 The code xxx in a cell in the `momspeech` column denotes instances in the transcript where part or all of a mother’s utterance were unintelligible to the transcriber. This xxx code can help you code for communication in the momutterancetype column. However, do not solely rely on the transcript contents to code for communication as the operational definitions for codes used during transcription ARE NOT the same as the definitions for communication coding.
 Some utterances include the symbol //. This indicates that an utterance had a pause, and was divided into two. Utterances with // and the following utterance go together, and should be coded as the same code.
 
-#### `momutterancetype` Orientation {-}
+##### momutterancetype` Orientation {-}
 
 In the `momutterancetype` column, coders categorize the utterances in the `momspeech` column as a specific type of speech form. Read the utterance transcribed in the `momspeech` column and categorize each utterance based on codes detailed under [Value List](#momutterancetype_value_list) below.
 Codes are mutually exclusive. The prompts/arguments in the code are designed to speed the coder through the easiest to detect and easiest to code categories (directives to look, do , and communicate, prohibitions, etc. ) down through the more nuanced and time-consuming codes. Once the proper code has been found, enter it into the prompt you are at, then code the rest as periods ”.”. For instance, if the mother didn’t direct the child to look, act or communicate, but did prohibit them from performing a certain behavior, code \<.,p,.,.,.\>.
@@ -172,9 +172,9 @@ After completing the coding pass for the entire video, coders should rewatch the
 [x = unintelligible](#unintelligible_mom)</br>
 [z = not directed to child](#not_directed_to_child)
 
-#### `momutterancetype` operational definitions {-}
+##### `momutterancetype` operational definitions {-}
 
-##### Directive to look (l) {- #directive_to_look}
+###### Directive to look (l) {- #directive_to_look}
 
 Utterances that function to direct the child’s attention, which may include naming the object or activity of attention. Utterances such as “Look”, “See what we did?”, “Look at the truck”, “Hey”, or calling the child’s name are examples of directives to look. The main function of the utterance is to encourage a child to attend to something in the environment.  
 
@@ -183,7 +183,7 @@ Additional Guidelines and Rules:
 Words like “here” or “over there” are sometimes used to direct the child’s attention, but they should only be coded if looking appears to be the ultimate goal of mothers’ utterance (e.g., instances where the mother tells the child “here” to get the child to change location are NOT attention directives; in such instances code as directive to do).
 Some utterances may include the words such as look or see, but their primary function is NOT to call the child’s attention (e.g., “Let’s see if it will fit” would be coded as action directive if the mother is suggesting inserting a shape in a shape sorter, “She looks sad” would be provide information). Mothers may say utterances such as “Pay attention to me”. If the function of the utterance is for the child to look at the mother then code as directive to look. However these are different from instances where the mother might say “Pay attention to what you’re doing”, which would count as an action directive.
 
-##### Directive to do (d) {- #directive_to_do}
+###### Directive to do (d) {- #directive_to_do}
 
 Utterances with a main function of directing the child to engage in a specific action or instructing the child about how to do something. Action directives can involve the mother prompting the child to engage in a specific behavior (e.g., play with an object, retrieve an item). Examples include “Put it there”, “Flip it over”, “Turn the page”.
 Action directives may specify information about the object or action or may contain generalized  statements (e.g., “That will fit if you press it”, “Markers go in the box”, “We pet the dog gently”), but the main function is to guide children’s actions and thus would not be categorized as provide information.  Action directives may also function to tell a child how to do something (e.g., “Walk slowly, “Play nicely”, “Be careful”, “Watch your head”). Note, the child does not need to comply with the action being prompted for an utterance to be coded as an action directive.
@@ -195,13 +195,13 @@ Additional Guidelines and Rules:
 Syntactically, action directives may be framed as questions (e.g., “Can you feed the teddy?”, “Would you go over there?”; “Should we go read?”, “Should we find the basketball?”). Action directives framed as questions function to indirectly prompt specific behaviors in children. A helpful rule of thumb is if you remove the “can you”, “would you”, “could you”, or “should we” from the utterance, what is left over is a directive for the child to act in some way.
 Directives to inform the child about a correct way to do something, such as saying “The block doesn’t go in there”, “Be gentle” would instead be coded as prohibit ‘p’. Generally, if the mom is inviting the child to do a new action, code as ‘d’, but if the mom is trying to get the child to stop and action or redirect them then ‘p’.
 
-##### Directive to communicate (c) {- #directive_to_communicate}
+###### Directive to communicate (c) {- #directive_to_communicate}
 
 Utterances that function to prompt the child to communicate or vocalize. Communication can include speaking or gesturing. Many such utterances by the mother are formulated as questions (e.g., “What color is that?”, “Can you count?”, “What letter does ball start with?”). Other examples include the mother explicitly eliciting words from the child (“Say bye-bye”). Mothers offering a choice (e.g., mother holding out two toys, mother asking if child wants to play on floor or couch) for the child to respond by selecting the object or location would also count as directives to communicate (the action choice is the intended communicative action). Sometimes moms say “Are you ready?/ Ready?”, because the mom is asking the child about their state to perform code as directive to communicate. Situations where mom is asking child if they “remember” how something works or how to act should be coded as directive to communicate.
 Mothers may also repeat a word the child says in the form of a question (e.g., child says “water” and mom responds “water?”), code as a directive to communicate. In these instances mothers are likely looking for clarification or elicit more communication from the child.
 Note, the child does not need to provide a verbal or gestural response for an utterance to be coded as elicit verbal, but often if the child DOES respond verbally or through gesture or action to the mother’s utterance then it is likely a directive to communicate.
 
-##### Prohibit/correct (p) {- #prohibit_correct}
+###### Prohibit/correct (p) {- #prohibit_correct}
 
 Utterances that function to stop, curb, slow down, or correct the child’s actions (e.g., “Stop that”, “No”, “Don’t do that”, “Stop crying”, “Don’t pick that up”, “No hitting”, “Put it down”). Prohibitive utterances often include the words no or don’t (but always pay attention to the context). Other examples can include “Be quiet”, “Leave that on the ground”, “The square doesn’t fit there”, “Hold on”, “Wait”, where the goal is to curb or correct the child’s actions. Short words such as “Uhuh” or “Mnm mnm” count as prohibitions/corrections.
 Additional Guidelines and Rules:
@@ -210,7 +210,7 @@ Sometimes mothers use prohibitions/corrections in indirect ways (e.g. “We don�
 Prohibitions can be phrased as questions as another indirect way of stopping or correcting child action (e.g., “Can you stop hitting that?”, “Could you quit crying?”, “Would you not eat that?”). Whenever the context and function of a question is to stop the child from engaging in a behavior, the utterance should be coded as prohibition.
 Utterances where mother corrects the child’s speech or gesture while using “no” (e.g., “No that’s not a triangle” in response to the child calling a circle a triangle, “No that isn’t dad”, “That’s not blue” if the child points to green after the mother asks “Where is the blue one?”) are coded as provide information ‘i’ utterances, and do not count as a prohibition.
 
-##### Provide information (i) {- #provide_info}
+###### Provide information (i) {- #provide_info}
 
 Utterances that function to provide information about objects and activities or contain explicit referential information. These can include labeling objects (“That’s your bottle”, “The blocks fell”), narrating actions by the child or by the mother (“You’re eating”, “I’m cooking”), or commenting on states or emotions (“He’s sad”, “I’m tired”, “You’re cranky” , “You hurt your foot”).  Utterances that include comparisons (e.g., “Looks like a square”), reference a past experience related to the object or event (“It looks like the one from grandma’s house”) or describe objects or events (“The little one”), should be coded as provide information. Sometimes mothers will provide information as questions (“Is that your baba?”). Usually these rhetorical questions are about objects or events the mother is naming to provide information to the child.
 A general rule of thumb for deciding between a code of ‘i’ or maintenance/engagement ‘m’: if an utterance includes a noun, adjective, verb, or location (and does not fall under a directive or prohibit code), it likely will fall under the provide information code. Examples include “You want a bigger train?”, “How about this one here?”)
@@ -224,7 +224,7 @@ When a mother recasts or repeats a child’s speech but adds additional informat
 Utterances that contain the word “no” but are meant to offer correct information (e.g., “No that’s not a triangle”, “No that isn’t dad”, “he’s not blue”) count as provide information ‘i’ rather than prohibition.
 Utterances where the mother is counting “One, two, three…” (e.g., during hide and seek, while counting blocks) should be coded as “i”. Utterances where the mother is saying letters of the alphabet (“a@ b@ c@”) but NOT singing them fall under provide information.
 
-##### Maintenance and engagement (m) {- #maintenance_engagement}
+###### Maintenance and engagement (m) {- #maintenance_engagement}
 
 An utterance that functions to continue the flow of conversation or as a nonspecific response to a child’s vocalization or action. Often maintenance and engagement utterances serve to further comment on the ongoing events after another type of utterance (after providing information or directive to communicate). For example, mother says “You’re gently moving it” (coded as ‘i’), then she says “I noticed” (would be coded as ‘m’). Maintenance and engagement utterances also include instances when the mother repeats what the child said without adding more information (e.g., repeating the child’s utterance; child says “hug” mother repeats and says “hug”) EXCEPT in situations where the mother’s repetition of the word is intended for the child to repeat the word as well (code as ‘c’).
 
@@ -235,17 +235,17 @@ Sometimes mothers will discuss events that have already happened (e.g., past ten
 Sound effects alone (e.g., “choo choo”, “mwah”, “woof woof”, “boo”), without any additional communicative information should be coded as maintenance and engagement. This includes sound effects made in the context of pretend play (e.g., mom says “mmm” as if to imitate someone enjoying eating). If an utterance with a sound effect has additional information (e.g., “The train goes choo choo”) then code as provide information.
 Instances where the mother says the child’s name (or a pet name such as “sweetie, honey, sweetheart, etc.”) and nothing else, and the utterance does not fall under a directive or prohibition, code as maintenance.
 
-##### Reading (r) {- #reading}
+###### Reading (r) {- #reading}
 
 An utterance in which mother reads from a book or other source, thus the sequence of words is not self-generated/created. If based off of mothers tone/intonation and content you can tell the mother is not reading verbaitum, do not code as reading. If the mother uses some of the text verbatim but adds additional words, code as provide information (“Look the fish is saying “Bloop bloop”).
 If you are unsure if the mother is reading, and the pages of the book are visible on the video, try to see if you can identify the text on the book and if it matches what the mother is saying.
 
-##### Singing (s) {- #singing}
+###### Singing (s) {- #singing}
 
 An utterance in which the mother is singing from memory or along to a song. If the intonation of the voice is singing for any utterance, and the utterance does not fall under any prior codes (e.g., directives, prohibitions, etc.), code as singing. If the mother uses some of the words from the song verbatim but adds additional words, code as provide information (“GIVE EXAMPLE”)
 Singing the alphabet counts towards the singing code, but if mother is saying letters without singing, count as provide information.
 
-##### Filler or affirmation (f) {- #filler_affirmation}
+###### Filler or affirmation (f) {- #filler_affirmation}
 
 An utterance in which mother acknowledges the child’s behavior, uses words as conversational fillers, or provides a short affirmation. For instance, when the mother says “There you go” when the child successfully completes a puzzle, or when she says “Yeah”, or “Uh huh”. A list of common conversation fillers is [provided below](#filler_words).
 Incomplete thoughts by the mother that are never finished, and cannot be coded due to lack of further detail can be coded as filler/affirmation.
@@ -254,19 +254,19 @@ Any utterance that contains an affirmation plus the child’s name or a pet name
  
 Instances where the mother repeats a filler/affirmation that the child said should be coded as maintenance NOT as filler.
 
-##### Unintelligible (x) {- #unintelligible_mom}
+###### Unintelligible (x) {- #unintelligible_mom}
 
 An utterance was not intelligible to the communication coder.
 Transcription content in the momutterancetype column will use “xxx” for words or full utterances where the transcriber could not decipher the content of the utterance (e.g., “Why don’t you xxx?”). Double check these instances when coding in the momutterancetype column. Even if the original transcription indicates that a word or full utterance is unintelligible (“xxx”), sometimes coder can detect if the utterance was an action directive, prohibition, etc. based on intonation, other words, or other aspects of the utterance and video context.
 The unintelligible code is NOT used as an “I’m not sure” code. If a coder is unsure of a code, they must use their best judgement and process of elimination to narrow down the code.
 
-##### Not directed to child (z) {- #not_directed_to_child}
+###### Not directed to child (z) {- #not_directed_to_child}
 
 This code is used when the mother is speaking to a voice assistant (e.g., Alexa, Google Home, etc), on the phone, or to a pet. These would count as words that would be overheard by the child, but are not intended as speech directed to the child.
 If the mother is narrating her actions or talking about ongoing things in a performative way with the child this does not count as ‘z’. Usually this is the mom talking to the child by talking to herself about what she is doing, or maybe talking for the camera and so codes will usually follow the rules for other codes ( ‘i’ or ‘m’).
 HOWEVER, situations where mom is talking to herself because of something that happened (e.g., mom dropped something and swears, stubs her toe, etc.) that isn't child directed speech/there is a change in tone, can be code as ‘z’.
 
-#### `momutterancetype` How to Code
+### How to Code {-}
 
 Set the JUMP-BACK-BY key for 2 s.
 Press control and t to space out the cells on the Datavyu spreadsheet temporally. This will align the `momspeech` cells with their corresponding momutterancetype cells and will make coding easier.
@@ -276,7 +276,7 @@ Play in real time to code each utterance, which is coded in mutually exclusive c
 Run the “add_periods_momutterancetype.rb” periodically to add periods to empty arguments in cells the coder has already coded.
 You can use the content in the `momspeech` column to help guide you as you code in the momutterancetype column. However, do not rely on the `momspeech` column alone. Listen to the audio and watch the video when you move into each cell to code.
 
-#### List of Filler and Affirmation Phrases and Words {- #filler_words}
+### List of Filler and Affirmation Phrases and Words {- #filler_words}
 
 Filler words and affirmations are coded as ‘f’ for the `momutterancetype` communication pass. These are words that provide limited information beyond simple agreement or are used commonly to keep the flow of conversation going. When used as a filler or affirmation they are usually said alone with no other words. Note that sometimes these words or phrases are part of longer utterances that should be coded as another code. (“Oh thats your dolly”, “What color is the duck?”, “Play nice”. Just because an utterance includes one of these words it does not automatically mean the utterance should be coded as a filler/affirmation.
 

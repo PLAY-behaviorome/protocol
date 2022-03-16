@@ -6,8 +6,8 @@ bookdown::gitbook:
         <li><a href="./">PLAY Project Protocol</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
     download: ["pdf", "epub"]
+    edit: https://github.com/PLAY-behaviorome/protocol/edit/main/%s
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

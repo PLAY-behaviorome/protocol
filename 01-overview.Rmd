@@ -95,19 +95,9 @@ When that permission is granted the videos and related data will be shared with 
 
 This is a video of the full PLAY home visit protocol that is available to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. You must be logged in to [Databrary](http://databrary.org) to view it. 
 
-<div class="videobuttons">
-  <img src="img/icon-video.png" width="25">
-  <button size="xs" type="button" data-toggle="collapse" data-target="#fullvideohomevisit">
-Full-length video of home visit
-  </button>
-</div>
-
-
-<div id="fullvideohomevisit" class="collapse" aria-expanded="false" style="height: 0px;">
-  <video width="100%" controls="" preload="none">
+<video width="70%" controls="" preload="none">
     <source src="https://nyu.databrary.org/slot/43224/7821438,11460201/asset/223780/download?inline=true" type="video/mp4"> Your browser does not support html5 video.
-  </video>
-</div>
+</video>
 
 _NOTE: This participant was not the only child in the home, so would not meet inclusion criteria for PLAY._
 

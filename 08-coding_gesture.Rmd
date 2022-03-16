@@ -5,29 +5,31 @@
 1. Code mom and child in one pass according to definitions in Datavyu Gesture Codes
 2. Run Ruby script to check for typos
 
-## Datavyu Gesture Codes for Child
+## Child gesture pass
+
+### Datavyu Gesture Codes for Child {-}
 
 There are 4 columns associated with gesture  codes: id for communication, gesture column, and a comments column for gesture.
 
-### Communication id Column
+#### Communication id Column {-}
 
 **Column name**: `com_id`</br>
 **Code**: (\<lab_id\>, \<com_coder\>, \<childcom_date\>, \<childcom_mins\>,  \<relchildcom_coder\>, \<relchildcom_date\>, \<momcom_date\>, \<momcom_mins\>,  \<relmomcom_coder\>, \<relmomcom_date\> \<gest_date\>, \<gest_mins\>,  \<relgest_coder\>, \<relgest_date\>)
 Code the com_id_column according to the definitions for coding the id column.
 
-### Gesture Column {-}
+#### Gesture Column {-}
 
 **Column name**: `gesture`</br>
 **Code**: (\<source_mc\>, \<gesture_psic\>)
 
-### `gesture` General Orientation {-}
+##### `gesture` General Orientation {-}
 
 Gestures are segmented, durative, event-based behaviors. Watch the video paying attention to the communicative gestures used by the parent and the child. When coding for gesture, focus on the mother’s or child’s hands.
 Code mother and child gesture simultaneously in one pass. Only onsets are coded to expedite coding.
 Gesturing by either mom or child to the investigator/experimenter (or anyone else in the room) should not be coded. However, gestures to a pet SHOULD be coded. The following should NOT be coded as gestures: any gestures based on head or shoulder movement alone, tapping child to get his/her attention; pushing an object away; hugging and kissing; one partner moving the other’s hand (e.g., to initiate contact, like proximity seeking).
 Making the transcribe column visible during gesture coding can help with deciphering ambiguous gestures and to reorient yourself after pausing or moving forward or backwards in the video.
 
-### `gesture` Value List {- #gesture_value_list}
+##### `gesture` Value List {- #gesture_value_list}
 
 \<source_mc\>
 [m = mom](#mom)</br>
@@ -39,17 +41,17 @@ Making the transcribe column visible during gesture coding can help with deciphe
 [i = iconic gesture](#iconic_gesture)</br>
 [c = conventional gesture](#conventional_gesture)</br>
 
-### `gesture` Operational Definitions {-}
+##### `gesture` Operational Definitions {-}
 
-#### Mom (m) {- #mom}
+###### Mom (m) {- #mom}
 
 Code ‘m’ if the mom is the source of the gesture.
 
-#### Child (c) {- #child}
+###### Child (c) {- #child}
 
 Code ‘c’ if the child is the source of the gesture.
 
-#### Point (p) {- #point}
+###### Point (p) {- #point}
 
 Code ‘p’ when the child or mom extends a single finger to indicate reference to objects, people, events, or locations in the environment. The pointing finger can be any finger (does not need to be the index finger).
 Repetitive points should be coded as separate gesture events. (e.g., every time there is a pause in between new instances of pointing, or pointing to different objects/events in sequence). Each instance of a new referent, or when a point goes away or changes direction is considered a new instance of pointing. A new referent is usually a new object but could also be a different part of an object (e.g., mom points to a button a busy box and then mom points to a hole on that same busy box) or a different picture or feature of an object (e.g., mom points to one animal on a page of a book and then points to a different animal on the same page of the book). Frequent/successive tapping to the same object/event should not be considered separate instances of pointing.
@@ -57,7 +59,7 @@ In order to code a point you must be able to see some part of their finger. If t
 If the mom or child extends a finger to manipulate an object (e.g., mom extends index finger to press a button on a book, touching a sensory part of a book), DO NOT code as point.
 Onset is the frame when the finger is fully extended in space toward a referent, or when the point finger is extended and makes contact with the object (whichever happens first).
 
-### Show/offer/ bid {- #show_offer_bid}
+###### Show/offer/ bid {- #show_offer_bid}
 
 Code ‘s’ when the child or mom holds up an object off of a surface/in the air to present it as if to say: “look at this” (i.e., show) or “do you want this” (i.e., offer) or “I want you to give me that” (i.e., bid). Mom or child must be holding up a moveable object unattached to mom or child (e.g., body parts do not count). Shows/offers/bids by the mother should occur towards the child (e.g., tilting an object towards the child, holding in the air forward towards the child) and must involve a movement toward the child, not involved in bringing the object closer to grasp, but is about communicating intent. NOTE: Just pausing before the child/mother takes an object isn’t enough to count as an offer. Similarly, shows/offers/bids by the child should also occur towards their mother.  
 Repetitive instances of showing/offering/bidding with an object should be coded as separate events (e.g., every time there is a pause in between new instances of showing/offering/bidding). To count as a new gesture, the mother’s or the child’s hand or arm needs to return to a neutral position down to their side or lowered. Successive actions from a single movement where the arm is up (and the arm never goes down) should be code as one bout.
@@ -65,18 +67,19 @@ For shows specifically, we are only interested in events where the object itself
 Do not count as show: instances of mom or child reorienting or repositioning an object (especially common with books) or changing the object's position to get a better view after it’s already been shown. We only want to count big exaggerated manual actions with objects a show.
 Onset is the frame when the object is fully held up or out to show it. If there is something obscuring the showing bout, but other cues in the video indicate a show is happening, and there is one frame where you can see part of the hand during the gesture (not before or after), anchor the onset around where you see the hand. If this is not possible (e.g., there are no frames where you see part of the showing hand) do not code as there is no reliable way to code the show onset.
 
-#### Iconic Gesture (i) {- #iconic_gesture}
+###### Iconic Gesture (i) {- #iconic_gesture}
 
 Code ‘i’ when the child or mom engages in an iconic gesture. They are called iconic because they represent an object, idea, or action that can’t easily be referenced with a deictic (point/show) or conventional gesture. The movement of these gestures usually calls to mind something about the nature of the object, idea or action being referenced. For example, you could move your arms back and forth to represent running, or you could trace a square in the air with your finger, flap your arms as if flying, or use your fingers to count or “show” a number. Instances of pretend play with an objects (e.g., holding up an object to pretend it is a phone) do not count as a gesture.
 Onset is the frame when the child or mom has clearly begun the iconic gesture, and the coder can clearly identify this as gesture but does fall into the conventional gesture category (see <c>). Repetitive instances of an iconic gesture should be coded as separate gesture events (e.g., every time there is a pause in between new instances of an iconic gesture).
-Conventional Gesture (c)
+
+###### Conventional Gesture (c) {- #conventional_gesture}
 
 Code ‘c’ when the child or mom engages in a conventional gesture. Conventional gestures are culturally-agreed-upon hand with a specific meaning, like moving the finger to lips to indicate “be quiet”, wagging the finger to say “no”, waving “hello”, facing the palm upwards and motioning the fingers to indicate “come here”.
 If a gesture is conventional, you should be able to understand its meaning just by seeing it in isolation, without knowing any of the context. Some additional examples of conventional gestures include: waving, clapping, flipping arms out to side to indicate “I don’t know’ or “where is it”, sit down gesture (pats ground), pickup gesture (child holds up arms to be picked up or mom extends arms out to encourage the child to move/come closer to pick them up), thumbs up, hug me (hold arms out asking for hug), puts hand on head to signal exasperation, hand on chin to think, etc.
 Conventional gestures must include the hands and cannot be head or shoulders only (e.g., shaking the head “no” or “yes”, shrugging the shoulders DO NOT count as conventional gestures for this code). We chose to remove these non manual gestures to improve coder attention and reliability, but could be coded in a separate pass.
-Onset is the frame when the child or mom has clearly begun the conventional gesture, and the coder can clearly identify this as gesture but does fall into the iconic gesture category (see <i>). Repetitive instances of a conventional gesture should be coded as separate gesture events (e.g., every time there is a pause in between new instances of a conventional gesture).
+Onset is the frame when the child or mom has clearly begun the conventional gesture, and the coder can clearly identify this as gesture but does fall into the iconic gesture category (see \<i\>). Repetitive instances of a conventional gesture should be coded as separate gesture events (e.g., every time there is a pause in between new instances of a conventional gesture).
 
-### How to Code
+### How to Code {-}
 
 - Set “JUMP-BACK-BY” key to 2 s.
 - Gestures are best coded with the volume low or muted so that the language content does not confound the coding process.
@@ -85,6 +88,10 @@ Watch in 1x speed until either mom or child gestures. Focus on the mom’s and i
 - When the coder identifies a mom or child gesturing, jump back 2 seconds and play the video again at ½ speed until the frame the gesture is clearly underway is found. Hit the = key (equal sign) to insert a point cell; so the current video frame becomes the onset and the offset.
 - Type ‘m’ or ‘c’ to indicate whether mom of the child was the <source> of the gesture. Hit the TAB key to advance the cursor to <gesture>, then type ‘p’, ‘s’, ‘i’, or ‘c’ to indicate the type of gesture.
 
-### Check the Final Coded Child Communication Pass
+### Check the Final Coded Child Communication Pass {-}
 
 When finished coding, run the script to check for typos. The script will flag any occurrence of typos that arise from an error due to any invalid codes (any characters besides ‘m’, ‘c’, ‘p’, ‘s’, ‘i’). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
+
+## Mom gesture pass
+
+TBD

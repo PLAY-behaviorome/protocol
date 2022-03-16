@@ -2,4 +2,8 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
+  label:
+    fig: "Figure "
+    tab: "Table "
 output_dir: "docs"
+repo: https://github.com/PLAY-behaviorome/protocol

@@ -8,7 +8,7 @@
 
 ## Child object interaction pass
 
-### Datavyu Object Interaction Codes for Child
+### Datavyu Object Interaction Codes for Child {-}
 
 There are 3 columns associated with child object interaction codes: id for child object, child object column, and a comments column for the child object coding.
 
@@ -24,7 +24,7 @@ Code the `obj_id_child` column according to the definitions for coding the id co
 **Column name**: `childobj`</br>
 **Code**: (\<obj_o\>)
 
-##### `childobj` General Orientation
+##### `childobj` General Orientation {-}
 
 This code captures the times that the child is manually engaged with an object by manipulating or moving it. Coders score only when object events occur, not when they don't occur. This is an event code, where gray spaces between cells indicate times when the child is not engaged with an object.
 
@@ -90,7 +90,7 @@ Use this column as a space to write questions, comments, or messages about child
 
 Onset & Offset: set accordingly so that the comments are next to the relevant event.
 
-#### `childobj` How to Code the Child Object Interaction Column {-}
+### `childobj` How to Code the Child Object Interaction Column {-}
 
 - Set “JUMP-BACK-BY” key to 3 s.
 - Enable cell highlighting (cmd + shift +F). Enable temporal mode (cmd T).
@@ -98,12 +98,12 @@ Onset & Offset: set accordingly so that the comments are next to the relevant ev
 - Continue watching in real time for the next object bout. If the child is carrying an object while crawling or walking around, you can watch faster by #6-SHUTTLING at 2x speed to find the end of the object engagement.
 - To check whether a 3-s pause has occurred between object engagements, go to the offset of the previous object cell and watch until you reach the next instance of ‘o’. Then, hit the ‘JUMP-BACK-BY’ key (which should be set for 3 s) and check to see if the previous cell becomes highlighted. If it does, then the two cells are < 3 s apart and should be combined into one bout of ‘o’ by copying the offset of the final cell, pasting it as the offset in the first cell, and  deleting the extra cell(s).
 
-#### Check the final Child Object Interaction Coded Pass {-}
+### Check the final Child Object Interaction Coded Pass {-}
 
 When finished coding, run the script to check for typos in the child object column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive ‘o’ cells that are less than 3s appart (and should be merged), and any invalid codes (any characters besides ‘o’ or ‘.’). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
 
 ## Mom object interaction pass
-### Datavyu Object Codes for Mom
+### Datavyu Object Codes for Mom {-}
 
 There are 3 columns associated with mom object interaction codes: id for mom object, mom object column, and comments column for the mom object coding.
 

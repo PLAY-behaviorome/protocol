@@ -1,4 +1,4 @@
-# (PART) Data Management & Quality Assurance {-}
+# (PART\*) Data Management & Quality Assurance {-}
 
 # Data management
 
