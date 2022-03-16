@@ -21,7 +21,7 @@ This document is a web-book that describes in detail how the PLAY project team i
 
 ## Themes
 
-The Play & Learning Across a Year (PLAY) Project has three major priorities.
+The Play & Learning Across a Year (PLAY) Project has three major priorities or themes.
 
 ### Behavior {- #behavior}
 

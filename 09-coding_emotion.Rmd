@@ -4,44 +4,45 @@
 
 1. Choose whether to code child or mom emotion pass first
 2. Score each pass according to definitions in Emotion Codes.
-3. Child emotion pass
 
-## Datavyu Emotion Codes for Child
+## Child emotion pass
+
+### Datavyu Emotion Codes for Child
 
 There are 3 columns associated with child emotion codes: id for child emotion, child emotion column, and a comments column for the child emotion coding.
 
-### Child emotion id Column {-}
+#### Child emotion id Column {-}
 
 **Column name**: `emo_id_child`</br>
 **Code**: (\<lab_id\>, \<childemo_coder\>, \<childemo_date\>, \<childemo_mins\>,  \<relchildemo_coder\>, \<relchildemo_date\>)
 
 Code the emo_id_child column according to the definitions for coding the id column.
 
-### Child emotion Column {-}
+#### Child emotion Column {-}
 
 **Column name**: `childemo`</br>
 **Code**: (\<emotion_pn\>)
 
-#### `childemo` General Orientation {-}
+##### `childemo` General Orientation {-}
 
 This code captures the times that the child is clearly displaying positive or negative emotion through facial expressions. Times when the child is in neutral emotion are not marked. Bouts of emotion as scored as events, where the grey spaces between emotion events mean the child is neutral or emotion is unclear. Coders also mark times as “missing” when the child’s head is not visible on camera and there is no possibility that emotion could be coded. Emotion may never be coded based solely on vocal affect. That is, when the child’s face is clearly not visible, do not code positive or negative emotion.
 Coders are watching/tagging the duration of each positive or negative emotion event by marking onset/offset times. To determine emotion, coders are watching the child’s face, not vocal affect. However, coders should keep audio on while coding in order to help differentiate talking from bouts of facial affect. To determine if emotion is not codeable/missing, coders are watching for when the head fully moves out of the camera view.
 After completing the coding pass for the entire video, coders should rewatch the first 5 minutes in order to recheck their codes and ensure that they did not miss any positive or negative emotion bouts. Coders must do this because each child expresses positive and negative emotions differently, which coders become more attuned to after extensive experience coding for that child. Therefore, coders may have inaccurately coded earlier parts of the video.
 
-#### `childemo` Value List {-}
+##### `childemo` Value List {-}
 
 [‘p’ = positive emotion](#child_pos_emo)</br>
 [‘n’ = negative emotion](#child_neg_emo)</br>
 [‘.’ = child’s head is not visible on the video](#child_head_not_visible)</br>
 
-#### `childemo` Operational Definitions {-}
+##### `childemo` Operational Definitions {-}
 
-##### Positive (p) {- #child_pos_emo}
+###### Positive (p) {- #child_pos_emo}
 
 Code ‘p’ when the child is clearly displaying positive emotion (e.g., smiling). Code based off of the face and not off of the voice. Look for raising of the corners of the mouth, grinning and showing the teeth, along with closing of the eyes because of the raised cheeks. If there is any doubt that the child is showing positive emotion, then do not begin the code.
 Positive emotion cannot be coded based on the voice alone. So positive emotion could not be scored when the child’s face is not visible. If there is a mismatch between facial expression and vocal affect (eg. child’s face is neutral but sounds like they are laughing), always defer to the facial expression (eg. do not code this as positive emotion bout).
 
-##### Negative (n) {- #child_neg_emo}
+###### Negative (n) {- #child_neg_emo}
 
 Code ‘n’ when the child is clearly displaying negative emotion (e.g., frowning, wincing). Code based off of the face and not off of the voice (unless in cases where the face is not visible). Look for lowering of the corners of the mouth, stretching and tautness of the lips, along with closing of the eyes because of furrowed brow. If there is any doubt that the child is showing negative emotion, then do not begin the code.
 Negative emotion cannot be coded based on the voice alone, therefore. So negative emotion should never be scored when the child’s face is not visible. If there is a mismatch between facial expression and vocal affect (eg. child’s face is neutral but sounds like they are whining), always defer to the facial expression (eg. do not code this as negative emotion bout).
@@ -82,47 +83,49 @@ If the child’s head was ‘missing’ and then reappeared for less than 5 fram
 
 When finished coding, run the script to check for typos in the child emotion column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive ‘p’ cells or consecutive ‘n’ that are less than 5 frames apart (and should be merged), and any invalid codes (any characters besides ‘p’, ‘n’, or ‘.’). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.
 
-## Datavyu emotion Codes for Mom 
+## Mom emotion pass
+
+### Datavyu emotion Codes for Mom 
 
 There are 3 columns associated with mom emotion codes: id for mom emotion, mom emotion column, and a comments column for the mom emotion coding.
 
-### Mom emotion id Column {-}
+#### Mom emotion id Column {-}
 
 **Column name**: `emo_id_mom`</br>
 **Code**: (\<lab_id\>, \<momemo_coder\>, \<momemo_date\>, \<momemo_mins\>,  \<relmomemo_coder\>, \<relmomemo_date\>)
 
 Code the emo_id_mom column according to the definitions for coding the id column.
 
-### Mom emotion Column {-}
+#### Mom emotion Column {-}
 
 **Column name**: `momemo`</br>
 **Code**: (\<emotion_pn\>)
 
-#### General Orientation {-}
+##### General Orientation {-}
 
 This code captures the times that the mom is clearly displaying positive or negative emotion through facial expressions. Times when the mom is in neutral emotion are not marked. Bouts of emotion as scored as events, where the grey spaces between emotion events mean the mom is neutral or emotion is unclear. Coders also mark times as “missing” when the mom’s head is not visible on camera and there is no possibility that emotion could be coded. Emotion may never be coded based solely on vocal affect. That is, when the mom’s face is clearly not clearly visible, do not code positive or negative emotion.
 Coders are watching/tagging the duration of each positive or negative emotion event by marking onset/offset times. To determine emotion, coders are watching the mom’s face, not vocal affect. However, coders should keep audio on while coding in order to help differentiate talking from bouts of facial affect. To determine if emotion is not codeable/missing, coders are watching for when the head fully moves out of the camera view.
 After completing the coding pass for the entire video, coders should rewatch the first 5 minutes in order to recheck their codes and ensure that they did not miss any positive or negative emotion bouts. Coders must do this because each mom expresses positive and negative emotions differently, which coders become more attuned to after extensive experience coding for that mom. Therefore, coders may have inaccurately coded earlier parts of the video.
 
-#### `momemo` Value List {- #mom_emo_value_list}
+##### `momemo` Value List {- #mom_emo_value_list}
 
 [‘p’ = positive emotion](#mom_pos_emo)
 [‘n’ = negative emotion](#mom_neg_emo)
 [‘.’ = mom’s head is completely not visible](#mom_head_not_visible)
 
-#### `momemo`Operational Definitions {-}
+##### `momemo`Operational Definitions {-}
 
-##### Positive (p) {- #mom_pos_emo}
+###### Positive (p) {- #mom_pos_emo}
 
 Code ‘p’ when the mom is clearly displaying positive emotion (e.g., smiling). Code based off of the face and not off of the voice. Look for raising of the corners of the mouth, grinning and showing the teeth, along with closing of the eyes because of the raised cheeks. If there is any doubt that the mom is showing positive emotion, then do not begin the code.
 Positive emotion cannot be coded based on the voice alone. So positive emotion could not be scored when the mom’s face is absolutely not visible. If there is a mismatch between facial expression and vocal affect (eg. mom’s face is neutral but sounds like they are laughing), always defer to the facial expression (eg. do not code this as positive emotion bout).
 
-##### Negative (n) {- #mom_neg_emo}
+###### Negative (n) {- #mom_neg_emo}
 
 Code ‘n’ when the mom is clearly displaying negative emotion (e.g., frowning, wincing). Code based off of the face and not off of the voice (unless in cases where the face is not visible). Look for lowering of the corners of the mouth, stretching and tautness of the lips, along with closing of the eyes because of furrowed brow. If there is any doubt that the mom is showing negative emotion, then do not begin the code.
 Negative emotion cannot be coded based on the voice alone, therefore. So negative emotion should never be scored when the mom’s face is not visible. If there is a mismatch between facial expression and vocal affect (eg. mom’s face is neutral but sounds like they are whining), always defer to the facial expression (eg. do not code this as negative emotion bout).
  
-###### Setting the Onset & Offset of emotion:
+##### Setting the Onset & Offset of emotion:
 
 Onset of an emotion event is the first frame the mom is clearly displaying positive/negative emotion through the face. When coding ‘n’ from voice during missing time, set the onset when the negative voice starts and end the ‘n’ code when the voice ends. The coder is looking to identify when any lay person would absolutely agree the mom is showing positive/negative emotion based on the face.
 There is no criterion for how long an emotion event should be. It is easy for the coder to mark the first frame when they see clear positive/negative emotion, even if it ends a few frames later. Events that are later deemed “too brief” could be removed via scripting.
@@ -141,7 +144,7 @@ Onset is the first frame in which the coder clearly cannot see any part of the h
 Offset is the first frame in which the coder can see the head again.
 If the mom’s head was ‘missing’ and then reappeared for less than 5 frames, don’t stop the ‘.’ code to mark those few frames.
 
-#### How to Code the Mom Emotion Column
+### How to Code the Mom Emotion Column
 
 - Make sure that the audio is on while coding mom emotion.
 - Set “JUMP-BACK-BY” key to 1 s.
@@ -152,6 +155,6 @@ If the mom’s head was ‘missing’ and then reappeared for less than 5 frames
 - Hit #1-JOGBACK and #3-JOGFORWARD to tag the frame the mom’s face is clearly not positive or not negative (returned to neutral) or the head is visible again to code emotion from.
 - Then return to real time (1x speed) with #8-PLAY to watch for the next event.
 
-#### Check the final coded pass
+### Check the final coded pass
 
 When finished coding, run the script to check for typos in the mom emotion column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive ‘p’ cells or consecutive ‘n’ that are less than 5 frames apart (and should be merged), and any invalid codes (any characters besides ‘p’, ‘n’, or ‘.’). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.

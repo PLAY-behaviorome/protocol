@@ -25,7 +25,7 @@ At the end of every home visit (for each participant), you will upload the follo
 <br>&nbsp; - post-visit notes
 <br>
 
-## 1. Arrival introduction
+## Arrival introduction
 
 _**Note**: Experimenters should always act in a professional and respectful manner when interacting with the participants and while in the home. Do not make comments or react to anything in front of the mom to make her feel uncomfortable. All families should feel that their participation in the study is meaningful._
 
@@ -37,7 +37,7 @@ Say: <say>Hi, my name is [NAME] and I’m visiting from [INSTITUTION]. Thanks fo
 - Do not leave the tripod and other equipment lying around.
 - Do not engage or warm up to the baby. Just need to make mom feel comfortable.
 
-## 2. Consent to participate
+## Consent to participate
 
 Experimenter should explain the study and ask mom to sign the consent.
 
@@ -56,9 +56,9 @@ Obtain consent - Spanish
 </video>
 </div>
 
-## 3. One-hour natural play video & noise measurement  
+## One-hour natural play video & noise measurement  
 
-### 3.1 Decibel Meter
+### Decibel Meter
 
 Say: <say>We would like to measure the environmental noise levels. Is there a good place where I can put this measuring device where your child cannot reach? The tablet only measures the environmental noise levels and not what you’re actually saying.</say>
 <br> &emsp; &emsp; <say-es>Queremos medir los niveles de ruido ambiental. ¿Hay algún lugar donde pueda colocar este dispositivo donde su hijo/a no lo pueda alcanzar? La tableta solo mide el ruido ambiental y no lo que usted está diciendo.</say-es>
@@ -69,7 +69,7 @@ Say: <say>We would like to measure the environmental noise levels. Is there a go
 - The microphone should be facing towards the room (e.g., away from walls) and propped up on the tablet case so that it is **not** lying flat against the surface of the space.
 <br><br>
 
-### 3.2 One-Hour Natural Play Video
+### One-Hour Natural Play Video
 
 General Recording Guidelines
 
@@ -193,7 +193,7 @@ Shoes
 
 Then stop video recording on the camera. Now that the camera is off, name the audio file with the site name and subject number (e.g. NYU_001) and close the “Audio Tool” app.
 
-## 4. Video House Walk-through while measuring rooms
+## Video House Walk-through while measuring rooms
 
 Start recording and say: <say>Now, we would like to see the space that [CHILD] gets to explore throughout the day. Please walk me through your home as I follow with a camera, and take measurements of the spaces. As we walk around, please show me where you keep any objects — toys, books, sippy cups, anything like that — that [CHILD] might interact with regularly. Please show me where you keep his/her clothes and shoes to give us an idea of the kinds of things he/she wears.</say>
 <br> &emsp; &emsp; <say-es>Ahora nos gustaría ver el espacio que [CHILD] tiene para explorar durante el día. Por favor guíeme por su hogar mientras la sigo con una cámara y tomo medidas de los espacios. Mientras recorremos su hogar, por favor muéstreme donde guarda cualquier objeto- juguetes, libros, vasitos, cualquiera de las cosas con que [CHILD] interactúa regularmente. Por favor muéstreme donde guarda la ropa y los zapatos de él/ella para tener una idea de las cosas que él/ella viste.</say-es>
@@ -267,9 +267,9 @@ Steps:
 14. When all rooms are recorded, walk back to the entrance of the home and then stop recording.
 <br><br>
 
-[FAQs about House Walk-through](faq-collection.html)
+[FAQs about House Walk-through](#faqs_walkthrough)
 
-## 5. Five-minute Structured Mother-Child Play
+## Five-minute Structured Mother-Child Play
 
 <div class="videobuttons">
 <img src="img/icon-video.png" width="25">
@@ -311,22 +311,20 @@ Start recording and say: <say>Please sit next to [CHILD] on this mat. I’ll giv
 * After 5 minutes, say “Great job! We can now move on to the questionnaires.”
 * If the child is still playing with the toys after 5 minutes, let the child play and continue on to the questionnaires.
 
-[FAQs about House Structured Play](faq-collection.html)
+[FAQs about House Structured Play](#faqs_structured_play)
 
 ## 6. Questionnaires
 
-<br><br>
+[FAQs about Questionnaires](#faqs_questionnaires)
 
-[FAQs about Questionnaires](faq-collection.html)
-
-## 7. Visit wrap-up
+## Visit wrap-up
 
  - Give mom the payment
  - Ensure that mom has copies of the consent and Databrary forms
  - Collect and pack all equipment and paperwork from the house
  - Thank mom for letting us come to her home!
 
-## 8. Full PLAY home visit protocol - example
+## Full PLAY home visit protocol - example
 
 Here is a video of the full PLAY home visit protocol.  
 
@@ -346,46 +344,3 @@ _NOTE: This participant was not the only child in the home, so would not meet in
 
 
 <hr class="play">
-
-## Post Visit notes, Clean up, and Upload 
-
-After each visit, when you arrive back at your lab, complete all the following steps on the day you collected the data or on the very next day.
-
-1. Submit home questionnaires.
-    - Open the completed questionnaire on the tablet and hit the submit button. Tablet must be connected to wifi.   
-2. Complete and submit PLAY Post-Visit Notes   
-    - https://ee.kobotoolbox.org/x/#2cAYQt3z   
-3. Upload all videos from the visit to Databrary onto your university's PLAY volume. <br>
-Use the naming convention for each of the four videos. Use your 5 letter code for SITE. Use 3 digits for subject number (###).
-    - Name the session as: <b>PLAY_SITE_###</b>  
-    - Name the Natural Play video as: <b>PLAY_SITE_###_NaturalPlay</b>  
-    - Name the House Walkthrough video as: <b>PLAY_SITE_###_HouseWalkthrough</b>  
-    - Name the Structured Play video as: <b>PLAY_SITE_###_StructuredPlay</b>  
-    - Name the Questionnaires video as: <b>PLAY_SITE_###_Questionnaires</b>  
-4. Select appropriate release level for session in Databrary.
-    - https://www.databrary.org/resources/guide/investigators/release/release-levels.html
-5. Make sure that all fields on Databrary are filled out. <br>
-If visit is excluded mark as:
-    - Pilot
-    - Atypical
-    - Out of age range
-    - Cancelled (if visit was cancelled)
-    - Experimental error (equipment malfunction)
-    - Incomplete
-6. Submit decibel data.
-    - Please access the decibel app file on your tablet (located in the "AudioTool" folder in the File Manager). Select the decibel file from this home visit session. 
-    - Select "Share with Save to Drive", navigate to the audio file folder for your site (e.g., ‘audio_NYUNI’) and drop your file in that location.
-    - Name the file as follows: <b>PLAY_SITE_###</b>
-    - <img src="img/audiotool.png" width="600px">
-
-
-7. Fill out form to submit session for quality assurance. https://forms.gle/dyqtsAxx3D8LJuTr8.
-8. Clean equipment.
-    - Wash all toys and equipment thoroughly.
-    - Wipe down yoga mat.
-    - Once videos have been uploaded, delete all videos from SD card.
-    - Make sure to put away all equipment to have ready for a next visit.
-
-
-
-

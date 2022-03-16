@@ -1,0 +1,12 @@
+# (PART) Data Management & Quality Assurance {-}
+
+# Data management
+
+## Coding workflow
+
+## KoBoToolbox workflow
+
+Survey data collected via the KoBoToolbox tablet application can be accessed by PLAY staff via the KoBoToolbox API.
+
+Workflows describing the download, cleaning, and aggregation of survey data can be found in a separate repository: <https://github.com/PLAY-behaviorome/KoBoToolbox/>. 
+

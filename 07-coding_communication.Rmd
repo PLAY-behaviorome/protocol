@@ -5,37 +5,39 @@
 1. Decide whether to code mother or child first
 2. Code each pass according to definitions in Datavyu Communication Codes
 3. Run Ruby script to check for typos
-4. Child communication pass
 
-## Datavyu Communication Codes for Child
+
+## Child communication pass
+
+### Datavyu Communication Codes for Child
 
 There are 4 columns associated with child communication codes: id for communication (`com_id`), child vocalization column (`childvoc`), child utterance type column (`childutterancetype`), and a comments column for communication.
 
-### Communication id (`com_id`) column {-}
+#### Communication id (`com_id`) column {-}
 
 **Column name**: `com_id`</br>
 **Code**: (\<lab_id\\>, \<com_coder\>, \<childcom_date\>, \<childcom_mins\>,  \<relchildcom_coder\>, \<relchildcom_date\>, \<momcom_date\>, \<momcom_mins\>,  \<relmomcom_coder\>, \<relmomcom_date\>)
 
 Code the `com_id` column according to the [definitions for coding](#id_col) the id column.
 
-### Child communication (`childutterancetype`) column {-}
-
-**Column name**: `childutterancetype`</br>
-**Code**: (\<language_pw\>, \<langlike_bv\>, \<crylaughgrunt_clg\>, \<unintell_x\>)
-
 #### `childvoc` general orientation {-}
 
 You will receive video files that have been transcribed by the PLAY team. These transcriptions have been divided into two columns: `childvoc` and `momspeech`. Cells in these columns include the transcribed content of each speaker’s utterances and vocalizations. For the Child communication pass, the focus is on the `childvoc` column. Each utterance and vocalization in the `childvoc` column will have it’s own corresponding, time matched cell, in the `childutterancetype` column.
 
-#### `childvoc` column orientation {-}
+###### `childvoc` column orientation {-}
 
 A `childvoc` cell can contain full words or codes that denote vocalizations by the child that are not words.
-The code ‘b’ in a cell in the childvoc column denotes instances in the transcript where the child emitted a babble or a vowel-consonant sound, or a vocalization where the transcriber was unsure if the child produced a word or a babble and was conservative and coded the utterance as a babble.
-The code ‘v’ in a cell in the childvoc column denotes instances in the transcript where the child produced a vocalization such as crying, screaming, grunting, cooing, consonant alone sounds, or an audible gasp.
-The code xxx in a cell in the childvoc column denotes instances in the transcript where parts of a child’s utterance were unintelligible or due to ambient noise or the child whispering the transcriber could not make out the child’s vocalization.
+The code ‘b’ in a cell in the `childvoc` column denotes instances in the transcript where the child emitted a babble or a vowel-consonant sound, or a vocalization where the transcriber was unsure if the child produced a word or a babble and was conservative and coded the utterance as a babble.
+The code ‘v’ in a cell in the `childvoc` column denotes instances in the transcript where the child produced a vocalization such as crying, screaming, grunting, cooing, consonant alone sounds, or an audible gasp.
+The code 'xxx' in a cell in the `childvoc` column denotes instances in the transcript where parts of a child’s utterance were unintelligible or due to ambient noise or the child whispering the transcriber could not make out the child’s vocalization.
 These codes can help you code for communication in the `childutterancetype` column. However, do not solely rely on the transcript contents to code for communication as the operational definitions for codes used during transcription ARE NOT the same as the definitions for communication coding.
 
-#### `childutterancetype` Orientation {-}
+#### Child communication (`childutterancetype`) column {-}
+
+**Column name**: `childutterancetype`</br>
+**Code**: (\<language_pw\>, \<langlike_bv\>, \<crylaughgrunt_clg\>, \<unintell_x\>)
+
+##### `childutterancetype` Orientation {-}
 
 In the `childutterancetype` column, coders categorize the utterances in the `childvoc` column as a specific type of speech form. Read the utterance transcribed in the `childvoc` column and categorize each utterance based on codes detailed under [Value List](#childutterancetype_val_list) below.
 
@@ -43,7 +45,7 @@ Codes are mutually exclusive. The prompts/arguments in the code are designed to 
 Do not rely solely on the transcript.. Always watch and listen to the video as you read the transcript because tone, context, and other factors can help when coding.
 After completing the coding pass for the entire video, coders should rewatch the first 5 minutes in order to recheck their codes to ensure that they did not miscode any vocalizations. Coders must do this because there are individual differences in children’s vocalizations and intonation, which coders become more attuned to after extensive experience coding for that child.
 
-#### `childutterancetype` value list {- #childutterancetype_val_list}
+##### `childutterancetype` value list {- #childutterancetype_val_list}
 
 \<language_pw\></br>
 [p =  phrase or proto sentence](#phrase_proto_sentence)</br>
@@ -61,45 +63,45 @@ After completing the coding pass for the entire video, coders should rewatch the
 \<unintell-x\></br>
 [x = unintelligible](#unintelligible_child)
 
-#### `childutterancetype` Operational Definitions {-}
+##### `childutterancetype` Operational Definitions {-}
 
-##### Phrase or proto sentence (p) {- #phrase_proto_sentence}
+###### Phrase or proto sentence (p) {- #phrase_proto_sentence}
 
 An utterance in which the infant combined two or more words in a single phrase. These can take many forms to express many relations between words, such as actor-action (e.g. “Daddy run”), actor- object of action (e.g., “Baby spoon”), possession (e.g., “Mommy shoe”, “my turn”), recurrence request (e.g. “More cookie”), noun-adjective (e.g., “big yard”). Generally, utterances that relay more than one verbal concept can be coded as a ‘p’. For example “uhoh down” includes two concepts where uhoh is one concept and down is another concept.
 The following are exceptions where an utterance may have more than 1 word, but are not considered a phrase: a proper noun where a name is composed of two words (e.g., “Cookie Monster”), a common expression that is composed of two words (e.g., “clean up”, “bye bye”, “oh no”, “uhoh”), an article and a noun (e.g., “a drawing”), or any utterance where the child repeats the same word more than once (e.g., “mama mama mama”). The child making an utterance of items in a list (“and truck” “and car”) as separate utterances would not count as a phrase, but using “and” to mean “get ready” or something of the like would count as a phrase (for example, “and go”).  It is important to make this distinction, as simply counting any string of two or more words as a phrase or proto sentence would not capture the complexity of the child’s utterance.
 
-##### Word (w) {- #word}
+###### Word (w) {- #word}
 
 An utterance in which the speaker utters a single word, such as “dolly” or “ball.” By a single word we mean that the child relays only a single concept (e.g., yum yum).
 In some instances, an utterance may appear to have multiple words but refer to a single concept, and would still be coded as ‘w’. Examples include “Cookie Monster”, “bye bye”, or any utterance where the child repeats the same word (e.g., “mama mama mama”). Animal sounds (e.g., mooing, roaring, barking) or other sound effects by the child should be coded as ‘w’.
 
-##### Babble (b) {- #babble}
+###### Babble (b) {- #babble}
 
 An utterance in which the infant utters a consonant and a vowel together, but it does not form a word. The syllables may be repeated, such as “ba-ba-ba”, or “ga-ga-ga”, or they can be a single utterance such as “ba” or “ga”. In the `childvoc` column, cells marked as “b” may contain a babble. However, always listen to the audio to confirm.
 If an utterance only has consonant sounds, code as a grunt (see definition below).
 
-##### Vowel (v) {- #vowel}
+###### Vowel (v) {- #vowel}
 
 An utterance in which the speaker utters a vowel sound alone (e.g, /a/, /i:/) such as cooing (e.g. “ooo”). It is a babble like sound, but without consonants. The vowel sound can be repeated or uttered only once. In the `childvoc` column, cells marked as “b” may contain a vowel. However, always listen to the audio to confirm.
 
-##### Cry (c) {- #cry}
+###### Cry (c) {- #cry}
 
 An utterance that is composed of a non-linguistic vocal sound indicating distress, fussing, yelling or whining. If there is any doubt whether an utterance is a cry or a grunt, be conservative and code as a grunt. Crying is not every negative vocalization. If the child is expressing a negative vocalization but producing a babble, word, or phrase/proto sentence, then the utterance should be marked as a babble, word, or phrase/proto sentence respectively. The goal is to capture the vocal category of crying because it does not fall into any of the other coding categories, but it is easy to recognize.
 
-##### Laugh (l) {- #laugh}
+###### Laugh (l) {- #laugh}
 
 An utterance that is composed of a non-linguistic vocal sound indicating joy or finding something comical. A laugh is not every positive vocalization. If the child is expressing positive vocalization but producing a guttural sound, babble, word, or phrase/proto sentence then the utterance should be marker as a babble, a word, or a phrase/proto sentence respectively.  The goal is to capture the vocal category of laughter because it does not fall into any of the other coding categories, but it is easy to recognize. If coder can’t tell the difference between a cry and a laugh while the baby is turned away, try to identify if the baby is distressed. If the baby is not distressed code as laugh.
 
-##### Grunt/Guttural (g) {- #grunt_guttural}
+###### Grunt/Guttural (g) {- #grunt_guttural}
 
 An utterance in which the child produces a low, short, inarticulate, guttural sound often used to express effort or exertion. Vegetative sounds, such as coughing and sneezing will not transcribed and do not fall under this code. Consonant sounds alone (with no accompanying vowel sound) that are not a cry or a laugh should be marked as grunt as well. Grunt is a catchall category for any vocalization that does not fall into another code – not babble or vowel and not laugh or cry. If you are between one code and a grunt, consider coding as grunt.
 
-##### Unintelligible (x) {- #unintelligible_child}
+###### Unintelligible (x) {- #unintelligible_child}
 
 Either what the child said was not intelligible to the coder, or after listening the coder was not able to discern what the infant said even with the transcript to properly code it. Transcription content in the `childvoc` column will use “xxx” for words within utterances where the transcriber could not decipher a word or the child’s utterance was completely inaudible. Double check these instances when coding for in the child utterance type column. Even if the original transcription indicates that a word is unintelligible (“xxx”), sometimes you as a language coder may be able to tell that the unintelligible sound was a word because of the child’s intonation etc. and can code the utterance type as a “p” or “w”.
 Protophrase and word codes supersede unintelligible codes (e.g. baby says “throw ball xxx would be coded as ‘p’, “ball xxx” would be coded as ‘w’ unless it is clear the ‘xxx’ definitely refers to a word that is difficult to identify).
 
-#### `childutterancetype` How to Code {-}
+### How to Code {-}
 
 - Set the “JUMP-BACK-BY” to 2 s.
 - Press control and t to space out the cells on the Datavyu spreadsheet temporally. This will align the `childvoc` cells with their corresponding `childutterancetype` cells and will make coding easier.

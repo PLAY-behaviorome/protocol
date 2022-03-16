@@ -1,0 +1,17 @@
+# (PART) Ethics {-}
+
+The PLAY Project involves more than 30 data collection sites in the United States and an additional number of data coding and analysis sites across North America, as such managing research ethics reviews and approvals is a major effort.
+
+# IRB
+
+The project team has separate IRB entities involved in the data collection and data coding portions of the project.
+
+## Collection
+
+The data collection IRB is BRANY, with the involvement of SmartIRB for some sites.
+
+## Coding
+
+The data coding IRB is NYU.
+
+

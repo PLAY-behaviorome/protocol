@@ -1,6 +1,6 @@
 # Project Overview {#overview}
 
-To answer questions about infant behaviours in their natural environments, the PLAY project will collect, code, and share 900 hours of video collected in the homes of children at 12, 18, and 24 months of age drawn from 30 sites across North America.  
+To answer questions about infant behaviors in their natural environments, the PLAY project will collect, code, and share 900 hours of video collected in the homes of children at 12, 18, and 24 months of age drawn from 30 sites across North America.  
 
 Materials (videos, questionnaires, links to Databrary volumes) for the PLAY project are included in this site, where we document data collection protocols, workflows, coding strategies, and operational definitions.  
 
@@ -8,38 +8,36 @@ Below is the project-wide workflow. The PLAY team will provide training, quality
 <br>
 <br>
 
-```{r overview_fig, echo=FALSE, fig.cap="PLAY Project Workflow"}
+```{r overview_fig, echo=FALSE, out.width="70%"}
 knitr::include_graphics("img/overview-project.png")
 ```
 
-<div class="row">
-<div class="column-1third">
-<br>
-<h4> &nbsp;&nbsp; <u>Direct Links</u> </h3>
-<br>
-<a href="recruitment.html#participant_recruitment"> <img src="img/link-recruitment.png"> </a>  
-<a href="collection.html#home_visit"> <img src="img/link-collection.png"> </a>  
-<a href="collection.html#clean_up_and_upload"> <img src="img/link-upload.png"> </a>  
-<br><br>
-<a href="coding.html#gesture_pass"> <img src="img/link-gesture.png"> </a>  
-<a href="coding.html#locomotion_passes"> <img src="img/link-locomotion.png"> </a>  
-<a href="coding.html#emotion_passes"> <img src="img/link-emotion.png"> </a>  
-<a href="coding.html#object_interaction_passes"> <img src="img/link-object.png"> </a>  
-<a href="coding.html#communication_passes"> <img src="img/link-communication.png"> </a>  
-</div>
-</div>
-<br>
-<br>
+<!-- <div class="row"> -->
+<!-- <div class="column-1third"> -->
+<!-- <br> -->
+<!-- <h4> &nbsp;&nbsp; <u>Direct Links</u> </h3> -->
+<!-- <br> -->
+<!-- <a href="recruitment.html#participant_recruitment"> <img src="img/link-recruitment.png"> </a>   -->
+<!-- <a href="collection.html#home_visit"> <img src="img/link-collection.png"> </a>   -->
+<!-- <a href="collection.html#clean_up_and_upload"> <img src="img/link-upload.png"> </a>   -->
+<!-- <br><br> -->
+<!-- <a href="coding.html#gesture_pass"> <img src="img/link-gesture.png"> </a>   -->
+<!-- <a href="coding.html#locomotion_passes"> <img src="img/link-locomotion.png"> </a>   -->
+<!-- <a href="coding.html#emotion_passes"> <img src="img/link-emotion.png"> </a>   -->
+<!-- <a href="coding.html#object_interaction_passes"> <img src="img/link-object.png"> </a>   -->
+<!-- <a href="coding.html#communication_passes"> <img src="img/link-communication.png"> </a>   -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- <br> -->
+<!-- <br> -->
 
 ## Participants {#participants}
 
-The collaborating sites in PLAY perform a variety of roles (see [people](people.html) for details). Each site that performs a **collecting** role is pre-assigned to complete all of the collecting functions (see in blue below). This page contains detailed help for the recruitment of participants. Click here for information about the <a href="collection.html"><font color="#5B9BD5"><b> data collection </b></font></a> and <a href="collection.html#clean_up_and_upload"><font color="#5B9BD5"><b> data upload </b></font></a> processes.
+The collaborating sites in PLAY perform a variety of roles (see [people](#people) for details). Each site that performs a **collecting** role is pre-assigned to complete all of the collecting functions (see in blue below). This page contains detailed help for the recruitment of participants. Click here for information about the <a href="collection.html"><font color="#5B9BD5"><b> data collection </b></font></a> and <a href="collection.html#clean_up_and_upload"><font color="#5B9BD5"><b> data upload </b></font></a> processes.
 
 PLAY aims to set new standards for conducting open, transparent, and reproducible behavioral science by i) publishing the protocol, and ii) making extensive use of video exemplars to demonstrate phenomena and illustrate behavioral codes. For confidentiality reasons, access to video exemplars is restricted to researchers with authorized access to [Databrary](http://databrary.org). To register for access, visit <http://databrary.org/register>.
 
 Please ensure that you are  [**currently logged in at Databrary**](https://nyu.databrary.org/user/login) to view embedded video examples in this webpage and gain access to phone and home questionnaires.  
-
-<br>
 
 ## Sampling
 
@@ -103,6 +101,8 @@ This is a video of the full PLAY home visit protocol that is available to author
 Full-length video of home visit
   </button>
 </div>
+
+
 <div id="fullvideohomevisit" class="collapse" aria-expanded="false" style="height: 0px;">
   <video width="100%" controls="" preload="none">
     <source src="https://nyu.databrary.org/slot/43224/7821438,11460201/asset/223780/download?inline=true" type="video/mp4"> Your browser does not support html5 video.
