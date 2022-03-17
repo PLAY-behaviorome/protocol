@@ -78,7 +78,7 @@
 
 \title{Play \& Learning Across a Year (PLAY): The Protocol}
 \author{Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore}
-\date{2022-03-16}
+\date{2022-03-17}
 
 \begin{document}
 \maketitle
@@ -4235,6 +4235,39 @@ When finished coding, run the script to check for typos in the mom locomotion co
 Survey data collected via the KoBoToolbox tablet application can be accessed by PLAY staff via the KoBoToolbox API.
 
 Workflows describing the download, cleaning, and aggregation of survey data can be found in a separate repository: \url{https://github.com/PLAY-behaviorome/KoBoToolbox/}.
+
+The general philosophy is to separate steps and save more intermediate files than seems optimal. This is to reduce the possibility of data loss.
+
+\hypertarget{challenges-to-surmount}{%
+\subsection{Challenges to surmount}\label{challenges-to-surmount}}
+
+There are huge advantages to using a tool like KoBoToolbox, but some design constraints with PLAY have made the export process somewhat complicated. We chose to combine a set of separate survey questions into one omnibus KoBoToolbox survey or `form'. However, there are different questions and instructions depending on whether the mother is an English speaker, bilingual but dominant in English, or bilingual but dominant in Spanish. This means we need separate survey forms for each case. In addition, the questions asked about 12-month-olds in the MB-CDI differ from those asked about 18- and 24-month-olds. This adds another dimension so that we now need 9 separate KoBoToolbox forms. Finally, the survey questions have evolved over time, so that we have two versions that have been deployed in the field, with a third in-process. At the present time, this means that there are 2 version x 3 age groups x 3 language groups or 18 separate forms to download and process from KoBoToolbox.
+
+The file names are reasonably orderly, so that we can search for strings like `English' and `2021' in processing them.
+
+\hypertarget{summary-of-processing-steps}{%
+\subsection{Summary of processing steps}\label{summary-of-processing-steps}}
+
+Here are the main steps:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Download XLSX-formatted files from KoBoToolbox.org via the API. Save the downloaded files in a local directory that is \textbf{not} synched to GitHub. See \url{https://play-behaviorome.github.io/kobotoolbox/01-download-from-KoBo.html} for more details.
+\item
+  Import the XLSX files and export them as CSVs to a separate local directory that is \textbf{not} synched to GitHub. See \url{https://play-behaviorome.github.io/kobotoolbox/02-save_raw_csvs.html} for more details.
+\item
+  Import the raw CSV files and split them into separate files, one for the MB-CDI questions and a second for all other non-MBCDI questions. In addition, we remove identifying information like names, exact dates, and contact information before exporting these files. See \url{https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html} for more details.
+\item
+  Create aggregate files that combine non-MB-CDI data across the forms, age groups, and language groups. We will consult with the PLAY language expert group about how to do additional post-processing and cleaning of the MB-CDI data.
+\end{enumerate}
+
+\hypertarget{data-sharing}{%
+\subsection{Data sharing}\label{data-sharing}}
+
+Our plan is to copy the aggregate CSV to a materials folder on the shared Databrary volume.
+
+In the future, we will export session-level data files to the session folders for each participant.
 
 \hypertarget{quality-assurance}{%
 \chapter{Quality assurance}\label{quality-assurance}}

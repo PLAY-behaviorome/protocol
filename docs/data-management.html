@@ -24,7 +24,7 @@
 <meta name="author" content="Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore" />
 
 
-<meta name="date" content="2022-03-16" />
+<meta name="date" content="2022-03-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -272,7 +272,12 @@ div.csl-indent {
 <li class="chapter" data-level="12" data-path="data-management.html"><a href="data-management.html"><i class="fa fa-check"></i><b>12</b> Data management</a>
 <ul>
 <li class="chapter" data-level="12.1" data-path="data-management.html"><a href="data-management.html#coding-workflow"><i class="fa fa-check"></i><b>12.1</b> Coding workflow</a></li>
-<li class="chapter" data-level="12.2" data-path="data-management.html"><a href="data-management.html#kobotoolbox-workflow"><i class="fa fa-check"></i><b>12.2</b> KoBoToolbox workflow</a></li>
+<li class="chapter" data-level="12.2" data-path="data-management.html"><a href="data-management.html#kobotoolbox-workflow"><i class="fa fa-check"></i><b>12.2</b> KoBoToolbox workflow</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="data-management.html"><a href="data-management.html#challenges-to-surmount"><i class="fa fa-check"></i><b>12.2.1</b> Challenges to surmount</a></li>
+<li class="chapter" data-level="12.2.2" data-path="data-management.html"><a href="data-management.html#summary-of-processing-steps"><i class="fa fa-check"></i><b>12.2.2</b> Summary of processing steps</a></li>
+<li class="chapter" data-level="12.2.3" data-path="data-management.html"><a href="data-management.html#data-sharing"><i class="fa fa-check"></i><b>12.2.3</b> Data sharing</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="quality-assurance.html"><a href="quality-assurance.html"><i class="fa fa-check"></i><b>13</b> Quality assurance</a>
 <ul>
@@ -327,7 +332,28 @@ div.csl-indent {
 <h2><span class="header-section-number">12.2</span> KoBoToolbox workflow</h2>
 <p>Survey data collected via the KoBoToolbox tablet application can be accessed by PLAY staff via the KoBoToolbox API.</p>
 <p>Workflows describing the download, cleaning, and aggregation of survey data can be found in a separate repository: <a href="https://github.com/PLAY-behaviorome/KoBoToolbox/" class="uri">https://github.com/PLAY-behaviorome/KoBoToolbox/</a>.</p>
+<p>The general philosophy is to separate steps and save more intermediate files than seems optimal. This is to reduce the possibility of data loss.</p>
+<div id="challenges-to-surmount" class="section level3" number="12.2.1">
+<h3><span class="header-section-number">12.2.1</span> Challenges to surmount</h3>
+<p>There are huge advantages to using a tool like KoBoToolbox, but some design constraints with PLAY have made the export process somewhat complicated. We chose to combine a set of separate survey questions into one omnibus KoBoToolbox survey or ‘form’. However, there are different questions and instructions depending on whether the mother is an English speaker, bilingual but dominant in English, or bilingual but dominant in Spanish. This means we need separate survey forms for each case. In addition, the questions asked about 12-month-olds in the MB-CDI differ from those asked about 18- and 24-month-olds. This adds another dimension so that we now need 9 separate KoBoToolbox forms. Finally, the survey questions have evolved over time, so that we have two versions that have been deployed in the field, with a third in-process. At the present time, this means that there are 2 version x 3 age groups x 3 language groups or 18 separate forms to download and process from KoBoToolbox.</p>
+<p>The file names are reasonably orderly, so that we can search for strings like ‘English’ and ‘2021’ in processing them.</p>
+</div>
+<div id="summary-of-processing-steps" class="section level3" number="12.2.2">
+<h3><span class="header-section-number">12.2.2</span> Summary of processing steps</h3>
+<p>Here are the main steps:</p>
+<ol style="list-style-type: decimal">
+<li><p>Download XLSX-formatted files from KoBoToolbox.org via the API. Save the downloaded files in a local directory that is <strong>not</strong> synched to GitHub. See <a href="https://play-behaviorome.github.io/kobotoolbox/01-download-from-KoBo.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/01-download-from-KoBo.html</a> for more details.</p></li>
+<li><p>Import the XLSX files and export them as CSVs to a separate local directory that is <strong>not</strong> synched to GitHub. See <a href="https://play-behaviorome.github.io/kobotoolbox/02-save_raw_csvs.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/02-save_raw_csvs.html</a> for more details.</p></li>
+<li><p>Import the raw CSV files and split them into separate files, one for the MB-CDI questions and a second for all other non-MBCDI questions. In addition, we remove identifying information like names, exact dates, and contact information before exporting these files. See <a href="https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html</a> for more details.</p></li>
+<li><p>Create aggregate files that combine non-MB-CDI data across the forms, age groups, and language groups. We will consult with the PLAY language expert group about how to do additional post-processing and cleaning of the MB-CDI data.</p></li>
+</ol>
+</div>
+<div id="data-sharing" class="section level3" number="12.2.3">
+<h3><span class="header-section-number">12.2.3</span> Data sharing</h3>
+<p>Our plan is to copy the aggregate CSV to a materials folder on the shared Databrary volume.</p>
+<p>In the future, we will export session-level data files to the session folders for each participant.</p>
 
+</div>
 </div>
 </div>
             </section>
