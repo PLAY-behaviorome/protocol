@@ -5,8 +5,7 @@ To answer questions about infant behaviors in their natural environments, the PL
 Materials (videos, questionnaires, links to Databrary volumes) for the PLAY project are included in this site, where we document data collection protocols, workflows, coding strategies, and operational definitions.  
 
 Below is the project-wide workflow. The PLAY team will provide training, quality assurance, transcription, reliability coding, and collating data for the final PLAY database. The collaborating sites will perform data collection and various levels of data coding.
-<br>
-<br>
+
 
 ```{r overview_fig, echo=FALSE, out.width="70%"}
 knitr::include_graphics("img/overview-project.png")

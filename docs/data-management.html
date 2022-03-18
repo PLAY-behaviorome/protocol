@@ -24,7 +24,7 @@
 <meta name="author" content="Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore" />
 
 
-<meta name="date" content="2022-03-17" />
+<meta name="date" content="2022-03-18" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -300,8 +300,8 @@ div.csl-indent {
 <li class="chapter" data-level="14.2" data-path="irb.html"><a href="irb.html#coding"><i class="fa fa-check"></i><b>14.2</b> Coding</a></li>
 </ul></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="appendix-a.html"><a href="appendix-a.html"><i class="fa fa-check"></i><b>A</b> Appendix A</a></li>
-<li class="chapter" data-level="B" data-path="appendix-b.html"><a href="appendix-b.html"><i class="fa fa-check"></i><b>B</b> Appendix B</a></li>
+<li class="chapter" data-level="A" data-path="datavyu-scripts.html"><a href="datavyu-scripts.html"><i class="fa fa-check"></i><b>A</b> Datavyu scripts</a></li>
+<li class="chapter" data-level="B" data-path="equipment-used-on-home-visits.html"><a href="equipment-used-on-home-visits.html"><i class="fa fa-check"></i><b>B</b> Equipment used on home visits</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -327,16 +327,24 @@ div.csl-indent {
 <h1><span class="header-section-number">Chapter 12</span> Data management</h1>
 <div id="coding-workflow" class="section level2" number="12.1">
 <h2><span class="header-section-number">12.1</span> Coding workflow</h2>
+<p>The following figure summarizes the data management and quality assurance steps involved in the PLAY project.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="img/overview-project.png" alt="PLAY workflow" width="70%" />
+<p class="caption">
+Figure 12.1: PLAY workflow
+</p>
+</div>
 </div>
 <div id="kobotoolbox-workflow" class="section level2" number="12.2">
 <h2><span class="header-section-number">12.2</span> KoBoToolbox workflow</h2>
+<p>The KoBoToolbox workflow is not (yet) represented in the figure, but it may be thought of as a part of the green ‘Merge coded data’ box.</p>
 <p>Survey data collected via the KoBoToolbox tablet application can be accessed by PLAY staff via the KoBoToolbox API.</p>
 <p>Workflows describing the download, cleaning, and aggregation of survey data can be found in a separate repository: <a href="https://github.com/PLAY-behaviorome/KoBoToolbox/" class="uri">https://github.com/PLAY-behaviorome/KoBoToolbox/</a>.</p>
 <p>The general philosophy is to separate steps and save more intermediate files than seems optimal. This is to reduce the possibility of data loss.</p>
 <div id="challenges-to-surmount" class="section level3" number="12.2.1">
 <h3><span class="header-section-number">12.2.1</span> Challenges to surmount</h3>
 <p>There are huge advantages to using a tool like KoBoToolbox, but some design constraints with PLAY have made the export process somewhat complicated. We chose to combine a set of separate survey questions into one omnibus KoBoToolbox survey or ‘form’. However, there are different questions and instructions depending on whether the mother is an English speaker, bilingual but dominant in English, or bilingual but dominant in Spanish. This means we need separate survey forms for each case. In addition, the questions asked about 12-month-olds in the MB-CDI differ from those asked about 18- and 24-month-olds. This adds another dimension so that we now need 9 separate KoBoToolbox forms. Finally, the survey questions have evolved over time, so that we have two versions that have been deployed in the field, with a third in-process. At the present time, this means that there are 2 version x 3 age groups x 3 language groups or 18 separate forms to download and process from KoBoToolbox.</p>
-<p>The file names are reasonably orderly, so that we can search for strings like ‘English’ and ‘2021’ in processing them.</p>
+<p>The form/file names are reasonably orderly, so that we can search for strings like ‘English’ and ‘2021’ in processing them.</p>
 </div>
 <div id="summary-of-processing-steps" class="section level3" number="12.2.2">
 <h3><span class="header-section-number">12.2.2</span> Summary of processing steps</h3>
@@ -344,9 +352,12 @@ div.csl-indent {
 <ol style="list-style-type: decimal">
 <li><p>Download XLSX-formatted files from KoBoToolbox.org via the API. Save the downloaded files in a local directory that is <strong>not</strong> synched to GitHub. See <a href="https://play-behaviorome.github.io/kobotoolbox/01-download-from-KoBo.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/01-download-from-KoBo.html</a> for more details.</p></li>
 <li><p>Import the XLSX files and export them as CSVs to a separate local directory that is <strong>not</strong> synched to GitHub. See <a href="https://play-behaviorome.github.io/kobotoolbox/02-save_raw_csvs.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/02-save_raw_csvs.html</a> for more details.</p></li>
-<li><p>Import the raw CSV files and split them into separate files, one for the MB-CDI questions and a second for all other non-MBCDI questions. In addition, we remove identifying information like names, exact dates, and contact information before exporting these files. See <a href="https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html</a> for more details.</p></li>
-<li><p>Create aggregate files that combine non-MB-CDI data across the forms, age groups, and language groups. We will consult with the PLAY language expert group about how to do additional post-processing and cleaning of the MB-CDI data.</p></li>
+<li><p>Import the raw CSV files and split them into separate files, one for the MB-CDI questions and a second for all other non-MBCDI questions. <a href="https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html</a> for more details.</p></li>
+<li><p>Remove identifying information like names, exact dates, and contact information before exporting these files. See <a href="https://play-behaviorome.github.io/kobotoolbox/04-remove_identifiers.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/04-remove_identifiers.html</a>.</p></li>
+<li><p>Carry out preliminary ‘light’ quality assurance (QA) on the data files. See <a href="https://play-behaviorome.github.io/kobotoolbox/05-conduct_initial_qa.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/05-conduct_initial_qa.html</a>.</p></li>
+<li><p>Create aggregate files that combine non-MB-CDI data across the forms, age groups, and language groups. We will consult with the PLAY language expert group about how to do additional post-processing and cleaning of the MB-CDI data. This step also (optionally) merges the data from KoBoToolbox with that stored about the associated Databrary sessions. See <a href="https://play-behaviorome.github.io/kobotoolbox/06-make_aggregate_csv.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/06-make_aggregate_csv.html</a>.</p></li>
 </ol>
+<p>Once these steps are completed, it is possible to render a document that provides simple visualizations of the survey data, as in <a href="https://play-behaviorome.github.io/kobotoolbox/release_1.0_survey_report.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/release_1.0_survey_report.html</a>. As of 2022-03-18, this report contains information that links sessions to specific data collection sites, so the team is not sharing this publicly.</p>
 </div>
 <div id="data-sharing" class="section level3" number="12.2.3">
 <h3><span class="header-section-number">12.2.3</span> Data sharing</h3>

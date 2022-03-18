@@ -1,10 +1,10 @@
 # (APPENDIX) Appendix {-} 
 
-# Appendix A
+# Datavyu scripts
 
 Datavyu scripts
 
-# Appendix B
+# Equipment used on home visits
 
 Equipment taken on visits
 
