@@ -171,6 +171,7 @@ Say <say>You can go anywhere inside your home. We  ask that you not go outside, 
 </video>
 
 **Example 2**
+
 <video width="70%" controls="" preload="auto">
 <source src="https://nyu.databrary.org/volume/876/slot/35422/edit?asset=219703" type="video/mp4"> Your browser does not support html5 video.
 </video>
@@ -182,7 +183,7 @@ Say <say>You can go anywhere inside your home. We  ask that you not go outside, 
 
 **Example**
 
-<video width="100%" controls="" preload="auto">
+<video width="70% controls="" preload="auto">
 <source src="https://nyu.databrary.org/volume/876/slot/35422/edit?asset=219699" type="video/mp4"> Your browser does not support html5 video.
 </video>
 
