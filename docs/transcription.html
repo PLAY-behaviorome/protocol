@@ -224,11 +224,9 @@ We want to avoid transcribing language that would not occur if the experimenter 
 <h2>
 <span class="header-section-number">6.5</span> Transcription Codes<a class="anchor" aria-label="anchor" href="#transcription-codes"><i class="fas fa-link"></i></a>
 </h2>
-<p><strong><source></source></strong></p>
-<ul>
-<li>Source is the section of the transcription column where the source of the utterance is tagged in each cell. For PLAY, only mother and child utterances are tagged.</li>
-<li>Sources are tagged using the quick keys function on Datavyu.</li>
-</ul>
+<p><strong><source></source></strong>
+- Source is the section of the transcription column where the source of the utterance is tagged in each cell. For PLAY, only mother and child utterances are tagged.
+- Sources are tagged using the quick keys function on Datavyu.</p>
 <p><strong>m = mother</strong></p>
 <ul>
 <li>Code ‘m’ if the mother is the source of the utterance. This code will be filled in using quick keys.</li>
@@ -245,11 +243,9 @@ We want to avoid transcribing language that would not occur if the experimenter 
 <h3>
 <span class="header-section-number">6.5.1</span> Rules for Transcribing the Content of Utterances<a class="anchor" aria-label="anchor" href="#rules-for-transcribing-the-content-of-utterances"><i class="fas fa-link"></i></a>
 </h3>
-<p>If the words in an utterance can be heard clearly then…</p>
-<ul>
-<li>Type what was said in each utterance in the content section of the transcription column.</li>
-<li>Place separate utterances in separate cells.</li>
-</ul>
+<p>If the words in an utterance can be heard clearly then…
+- Type what was said in each utterance in the content section of the transcription column.
+- Place separate utterances in separate cells.</p>
 <p>If one or more of the words in an utterance cannot be heard or made out ….</p>
 <ul>
 <li>If child or mother uses an utterance that contains more than one word, and you can only make out part of the utterance, transcribe what can be deciphered and fill in ‘xxx’ for the unintelligible parts (e.g., mother says “give me” followed by an unintelligible word, code “give me ‘xxx’).</li>
@@ -527,22 +523,25 @@ Run the addtime_transcribe.rb script. This will add 250 ms to the offset, which 
 <li>Turn off Highlight and Focus Mode (SHIFT-CMND-F).</li>
 <li>Save the file with CMND-S.</li>
 <li>Now turn Quick Keys (SHIFT-CMND-K), find [+] the onset of the last cell transcribed, JUMP BACK BY 2s, and revert back to the strategy for tagging utterances.
-Repeat until all utterances in the video were tagged and transcribed.
-Transcription Clean Up</li>
+Repeat until all utterances in the video were tagged and transcribed.</li>
 </ul>
-<p>After you are done transcribing, you must run clean up scripts on your transcription file to ensure that there are no mistakes or typos. DO NOT skip this process, because it will slow down the process of quality assurance.</p>
 </div>
-<div id="script-1-convert-utterances-to-point-cells" class="section level3" number="6.6.3">
+<div id="transcription-clean-up" class="section level3" number="6.6.3">
 <h3>
-<span class="header-section-number">6.6.3</span> Script #1: Convert Utterances to Point Cells<a class="anchor" aria-label="anchor" href="#script-1-convert-utterances-to-point-cells"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6.6.3</span> Transcription Clean Up<a class="anchor" aria-label="anchor" href="#transcription-clean-up"><i class="fas fa-link"></i></a>
 </h3>
+<p>After you are done transcribing, you must run clean up scripts on your transcription file to ensure that there are no mistakes or typos. DO NOT skip this process, because it will slow down the process of quality assurance.</p>
+<div id="script-1-convert-utterances-to-point-cells" class="section level4" number="6.6.3.1">
+<h4>
+<span class="header-section-number">6.6.3.1</span> Script #1: Convert Utterances to Point Cells<a class="anchor" aria-label="anchor" href="#script-1-convert-utterances-to-point-cells"><i class="fas fa-link"></i></a>
+</h4>
 <p>After ALL utterances are tagged and transcribed, make all utterances point cells by running a script called “changeOffsets.rb” (located in “Scripts for Transcription” folder on Box).
 To run the script, open your .opf file in Datavyu and click on: “script”, then click on “Run script”. Then you need to select the file “changeOffsets.rb”.</p>
 </div>
-<div id="script-2-error-check" class="section level3" number="6.6.4">
-<h3>
-<span class="header-section-number">6.6.4</span> Script #2: Error Check<a class="anchor" aria-label="anchor" href="#script-2-error-check"><i class="fas fa-link"></i></a>
-</h3>
+<div id="script-2-error-check" class="section level4" number="6.6.3.2">
+<h4>
+<span class="header-section-number">6.6.3.2</span> Script #2: Error Check<a class="anchor" aria-label="anchor" href="#script-2-error-check"><i class="fas fa-link"></i></a>
+</h4>
 <p>CHECK YOUR WORK by running the script called “PLAYcheck_transcripts.rb”, which will open a “Scripting Console” that tells you if there are potential mistakes in the transcript.
 The check_transcripts.rb” script will check for you:
 - Unallowed characters (e.g., commas, periods, exclamation points, etc.)
@@ -565,6 +564,7 @@ To run the script, open your .opf file in Datavyu and click on: “script”, th
 </ul>
 <p>After you double check all the flagged cells and fix any mistakes, run again until all true errors are fixed.</p>
 <p>Finally, save your transcription and move it to your box folder titled “3_Submitted_CannotEditAnymore”.</p>
+</div>
 </div>
 </div>
 <div id="standardized-spellings-sound-effects-words-and-vocalizations" class="section level2" number="6.7">
@@ -1013,8 +1013,7 @@ variant of “jugo” (i.e., juice)</p>
 <a class="nav-link" href="#transcribing-using-datavyu"><span class="header-section-number">6.6</span> Transcribing Using Datavyu</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#tagging-utterances"><span class="header-section-number">6.6.1</span> Tagging Utterances</a></li>
 <li><a class="nav-link" href="#transcribing-utterances"><span class="header-section-number">6.6.2</span> Transcribing Utterances</a></li>
-<li><a class="nav-link" href="#script-1-convert-utterances-to-point-cells"><span class="header-section-number">6.6.3</span> Script #1: Convert Utterances to Point Cells</a></li>
-<li><a class="nav-link" href="#script-2-error-check"><span class="header-section-number">6.6.4</span> Script #2: Error Check</a></li>
+<li><a class="nav-link" href="#transcription-clean-up"><span class="header-section-number">6.6.3</span> Transcription Clean Up</a></li>
 </ul>
 </li>
 <li>

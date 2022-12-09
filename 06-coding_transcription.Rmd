@@ -40,21 +40,21 @@ Once you move your file to the “3_Submitted_CannotEditAnymore” folder, you w
 
 A transcription Datavyu file includes 5 columns:
 
-**Column Name**: PLAY_id 
-**Code**: (<play_id>,<birthdate>,<testdate>,<language_1>,<language_2>)
+**Column Name**: PLAY_id</br> 
+**Code**: (<play_id>,<birthdate>,<testdate>,<language_1>,<language_2>)</br>
 *Note**: this column is prefilled for you, you do not need to make any changes.
 
-**Column name**: transcribe 
+**Column name**: transcribe</br>
 **Code**: (<source> <content>)
 
-**Column name**: trans_id 
+**Column name**: trans_id</br> 
 **Code**: <transcriber>,<trans_startdate>,<trans_finishdate>,<trans_mins>,<qa_light_heavy>,<qa_coder>, <qa_date>
 
-**Column name**: trans_comments
+**Column name**: trans_comments</br>
 **Code**: <source_mc>,<comment>
 
-**Column name**: missing_child
-**Code**: <error>
+**Column name**: missing_child</br>
+**Code**: <error></br>
 Note: this column is prefilled for you, you do not need to make any changes).
 
 ## Transcription Conventions and Rules
@@ -101,27 +101,25 @@ The goal for the following rules is to strike a useful balance between capturing
 
 ## Transcription Codes
 
-**<source>**
-
+**<source>**</br>
 - Source is the section of the transcription column where the source of the utterance is tagged in each cell. For PLAY, only mother and child utterances are tagged.
 - Sources are tagged using the quick keys function on Datavyu.
 
-**m = mother**
+**m = mother**</br>
 
 - Code 'm' if the mother is the source of the utterance. This code will be filled in using quick keys.
  
-**c = child**
+**c = child**</br>
 
 - Code 'c' if the child is the source of the utterance. This code will be filled in using quick keys.
 
-**<content>**
+**<content>**</br>
 
 - Content is the transcription column where the words or sounds of each utterance by mother and child are transcribed with time-locked codes.
  
 ### Rules for Transcribing the Content of Utterances
 
 If the words in an utterance can be heard clearly then…
-
 - Type what was said in each utterance in the content section of the transcription column.
 - Place separate utterances in separate cells.
  
@@ -284,16 +282,17 @@ Run the addtime_transcribe.rb script. This will add 250 ms to the offset, which 
 - Save the file with CMND-S.
 - Now turn Quick Keys (SHIFT-CMND-K), find [+] the onset of the last cell transcribed, JUMP BACK BY 2s, and revert back to the strategy for tagging utterances.
 Repeat until all utterances in the video were tagged and transcribed.
-Transcription Clean Up
+
+### Transcription Clean Up
 
 After you are done transcribing, you must run clean up scripts on your transcription file to ensure that there are no mistakes or typos. DO NOT skip this process, because it will slow down the process of quality assurance.
 
-### Script #1: Convert Utterances to Point Cells
+#### Script #1: Convert Utterances to Point Cells
 
 After ALL utterances are tagged and transcribed, make all utterances point cells by running a script called “changeOffsets.rb” (located in “Scripts for Transcription” folder on Box).
 To run the script, open your .opf file in Datavyu and click on: “script”, then click on “Run script”. Then you need to select the file “changeOffsets.rb”.  
 
-### Script #2: Error Check
+#### Script #2: Error Check
 
 CHECK YOUR WORK by running the script called “PLAYcheck_transcripts.rb”, which will open a “Scripting Console” that tells you if there are potential mistakes in the transcript.
 The check_transcripts.rb” script will check for you:
