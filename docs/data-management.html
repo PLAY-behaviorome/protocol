@@ -11,12 +11,12 @@
 <meta property="og:title" content="Chapter 12 Data management | PLAY Project: The Protocol">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://PLAY-behaviorome.github.io/protocol/data-management.html">
-<meta property="og:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png">
+<meta property="og:image" content="https://PLAY-behaviorome.github.io/protocol/include/img/PLAY-logo.png">
 <meta property="og:description" content="12.1 Coding workflow The following figure summarizes the data management and quality assurance steps involved in the PLAY project.  Figure 12.1: PLAY workflow   12.2 KoBoToolbox workflow The...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 12 Data management | PLAY Project: The Protocol">
 <meta name="twitter:description" content="12.1 Coding workflow The following figure summarizes the data management and quality assurance steps involved in the PLAY project.  Figure 12.1: PLAY workflow   12.2 KoBoToolbox workflow The...">
-<meta name="twitter:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png">
+<meta name="twitter:image" content="https://PLAY-behaviorome.github.io/protocol/include/img/PLAY-logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -111,7 +111,7 @@
 <p>The following figure summarizes the data management and quality assurance steps involved in the PLAY project.</p>
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="img/overview-project.png" alt="PLAY workflow" width="70%"><p class="caption">
+<img src="include/img/overview-project.png" alt="PLAY workflow" width="70%"><p class="caption">
 Figure 12.1: PLAY workflow
 </p>
 </div>
@@ -123,12 +123,20 @@ Figure 12.1: PLAY workflow
 <p>The KoBoToolbox workflow is not (yet) represented in the figure, but it may be thought of as a part of the green ‘Merge coded data’ box.</p>
 <p>Survey data collected via the KoBoToolbox tablet application can be accessed by PLAY staff via the KoBoToolbox API.</p>
 <p>Workflows describing the download, cleaning, and aggregation of survey data can be found in a separate repository: <a href="https://github.com/PLAY-behaviorome/KoBoToolbox/" class="uri">https://github.com/PLAY-behaviorome/KoBoToolbox/</a>.</p>
-<p>The general philosophy is to separate steps and save more intermediate files than seems optimal. This is to reduce the possibility of data loss.</p>
+<p>The general philosophy is to separate steps and save more intermediate files than seems optimal.
+This is to reduce the possibility of data loss.</p>
 <div id="challenges-to-surmount" class="section level3" number="12.2.1">
 <h3>
 <span class="header-section-number">12.2.1</span> Challenges to surmount<a class="anchor" aria-label="anchor" href="#challenges-to-surmount"><i class="fas fa-link"></i></a>
 </h3>
-<p>There are huge advantages to using a tool like KoBoToolbox, but some design constraints with PLAY have made the export process somewhat complicated. We chose to combine a set of separate survey questions into one omnibus KoBoToolbox survey or ‘form’. However, there are different questions and instructions depending on whether the mother is an English speaker, bilingual but dominant in English, or bilingual but dominant in Spanish. This means we need separate survey forms for each case. In addition, the questions asked about 12-month-olds in the MB-CDI differ from those asked about 18- and 24-month-olds. This adds another dimension so that we now need 9 separate KoBoToolbox forms. Finally, the survey questions have evolved over time, so that we have two versions that have been deployed in the field, with a third in-process. At the present time, this means that there are 2 version x 3 age groups x 3 language groups or 18 separate forms to download and process from KoBoToolbox.</p>
+<p>There are huge advantages to using a tool like KoBoToolbox, but some design constraints with PLAY have made the export process somewhat complicated.
+We chose to combine a set of separate survey questions into one omnibus KoBoToolbox survey or ‘form’.
+However, there are different questions and instructions depending on whether the mother is an English speaker, bilingual but dominant in English, or bilingual but dominant in Spanish.
+This means we need separate survey forms for each case.
+In addition, the questions asked about 12-month-olds in the MB-CDI differ from those asked about 18- and 24-month-olds.
+This adds another dimension so that we now need 9 separate KoBoToolbox forms.
+Finally, the survey questions have evolved over time, so that we have two versions that have been deployed in the field, with a third in-process.
+At the present time, this means that there are 2 version x 3 age groups x 3 language groups or 18 separate forms to download and process from KoBoToolbox.</p>
 <p>The form/file names are reasonably orderly, so that we can search for strings like ‘English’ and ‘2021’ in processing them.</p>
 </div>
 <div id="summary-of-processing-steps" class="section level3" number="12.2.2">
@@ -144,7 +152,8 @@ Figure 12.1: PLAY workflow
 <li><p>Carry out preliminary ‘light’ quality assurance (QA) on the data files. See <a href="https://play-behaviorome.github.io/kobotoolbox/05-conduct_initial_qa.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/05-conduct_initial_qa.html</a>.</p></li>
 <li><p>Create aggregate files that combine non-MB-CDI data across the forms, age groups, and language groups. We will consult with the PLAY language expert group about how to do additional post-processing and cleaning of the MB-CDI data. This step also (optionally) merges the data from KoBoToolbox with that stored about the associated Databrary sessions. See <a href="https://play-behaviorome.github.io/kobotoolbox/06-make_aggregate_csv.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/06-make_aggregate_csv.html</a>.</p></li>
 </ol>
-<p>Once these steps are completed, it is possible to render a document that provides simple visualizations of the survey data, as in <a href="https://play-behaviorome.github.io/kobotoolbox/release_1.0_survey_report.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/release_1.0_survey_report.html</a>. As of 2022-03-18, this report contains information that links sessions to specific data collection sites, so the team is not sharing this publicly.</p>
+<p>Once these steps are completed, it is possible to render a document that provides simple visualizations of the survey data, as in <a href="https://play-behaviorome.github.io/kobotoolbox/release_1.0_survey_report.html" class="uri">https://play-behaviorome.github.io/kobotoolbox/release_1.0_survey_report.html</a>.
+As of 2022-03-18, this report contains information that links sessions to specific data collection sites, so the team is not sharing this publicly.</p>
 </div>
 <div id="data-sharing" class="section level3" number="12.2.3">
 <h3>

@@ -13,14 +13,14 @@ There are 3 columns associated with child emotion codes: id for child emotion, c
 
 #### Child emotion id Column {-}
 
-**Column name**: `emo_id_child`</br>
+**Column name**: `emo_id_child`<br>
 **Code**: (\<lab_id\>, \<childemo_coder\>, \<childemo_date\>, \<childemo_mins\>,  \<relchildemo_coder\>, \<relchildemo_date\>)
 
 Code the emo_id_child column according to the definitions for coding the id column.
 
 #### Child emotion Column {-}
 
-**Column name**: `childemo`</br>
+**Column name**: `childemo`<br>
 **Code**: (\<emotion_pn\>)
 
 ##### `childemo` General Orientation {-}
@@ -31,9 +31,9 @@ After completing the coding pass for the entire video, coders should rewatch the
 
 ##### `childemo` Value List {-}
 
-[‘p’ = positive emotion](#child_pos_emo)</br>
-[‘n’ = negative emotion](#child_neg_emo)</br>
-[‘.’ = child’s head is not visible on the video](#child_head_not_visible)</br>
+[‘p’ = positive emotion](#child_pos_emo)<br>
+[‘n’ = negative emotion](#child_neg_emo)<br>
+[‘.’ = child’s head is not visible on the video](#child_head_not_visible)<br>
 
 ##### `childemo` Operational Definitions {-}
 
@@ -91,21 +91,30 @@ There are 3 columns associated with mom emotion codes: id for mom emotion, mom e
 
 #### Mom emotion id Column {-}
 
-**Column name**: `emo_id_mom`</br>
+**Column name**: `emo_id_mom`<br>
 **Code**: (\<lab_id\>, \<momemo_coder\>, \<momemo_date\>, \<momemo_mins\>,  \<relmomemo_coder\>, \<relmomemo_date\>)
 
 Code the emo_id_mom column according to the definitions for coding the id column.
 
 #### Mom emotion Column {-}
 
-**Column name**: `momemo`</br>
+**Column name**: `momemo`<br>
 **Code**: (\<emotion_pn\>)
 
 ##### General Orientation {-}
 
-This code captures the times that the mom is clearly displaying positive or negative emotion through facial expressions. Times when the mom is in neutral emotion are not marked. Bouts of emotion as scored as events, where the grey spaces between emotion events mean the mom is neutral or emotion is unclear. Coders also mark times as “missing” when the mom’s head is not visible on camera and there is no possibility that emotion could be coded. Emotion may never be coded based solely on vocal affect. That is, when the mom’s face is clearly not clearly visible, do not code positive or negative emotion.
-Coders are watching/tagging the duration of each positive or negative emotion event by marking onset/offset times. To determine emotion, coders are watching the mom’s face, not vocal affect. However, coders should keep audio on while coding in order to help differentiate talking from bouts of facial affect. To determine if emotion is not codeable/missing, coders are watching for when the head fully moves out of the camera view.
-After completing the coding pass for the entire video, coders should rewatch the first 5 minutes in order to recheck their codes and ensure that they did not miss any positive or negative emotion bouts. Coders must do this because each mom expresses positive and negative emotions differently, which coders become more attuned to after extensive experience coding for that mom. Therefore, coders may have inaccurately coded earlier parts of the video.
+This code captures the times that the mom is clearly displaying positive or negative emotion through facial expressions. 
+Times when the mom is in neutral emotion are not marked. 
+Bouts of emotion as scored as events, where the grey spaces between emotion events mean the mom is neutral or emotion is unclear. 
+Coders also mark times as “missing” when the mom’s head is not visible on camera and there is no possibility that emotion could be coded. 
+Emotion may never be coded based solely on vocal affect. 
+That is, when the mom’s face is clearly not clearly visible, do not code positive or negative emotion.
+Coders are watching/tagging the duration of each positive or negative emotion event by marking onset/offset times. 
+To determine emotion, coders are watching the mom’s face, not vocal affect. However, coders should keep audio on while coding in order to help differentiate talking from bouts of facial affect. 
+To determine if emotion is not codeable/missing, coders are watching for when the head fully moves out of the camera view.
+After completing the coding pass for the entire video, coders should rewatch the first 5 minutes in order to recheck their codes and ensure that they did not miss any positive or negative emotion bouts. 
+Coders must do this because each mom expresses positive and negative emotions differently, which coders become more attuned to after extensive experience coding for that mom. 
+Therefore, coders may have inaccurately coded earlier parts of the video.
 
 ##### `momemo` Value List {- #mom_emo_value_list}
 

@@ -3,11 +3,12 @@ title: "PLAY Project: The Protocol"
 author: "Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+css: include/css/style.css
 documentclass: book
-bibliography: [book.bib, play.bib, packages.bib]
+bibliography: [include/bib/book.bib, include/bib/play.bib, include/bib/packages.bib]
 biblio-style: apalike
 url: https://PLAY-behaviorome.github.io/protocol
-cover-image: img/PLAY-logo.png
+cover-image: include/img/PLAY-logo.png
 description: "Protocol for the Play & Learning Across a Year (PLAY) Project"
 link-citations: yes
 github-repo: PLAY-behaviorome/protocol
@@ -25,7 +26,7 @@ knitr::opts_chunk$set(
 # Preface {-}
 
 ```{r PLAY_logo_img, fig.link='https://play-project.org'}
-knitr::include_graphics("img/PLAY-logo.png")
+knitr::include_graphics("include/img/PLAY-logo.png")
 ```
 
 This document is a web-book that describes in detail how the PLAY project team is collecting, curating, analyzing, and sharing data.
@@ -54,7 +55,7 @@ PLAY is committed to open science. We are developing our protocol in the open an
 
 <table>
 <tr>
-<td><img src="img/people-karen.png" width="150"><br><br><br></td>
+<td><img src="include/img/people-karen.png" width="150"><br><br><br></td>
 <td style="padding:10px">
 **Karen E. Adolph, Ph.D**.</br>
 New York University</br>
@@ -64,7 +65,7 @@ Principal Investigator
 </tr>
 
 <tr>
-<td><img src="img/people-cathie.png" width="150"><br><br><br></td>
+<td><img src="include/img/people-cathie.png" width="150"><br><br><br></td>
 <td style="padding:10px">
 **Catherine Tamis-LeMonda, Ph.D.**</br>
 New York University</br>
@@ -74,7 +75,7 @@ Co-Principal Investigator
 </tr>
 
 <tr>
-<td><img src="img/people-rick.png" width="150"><br><br><br></td>
+<td><img src="include/img/people-rick.png" width="150"><br><br><br></td>
 <td style="padding:10px">
 **Rick O. Gilmore, Ph.D.**</br>
 The Pennsylvania State University</br>
@@ -88,7 +89,7 @@ Co-Principal Investigator
 
 <table>
 <tr>
-<td><img src="img/people-kasey.png" width="150"><br><br><br></td>
+<td><img src="include/img/people-kasey.png" width="150"><br><br><br></td>
 <td style="padding:10px">
 **Kasey Soska, Ph.D.**</br>
 Scientific Director
@@ -97,7 +98,7 @@ Scientific Director
 </tr>
 
 <tr>
-<td><img src="img/people-orit.jpg" width="150"><br><br><br></td>
+<td><img src="include/img/people-orit.jpg" width="150"><br><br><br></td>
 <td style="padding:10px">
 **Orit Herzberg-Keller, D.P.T.**</br>
 Research Scientist

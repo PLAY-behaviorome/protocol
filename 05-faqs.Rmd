@@ -216,7 +216,7 @@ Say <say>You can go anywhere inside your home. We  ask that you not go outside, 
 
 ##### What if the father/partner/aunt/nanny/etc. is present during the questionnaires portion?  {-}
 - It is ok if the other person is at home. However, we don't want them to answer or comment during the questionnaires. They can interact with the child or be elsewhere in the home.
-- Say "For this part we are going ask some questions just to [CHILD'S] mom. For consistency, since sometimes other individuals aren't present or part of the family, we want just the mother to answer the questions."
+- Say <say>"For this part we are going ask some questions just to [CHILD'S] mom. For consistency, since sometimes other individuals aren't present or part of the family, we want just the mother to answer the questions."</say>
 
 ##### What if mom wants to skip section of questionnaire?  {-}
 -	Move onto next part of questionnaire. 

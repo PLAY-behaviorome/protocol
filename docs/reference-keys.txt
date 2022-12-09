@@ -14,8 +14,14 @@ full-play-home-visit-protocol---example
 parent-report-questionnaire-data
 recruitment
 scheduling
-initial-recruiting-phone-call
+recruiting-call
+english-instructions
+spanish-instructions
+english-script
+spanish-script
 initial-recruiting-email
+english-template
+spanish-template
 home-visit
 arrival-introduction
 consent-to-participate

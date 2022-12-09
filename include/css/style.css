@@ -162,6 +162,7 @@ say {
   color:#4a86e8;
   quotes: "“" "”" "‘" "’";
 }
+
 say:before { content: open-quote; }
 say:after  { content: close-quote; }
 
@@ -171,6 +172,7 @@ say-es {
   color:#ff7f40;
   quotes: "“" "”" "‘" "’";
 }
+
 say-es:before { content: open-quote; }
 say-es:after  { content: close-quote; }
 

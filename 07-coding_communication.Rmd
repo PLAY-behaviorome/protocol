@@ -6,7 +6,6 @@
 2. Code each pass according to definitions in Datavyu Communication Codes
 3. Run Ruby script to check for typos
 
-
 ## Child communication pass
 
 ### Datavyu Communication Codes for Child {-}
@@ -15,8 +14,8 @@ There are 4 columns associated with child communication codes: id for communicat
 
 #### Communication id (`com_id`) column {-}
 
-**Column name**: `com_id`</br>
-**Code**: (\<lab_id\\>, \<com_coder\>, \<childcom_date\>, \<childcom_mins\>,  \<relchildcom_coder\>, \<relchildcom_date\>, \<momcom_date\>, \<momcom_mins\>,  \<relmomcom_coder\>, \<relmomcom_date\>)
+**Column name**: `com_id`<br>
+**Code**: (\<lab_id\>, \<com_coder\>, \<childcom_date\>, \<childcom_mins\>,  \<relchildcom_coder\>, \<relchildcom_date\>, \<momcom_date\>, \<momcom_mins\>,  \<relmomcom_coder\>, \<relmomcom_date\>)
 
 Code the `com_id` column according to the [definitions for coding](#id_col) the id column.
 
@@ -34,7 +33,7 @@ These codes can help you code for communication in the `childutterancetype` colu
 
 #### Child communication (`childutterancetype`) column {-}
 
-**Column name**: `childutterancetype`</br>
+**Column name**: `childutterancetype`<br>
 **Code**: (\<language_pw\>, \<langlike_bv\>, \<crylaughgrunt_clg\>, \<unintell_x\>)
 
 ##### `childutterancetype` Orientation {-}
@@ -47,20 +46,20 @@ After completing the coding pass for the entire video, coders should rewatch the
 
 ##### `childutterancetype` value list {- #childutterancetype_val_list}
 
-\<language_pw\></br>
-[p =  phrase or proto sentence](#phrase_proto_sentence)</br>
+\<language_pw\><br>
+[p =  phrase or proto sentence](#phrase_proto_sentence)<br>
 [w = word](#word)
 
-\<langlike_bv\></br>
-[b = babble](#babble)</br>
+\<langlike_bv\><br>
+[b = babble](#babble)<br>
 [v = vowel](#vowel)
 
-\<crylaughgrunt_clg\></br>
-[c = cry](#cry)</br>
-[l = laugh](#laugh)</br>
+\<crylaughgrunt_clg\><br>
+[c = cry](#cry)<br>
+[l = laugh](#laugh)<br>
 [g = grunt](#grunt_guttural)
 
-\<unintell-x\></br>
+\<unintell-x\><br>
 [x = unintelligible](#unintelligible_child)
 
 ##### `childutterancetype` Operational Definitions {-}
@@ -120,14 +119,14 @@ There are 4 columns associated with mother communication  codes: id for communic
 
 #### Communication id Column {-}
 
-**Column name**: `com_id`</br>
+**Column name**: `com_id`<br>
 **Code**: (\<lab_id\>, \<com_coder\>, \<childcom_date\>, \<childcom_mins\>,  \<relchildcom_coder\>, \<relchildcom_date\>, \<momcom_date\>, \<momcom_mins\>,  \<relmomcom_coder\>, \<relmomcom_date\> \<gest_date\>, \<gest_mins\>,  \<relgest_coder\>, \<relgest_date\>)
 
 Code the `com_id` column according to the definitions for coding the id column.
 
 #### Mom communication Column {-}
 
-**Column name**: `momutterancetype`</br>
+**Column name**: `momutterancetype`<br>
 **Code**: (\<directives_look_l_do_d_comm_c\>,\<prohibitions_p\>,\<provideinfo_i_maintainengage_m\>,\<read_r_sing_s\>,\<filleraffirmation_f\>,\<unintell_x_notchild_z\>)
 
 ##### General Orientation {-}
@@ -149,27 +148,27 @@ After completing the coding pass for the entire video, coders should rewatch the
 
 ##### `momutterancetype` value list {- #momutterancetype_value_list}
 
-\<directives_look_l_do_d_comm_c\></br>
-[l = directive to look](#directive_to_look)</br>
-[d =  directive to do](#directive_to_do)</br>
+\<directives_look_l_do_d_comm_c\><br>
+[l = directive to look](#directive_to_look)<br>
+[d =  directive to do](#directive_to_do)<br>
 [c = directive to communicate](#directive_to_communicate)
 
-\<prohibitions_p\></br>
+\<prohibitions_p\><br>
 [p = prohibit/correct](#prohibit_correct)
 
-\<provideinfo_i_maintainengage_m\></br>
-[i = provide information/referential](#provide_info)</br>
+\<provideinfo_i_maintainengage_m\><br>
+[i = provide information/referential](#provide_info)<br>
 [m = maintenance and engagement](#maintenance_engagement)
 
-\<read_r_sing_s\></br>
-[r = reading](#reading)</br>
+\<read_r_sing_s\><br>
+[r = reading](#reading)<br>
 [s = singing](#singing)
 
-\<filleraffirmation_f\></br>
+\<filleraffirmation_f\><br>
 [f = filler or affirmation](#filler_affirmation)
 
-\<unintell_x_notchild_z\></br>
-[x = unintelligible](#unintelligible_mom)</br>
+\<unintell_x_notchild_z\><br>
+[x = unintelligible](#unintelligible_mom)<br>
 [z = not directed to child](#not_directed_to_child)
 
 ##### `momutterancetype` operational definitions {-}
@@ -280,46 +279,46 @@ You can use the content in the `momspeech` column to help guide you as you code 
 
 Filler words and affirmations are coded as ‘f’ for the `momutterancetype` communication pass. These are words that provide limited information beyond simple agreement or are used commonly to keep the flow of conversation going. When used as a filler or affirmation they are usually said alone with no other words. Note that sometimes these words or phrases are part of longer utterances that should be coded as another code. (“Oh thats your dolly”, “What color is the duck?”, “Play nice”. Just because an utterance includes one of these words it does not automatically mean the utterance should be coded as a filler/affirmation.
 
-Ah</br>
-Alright</br>
-Amazing</br>
-Aw</br>
-Aww</br>
-Bless you</br>
-Go Ahead</br>
-Good job / good work</br>
-Got it</br>
-Here we go</br>
-Hello/ Hello (name)</br>
-Hey</br>
-Hi</br>
-Hmm</br>
-I agree</br>
-I know</br>
-I’m sorry</br>
-Mmhm</br>
-Mmm (EXCEPT when “mmm” is said as part of pretend play/saying something tastes good)</br>
-Nice/ nicely done/ nice job</br>
-Oh</br>
-Oh gosh</br>
-Oh jeez</br>
-Oh my/ Oh my goodness</br>
-Oh no</br>
-Oh you</br>
-Oh my god</br>
-Okay/ it’s okay</br>
-Thank you</br>
-That’s good</br>
-There you go</br>
-Uhoh (EXCEPT when tone indicates prohibition)</br>
-Way to go</br>
-What</br>
-Whoah</br>
-Whoops</br>
-Woo</br>
-Wow</br>
-Yay</br>
-Yeah</br>
-Yes</br>
-You’re fine/ everything is fine</br>
-You’re welcome</br>
+Ah<br>
+Alright<br>
+Amazing<br>
+Aw<br>
+Aww<br>
+Bless you<br>
+Go Ahead<br>
+Good job / good work<br>
+Got it<br>
+Here we go<br>
+Hello/ Hello (name)<br>
+Hey<br>
+Hi<br>
+Hmm<br>
+I agree<br>
+I know<br>
+I’m sorry<br>
+Mmhm<br>
+Mmm (EXCEPT when “mmm” is said as part of pretend play/saying something tastes good)<br>
+Nice/ nicely done/ nice job<br>
+Oh<br>
+Oh gosh<br>
+Oh jeez<br>
+Oh my/ Oh my goodness<br>
+Oh no<br>
+Oh you<br>
+Oh my god<br>
+Okay/ it’s okay<br>
+Thank you<br>
+That’s good<br>
+There you go<br>
+Uhoh (EXCEPT when tone indicates prohibition)<br>
+Way to go<br>
+What<br>
+Whoah<br>
+Whoops<br>
+Woo<br>
+Wow<br>
+Yay<br>
+Yeah<br>
+Yes<br>
+You’re fine/ everything is fine<br>
+You’re welcome<br>

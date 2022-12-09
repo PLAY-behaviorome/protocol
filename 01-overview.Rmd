@@ -8,7 +8,7 @@ Below is the project-wide workflow. The PLAY team will provide training, quality
 
 
 ```{r overview_fig, echo=FALSE, out.width="70%"}
-knitr::include_graphics("img/overview-project.png")
+knitr::include_graphics("include/img/overview-project.png")
 ```
 
 <!-- <div class="row"> -->
@@ -16,15 +16,15 @@ knitr::include_graphics("img/overview-project.png")
 <!-- <br> -->
 <!-- <h4> &nbsp;&nbsp; <u>Direct Links</u> </h3> -->
 <!-- <br> -->
-<!-- <a href="recruitment.html#participant_recruitment"> <img src="img/link-recruitment.png"> </a>   -->
-<!-- <a href="collection.html#home_visit"> <img src="img/link-collection.png"> </a>   -->
-<!-- <a href="collection.html#clean_up_and_upload"> <img src="img/link-upload.png"> </a>   -->
+<!-- <a href="recruitment.html#participant_recruitment"> <img src="include/img/link-recruitment.png"> </a>   -->
+<!-- <a href="collection.html#home_visit"> <img src="include/img/link-collection.png"> </a>   -->
+<!-- <a href="collection.html#clean_up_and_upload"> <img src="include/img/link-upload.png"> </a>   -->
 <!-- <br><br> -->
-<!-- <a href="coding.html#gesture_pass"> <img src="img/link-gesture.png"> </a>   -->
-<!-- <a href="coding.html#locomotion_passes"> <img src="img/link-locomotion.png"> </a>   -->
-<!-- <a href="coding.html#emotion_passes"> <img src="img/link-emotion.png"> </a>   -->
-<!-- <a href="coding.html#object_interaction_passes"> <img src="img/link-object.png"> </a>   -->
-<!-- <a href="coding.html#communication_passes"> <img src="img/link-communication.png"> </a>   -->
+<!-- <a href="coding.html#gesture_pass"> <img src="include/img/link-gesture.png"> </a>   -->
+<!-- <a href="coding.html#locomotion_passes"> <img src="include/img/link-locomotion.png"> </a>   -->
+<!-- <a href="coding.html#emotion_passes"> <img src="include/img/link-emotion.png"> </a>   -->
+<!-- <a href="coding.html#object_interaction_passes"> <img src="include/img/link-object.png"> </a>   -->
+<!-- <a href="coding.html#communication_passes"> <img src="include/img/link-communication.png"> </a>   -->
 <!-- </div> -->
 <!-- </div> -->
 <!-- <br> -->
@@ -62,23 +62,23 @@ The aim is to collect data that approximate county-level demographic characteris
 
 ### Map
 
-<img src="img/PLAY-collection-sites-labeled.png"/>
+<img src="include/img/PLAY-collection-sites-labeled.png"/>
 
 ### Racial composition
 
-<img src="img/race-by-county-all-regions-plot-1.png"/>
+<img src="include/img/race-by-county-all-regions-plot-1.png"/>
 
 ### Socio-economic status
 
-<img src="img/per-capita-income-plot-1.png"/>
+<img src="include/img/per-capita-income-plot-1.png"/>
 
 ### Education
 
-<img src="img/ed-attain-bars-plot-1.png"/>
+<img src="include/img/ed-attain-bars-plot-1.png"/>
 
 ### Languages spoken
 
-<img src="img/spanish-speaking-plot-1.png"/>
+<img src="include/img/spanish-speaking-plot-1.png"/>
 
 ## Video
 

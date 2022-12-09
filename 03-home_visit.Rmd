@@ -274,7 +274,7 @@ Home questions: <br>
 
 </table>
 
-You will administer all the questionnaires online using the KoBo Toolbox application. Links to all the questionnaires can be found in the tables below (please click on the <img src="img/icon-link.jpg" width="20"> icon to go to the live KoBo Toolbox questionnaires online). In case of technical issues (and to have a paper copy of all questionnaires during home visits), please download the pdf version (<img src="img/icon-pdf.jpg" width="15">) of the questionnaires from below. For printing, each of the above forms are bundled into sets for different age and language combinations. (Please note that presentation and format will differ from the Kobotoolbox app.) 
+You will administer all the questionnaires online using the KoBo Toolbox application. Links to all the questionnaires can be found in the tables below (please click on the <img src="include/imgicon-link.jpg" width="20"> icon to go to the live KoBo Toolbox questionnaires online). In case of technical issues (and to have a paper copy of all questionnaires during home visits), please download the pdf version (<img src="include/imgicon-pdf.jpg" width="15">) of the questionnaires from below. For printing, each of the above forms are bundled into sets for different age and language combinations. (Please note that presentation and format will differ from the Kobotoolbox app.) 
 
 <table cellspacing="0" cellpadding="0" class="play-table" width="60%">
 <tr>
@@ -286,12 +286,12 @@ You will administer all the questionnaires online using the KoBo Toolbox applica
 <tr>
 <td style="border: solid #cccccc 1pt;" >Demographic questionnaire <br>(all ages)</td>
 <td style="border: solid #cccccc 1pt;">
-&emsp; <a href="https://ee.kobotoolbox.org/x/#ko4f0b5J"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-/asset/214498"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/#ko4f0b5J"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-/asset/214498"><img src="include/imgicon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #4a86e8; ">English </span></p-small>
 <br>
-&emsp; <a href="https://ee.kobotoolbox.org/x/#97tKqodw"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-/asset/214499"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/#97tKqodw"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-/asset/214499"><img src="include/imgicon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #ff7f40; ">Espa&ntilde;ol</span></p-small>
 <br>
 </td>
@@ -301,16 +301,16 @@ You will administer all the questionnaires online using the KoBo Toolbox applica
 <tr>
 <td style="border: solid #cccccc 1pt;" >Home questionnaire: <br>12 months</td>
 <td style="border: solid #cccccc 1pt;">
-&emsp; <a href="https://ee.kobotoolbox.org/x/6nnRw3bi"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194061"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/6nnRw3bi"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194061"><img src="include/imgicon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #4a86e8; ">Monolingual English </span></p-small>
 <br>
-&emsp; <a href="https://ee.kobotoolbox.org/x/4FE9VhAO"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194060"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/4FE9VhAO"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194060"><img src="include/imgicon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #6aa84f; ">Bilingual&nbsp;</span><span style="color: #4a86e8; ">(English instructions)</span></p-small>
 <br>
-&emsp; <a href="https://ee.kobotoolbox.org/x/x5oTIuJD"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=212431"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/x5oTIuJD"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=212431"><img src="include/imgicon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #6aa84f; ">Bilingüe&nbsp;</span><span style="color: #ff7f40; ">(Instrucciones en Espa&ntilde;ol)</span></p-small>
 <br>
 </td>
@@ -320,14 +320,14 @@ You will administer all the questionnaires online using the KoBo Toolbox applica
 <tr>
 <td style="border: solid #cccccc 1pt;" >Home questionnaire: <br>18 months</td>
 <td style="border: solid #cccccc 1pt;">
-&emsp; <a href="https://ee.kobotoolbox.org/x/eB1qpL0N"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194063"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/eB1qpL0N"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194063"><img src="include/imgicon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #4a86e8; ">Monolingual English</span></p-small></a><br>
-&emsp; <a href="https://ee.kobotoolbox.org/x/5nU3O5ZL"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194062"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/5nU3O5ZL"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194062"><img src="include/imgicon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #6aa84f; ">Bilingual &nbsp;</span><span style="color: #4a86e8; ">(English instructions)</span></p-small></a><br>
-&emsp; <a href="https://ee.kobotoolbox.org/x/l46pGPUN"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=212432"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/l46pGPUN"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=212432"><img src="include/imgicon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #6aa84f; ">Bilingüe&nbsp;</span><span style="color: #ff7f40; ">(Instrucciones en Espa&ntilde;ol)</span></p-small></a><br>
 </td>
 </tr>
@@ -336,14 +336,14 @@ You will administer all the questionnaires online using the KoBo Toolbox applica
 <tr>
 <td style="border: solid #cccccc 1pt;" >Home questionnaire: <br>24 months</td>
 <td style="border: solid #cccccc 1pt;">
-&emsp; <a href="https://ee.kobotoolbox.org/x/pzQOPxfI"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194064"><img src="img/icon-pdf.jpg" width="15"></a>
+&emsp; <a href="https://ee.kobotoolbox.org/x/pzQOPxfI"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194064"><img src="include/imgicon-pdf.jpg" width="15"></a>
 <p-small><span style="color: #4a86e8; ">Monolingual English</span></p-small></a><br>
-&emsp; <a href="https://ee.kobotoolbox.org/x/UuLqdPHo"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194065"><img src="img/icon-pdf.jpg" width="15"></a>
+&emsp; <a href="https://ee.kobotoolbox.org/x/UuLqdPHo"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=194065"><img src="include/imgicon-pdf.jpg" width="15"></a>
 <p-small><span style="color: #6aa84f; ">Bilingual&nbsp;</span><span style="color: #4a86e8; ">(English instructions)</span></p-small></a><br>
-&emsp; <a href="https://ee.kobotoolbox.org/x/iEkFJamf"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=212433"><img src="img/icon-pdf.jpg" width="15"></a>
+&emsp; <a href="https://ee.kobotoolbox.org/x/iEkFJamf"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=212433"><img src="include/imgicon-pdf.jpg" width="15"></a>
 <p-small><span style="color: #6aa84f; ">Bilingüe&nbsp;</span><span style="color: #ff7f40; ">(Instrucciones en Espa&ntilde;ol)</span></p-small></a><br>
 </td>
 </tr>
@@ -353,8 +353,8 @@ You will administer all the questionnaires online using the KoBo Toolbox applica
 <tr>
 <td style="border: solid #cccccc 1pt;" > Post-Visit Notes <br>(all ages)</td>
 <td style="border: solid #cccccc 1pt;">
-&emsp; <a href="https://ee.kobotoolbox.org/x/#2cAYQt3z"><img src="img/icon-link.jpg" width="20"></a> 
-<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=212430"><img src="img/icon-pdf.jpg" width="15"></a> 
+&emsp; <a href="https://ee.kobotoolbox.org/x/#2cAYQt3z"><img src="include/imgicon-link.jpg" width="20"></a> 
+<a href="https://nyu.databrary.org/volume/876/slot/39021/-?asset=212430"><img src="include/img/icon-pdf.jpg" width="15"></a> 
 <p-small><span style="color: #4a86e8; ">English </span></p-small>
 <br>
 </td>

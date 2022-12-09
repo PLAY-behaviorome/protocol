@@ -11,12 +11,12 @@
 <meta property="og:title" content="Chapter 6 Transcription | PLAY Project: The Protocol">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://PLAY-behaviorome.github.io/protocol/transcription.html">
-<meta property="og:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png">
+<meta property="og:image" content="https://PLAY-behaviorome.github.io/protocol/include/img/PLAY-logo.png">
 <meta property="og:description" content="PLAY has developed a streamlined process to expedite the transcription of videos. Certain common markers (such as closures of utterances with “.”, “!” and “,”; no accents for Spanish) are not...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 6 Transcription | PLAY Project: The Protocol">
 <meta name="twitter:description" content="PLAY has developed a streamlined process to expedite the transcription of videos. Certain common markers (such as closures of utterances with “.”, “!” and “,”; no accents for Spanish) are not...">
-<meta name="twitter:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png">
+<meta name="twitter:image" content="https://PLAY-behaviorome.github.io/protocol/include/img/PLAY-logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -152,18 +152,17 @@ Once you move your file to the “3_Submitted_CannotEditAnymore” folder, you w
 <span class="header-section-number">6.2</span> Overview of Transcription Datavyu File Contents<a class="anchor" aria-label="anchor" href="#overview-of-transcription-datavyu-file-contents"><i class="fas fa-link"></i></a>
 </h2>
 <p>A transcription Datavyu file includes 5 columns:</p>
-<p><strong>Column Name</strong>: PLAY_id
-<strong>Code</strong>: (<play_id>,<birthdate>,<testdate>,<language_1>,<language_2>)
-*Note**: this column is prefilled for you, you do not need to make any changes.</language_2></language_1></testdate></birthdate></play_id></p>
-<p><strong>Column name</strong>: transcribe
-<strong>Code</strong>: (<source><content>)</content></source></p>
-<p><strong>Column name</strong>: trans_id
-<strong>Code</strong>: <transcriber>,<trans_startdate>,<trans_finishdate>,<trans_mins>,<qa_light_heavy>,<qa_coder>, <qa_date></qa_date></qa_coder></qa_light_heavy></trans_mins></trans_finishdate></trans_startdate></transcriber></p>
-<p><strong>Column name</strong>: trans_comments
-<strong>Code</strong>: <source_mc>,<comment></comment></source_mc></p>
-<p><strong>Column name</strong>: missing_child
-<strong>Code</strong>: <error>
-Note: this column is prefilled for you, you do not need to make any changes).</error></p>
+<p><strong>Column Name</strong>: <code>PLAY_id</code><br><strong>Code</strong>: &lt;play_id&gt;,&lt;birthdate&gt;,&lt;testdate&gt;,&lt;language_1&gt;,&lt;language_2&gt;<br></p>
+<div class="rmdnote">
+<p><strong>Note</strong>: this column is prefilled for you, you do not need to make any changes.</p>
+</div>
+<p><strong>Column name</strong>: <code>transcribe</code><br><strong>Code</strong>: &lt;source&gt; &lt;content&gt;</p>
+<p><strong>Column name</strong>: <code>trans_id</code><br><strong>Code</strong>: &lt;transcriber&gt;,&lt;trans_startdate&gt;,&lt;trans_finishdate&gt;,&lt;trans_mins&gt;,&lt;qa_light_heavy&gt;,&lt;qa_coder&gt;, &lt;qa_date&gt;</p>
+<p><strong>Column name</strong>: <code>trans_comments</code><br><strong>Code</strong>: &lt;source_mc&gt;,&lt;comment&gt;</p>
+<p><strong>Column name</strong>: <code>missing_child</code><br><strong>Code</strong>: &lt;error&gt;<br></p>
+<div class="rmdnote">
+<p><strong>Note</strong>: this column is prefilled for you, you do not need to make any changes.</p>
+</div>
 </div>
 <div id="transcription-conventions-and-rules" class="section level2" number="6.3">
 <h2>
@@ -243,9 +242,11 @@ We want to avoid transcribing language that would not occur if the experimenter 
 <h3>
 <span class="header-section-number">6.5.1</span> Rules for Transcribing the Content of Utterances<a class="anchor" aria-label="anchor" href="#rules-for-transcribing-the-content-of-utterances"><i class="fas fa-link"></i></a>
 </h3>
-<p>If the words in an utterance can be heard clearly then…
-- Type what was said in each utterance in the content section of the transcription column.
-- Place separate utterances in separate cells.</p>
+<p>If the words in an utterance can be heard clearly then…</p>
+<ul>
+<li>Type what was said in each utterance in the content section of the transcription column.</li>
+<li>Place separate utterances in separate cells.</li>
+</ul>
 <p>If one or more of the words in an utterance cannot be heard or made out ….</p>
 <ul>
 <li>If child or mother uses an utterance that contains more than one word, and you can only make out part of the utterance, transcribe what can be deciphered and fill in ‘xxx’ for the unintelligible parts (e.g., mother says “give me” followed by an unintelligible word, code “give me ‘xxx’).</li>
@@ -572,200 +573,202 @@ To run the script, open your .opf file in Datavyu and click on: “script”, th
 <span class="header-section-number">6.7</span> Standardized Spellings: Sound Effects, Words, and Vocalizations<a class="anchor" aria-label="anchor" href="#standardized-spellings-sound-effects-words-and-vocalizations"><i class="fas fa-link"></i></a>
 </h2>
 <p>Note: all sound effects should be treated as if they were real words, transcribe every such utterance the speaker makes (e.g. Mother making a train sound effect x2 times is transcribed as ‘choo choo’). Note that many of the words on the English portion of this list are interchangeable between English and Spanish. However, refer to the separate list of Spanish Standardized Spellings for words and sound effects that are only produced in Spanish.</p>
-<p><strong>ah</strong>
+<p><strong>ah</strong> : <br>
 should not be spelled as ‘ahh’, ‘aah’ etc. regardless of duration</p>
-<p><strong>ahhah</strong></p>
-<p>vocalization meaning “discovery”; should not be spelled as ‘ah hah’</p>
-<p><strong>ahem</strong>
+<p><strong>ahhah</strong> : <br>
+vocalization meaning “discovery”; should not be spelled as ‘ah hah’</p>
+<p><strong>ahem</strong> : <br>
 vocalization meaning “ready to speak”</p>
-<p><strong>aw</strong>
+<p><strong>aw</strong> : <br>
 vocalization meaning “sympathy”</p>
-<p><strong>ay</strong>
+<p><strong>ay</strong> : <br>
 vocalization meaning “surprise”</p>
-<p><strong>ha</strong>
-note: this spelling should only be used if person is not laughing, such as reading from a book, repeating a phrase, or being sarcastic. Transcribe each ‘ha’ as a separate word, should not be spelled as ‘haha’, ‘haahaa’</p>
-<p><strong>hee</strong></p>
-<p><strong>huh?</strong>
+<p><strong>ha</strong> : <br>
+::: {.rmdnote}
+<strong>Note</strong>: this spelling should only be used if person is not laughing, such as reading from a book, repeating a phrase, or being sarcastic. Transcribe each ‘ha’ as a separate word, should not be spelled as ‘haha’, ‘haahaa’
+:::</p>
+<p><strong>hee</strong> : <br></p>
+<p><strong>huh?</strong> : <br>
 vocalization that serves a questioning function</p>
-<p><strong>huhuh</strong>
+<p><strong>huhuh</strong> : <br>
 vocalization meaning “no”</p>
-<p><strong>hmm</strong>
+<p><strong>hmm</strong> : <br>
 vocalization meaning “thinking or questioning”.
 Should not be spelled as ‘hm’</p>
-<p><strong>hmm?</strong>
+<p><strong>hmm?</strong> : <br>
 vocalization that serves a questioning function</p>
-<p><strong>mmhm</strong>
+<p><strong>mmhm</strong> : <br>
 vocalization meaning “yes”</p>
-<p><strong>mmm</strong>
+<p><strong>mmm</strong> : <br>
 vocalization meaning “tasty, good”</p>
-<p><strong>mnm</strong>
+<p><strong>mnm</strong> : <br>
 vocalization meaning “no”</p>
-<p><strong>oh</strong>
+<p><strong>oh</strong> : <br>
 vocalization denoting realizing something (e.g., “oh no”)</p>
-<p><strong>okay</strong>
+<p><strong>okay</strong> : <br>
 spelling for “o.k.”</p>
-<p><strong>oy</strong>
+<p><strong>oy</strong> : <br>
 vocalization for getting someone’s attention or ??</p>
-<p><strong>peekaboo</strong>
+<p><strong>peekaboo</strong> : <br>
 spelling for game</p>
-<p><strong>pst</strong>
+<p><strong>pst</strong> : <br>
 vocalization meaning “listen here”; function to attract the child’s attention</p>
-<p><strong>sh</strong>
+<p><strong>sh</strong> : <br>
 vocalization meaning “shushing”</p>
-<p><strong>tsk</strong>
+<p><strong>tsk</strong> : <br>
 vocalization meaning “shame”; sound made by clicking tongue on back of teeth</p>
-<p><strong>uh</strong>
+<p><strong>uh</strong> : <br>
 vocalization indicating a pause or thinking</p>
-<p><strong>uhhuh</strong>
+<p><strong>uhhuh</strong> : <br>
 vocalization meaning “yes”</p>
-<p><strong>uhoh</strong>
+<p><strong>uhoh</strong> : <br>
 vocalization meaning “blunder/accident”</p>
-<p><strong>ugh</strong>
+<p><strong>ugh</strong> : <br>
 vocalization meaning “blunder/accident/disgust”</p>
-<p><strong>uhuh</strong>
+<p><strong>uhuh</strong> : <br>
 vocalization meaning “no”</p>
-<p><strong>umm</strong>
+<p><strong>umm</strong> : <br>
 vocalization indicating a pause or thinking</p>
-<p><strong>wanna</strong>
+<p><strong>wanna</strong> : <br>
 contraction of “want to”</p>
-<p><strong>whee</strong>
+<p><strong>whee</strong> : <br>
 vocalization meaning “excitement, exuberance”</p>
-<p><strong>whoah</strong>
+<p><strong>whoah</strong> : <br>
 vocalization meaning “surprise”</p>
-<p><strong>whoops</strong>
+<p><strong>whoops</strong> : <br>
 vocalization meaning “mistake” (variations can include whoopsie)</p>
-<p><strong>wow</strong>
+<p><strong>wow</strong> : <br>
 vocalization meaning “amazement”; should not be spelled as ‘woow’, ‘wooow’ etc. regardless of duration</p>
-<p><strong>yeah</strong>
+<p><strong>yeah</strong> : <br>
 vocalization meaning “yes”; a cheer; should not be spelled as ‘yea’</p>
-<p><strong>yay</strong>
+<p><strong>yay</strong> : <br>
 vocalization meaning “excitement”; a cheer; should not be spelled as ‘yaay’, ‘yaaay’ etc. regardless of duration</p>
-<p><strong>yup</strong>
+<p><strong>yup</strong> : <br>
 vocalization meaning “yes”
 do not spell as ‘yep’</p>
-<p><strong>beep</strong>
+<p><strong>beep</strong> : <br>
 utterance for adult making any ‘beep’ sound regardless of duration (i.e. we do not differentiate between ‘beep’ and ‘beeeeeeeeeeep’)</p>
-<p><strong>muah</strong>
+<p><strong>muah</strong> : <br>
 utterance for a kiss-like sound effect.</p>
-<p><strong>baa</strong>
+<p><strong>baa</strong> : <br>
 spelling for utterances making a sheep-like sound effect. transcribe every such utterances the speaker makes</p>
-<p><strong>choo</strong>
+<p><strong>choo</strong> : <br>
 spelling for utterances making a train-like sound effect. transcribe every such utterance the speaker makes</p>
-<p><strong>cockadoodledoo</strong>
+<p><strong>cockadoodledoo</strong> : <br>
 spelling for utterances making a sound effect of rooster crowing. must be this specific rooster sound, do not use for all ‘chicken’-related sound effects.</p>
-<p><strong>cluck</strong>
+<p><strong>cluck</strong> : <br>
 spelling for utterances making a sound effect for a chicken.</p>
-<p><strong>grrr</strong>
+<p><strong>grrr</strong> : <br>
 spelling for utterances making any growling sounds. these utterances do not need to be ‘acted out’: growls resulting from a real emotional outburst also use this spelling.</p>
-<p><strong>meow</strong>
+<p><strong>meow</strong> : <br>
 spelling for utterances making a cat-like sound effect.</p>
-<p><strong>moo</strong>
+<p><strong>moo</strong> : <br>
 spelling for utterances making a cow-like sound effect.</p>
-<p><strong>nom/nom nom</strong>
+<p><strong>nom/nom nom</strong> : <br>
 Spelling for utterances making a chewing or biting sound</p>
-<p><strong>ouch</strong>
+<p><strong>ouch</strong> : <br>
 spelling for utterances where the speaker expresses hurt or pain. this spelling applies to both reading and ‘real’ situations.</p>
-<p><strong>ohmm</strong>
+<p><strong>ohmm</strong> : <br>
 spelling for utterances making a big bite or swallowing kind of sound. Used frequently in pretend play.</p>
-<p>**quack*
+<p>**quack* : <br>
 spelling for utterances making a duck-like sound effect.</p>
-<p><strong>roar</strong>
+<p><strong>roar</strong> : <br>
 spelling for all ‘roaring’ noises; do not spell as ‘rawr’, ‘roaaaar’, ‘roarrr’ etc. regardless of duration</p>
-<p><strong>ribbet</strong>
+<p><strong>ribbet</strong> : <br>
 Spelling for frog croaking</p>
-<p><strong>shhu</strong>
+<p><strong>shhu</strong> : <br>
 spelling for sound effect for flying</p>
-<p><strong>tun</strong>
+<p><strong>tun</strong> : <br>
 spelling for some music sounds</p>
-<p><strong>vroom</strong>
+<p><strong>vroom</strong> : <br>
 spelling for utterances making a car- or speeding- sound effect, typically in reference to vehicles.</p>
-<p><strong>woof</strong>
+<p><strong>woof</strong> : <br>
 spelling for utterances making a dog-like sound effect.</p>
-<p><strong>yum</strong>
+<p><strong>yum</strong> : <br>
 spelling for utterances where speaker expresses or suggests satisfaction with food or drink (i.e. both ‘yum do you want this apple?’ and ‘that carrot was yum yum’). this spelling applies to both reading and ‘real’ situations.</p>
-<p><strong>yucky</strong>
+<p><strong>yucky</strong> : <br>
 spelling for utterances where the speaker expresses something is gross or not tasty (variations include yuck)</p>
 <div id="spanish-standardized-spellings-sound-effect-words-and-vocalizations" class="section level3" number="6.7.1">
 <h3>
 <span class="header-section-number">6.7.1</span> Spanish Standardized Spellings: Sound Effect, Words, and Vocalizations<a class="anchor" aria-label="anchor" href="#spanish-standardized-spellings-sound-effect-words-and-vocalizations"><i class="fas fa-link"></i></a>
 </h3>
 <p>Note: accent marks and ~ are not marked here as they are not transcribed in order to expedite transcription process.</p>
-<p><strong>alo</strong>
+<p><strong>alo</strong> : <br>
 spelling for common word used to answer the phone</p>
-<p><strong>chiqui</strong>
+<p><strong>chiqui</strong> : <br>
 spelling for common affectionate nickname; diminutive of “chiquito/chiquita”</p>
-<p><strong>guau guau</strong>
+<p><strong>guau guau</strong> : <br>
 spelling for utterances making a dog or barking sound</p>
-<p><strong>pio pio</strong>
+<p><strong>pio pio</strong> : <br>
 spelling for utterances making a chicken (gallina) or baby chick (pollito) sound, could also be used for birds in general</p>
-<p><strong>quiquiriqui</strong>
+<p><strong>quiquiriqui</strong> : <br>
 spelling for utterances making a rooster/gallo sound</p>
-<p><strong>shhu</strong>
+<p><strong>shhu</strong> : <br>
 spelling for sound effect for flying</p>
-<p><strong>oop</strong>
+<p><strong>oop</strong> : <br>
 spelling for sound effect when a mistake happens (similar who “whoops” in context)</p>
 </div>
 <div id="regionalisms-standardized-spellings-english" class="section level3" number="6.7.2">
 <h3>
 <span class="header-section-number">6.7.2</span> Regionalisms Standardized Spellings (English)<a class="anchor" aria-label="anchor" href="#regionalisms-standardized-spellings-english"><i class="fas fa-link"></i></a>
 </h3>
-<p><strong>bodega</strong>
+<p><strong>bodega</strong> : <br>
 regional word (U.S. New York) for “corner grocery store”</p>
-<p><strong>brook</strong>
+<p><strong>brook</strong> : <br>
 regional word (U.S. North East) for “creek”</p>
-<p><strong>bubbler</strong>
+<p><strong>bubbler</strong> : <br>
 regional word (U.S. New England) for “fountain”</p>
-<p><strong>buggy</strong>
+<p><strong>buggy</strong> : <br>
 regional spelling (U.S. Pennsylvania) for “shopping cart” or “baby carriage”</p>
-<p><strong>commode</strong>
+<p><strong>commode</strong> : <br>
 regional word (South and Mid U.S.) for “restroom” or “toilet”</p>
-<p><strong>dippy</strong>
+<p><strong>dippy</strong> : <br>
 regional spelling (Pennsylvania) for something that is good to dip into (e.g., coffee, egg yolk)</p>
-<p><strong>dooryard</strong>
+<p><strong>dooryard</strong> : <br>
 regional word (U.S. North New England) for area around the main entry door of a house</p>
-<p><strong>dungarees</strong>
+<p><strong>dungarees</strong> : <br>
 regional word (U.S. New York) for “jeans”</p>
-<p><strong>frappe</strong>
+<p><strong>frappe</strong> : <br>
 regional word (U.S. New England) for a “milkshake”</p>
-<p><strong>hoagie</strong>
+<p><strong>hoagie</strong> : <br>
 regional word (U.S. North East) for submarine sandwich/sub</p>
-<p><strong>hoosier</strong>
+<p><strong>hoosier</strong> : <br>
 regional word (Mid U.S.) for person from a rural area</p>
-<p><strong>jag</strong>
+<p><strong>jag</strong> : <br>
 regional spelling (Pennsylvania) for “prick”, “stab”, also for “to tease”</p>
-<p><strong>jimmies</strong>
+<p><strong>jimmies</strong> : <br>
 regional word (U.S. North East) for “sprinkles”</p>
-<p><strong>muckle</strong>
+<p><strong>muckle</strong> : <br>
 regional word (U.S. North New England) for “grasp”, “hold-fast”, or “tear into”</p>
-<p><strong>neb</strong>
+<p><strong>neb</strong> : <br>
 regional spelling (Pennsylvania) for prying into a conversation</p>
-<p><strong>nebby</strong>
+<p><strong>nebby</strong> : <br>
 regional spelling (Pennsylvania) for someone who is prying into a conversation</p>
-<p><strong>parlor</strong>
+<p><strong>parlor</strong> : <br>
 regional word (U.S. North East) for “living room”</p>
-<p><strong>pavement</strong>
+<p><strong>pavement</strong> : <br>
 regional word (U.S. North East) for “sidewalk”</p>
-<p><strong>potsy</strong>
+<p><strong>potsy</strong> : <br>
 regional word (U.S. New York) for “hopscotch”</p>
-<p><strong>red up</strong>
+<p><strong>red up</strong> : <br>
 regional spelling (Pennsylvania) for “tidy up” or “clean p”</p>
-<p><strong>slippy</strong>
+<p><strong>slippy</strong> : <br>
 regional spelling (Pennsylvania) for “slippery”</p>
-<p><strong>spigot</strong>
+<p><strong>spigot</strong> : <br>
 regional word (U.S. South) for “faucet”</p>
-<p><strong>stoop</strong>
+<p><strong>stoop</strong> : <br>
 regional word (U.S. New York) for “small porch” or steps in front of a building</p>
-<p><strong>teeter-totter</strong>
+<p><strong>teeter-totter</strong> : <br>
 regional word (U.S. North) for “seesaw”</p>
-<p><strong>y’all</strong>
+<p><strong>y’all</strong> : <br>
 regional spelling (U.S. South, Texas) for “you all”</p>
-<p><strong>yonder</strong>
+<p><strong>yonder</strong> : <br>
 regional spelling (U.S. South) for “over there”</p>
-<p><strong>you’uns</strong>
+<p><strong>you’uns</strong> : <br>
 regional spelling (Western PA) for “you all”</p>
-<p><strong>yins</strong>
+<p><strong>yins</strong> : <br>
 regional spelling (Western PA) for “you all”</p>
-<p><strong>youse</strong>
+<p><strong>youse</strong> : <br>
 regional spelling (NY, NJ, PA) for “you all”</p>
 </div>
 <div id="regionalisms-standardized-spellings-spanish" class="section level3" number="6.7.3">
@@ -773,199 +776,199 @@ regional spelling (NY, NJ, PA) for “you all”</p>
 <span class="header-section-number">6.7.3</span> Regionalisms Standardized Spellings (Spanish)<a class="anchor" aria-label="anchor" href="#regionalisms-standardized-spellings-spanish"><i class="fas fa-link"></i></a>
 </h3>
 <p>Note: accent marks and ~ are not marked here as they are not transcribed in order to expedite transcription process.</p>
-<p><strong>alubias</strong>
+<p><strong>alubias</strong> : <br>
 variant of “frijoles”, “judias”, “habichuelas”, “porotos”, or “caraotas” (i.e., beans)</p>
-<p><strong>anteojos</strong>
+<p><strong>anteojos</strong> : <br>
 variant of “espejuelos”, “gafas”, or “lentes” (i.e., glasses)</p>
-<p><strong>aretes</strong>
+<p><strong>aretes</strong> : <br>
 variant of “aros” or “zarcillos” (i.e., earrings)</p>
-<p><strong>aros</strong>
+<p><strong>aros</strong> : <br>
 variant of “aretes” or “zarcillos” (i.e., earrings)</p>
-<p><strong>bacinica</strong>
+<p><strong>bacinica</strong> : <br>
 variant of “inodoro”, “sanitario”, “orinal”, “pelela”, or “poceta” (i.e., potty or toilet)</p>
-<p><strong>barriga</strong>
+<p><strong>barriga</strong> : <br>
 variant of “estomago” or “panza” (i.e., tummy)</p>
-<p><strong>banadera</strong>
+<p><strong>banadera</strong> : <br>
 variant of “banera” or “tina” (i.e., bathtub)</p>
-<p><strong>banera</strong>
+<p><strong>banera</strong> : <br>
 variant of “banadera” or “tina” (i.e., bathtub)</p>
-<p><strong>bebida</strong>
+<p><strong>bebida</strong> : <br>
 variant of “gaseosa”, “soda”, or “refresco” (i.e., soda)</p>
-<p><strong>bicho</strong>
+<p><strong>bicho</strong> : <br>
 variant of “insecto” (i.e., insect/bug), or referring to a boy or girl (bicha)</p>
-<p><strong>bizcocho</strong>
+<p><strong>bizcocho</strong> : <br>
 variant of “cake”, “torta”, “pastel”, or “queque” (i.e., cake)</p>
-<p><strong>boina</strong>
+<p><strong>boina</strong> : <br>
 variant of “gorro”, “sombrero”, or “casco” (i.e., hat)</p>
-<p><strong>bomba</strong>
+<p><strong>bomba</strong> : <br>
 variant of “globo” (i.e., balloon)</p>
-<p><strong>borrego</strong>
+<p><strong>borrego</strong> : <br>
 variant of “cordero” (i.e., lamb)</p>
-<p><strong>cabello</strong>
+<p><strong>cabello</strong> : <br>
 variant of “pelo” (i.e., hair)</p>
-<p><strong>cabra</strong>
+<p><strong>cabra</strong> : <br>
 variant of “chivo” (i.e., goat)</p>
-<p><strong>chamaco/chamaquito</strong>
+<p><strong>chamaco/chamaquito</strong> : <br>
 referring to a boy or girl (chamaca/chamaquita)</p>
-<p><strong>chamo/chamito</strong>
+<p><strong>chamo/chamito</strong> : <br>
 referring to a boy or girl (chama/chamita)</p>
-<p><strong>calcetin</strong>
+<p><strong>calcetin</strong> : <br>
 variant of “media” (i.e., sock)</p>
-<p><strong>camisa</strong>
+<p><strong>camisa</strong> : <br>
 variant of “playera” or “remera” or “polera” (i.e., shirt)</p>
-<p><strong>cambur</strong>
+<p><strong>cambur</strong> : <br>
 variant of “banana” or “plátano”</p>
-<p><strong>canal</strong>
+<p><strong>canal</strong> : <br>
 variant of “canal”, “resbalin”, “resbaladilla”, or “tobogan” (i.e., slide)</p>
-<p><strong>casco</strong>
+<p><strong>casco</strong> : <br>
 variant of “boina”, “gorro”, “sombrero” (i.e., hat)</p>
-<p><strong>caraotas</strong>
+<p><strong>caraotas</strong> : <br>
 variant of “frijoles”, “judias”, “habichuelas”, “porotos”, or “alubias” (i.e., beans)</p>
-<p><strong>cordero</strong>
+<p><strong>cordero</strong> : <br>
 variant of “borrego” (i.e., lamb)</p>
 <p><strong>carriola</strong>
 variant of “coche” or “cochecito” (i.e., stroller)</p>
-<p><strong>cartera</strong>
+<p><strong>cartera</strong> : <br>
 variant of “bolso” (i.e., purse)</p>
-<p><strong>cobija</strong>
+<p><strong>cobija</strong> : <br>
 variant of “manta” or “frazada” or “colcha” (i.e., blanket or sheet)</p>
-<p><strong>coche</strong>
+<p><strong>coche</strong> : <br>
 variant of “carro” (i.e., car or stroller)</p>
-<p><strong>colcha</strong>
+<p><strong>colcha</strong> : <br>
 variant of “manta” or “frazada” or “cobija” (i.e., blanket or sheet)</p>
-<p><strong>columpio</strong>
+<p><strong>columpio</strong> : <br>
 variant of “hamaca” (i.e., swing)</p>
-<p><strong>chivo</strong>
+<p><strong>chivo</strong> : <br>
 variant of “cabra” (i.e., goat)</p>
-<p><strong>chompa</strong>
+<p><strong>chompa</strong> : <br>
 variant of “sueter” or “poleron” (i.e., sweater)</p>
-<p><strong>cuarto</strong>
+<p><strong>cuarto</strong> : <br>
 variant of “dormitorio”, “habitacion”, “recamara”, or “pieza” (i.e., bedroom)</p>
-<p><strong>danzar</strong>
+<p><strong>danzar</strong> : <br>
 variant of “bailar” (i.e., dance)</p>
-<p><strong>dormitorio</strong>
+<p><strong>dormitorio</strong> : <br>
 variant of ““cuarto”, “habitacion”, “pieza”, or “recamara” (i.e., bedroom)</p>
-<p><strong>espejuelos</strong>
+<p><strong>espejuelos</strong> : <br>
 variant of “anteojos”, “gafas”, or “lentes” (i.e., glasses)</p>
-<p><strong>estomago</strong>
+<p><strong>estomago</strong> : <br>
 variant of “barriga” or “panza” (i.e., tummy)</p>
-<p><strong>falda</strong>
+<p><strong>falda</strong> : <br>
 variant of “saya” (i.e., skirt)</p>
-<p><strong>frazada</strong>
+<p><strong>frazada</strong> : <br>
 variant of “manta” or “cobija” or “colcha” (i.e., blanket or sheet)</p>
-<p><strong>frijoles</strong>
+<p><strong>frijoles</strong> : <br>
 variant of “judias”, “habichuelas”, “caraotas”, or “alubias” (i.e., beans)</p>
-<p><strong>fuchi</strong>
+<p><strong>fuchi</strong> : <br>
 variant of “cochino”, “guacala” or “sucio” (i.e., yucky)</p>
-<p><strong>gafas</strong>
+<p><strong>gafas</strong> : <br>
 variant of “lentes” or “espejuelos” (i.e., blanket or sheet)</p>
-<p><strong>gaseosa</strong>
+<p><strong>gaseosa</strong> : <br>
 variant of “bebida”, “soda”, or “refresco” (i.e., soda)</p>
-<p><strong>golosina</strong>
+<p><strong>golosina</strong> : <br>
 variant of “dulce” or “caramelo” (i.e., candy)</p>
-<p><strong>gorro</strong>
+<p><strong>gorro</strong> : <br>
 variant of “sombrero”, “boina”, or “casco” (i.e., hat)</p>
-<p><strong>guagua</strong>
+<p><strong>guagua</strong> : <br>
 variant of “autobus” or “micro” (i.e., bus)</p>
-<p><strong>guácala</strong>
+<p><strong>guácala</strong> : <br>
 variant of “cochino”, “fuchi” or “sucio” (i.e., yucky)</p>
-<p><strong>guajalote</strong>
+<p><strong>guajalote</strong> : <br>
 variant of “pavo” (i.e., turkey)</p>
-<p><strong>guanajo</strong>
+<p><strong>guanajo</strong> : <br>
 variant of “pavo” (i.e., turkey)</p>
-<p><strong>habichuelas</strong>
+<p><strong>habichuelas</strong> : <br>
 variant of “frijoles”, “judias”, “caraotas”, “porotos”, or “alubias” (i.e., beans)</p>
-<p><strong>habitacion</strong>
+<p><strong>habitacion</strong> : <br>
 variant of ““cuarto”, “dormitorio”, “pieza”, “recamara” (i.e., bedroom)</p>
-<p><strong>hamaca</strong>
+<p><strong>hamaca</strong> : <br>
 variant of “columpio” (i.e., swing) or a hammock</p>
-<p><strong>inodoro</strong>
+<p><strong>inodoro</strong> : <br>
 variant of “poceta”, “sanitario”, “orinal”, “pelela”, or “bacinica” (i.e., potty or toilet)</p>
-<p><strong>judias</strong>
+<p><strong>judias</strong> : <br>
 variant of “frijoles”, “judias”, “caraotas”, “porotos”, or “alubias” (i.e., beans)</p>
-<p><strong>lavabo</strong>
+<p><strong>lavabo</strong> : <br>
 variant of “lavamanos” (i.e., sink)</p>
-<p><strong>lavamanos</strong>
+<p><strong>lavamanos</strong> : <br>
 variant of “lavabo” (i.e., sink)</p>
-<p><strong>lentes</strong>
+<p><strong>lentes</strong> : <br>
 variant of “gafas” or “espejuelos” (i.e., glasses)</p>
-<p><strong>mamilla</strong>
+<p><strong>mamilla</strong> : <br>
 variant of “botella”, “tetero”, or “mamadera” (i.e., bottle)</p>
-<p><strong>mamadera</strong>
+<p><strong>mamadera</strong> : <br>
 variant of “botella”, “tetero”, or “mamilla” (i.e., bottle)</p>
-<p><strong>manta</strong>
+<p><strong>manta</strong> : <br>
 variant of “cobija” or “frazada” or “colcha” (i.e., blanket or sheets)</p>
-<p><strong>media</strong>
+<p><strong>media</strong> : <br>
 variant of calcetín (i.e., sock)</p>
-<p><strong>mercado</strong>
+<p><strong>mercado</strong> : <br>
 variant of “tienda” or “comprar” (i.e., store, supermarket, grocery shopping)</p>
-<p><strong>mico</strong>
+<p><strong>mico</strong> : <br>
 variant of “mono” (i.e., monkey)</p>
-<p><strong>micro</strong>
+<p><strong>micro</strong> : <br>
 variant of “autobus” or “guagua” (i.e., bus)</p>
-<p><strong>nevera</strong>
+<p><strong>nevera</strong> : <br>
 variant of “refrigerador” (i.e., refrigerator)</p>
-<p><strong>orinal</strong>
+<p><strong>orinal</strong> : <br>
 variant of “inodoro”, “sanitario”, “poceta”, “pelela”, or “bacinica” (i.e., potty or toilet)</p>
-<p><strong>pamper</strong>
+<p><strong>pamper</strong> : <br>
 variant of “panal” (i.e., diaper)</p>
-<p><strong>panza</strong>
+<p><strong>panza</strong> : <br>
 variant of “barriga” (i.e., tummy)</p>
-<p><strong>panal</strong>
+<p><strong>panal</strong> : <br>
 variant of “pamper” (i.e., diaper)</p>
-<p><strong>pastel</strong>
+<p><strong>pastel</strong> : <br>
 variant of “bizcocho”, “queque”, or “torta” (i.e., cake)</p>
-<p><strong>peine</strong>
+<p><strong>peine</strong> : <br>
 variant of “peineta” (i.e., comb)</p>
-<p><strong>peineta</strong>
+<p><strong>peineta</strong> : <br>
 variant of “peine” (i.e., comb)</p>
-<p><strong>pelela</strong>
+<p><strong>pelela</strong> : <br>
 variant of “inodoro”, “sanitario”, “poceta”, “orinal”, or “bacinica” (i.e., potty or toilet)</p>
-<p><strong>pieza</strong>
+<p><strong>pieza</strong> : <br>
 variant of “cuarto”, “dormitorio”, “habitacion”, or “recamara” (i.e., bedroom)</p>
-<p><strong>playera</strong>
+<p><strong>playera</strong> : <br>
 variant of “camisa” or “remera” (i.e., shirt)</p>
-<p><strong>polera</strong>
+<p><strong>polera</strong> : <br>
 variant of “camisa” or “remera” or “playera” (i.e., shirt)</p>
-<p><strong>poleron</strong>
+<p><strong>poleron</strong> : <br>
 variant of “chompa” or “sueter” (i.e., sweater)</p>
-<p><strong>porotos</strong>
+<p><strong>porotos</strong> : <br>
 variant of “frijoles”, “judias”, “caraotas”, “judias”, or “alubias” (i.e., beans)</p>
-<p><strong>poceta</strong>
+<p><strong>poceta</strong> : <br>
 variant of “inodoro”, “sanitario”, “orinal”, “pelela”, or “bacinica” (i.e., potty or toilet)</p>
-<p><strong>porotos</strong>
+<p><strong>porotos</strong> : <br>
 variant of “frijoles”, “judías”, “habichuelas”, “caraotas”, or “alubias” (i.e., beans)</p>
-<p><strong>pulover</strong>
+<p><strong>pulover</strong> : <br>
 variant of “camisa” or “remera” or “playera” or also “sueter” or “poleron” (i.e., shirt or sweater)</p>
-<p><strong>queque</strong>
+<p><strong>queque</strong> : <br>
 variant of “bizcocho”, “pastel”, or “torta” (i.e., cake)</p>
-<p><strong>remera</strong>
+<p><strong>remera</strong> : <br>
 variant of “camisa” or “playera” (i.e., shirt)</p>
-<p><strong>recamara</strong>
+<p><strong>recamara</strong> : <br>
 variant of “cuarto”, “dormitorio”, “habitacion”, or “pieza” (i.e., bedroom)</p>
-<p><strong>resbalin</strong>
+<p><strong>resbalin</strong> : <br>
 variant of “canal”, “resbaladilla”, or “tobogan” (i.e., slide)</p>
-<p><strong>resbaladilla</strong>
+<p><strong>resbaladilla</strong> : <br>
 variant of “canal”, “resbalin”, or “tobogan” (i.e., slide)</p>
-<p><strong>sabana</strong>
+<p><strong>sabana</strong> : <br>
 variant of “cobija” or “frazada” or “colcha” (i.e., blanket, sheet)</p>
-<p><strong>sanitario</strong>
+<p><strong>sanitario</strong> : <br>
 variant of “inodoro”, “poceta”, “orinal”, “pelela”, or “bacinica” (i.e., potty or toilet)</p>
-<p><strong>saya</strong>
+<p><strong>saya</strong> : <br>
 variant of “falda” (i.e., skirt)</p>
-<p><strong>sueter</strong>
+<p><strong>sueter</strong> : <br>
 variant of “chompa” or “poleron” (i.e., sweater)</p>
-<p><strong>tetero</strong>
+<p><strong>tetero</strong> : <br>
 variant of “botella”, “mamila”, “mamadera” (i.e., bottle)</p>
-<p><strong>tina</strong>
+<p><strong>tina</strong> : <br>
 variant of “banadera” or “banera” (i.e., bathtub)</p>
-<p><strong>tobogan</strong>
+<p><strong>tobogan</strong> : <br>
 variant of “resbaladilla” or “canal” (i.e., slide)</p>
-<p><strong>torta</strong>
+<p><strong>torta</strong> : <br>
 variant of “bizcocho”, “pastel”, or “queque” (i.e., cake)</p>
-<p><strong>zarcillos</strong>
+<p><strong>zarcillos</strong> : <br>
 variant of “aros” or “aretes” (i.e., earrings)</p>
-<p><strong>zumo</strong>
+<p><strong>zumo</strong> : <br>
 variant of “jugo” (i.e., juice)</p>
 
 </div>
