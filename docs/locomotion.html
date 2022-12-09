@@ -1,355 +1,113 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="en">
 <head>
-
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 11 Locomotion | Play &amp; Learning Across a Year (PLAY): The Protocol</title>
-  <meta name="description" content="Protocol for the Play &amp; Learning Across a Year (PLAY) Project" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
-
-  <meta property="og:title" content="Chapter 11 Locomotion | Play &amp; Learning Across a Year (PLAY): The Protocol" />
-  <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://PLAY-behaviorome.github.io/protocol" />
-  <meta property="og:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png" />
-  <meta property="og:description" content="Protocol for the Play &amp; Learning Across a Year (PLAY) Project" />
-  <meta name="github-repo" content="PLAY-behaviorome/protocol" />
-
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 11 Locomotion | Play &amp; Learning Across a Year (PLAY): The Protocol" />
-  
-  <meta name="twitter:description" content="Protocol for the Play &amp; Learning Across a Year (PLAY) Project" />
-  <meta name="twitter:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png" />
-
-<meta name="author" content="Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore" />
-
-
-<meta name="date" content="2022-03-18" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  
-  
-<link rel="prev" href="objects.html"/>
-<link rel="next" href="data-management.html"/>
-<script src="libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
-<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
-
-
-
-
-
-
-
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-
-
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 11 Locomotion | PLAY Project: The Protocol</title>
+<meta name="author" content="Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore">
+<meta name="description" content="11.1 Workflow Choose whether to code child or mom locomotion first Code each pass according to definitions in Datavyu Locomotion Codes Run Ruby script to check for typos  11.2 Child locomotion...">
+<meta name="generator" content="bookdown 0.29 with bs4_book()">
+<meta property="og:title" content="Chapter 11 Locomotion | PLAY Project: The Protocol">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://PLAY-behaviorome.github.io/protocol/locomotion.html">
+<meta property="og:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png">
+<meta property="og:description" content="11.1 Workflow Choose whether to code child or mom locomotion first Code each pass according to definitions in Datavyu Locomotion Codes Run Ruby script to check for typos  11.2 Child locomotion...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 11 Locomotion | PLAY Project: The Protocol">
+<meta name="twitter:description" content="11.1 Workflow Choose whether to code child or mom locomotion first Code each pass according to definitions in Datavyu Locomotion Codes Run Ruby script to check for typos  11.2 Child locomotion...">
+<meta name="twitter:image" content="https://PLAY-behaviorome.github.io/protocol/img/PLAY-logo.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
 <style type="text/css">
-/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
-</style>
-
-<link rel="stylesheet" href="style.css" type="text/css" />
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="include/css/style.css">
 </head>
+<body data-spy="scroll" data-target="#toc">
 
-<body>
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 
-
-
-  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
-
-    <div class="book-summary">
-      <nav role="navigation">
-
-<ul class="summary">
-<li><a href="./">PLAY Project Protocol</a></li>
-
-<li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#themes"><i class="fa fa-check"></i>Themes</a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#behavior"><i class="fa fa-check"></i>Behavior</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#video"><i class="fa fa-check"></i>Video</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#openness"><i class="fa fa-check"></i>Openness and transparency</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#people"><i class="fa fa-check"></i>People</a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#pis"><i class="fa fa-check"></i>Principal Investigators</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#staff"><i class="fa fa-check"></i>Team</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#collaborators"><i class="fa fa-check"></i>Collaborating Investigators</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#advisors"><i class="fa fa-check"></i>Advisory</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="1" data-path="overview.html"><a href="overview.html"><i class="fa fa-check"></i><b>1</b> Project Overview</a>
-<ul>
-<li class="chapter" data-level="1.1" data-path="overview.html"><a href="overview.html#participants"><i class="fa fa-check"></i><b>1.1</b> Participants</a></li>
-<li class="chapter" data-level="1.2" data-path="overview.html"><a href="overview.html#sampling"><i class="fa fa-check"></i><b>1.2</b> Sampling</a></li>
-<li class="chapter" data-level="1.3" data-path="overview.html"><a href="overview.html#inclusionexclusion-criteria"><i class="fa fa-check"></i><b>1.3</b> Inclusion/Exclusion Criteria</a></li>
-<li class="chapter" data-level="1.4" data-path="overview.html"><a href="overview.html#collection-sites"><i class="fa fa-check"></i><b>1.4</b> Collection sites</a>
-<ul>
-<li class="chapter" data-level="1.4.1" data-path="overview.html"><a href="overview.html#map"><i class="fa fa-check"></i><b>1.4.1</b> Map</a></li>
-<li class="chapter" data-level="1.4.2" data-path="overview.html"><a href="overview.html#racial-composition"><i class="fa fa-check"></i><b>1.4.2</b> Racial composition</a></li>
-<li class="chapter" data-level="1.4.3" data-path="overview.html"><a href="overview.html#socio-economic-status"><i class="fa fa-check"></i><b>1.4.3</b> Socio-economic status</a></li>
-<li class="chapter" data-level="1.4.4" data-path="overview.html"><a href="overview.html#education"><i class="fa fa-check"></i><b>1.4.4</b> Education</a></li>
-<li class="chapter" data-level="1.4.5" data-path="overview.html"><a href="overview.html#languages-spoken"><i class="fa fa-check"></i><b>1.4.5</b> Languages spoken</a></li>
-</ul></li>
-<li class="chapter" data-level="1.5" data-path="overview.html"><a href="overview.html#video-1"><i class="fa fa-check"></i><b>1.5</b> Video</a></li>
-<li class="chapter" data-level="1.6" data-path="overview.html"><a href="overview.html#parent-report-questionnaire-data"><i class="fa fa-check"></i><b>1.6</b> Parent-report (questionnaire) data</a></li>
-</ul></li>
-<li class="part"><span><b>Collection</b></span></li>
-<li class="chapter" data-level="2" data-path="recruitment.html"><a href="recruitment.html"><i class="fa fa-check"></i><b>2</b> Recruitment</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="recruitment.html"><a href="recruitment.html#scheduling"><i class="fa fa-check"></i><b>2.1</b> Scheduling visit</a></li>
-<li class="chapter" data-level="2.2" data-path="recruitment.html"><a href="recruitment.html#initial-recruiting-phone-call"><i class="fa fa-check"></i><b>2.2</b> Initial recruiting phone call</a>
-<ul>
-<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#english_instructions"><i class="fa fa-check"></i>English instructions</a></li>
-<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#spanish_instructions"><i class="fa fa-check"></i>Spanish instructions</a></li>
-<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#initial-recruiting-voicemail"><i class="fa fa-check"></i>Initial recruiting voicemail</a></li>
-</ul></li>
-<li class="chapter" data-level="2.3" data-path="recruitment.html"><a href="recruitment.html#initial-recruiting-email"><i class="fa fa-check"></i><b>2.3</b> Initial recruiting email</a>
-<ul>
-<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#english-template"><i class="fa fa-check"></i>English template</a></li>
-<li class="chapter" data-level="" data-path="recruitment.html"><a href="recruitment.html#spanish-template"><i class="fa fa-check"></i>Spanish template</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="home-visit.html"><a href="home-visit.html"><i class="fa fa-check"></i><b>3</b> Home Visit</a>
-<ul>
-<li class="chapter" data-level="3.1" data-path="home-visit.html"><a href="home-visit.html#arrival-introduction"><i class="fa fa-check"></i><b>3.1</b> Arrival introduction</a></li>
-<li class="chapter" data-level="3.2" data-path="home-visit.html"><a href="home-visit.html#consent-to-participate"><i class="fa fa-check"></i><b>3.2</b> Consent to participate</a></li>
-<li class="chapter" data-level="3.3" data-path="home-visit.html"><a href="home-visit.html#one-hour-natural-play-video-noise-measurement"><i class="fa fa-check"></i><b>3.3</b> One-hour natural play video &amp; noise measurement</a>
-<ul>
-<li class="chapter" data-level="3.3.1" data-path="home-visit.html"><a href="home-visit.html#decibel-meter"><i class="fa fa-check"></i><b>3.3.1</b> Decibel Meter</a></li>
-<li class="chapter" data-level="3.3.2" data-path="home-visit.html"><a href="home-visit.html#one-hour-natural-play-video"><i class="fa fa-check"></i><b>3.3.2</b> One-Hour Natural Play Video</a></li>
-</ul></li>
-<li class="chapter" data-level="3.4" data-path="home-visit.html"><a href="home-visit.html#video-house-walk-through-while-measuring-rooms"><i class="fa fa-check"></i><b>3.4</b> Video House Walk-through while measuring rooms</a></li>
-<li class="chapter" data-level="3.5" data-path="home-visit.html"><a href="home-visit.html#five-minute-structured-mother-child-play"><i class="fa fa-check"></i><b>3.5</b> Five-minute Structured Mother-Child Play</a></li>
-<li class="chapter" data-level="3.6" data-path="home-visit.html"><a href="home-visit.html#questionnaires"><i class="fa fa-check"></i><b>3.6</b> Questionnaires</a>
-<ul>
-<li class="chapter" data-level="3.6.1" data-path="home-visit.html"><a href="home-visit.html#setting-up-for-questionnaires"><i class="fa fa-check"></i><b>3.6.1</b> Setting up for Questionnaires</a></li>
-<li class="chapter" data-level="3.6.2" data-path="home-visit.html"><a href="home-visit.html#questionnaires-1"><i class="fa fa-check"></i><b>3.6.2</b> Questionnaires</a></li>
-<li class="chapter" data-level="" data-path="home-visit.html"><a href="home-visit.html#permission-to-share---signing-databrary-form"><i class="fa fa-check"></i>Permission to share - signing Databrary form</a></li>
-</ul></li>
-<li class="chapter" data-level="3.7" data-path="home-visit.html"><a href="home-visit.html#visit-wrap-up"><i class="fa fa-check"></i><b>3.7</b> Visit wrap-up</a></li>
-<li class="chapter" data-level="3.8" data-path="home-visit.html"><a href="home-visit.html#full-play-home-visit-protocol---example-1"><i class="fa fa-check"></i><b>3.8</b> Full PLAY home visit protocol - example</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="post-visit.html"><a href="post-visit.html"><i class="fa fa-check"></i><b>4</b> Post-visit</a>
-<ul>
-<li class="chapter" data-level="4.1" data-path="post-visit.html"><a href="post-visit.html#post-visit-notes-clean-up-and-upload"><i class="fa fa-check"></i><b>4.1</b> Post Visit notes, Clean up, and Upload</a></li>
-<li class="chapter" data-level="4.2" data-path="post-visit.html"><a href="post-visit.html#upload-to-databrary"><i class="fa fa-check"></i><b>4.2</b> Upload to Databrary</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html"><i class="fa fa-check"></i><b>5</b> Frequently Asked Questions</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#faq-about-scheduling-and-recruitment"><i class="fa fa-check"></i><b>5.1</b> FAQ about <span>scheduling and recruitment</span></a></li>
-<li class="chapter" data-level="5.2" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#faqs_collection"><i class="fa fa-check"></i><b>5.2</b> FAQ about data collection</a>
-<ul>
-<li class="chapter" data-level="5.2.1" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#general"><i class="fa fa-check"></i><b>5.2.1</b> General</a></li>
-<li class="chapter" data-level="5.2.2" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#one-hour-natural-play"><i class="fa fa-check"></i><b>5.2.2</b> One-hour natural play</a></li>
-<li class="chapter" data-level="5.2.3" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#faqs_structured_play"><i class="fa fa-check"></i><b>5.2.3</b> Five-minute Structured Play</a></li>
-<li class="chapter" data-level="5.2.4" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#faqs_questionnaires"><i class="fa fa-check"></i><b>5.2.4</b> Questionnaires</a></li>
-<li class="chapter" data-level="5.2.5" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#faqs_walkthrough"><i class="fa fa-check"></i><b>5.2.5</b> House Walkthrough</a></li>
-</ul></li>
-</ul></li>
-<li class="part"><span><b>Coding</b></span></li>
-<li class="chapter" data-level="6" data-path="transcription.html"><a href="transcription.html"><i class="fa fa-check"></i><b>6</b> Transcription</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="transcription.html"><a href="transcription.html#file-locations-and-saving"><i class="fa fa-check"></i><b>6.1</b> File Locations and Saving</a></li>
-<li class="chapter" data-level="6.2" data-path="transcription.html"><a href="transcription.html#where-to-locate-datavyu-templates"><i class="fa fa-check"></i><b>6.2</b> Where to locate Datavyu Templates</a></li>
-<li class="chapter" data-level="6.3" data-path="transcription.html"><a href="transcription.html#what-is-an-utterance"><i class="fa fa-check"></i><b>6.3</b> What is an utterance?</a>
-<ul>
-<li class="chapter" data-level="6.3.1" data-path="transcription.html"><a href="transcription.html#whose-language-is-transcribed"><i class="fa fa-check"></i><b>6.3.1</b> Whose language is transcribed?</a></li>
-<li class="chapter" data-level="6.3.2" data-path="transcription.html"><a href="transcription.html#rules-for-transcribing-the-content-of-utterances"><i class="fa fa-check"></i><b>6.3.2</b> Rules for Transcribing the Content of Utterances</a></li>
-<li class="chapter" data-level="6.3.3" data-path="transcription.html"><a href="transcription.html#when-an-utterance-does-not-contain-words"><i class="fa fa-check"></i><b>6.3.3</b> When an utterance does not contain words</a></li>
-<li class="chapter" data-level="6.3.4" data-path="transcription.html"><a href="transcription.html#general-rules"><i class="fa fa-check"></i><b>6.3.4</b> General rules</a></li>
-<li class="chapter" data-level="6.3.5" data-path="transcription.html"><a href="transcription.html#special-cases-for-utterances"><i class="fa fa-check"></i><b>6.3.5</b> Special Cases for Utterances</a></li>
-<li class="chapter" data-level="6.3.6" data-path="transcription.html"><a href="transcription.html#retractedincomplete-words"><i class="fa fa-check"></i><b>6.3.6</b> Retracted/incomplete words</a></li>
-<li class="chapter" data-level="6.3.7" data-path="transcription.html"><a href="transcription.html#assimilated-words"><i class="fa fa-check"></i><b>6.3.7</b> Assimilated Words</a></li>
-<li class="chapter" data-level="6.3.8" data-path="transcription.html"><a href="transcription.html#spelling-and-pronunciation"><i class="fa fa-check"></i><b>6.3.8</b> Spelling and Pronunciation</a></li>
-<li class="chapter" data-level="6.3.9" data-path="transcription.html"><a href="transcription.html#regionalisms-and-colloquialisms"><i class="fa fa-check"></i><b>6.3.9</b> Regionalisms and Colloquialisms</a></li>
-<li class="chapter" data-level="6.3.10" data-path="transcription.html"><a href="transcription.html#adult-babble"><i class="fa fa-check"></i><b>6.3.10</b> Adult babble</a></li>
-</ul></li>
-<li class="chapter" data-level="6.4" data-path="transcription.html"><a href="transcription.html#transcribing-using-datavyu"><i class="fa fa-check"></i><b>6.4</b> Transcribing Using Datavyu</a></li>
-</ul></li>
-<li class="chapter" data-level="7" data-path="communication.html"><a href="communication.html"><i class="fa fa-check"></i><b>7</b> Communication</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="communication.html"><a href="communication.html#workflow"><i class="fa fa-check"></i><b>7.1</b> Workflow</a></li>
-<li class="chapter" data-level="7.2" data-path="communication.html"><a href="communication.html#child-communication-pass"><i class="fa fa-check"></i><b>7.2</b> Child communication pass</a>
-<ul>
-<li class="chapter" data-level="" data-path="communication.html"><a href="communication.html#datavyu-communication-codes-for-child"><i class="fa fa-check"></i>Datavyu Communication Codes for Child</a></li>
-<li class="chapter" data-level="" data-path="communication.html"><a href="communication.html#how-to-code"><i class="fa fa-check"></i>How to Code</a></li>
-</ul></li>
-<li class="chapter" data-level="7.3" data-path="communication.html"><a href="communication.html#mom-communication-pass"><i class="fa fa-check"></i><b>7.3</b> Mom communication pass</a>
-<ul>
-<li class="chapter" data-level="" data-path="communication.html"><a href="communication.html#datavyu-communication-codes-for-mom"><i class="fa fa-check"></i>Datavyu Communication Codes for Mom</a></li>
-<li class="chapter" data-level="" data-path="communication.html"><a href="communication.html#how-to-code-1"><i class="fa fa-check"></i>How to Code</a></li>
-<li class="chapter" data-level="" data-path="communication.html"><a href="communication.html#filler_words"><i class="fa fa-check"></i>List of Filler and Affirmation Phrases and Words</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="8" data-path="gesture.html"><a href="gesture.html"><i class="fa fa-check"></i><b>8</b> Gesture</a>
-<ul>
-<li class="chapter" data-level="8.1" data-path="gesture.html"><a href="gesture.html#workflow-1"><i class="fa fa-check"></i><b>8.1</b> Workflow</a></li>
-<li class="chapter" data-level="8.2" data-path="gesture.html"><a href="gesture.html#child-gesture-pass"><i class="fa fa-check"></i><b>8.2</b> Child gesture pass</a>
-<ul>
-<li class="chapter" data-level="" data-path="gesture.html"><a href="gesture.html#datavyu-gesture-codes-for-child"><i class="fa fa-check"></i>Datavyu Gesture Codes for Child</a></li>
-<li class="chapter" data-level="" data-path="gesture.html"><a href="gesture.html#how-to-code-2"><i class="fa fa-check"></i>How to Code</a></li>
-<li class="chapter" data-level="" data-path="gesture.html"><a href="gesture.html#check-the-final-coded-child-communication-pass"><i class="fa fa-check"></i>Check the Final Coded Child Communication Pass</a></li>
-</ul></li>
-<li class="chapter" data-level="8.3" data-path="gesture.html"><a href="gesture.html#mom-gesture-pass"><i class="fa fa-check"></i><b>8.3</b> Mom gesture pass</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="emotion.html"><a href="emotion.html"><i class="fa fa-check"></i><b>9</b> Emotion</a>
-<ul>
-<li class="chapter" data-level="9.1" data-path="emotion.html"><a href="emotion.html#workflow-2"><i class="fa fa-check"></i><b>9.1</b> Workflow</a></li>
-<li class="chapter" data-level="9.2" data-path="emotion.html"><a href="emotion.html#child-emotion-pass"><i class="fa fa-check"></i><b>9.2</b> Child emotion pass</a>
-<ul>
-<li class="chapter" data-level="9.2.1" data-path="emotion.html"><a href="emotion.html#datavyu-emotion-codes-for-child"><i class="fa fa-check"></i><b>9.2.1</b> Datavyu Emotion Codes for Child</a></li>
-<li class="chapter" data-level="" data-path="emotion.html"><a href="emotion.html#how-to-code-the-child-emotion-column"><i class="fa fa-check"></i>How to Code the Child Emotion Column</a></li>
-<li class="chapter" data-level="" data-path="emotion.html"><a href="emotion.html#check-the-final-coded-pass"><i class="fa fa-check"></i>Check the final coded pass</a></li>
-</ul></li>
-<li class="chapter" data-level="9.3" data-path="emotion.html"><a href="emotion.html#mom-emotion-pass"><i class="fa fa-check"></i><b>9.3</b> Mom emotion pass</a>
-<ul>
-<li class="chapter" data-level="9.3.1" data-path="emotion.html"><a href="emotion.html#datavyu-emotion-codes-for-mom"><i class="fa fa-check"></i><b>9.3.1</b> Datavyu emotion Codes for Mom</a></li>
-<li class="chapter" data-level="9.3.2" data-path="emotion.html"><a href="emotion.html#how-to-code-the-mom-emotion-column"><i class="fa fa-check"></i><b>9.3.2</b> How to Code the Mom Emotion Column</a></li>
-<li class="chapter" data-level="9.3.3" data-path="emotion.html"><a href="emotion.html#check-the-final-coded-pass-1"><i class="fa fa-check"></i><b>9.3.3</b> Check the final coded pass</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="10" data-path="objects.html"><a href="objects.html"><i class="fa fa-check"></i><b>10</b> Objects</a>
-<ul>
-<li class="chapter" data-level="10.1" data-path="objects.html"><a href="objects.html#workflow-3"><i class="fa fa-check"></i><b>10.1</b> Workflow</a></li>
-<li class="chapter" data-level="10.2" data-path="objects.html"><a href="objects.html#child-object-interaction-pass"><i class="fa fa-check"></i><b>10.2</b> Child object interaction pass</a>
-<ul>
-<li class="chapter" data-level="" data-path="objects.html"><a href="objects.html#datavyu-object-interaction-codes-for-child"><i class="fa fa-check"></i>Datavyu Object Interaction Codes for Child</a></li>
-<li><a href="objects.html#childobj-how-to-code-the-child-object-interaction-column"><code>childobj</code> How to Code the Child Object Interaction Column</a></li>
-<li class="chapter" data-level="" data-path="objects.html"><a href="objects.html#check-the-final-child-object-interaction-coded-pass"><i class="fa fa-check"></i>Check the final Child Object Interaction Coded Pass</a></li>
-</ul></li>
-<li class="chapter" data-level="10.3" data-path="objects.html"><a href="objects.html#mom-object-interaction-pass"><i class="fa fa-check"></i><b>10.3</b> Mom object interaction pass</a>
-<ul>
-<li class="chapter" data-level="" data-path="objects.html"><a href="objects.html#datavyu-object-codes-for-mom"><i class="fa fa-check"></i>Datavyu Object Codes for Mom</a></li>
-<li class="chapter" data-level="" data-path="objects.html"><a href="objects.html#how-to-code-the-mom-object-interaction-column"><i class="fa fa-check"></i>How to Code the Mom Object Interaction Column</a></li>
-<li class="chapter" data-level="" data-path="objects.html"><a href="objects.html#check-the-final-mom-object-interaction-coded-pass"><i class="fa fa-check"></i>Check the final Mom Object Interaction Coded Pass</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="11" data-path="locomotion.html"><a href="locomotion.html"><i class="fa fa-check"></i><b>11</b> Locomotion</a>
-<ul>
-<li class="chapter" data-level="11.1" data-path="locomotion.html"><a href="locomotion.html#workflow-4"><i class="fa fa-check"></i><b>11.1</b> Workflow</a></li>
-<li class="chapter" data-level="11.2" data-path="locomotion.html"><a href="locomotion.html#child-locomotion-pass"><i class="fa fa-check"></i><b>11.2</b> Child locomotion pass</a>
-<ul>
-<li class="chapter" data-level="" data-path="locomotion.html"><a href="locomotion.html#datavyu-locomotion-codes-for-child"><i class="fa fa-check"></i>Datavyu locomotion codes for child</a></li>
-<li class="chapter" data-level="" data-path="locomotion.html"><a href="locomotion.html#how-to-code-the-child-locomotion-column"><i class="fa fa-check"></i>How to Code the Child Locomotion Column</a></li>
-<li class="chapter" data-level="" data-path="locomotion.html"><a href="locomotion.html#check-the-final-coded-pass-2"><i class="fa fa-check"></i>Check the final coded pass</a></li>
-</ul></li>
-<li class="chapter" data-level="11.3" data-path="locomotion.html"><a href="locomotion.html#mom-locomotion-pass"><i class="fa fa-check"></i><b>11.3</b> Mom locomotion pass</a>
-<ul>
-<li class="chapter" data-level="" data-path="locomotion.html"><a href="locomotion.html#datavyu-locomotion-codes-for-mom"><i class="fa fa-check"></i>Datavyu Locomotion Codes for Mom</a></li>
-<li class="chapter" data-level="" data-path="locomotion.html"><a href="locomotion.html#how-to-code-the-mom-locomotion-column"><i class="fa fa-check"></i>How to Code the Mom Locomotion Column</a></li>
-<li class="chapter" data-level="" data-path="locomotion.html"><a href="locomotion.html#check-the-final-mom-locomotion-coded-pass"><i class="fa fa-check"></i>Check the final Mom Locomotion Coded Pass</a></li>
-</ul></li>
-</ul></li>
-<li class="part"><span><b>Data Management &amp; Quality Assurance</b></span></li>
-<li class="chapter" data-level="12" data-path="data-management.html"><a href="data-management.html"><i class="fa fa-check"></i><b>12</b> Data management</a>
-<ul>
-<li class="chapter" data-level="12.1" data-path="data-management.html"><a href="data-management.html#coding-workflow"><i class="fa fa-check"></i><b>12.1</b> Coding workflow</a></li>
-<li class="chapter" data-level="12.2" data-path="data-management.html"><a href="data-management.html#kobotoolbox-workflow"><i class="fa fa-check"></i><b>12.2</b> KoBoToolbox workflow</a>
-<ul>
-<li class="chapter" data-level="12.2.1" data-path="data-management.html"><a href="data-management.html#challenges-to-surmount"><i class="fa fa-check"></i><b>12.2.1</b> Challenges to surmount</a></li>
-<li class="chapter" data-level="12.2.2" data-path="data-management.html"><a href="data-management.html#summary-of-processing-steps"><i class="fa fa-check"></i><b>12.2.2</b> Summary of processing steps</a></li>
-<li class="chapter" data-level="12.2.3" data-path="data-management.html"><a href="data-management.html#data-sharing"><i class="fa fa-check"></i><b>12.2.3</b> Data sharing</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="13" data-path="quality-assurance.html"><a href="quality-assurance.html"><i class="fa fa-check"></i><b>13</b> Quality assurance</a>
-<ul>
-<li class="chapter" data-level="13.1" data-path="quality-assurance.html"><a href="quality-assurance.html#quality-assurance-for-play-project"><i class="fa fa-check"></i><b>13.1</b> Quality Assurance for PLAY Project</a>
-<ul>
-<li class="chapter" data-level="13.1.1" data-path="quality-assurance.html"><a href="quality-assurance.html#databrary-and-demographic-information"><i class="fa fa-check"></i><b>13.1.1</b> Databrary and demographic information</a></li>
-<li class="chapter" data-level="13.1.2" data-path="quality-assurance.html"><a href="quality-assurance.html#hour-natural-play"><i class="fa fa-check"></i><b>13.1.2</b> 1-hour natural play</a></li>
-<li class="chapter" data-level="13.1.3" data-path="quality-assurance.html"><a href="quality-assurance.html#decibel-meter-1"><i class="fa fa-check"></i><b>13.1.3</b> Decibel meter</a></li>
-<li class="chapter" data-level="13.1.4" data-path="quality-assurance.html"><a href="quality-assurance.html#house-walkthrough"><i class="fa fa-check"></i><b>13.1.4</b> House walkthrough</a></li>
-<li class="chapter" data-level="13.1.5" data-path="quality-assurance.html"><a href="quality-assurance.html#min-structured-play"><i class="fa fa-check"></i><b>13.1.5</b> 5-min structured play</a></li>
-<li class="chapter" data-level="13.1.6" data-path="quality-assurance.html"><a href="quality-assurance.html#questionnaires-2"><i class="fa fa-check"></i><b>13.1.6</b> Questionnaires</a></li>
-<li class="chapter" data-level="13.1.7" data-path="quality-assurance.html"><a href="quality-assurance.html#post-visit-notes"><i class="fa fa-check"></i><b>13.1.7</b> Post-visit notes</a></li>
-</ul></li>
-<li class="chapter" data-level="13.2" data-path="quality-assurance.html"><a href="quality-assurance.html#quality-assurance-feedback"><i class="fa fa-check"></i><b>13.2</b> Quality Assurance Feedback</a></li>
-</ul></li>
-<li class="part"><span><b>I Ethics</b></span></li>
-<li class="chapter" data-level="14" data-path="irb.html"><a href="irb.html"><i class="fa fa-check"></i><b>14</b> IRB</a>
-<ul>
-<li class="chapter" data-level="14.1" data-path="irb.html"><a href="irb.html#collection"><i class="fa fa-check"></i><b>14.1</b> Collection</a></li>
-<li class="chapter" data-level="14.2" data-path="irb.html"><a href="irb.html#coding"><i class="fa fa-check"></i><b>14.2</b> Coding</a></li>
-</ul></li>
-<li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="datavyu-scripts.html"><a href="datavyu-scripts.html"><i class="fa fa-check"></i><b>A</b> Datavyu scripts</a></li>
-<li class="chapter" data-level="B" data-path="equipment-used-on-home-visits.html"><a href="equipment-used-on-home-visits.html"><i class="fa fa-check"></i><b>B</b> Equipment used on home visits</a></li>
-<li class="chapter" data-level="C" data-path="questionnaires-3.html"><a href="questionnaires-3.html"><i class="fa fa-check"></i><b>C</b> Questionnaires</a>
-<ul>
-<li class="chapter" data-level="C.1" data-path="questionnaires-3.html"><a href="questionnaires-3.html#quest_demo_english"><i class="fa fa-check"></i><b>C.1</b> Demographic (screening) questionnaire (English)</a>
-<ul>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#a.-contact-information"><i class="fa fa-check"></i>A. CONTACT INFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#b.-participant-id-information"><i class="fa fa-check"></i>B. PARTICIPANT ID INFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#c.-data-collection-site-information"><i class="fa fa-check"></i>C. DATA COLLECTION SITE INFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#d.-child-information"><i class="fa fa-check"></i>D. CHILD INFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#e.-family-structure"><i class="fa fa-check"></i>E. FAMILY STRUCTURE</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#f.-mother-information"><i class="fa fa-check"></i>F. MOTHER INFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#g.-biological-father-information"><i class="fa fa-check"></i>G. BIOLOGICAL FATHER INFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#h.-biological-mother-information"><i class="fa fa-check"></i>H. BIOLOGICAL MOTHER INFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#i.-non-biological-parent-partner-information"><i class="fa fa-check"></i>I. NON-BIOLOGICAL PARENT PARTNER INFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#j.-generalpartnerinformation"><i class="fa fa-check"></i>J. GENERALPARTNERINFORMATION</a></li>
-<li class="chapter" data-level="" data-path="questionnaires-3.html"><a href="questionnaires-3.html#k.-child-care-arrangements"><i class="fa fa-check"></i>K. CHILD CARE ARRANGEMENTS</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
-</ul>
-
-      </nav>
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">PLAY Project: The Protocol</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
 
-    <div class="book-body">
-      <div class="body-inner">
-        <div class="book-header" role="navigation">
-          <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Play &amp; Learning Across a Year (PLAY): The Protocol</a>
-          </h1>
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Preface</a></li>
+<li><a class="" href="overview.html"><span class="header-section-number">1</span> Project Overview</a></li>
+<li class="book-part">Collection</li>
+<li><a class="" href="recruitment.html"><span class="header-section-number">2</span> Recruitment</a></li>
+<li><a class="" href="home-visit.html"><span class="header-section-number">3</span> Home Visit</a></li>
+<li><a class="" href="post-visit.html"><span class="header-section-number">4</span> Post-visit</a></li>
+<li><a class="" href="frequently-asked-questions.html"><span class="header-section-number">5</span> Frequently Asked Questions</a></li>
+<li class="book-part">Coding</li>
+<li><a class="" href="transcription.html"><span class="header-section-number">6</span> Transcription</a></li>
+<li><a class="" href="communication.html"><span class="header-section-number">7</span> Communication</a></li>
+<li><a class="" href="gesture.html"><span class="header-section-number">8</span> Gesture</a></li>
+<li><a class="" href="emotion.html"><span class="header-section-number">9</span> Emotion</a></li>
+<li><a class="" href="objects.html"><span class="header-section-number">10</span> Objects</a></li>
+<li><a class="active" href="locomotion.html"><span class="header-section-number">11</span> Locomotion</a></li>
+<li class="book-part">Data Management &amp; Quality Assurance</li>
+<li><a class="" href="data-management.html"><span class="header-section-number">12</span> Data management</a></li>
+<li><a class="" href="quality-assurance.html"><span class="header-section-number">13</span> Quality assurance</a></li>
+<li class="book-part">Ethics</li>
+<li><a class="" href="irb.html"><span class="header-section-number">14</span> IRB</a></li>
+<li class="book-part">Appendix</li>
+<li><a class="" href="datavyu-scripts.html"><span class="header-section-number">A</span> Datavyu scripts</a></li>
+<li><a class="" href="equipment-used-on-home-visits.html"><span class="header-section-number">B</span> Equipment used on home visits</a></li>
+<li><a class="" href="questionnaires-3.html"><span class="header-section-number">C</span> Questionnaires</a></li>
+<li><a class="" href="datavyu.html"><span class="header-section-number">D</span> Datavyu</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/PLAY-behaviorome/protocol">View book source <i class="fab fa-github"></i></a></p>
         </div>
-
-        <div class="page-wrapper" tabindex="-1" role="main">
-          <div class="page-inner">
-
-            <section class="normal" id="section-">
-<div id="locomotion" class="section level1" number="11">
-<h1><span class="header-section-number">Chapter 11</span> Locomotion</h1>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="locomotion" class="section level1" number="11">
+<h1>
+<span class="header-section-number">11</span> Locomotion<a class="anchor" aria-label="anchor" href="#locomotion"><i class="fas fa-link"></i></a>
+</h1>
 <div id="workflow-4" class="section level2" number="11.1">
-<h2><span class="header-section-number">11.1</span> Workflow</h2>
+<h2>
+<span class="header-section-number">11.1</span> Workflow<a class="anchor" aria-label="anchor" href="#workflow-4"><i class="fas fa-link"></i></a>
+</h2>
 <ol style="list-style-type: decimal">
 <li>Choose whether to code child or mom locomotion first</li>
 <li>Code each pass according to definitions in Datavyu Locomotion Codes</li>
@@ -357,38 +115,48 @@ div.csl-indent {
 </ol>
 </div>
 <div id="child-locomotion-pass" class="section level2" number="11.2">
-<h2><span class="header-section-number">11.2</span> Child locomotion pass</h2>
+<h2>
+<span class="header-section-number">11.2</span> Child locomotion pass<a class="anchor" aria-label="anchor" href="#child-locomotion-pass"><i class="fas fa-link"></i></a>
+</h2>
 <div id="datavyu-locomotion-codes-for-child" class="section level3 unnumbered">
-<h3>Datavyu locomotion codes for child</h3>
+<h3>Datavyu locomotion codes for child<a class="anchor" aria-label="anchor" href="#datavyu-locomotion-codes-for-child"><i class="fas fa-link"></i></a>
+</h3>
 <p>There are 3 columns associated with child locomotion codes: id for child locomotion, child locomotion column, and a comments column for the child locomotion coding.</p>
 <div id="child-locomotion-id-column" class="section level4 unnumbered">
-<h4>Child locomotion id Column</h4>
-<p><strong>Column name</strong>: <code>obj_id_child</code></br>
+<h4>Child locomotion id Column<a class="anchor" aria-label="anchor" href="#child-locomotion-id-column"><i class="fas fa-link"></i></a>
+</h4>
+<p><strong>Column name</strong>: <code>obj_id_child</code>
 <strong>Code</strong>: (&lt;lab_id&gt;, &lt;childloc_coder&gt;, &lt;childloc_date&gt;, &lt;childloc_mins&gt;, &lt;relchildloc_coder&gt;, &lt;relchildloc_date&gt;)</p>
 <p>Code the loc_id_child column according to the definitions for coding the id column.</p>
 </div>
 <div id="child-locomotion-column" class="section level4 unnumbered">
-<h4>Child locomotion Column</h4>
-<p>Column name: <code>childloc</code></br>
-Code: (&lt;loc_lfmdr&gt;)</br></p>
+<h4>Child locomotion Column<a class="anchor" aria-label="anchor" href="#child-locomotion-column"><i class="fas fa-link"></i></a>
+</h4>
+<p>Column name: <code>childloc</code>
+Code: (&lt;loc_lfmdr&gt;)</p>
 <div id="general-orientation-3" class="section level5 unnumbered">
-<h5>General Orientation</h5>
+<h5>General Orientation<a class="anchor" aria-label="anchor" href="#general-orientation-3"><i class="fas fa-link"></i></a>
+</h5>
 <p>This code captures the times that the child is engaged in salient self-generated locomotion in any form (i.e., bum shuffling, scooting, belly crawling, hands-knees crawling, cruising, supported walking, independent walking, etc.). Also included in this pass are the times when the child is riding a locomotor device, the child is being held by mom or mom is restricting locomotion, the times child is constrained in child furniture (e.g., a belted chair, highchair, or stroller) OR when locomotion cannot be reliably coded (coded as missing in this pass). Coders do not score instances when the child is stationary but could have locomoted. Bouts of locomotion are scored as events, where the gray spaces between cells mean the child is stationary but not held and not constrained.
 Coders are watching/tagging the duration of each of these events (locomotion, falls, mom-constrained, device-constrained, riding a toy with wheels, not visible) by marking onset/offset times. To determine locomotion, coders are watching for steps with the feet, the knees, or movements with the bum. Any other movements that are not initiated from these three body locations are considered to be a transition between postures and are counted as stationary, because it is likely a transition rather than salient locomotion.</p>
 </div>
 <div id="child_locomotion_values" class="section level5 unnumbered">
-<h5>Value list</h5>
-<p><a href="locomotion.html#child_locomotion">‘l’ = locomotion</a></br>
-<a href="locomotion.html#child_fall">‘f’ = fall</a></br>
-<a href="locomotion.html#mom_constrained">‘m’ = mom constrained</a>. Mother is constraining child locomotion by holding or carrying.</br>
-<a href="locomotion.html#device_constrained">‘d’ = device constrained</a>. Child’s locomotion is restricted by a device (highchair, stroller, changing table, bathtub, car seat, etc.)</br>
-<a href="locomotion.html#ride">‘r’ = riding a locomotive device (bike, scooter, car, etc.)</a></br>
-<a href="locomotion.html#child_missing">‘.’ = when the child is off camera or the child’s feet/knees/bum are off camera and the coder cannot see or infer whether the child is locomoting.</a></br></p>
+<h5>Value list<a class="anchor" aria-label="anchor" href="#child_locomotion_values"><i class="fas fa-link"></i></a>
+</h5>
+<p><a href="locomotion.html#child_locomotion">‘l’ = locomotion</a>
+<a href="locomotion.html#child_fall">‘f’ = fall</a>
+<a href="locomotion.html#mom_constrained">‘m’ = mom constrained</a>. Mother is constraining child locomotion by holding or carrying.
+<a href="locomotion.html#device_constrained">‘d’ = device constrained</a>. Child’s locomotion is restricted by a device (highchair, stroller, changing table, bathtub, car seat, etc.)
+<a href="locomotion.html#ride">‘r’ = riding a locomotive device (bike, scooter, car, etc.)</a>
+<a href="locomotion.html#child_missing">‘.’ = when the child is off camera or the child’s feet/knees/bum are off camera and the coder cannot see or infer whether the child is locomoting.</a></p>
 </div>
 <div id="operational-definitions-1" class="section level5 unnumbered">
-<h5>Operational Definitions</h5>
+<h5>Operational Definitions<a class="anchor" aria-label="anchor" href="#operational-definitions-1"><i class="fas fa-link"></i></a>
+</h5>
 <div id="child_locomotion" class="section level6" number="11.2.0.0.0.1">
-<h6><span class="header-section-number">11.2.0.0.0.1</span> Locomotion (l)</h6>
+<h6>
+<span class="header-section-number">11.2.0.0.0.1</span> Locomotion (l)<a class="anchor" aria-label="anchor" href="#child_locomotion"><i class="fas fa-link"></i></a>
+</h6>
 <p>Code ‘l’ when the child is engaged in self-generated locomotion in any form (i.e. bum shuffling, scooting, belly crawling, hands-knees crawling, hands-feet crawling, cruising, supported walking, independent walking, marching in place, jumping, hopping, etc.). Locomotion occurs when the entire body is displaced in any direction in space—forward, sideways, backward, in-place— because the child is taking a “step”. A child takes a “step” by shifting weight from one foot/knee onto the other (i.e., weight must be shifting onto a swinging foot/knee in the air to count as moving; if not, this is stationary).
 This code counts locomotion regardless of whether the child maintains balance independently or the child’s balance is supported by a parent or external object/apparatus. This code also counts even if the child is taking uncontrolled steps while losing balance (i.e. stumbling steps before a fall). Any self-generated locomotion where the child is using a toy, baby walker, furniture, etc. for support and pushing or moving the object, counts as locomotion. (NOTE: If the child is on top and riding a toy with wheels, this does not count as locomotion. See rules for riding).</p>
 <p>If the child is upright:</p>
@@ -415,20 +183,23 @@ If the child is locomoting on the floor and stops for more than 1 s before climb
 If the child is going up/down stairs in any manner (walking, crawling, belly-crawling, bum shuffling), count all possible locomotion using regular locomotion codes. Stairs are different from climbing onto/down from the furniture note above.</p>
 </div>
 <div id="setting-the-onset-offset-of-a-locomotion-bout" class="section level6 unnumbered">
-<h6>Setting the Onset &amp; Offset of a locomotion bout:</h6>
+<h6>Setting the Onset &amp; Offset of a locomotion bout:<a class="anchor" aria-label="anchor" href="#setting-the-onset-offset-of-a-locomotion-bout"><i class="fas fa-link"></i></a>
+</h6>
 <p>Onset of an upright “locomotion bout” is the first frame when the whole foot is displaced (i.e when the foot lifted off the ground). The foot doesn’t necessarily have to come off the ground, but the foot has to slide forward, backward or sideways. The onset for a non-upright “locomotion bout” is the first frame when the knee/foot or bum is displaced in space.
 Offset is the frame when the child takes the last step before a 1s pause.</p>
 </div>
 </div>
 <div id="child_fall" class="section level5 unnumbered">
-<h5>Falls (f)</h5>
+<h5>Falls (f)<a class="anchor" aria-label="anchor" href="#child_fall"><i class="fas fa-link"></i></a>
+</h5>
 <p>Code ‘f’ if the child loses control over his/her body (i.e., balance) and cannot recover on his/her own before his/her body hits the ground. If the child loses balance, but catches him/herself before the above body parts hit the ground, do not count as a fall.
 All falls count. They can happen while upright, on/off furniture or other elevation, while sitting, or while engaged in locomotion (walking or crawling). Falls can happen while the mom is holding the child’s hand or while the child is holding onto furniture or another support.
 A loss of balance must occur before any of the body parts hit the ground. Sometimes babies will actively choose to drop to the floor (e.g., jumping and dropping, flopping down from a couch to the floor, plopping down into a sit, where they let themselves fall down into a sitting position). These instances should NOT count as a fall.
 Parent-involved falls should only be coded as a fall if the parent catches the child after the child loses balance, effectively supporting the child’s entire weight. In this scenario, the child would have fallen if not for parent rescue (i.e., the body part would have hit the ground). Parents must catch after the child has begun to lose balance.
 Falling can occur immediately after mom-constrained if mom and child fell together. Falling can occur immediately after device-constrained if device tips over or the mechanism of constraint fails. Falling can occur immediately after riding if falls off of the riding device.</p>
 <div id="setting-the-onset-offset-for-falls" class="section level6 unnumbered">
-<h6>Setting the Onset &amp; Offset for falls:</h6>
+<h6>Setting the Onset &amp; Offset for falls:<a class="anchor" aria-label="anchor" href="#setting-the-onset-offset-for-falls"><i class="fas fa-link"></i></a>
+</h6>
 <p>Falls can be coded as separate events (child is standing stationary and then falls) or immediately following another code (child is locomoting and then falls). There should only be 1ms between the previous code and the onset of the falling event if the fall ends the previous code (continuous coding).</p>
 <p>Onset is the first frame when the child begins to lose balance.</p>
 <p>Offset when the child’s body (as defined below) hits the floor.</p>
@@ -438,7 +209,8 @@ From a sitting position: a loss of balance results in the head, chest, side of t
 </div>
 </div>
 <div id="mom_constrained" class="section level5 unnumbered">
-<h5>Mom-constrained (m)</h5>
+<h5>Mom-constrained (m)<a class="anchor" aria-label="anchor" href="#mom_constrained"><i class="fas fa-link"></i></a>
+</h5>
 <p>Code ‘m’ when the child is being constrained and supported by the mother. During a mother constraint, the mother can be moving (carrying) or stationary (holding). Code ‘m’ when any of the following scenarios occur:
 Child feet in the air: Both feet are in the air because of mom lifting up the child, child sitting on mom’s lap while the mom is sitting on furniture, child is on a surface with mom constraining the movement of the child with her hands. Exception: If child and mom are playing a “bouncing/jumping” game, where the feet are leaving the surface of support repeatedly, code as ‘m’. If the child takes steps while supported then this should be coded ‘l’.
 Mom is holding child: If child is sitting on mom’s lap, or child is breastfeeding, code as ‘m’
@@ -447,7 +219,8 @@ Note: Child sitting on the floor between the mom’s legs or on the couch next t
 Mom constrains the child while on an elevated surface. The child’s feet are not in the air but the mom is restricting the movements, possibly for safety, while the child is on an elevated surface (e.g., mom holding child while sitting on the kitchen counter, mom holding child at the trunk while going down a slide). Note: If the child is sitting directly on a piece of furniture with legs dangling but mom is not constraining or supporting the child in any way, and the child could stand and locomote on their own, do not code as ‘m’. This would be considered stationary. If the child is in a device code as ‘d’.
 NOTE: if the child is crawling or walking on a surface but the mom is providing support (e.g., holding the child’s hands or waist) code this as ‘l’, because this is considered supported locomotion.</p>
 <div id="setting-the-onset-offset-of-mom-constrained" class="section level6 unnumbered">
-<h6>Setting the Onset &amp; Offset of mom-constrained:</h6>
+<h6>Setting the Onset &amp; Offset of mom-constrained:<a class="anchor" aria-label="anchor" href="#setting-the-onset-offset-of-mom-constrained"><i class="fas fa-link"></i></a>
+</h6>
 <p>Onset of “mom-constrained” is the first frame when mom lifts up the child’s whole body off the current surface and up into the air in mom’s arms (as defined below).</p>
 <p>From an upright or squatting position: when a child’s second foot leaves the surface.
 From lying down on back: when bum leaves the surface of support.
@@ -473,7 +246,8 @@ In cases of “missing” followed by “mom-constrained”</p>
 </div>
 </div>
 <div id="device_constrained" class="section level5 unnumbered">
-<h5>Device (d)</h5>
+<h5>Device (d)<a class="anchor" aria-label="anchor" href="#device_constrained"><i class="fas fa-link"></i></a>
+</h5>
 <p>Code ‘d’ if the child is constrained (could be strapped or not) in a device that restricts locomotion (e.g., a highchair, stroller, car seat, etc.). The device could restrict locomotion by binding the child from the front or sides (bumbo seat), lifting them off the ground (high chair, changing table), constraining their freedom to move upright (car seat, stroller), or strapped in. Devices can never be household furniture (e.g. couch, chair, or bed) not intended for children. Child-designed furniture (e.g. wooden or plastic child chair) is not a device unless the child is strapped into it and locomotion is restricted.
 NOTE: Child walker is NOT a device. This would count as supported walking because that’s the whole point of a child walker. Jolly jumpers and exersaucers count as a device even though the child is moving or jumping around because this restricts locomotion.
 For devices that always restricts locomotion (with or without straps): if the device restricts locomotion regardless of whether the child is strapped in or not (e.g. highchair with bounded sides, tall stroller, bumbo seat) code as ‘d’ when child is on the device, not when straps are buckled.</p>
@@ -487,17 +261,20 @@ Setting the Onset &amp; Offset for device:</p>
 Offset of constrained is when the butt leaves the device as the parent starts to take the child out (usually by lifting them out). (See also mom-constrained section)..</p>
 </div>
 <div id="ride" class="section level5 unnumbered">
-<h5>Ride (r)</h5>
+<h5>Ride (r)<a class="anchor" aria-label="anchor" href="#ride"><i class="fas fa-link"></i></a>
+</h5>
 <p>Code ‘r’ if the child is riding a locomotive toy (e.g. child car, bike, scooter, doll stroller, etc.) with wheels. The child can be sitting (bum on the seat), kneeling with one knee, standing (on a scooter), straddling on a bicycle or tricycle with both legs on opposite sides of a central support riding toy. The device does not necessarily need to be in motion for you to code this as ‘r’. If a riding toy does not have wheels then it does not count as ‘r’ and should be considered stationary (e.g. if a child is sitting on a rocking horse).</p>
 <p>Do not code as ‘r’ if the child’s bum, knee, or feet is not on the riding device. Taking steps while pushing a riding toy while not straddling, sitting, or kneeling on it or while walking around the toy count as locomotion. If steps occur as the child is moving onto/off of the device, follow codes for ‘l’ (remember not to code transitions).</p>
 <div id="setting-the-onset-offset-for-ride" class="section level6 unnumbered">
-<h6>Setting the Onset &amp; Offset for ride:</h6>
+<h6>Setting the Onset &amp; Offset for ride:<a class="anchor" aria-label="anchor" href="#setting-the-onset-offset-for-ride"><i class="fas fa-link"></i></a>
+</h6>
 <p>Onset of ride is when the child’s bum or knee first touches the riding toy (if sitting in a bike or car) or the second foot is off the ground (if standing on a scooter). Straddling begins when both feet are on the ground.
 Offset of ride is when the child’s bum, knee, or both feet leave the riding toy.</p>
 </div>
 </div>
 <div id="child_missing" class="section level5 unnumbered">
-<h5>Missing (.)</h5>
+<h5>Missing (.)<a class="anchor" aria-label="anchor" href="#child_missing"><i class="fas fa-link"></i></a>
+</h5>
 <p>Code ‘.’ if the child is not fully visible and you cannot reliably code ‘l’, ‘d’, ‘m’, or ‘r’. Child could be completely out of view or their lower body could be occluded and it is not clear based on the movement of the top half of the body if the child is locomoting. A missing bout must last for at least 1 second.</p>
 <p>If child is missing for less than 1s:</p>
 <p>If missing time less than 1s occurs between 2 identical codes (e.g. ‘l’ and ‘l’) do not split bout; instead, continue locomotion bout from original cell until end of that locomotion bout.
@@ -515,7 +292,8 @@ Offset of missing is the first frame when the child’s locomotion status can re
 </div>
 </div>
 <div id="how-to-code-the-child-locomotion-column" class="section level3 unnumbered">
-<h3>How to Code the Child Locomotion Column</h3>
+<h3>How to Code the Child Locomotion Column<a class="anchor" aria-label="anchor" href="#how-to-code-the-child-locomotion-column"><i class="fas fa-link"></i></a>
+</h3>
 <ul>
 <li>Set “JUMP-BACK-BY” key to 1 s.</li>
 <li>Enable cell highlighting (cmd + shift +F). Enable temporal mode (cmd T).</li>
@@ -527,40 +305,50 @@ Offset of missing is the first frame when the child’s locomotion status can re
 </ul>
 </div>
 <div id="check-the-final-coded-pass-2" class="section level3 unnumbered">
-<h3>Check the final coded pass</h3>
+<h3>Check the final coded pass<a class="anchor" aria-label="anchor" href="#check-the-final-coded-pass-2"><i class="fas fa-link"></i></a>
+</h3>
 <p>When finished coding, run the script to check for typos in the child locomotion column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive ‘l’ cells that are less than 1s apart (and should be merged), and any invalid codes (any characters besides ‘l’, ‘f’, ‘m’, ‘d’, ‘r’, or ‘.’). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.</p>
 </div>
 </div>
 <div id="mom-locomotion-pass" class="section level2" number="11.3">
-<h2><span class="header-section-number">11.3</span> Mom locomotion pass</h2>
+<h2>
+<span class="header-section-number">11.3</span> Mom locomotion pass<a class="anchor" aria-label="anchor" href="#mom-locomotion-pass"><i class="fas fa-link"></i></a>
+</h2>
 <div id="datavyu-locomotion-codes-for-mom" class="section level3 unnumbered">
-<h3>Datavyu Locomotion Codes for Mom</h3>
+<h3>Datavyu Locomotion Codes for Mom<a class="anchor" aria-label="anchor" href="#datavyu-locomotion-codes-for-mom"><i class="fas fa-link"></i></a>
+</h3>
 <p>There are 3 columns associated with mom locomotion codes: id for mom locomotion, mom locomotion column, and comments column for the mom locomotion coding.</p>
 <div id="mom-locomotion-id-column" class="section level4 unnumbered">
-<h4>Mom locomotion id Column</h4>
-<p><strong>Column name</strong>: <code>obj_id_mom</code></br>
+<h4>Mom locomotion id Column<a class="anchor" aria-label="anchor" href="#mom-locomotion-id-column"><i class="fas fa-link"></i></a>
+</h4>
+<p><strong>Column name</strong>: <code>obj_id_mom</code>
 <strong>Code</strong>: (&lt;lab_id&gt;, &lt;momloc_coder&gt;, &lt;momloc_date&gt;, &lt;momloc_mins&gt;, &lt;relmomloc_coder&gt;, &lt;relmomloc_date&gt;)</p>
 <p>Code the loc_id_mom column according to the definitions for coding the id column.</p>
 </div>
 <div id="mom-locomotion-column" class="section level4 unnumbered">
-<h4>Mom locomotion Column</h4>
-<p><strong>Column name</strong>: <code>momloc</code></br>
+<h4>Mom locomotion Column<a class="anchor" aria-label="anchor" href="#mom-locomotion-column"><i class="fas fa-link"></i></a>
+</h4>
+<p><strong>Column name</strong>: <code>momloc</code>
 <strong>Code</strong>: (&lt;loc_lf&gt;)</p>
 <div id="general-orientation-4" class="section level5 unnumbered">
-<h5>General Orientation</h5>
+<h5>General Orientation<a class="anchor" aria-label="anchor" href="#general-orientation-4"><i class="fas fa-link"></i></a>
+</h5>
 <p>This code captures the times that mom is engaged in locomotion or falls. Bouts of locomotion are scored as events, where the gray spaces between cells mean the mom is stationary. Coders are watching/tagging each of these events by marking onset/offset times for the duration of locomotion bouts. Coders are watching for steps with the feet, the knees, or the bum. Any other movements that are not initiated from these three body locations is considered to be a transition between postures and is subsumed by stationary, as it is not locomotion. Bouts that are coded as ‘.’ means that mom is off camera or her legs are off camera, and the coder cannot see or infer whether mom is stationary or moving.</p>
 </div>
 <div id="value-list-1" class="section level5 unnumbered">
-<h5>Value list</h5>
+<h5>Value list<a class="anchor" aria-label="anchor" href="#value-list-1"><i class="fas fa-link"></i></a>
+</h5>
 <p><a href="locomotion.html#mom_locomotion">‘l’ = locomotion</a>
 <a href="locomotion.html#mom_fall">‘f’ = fall</a>
 <a href="#mom-missing">‘.’ = when mom is off camera or the mom’s feet/knees/bum are off camera and the coder cannot see or infer whether the mom is locomoting at any point during this period of missing</a>.
 <a href="locomotion.html#mom_undetermined">‘x’ = when mom’s feet/knees/bum are off camera, coder cannot set a reliable onset and offset, but coder can infer that mom is locomoting at some point of this period of missing.</a></p>
 </div>
 <div id="operational-definitions-2" class="section level5 unnumbered">
-<h5>Operational Definitions</h5>
+<h5>Operational Definitions<a class="anchor" aria-label="anchor" href="#operational-definitions-2"><i class="fas fa-link"></i></a>
+</h5>
 <div id="mom_locomotion" class="section level6 unnumbered">
-<h6>Locomotion (l)</h6>
+<h6>Locomotion (l)<a class="anchor" aria-label="anchor" href="#mom_locomotion"><i class="fas fa-link"></i></a>
+</h6>
 <p>Code ‘l’ when the mom is engaged in locomotion of any form (i.e., walking, scooting, knee-walking, crawling).
 If you’re not sure whether the mom is moving or stationary (e.g., occlusion behind furniture or unclear video footage), then this is missing data and the offset of the locomotion bout should be set to the last frame where you can see mom.
 The subsequent cell (where you cannot see anything or make an inference about movement) should be coded as “.” until you can see mom again.
@@ -574,7 +362,8 @@ If mom is upright on both feet—regardless of if they are using their hands for
 Offset is the frame when the mom takes the last step before a 1s pause.</p>
 </div>
 <div id="mom_fall" class="section level6 unnumbered">
-<h6>Falls (f)</h6>
+<h6>Falls (f)<a class="anchor" aria-label="anchor" href="#mom_fall"><i class="fas fa-link"></i></a>
+</h6>
 <p>Code ‘f’ if the mom loses control of her body (i.e., balance) and cannot recover on her own before the body (bum, hands, torso) hits the ground. All falls count. They can happen while upright, on/off furniture or other elevation, while sitting, or while engaged in locomotion.
 From an upright or squatting position: a loss of balance results in the hands, knees, or a toy in the hands hitting the ground.</p>
 <p>Onset &amp; Offset for ‘f’ {-}</p>
@@ -582,7 +371,8 @@ From an upright or squatting position: a loss of balance results in the hands, k
 <p>Offset when mom’s body hits the floor. Usually the hands to arrest fall.</p>
 </div>
 <div id="mom_missing" class="section level6 unnumbered">
-<h6>Missing (.)</h6>
+<h6>Missing (.)<a class="anchor" aria-label="anchor" href="#mom_missing"><i class="fas fa-link"></i></a>
+</h6>
 <p>Code ‘.’ if mom’s lower body is occluded such that you cannot see at least the knees or below, you cannot reliably code ‘l’, or ‘f’. Mom’s locomotion can be coded from the feet, ankles, shins, or knees—but not from the thighs, hips, upper body, or head alone. DO NOT infer movement if you cannot at least see the feet, ankles, shins, or knees, even if you can clearly tell that mom is locomoting. Onsets/offsets may not be reliable and small steps will be hard to see. The goal is to make coding easy and reliable with a hard rule, rather than having to guess. (Other labs can always go back and code mom locomotion during the occluded periods.)</p>
 <p>Stationary and seated</p>
 <p>If mom is stationary and seated (e.g., on the floor, couch, chair), and as long as you can see any part of her trunk or lower body to determine she has not locomoted do not code as ‘.’ (see rules below). If mom is stationary and out of view for less than 30 seconds, and does not move from the same location, do not code as ‘.’. If mom is stationary and out of view, and when she is visible again, she has moved from the previous location code as ‘.’ on the first frame when she was out of view (i.e., rewind back to time when she went out of view for the first time, before she locomoted).</p>
@@ -597,22 +387,23 @@ If mom is out of view</p>
 <p>Setting the Onset &amp; Offset for missing &lt;.&gt;:</p>
 <p>Code onset and offset depending on the relevant body part in view for the type of posture:</p>
 <p>Locomotor postures:</p>
-<p>Walking = feet</br>
-Knee walking = knees</br>
-Bum shuffling = bum</br>
-Hands-knees crawling = knees</br>
-Cruising = feet</br>
-Jumping = feet</br></p>
+<p>Walking = feet
+Knee walking = knees
+Bum shuffling = bum
+Hands-knees crawling = knees
+Cruising = feet
+Jumping = feet</p>
 <p>Sedentary postures:</p>
-<p>Sitting = bum or feet</br>
-Standing = feet</br>
-Quadruped = knees</br></p>
+<p>Sitting = bum or feet
+Standing = feet
+Quadruped = knees</p>
 <p>Onset &amp; Offset for ‘.’</p>
 <p>Onset of missing is the first frame where mom’s locomotion cannot be reliably coded (see above rules for specific instances).</p>
 <p>Offset of missing is the first frame where mom’s locomotion status can reliably be coded (see above rules for specific instances).</p>
 </div>
 <div id="mom_undetermined" class="section level6 unnumbered">
-<h6>Undetermined (x)</h6>
+<h6>Undetermined (x)<a class="anchor" aria-label="anchor" href="#mom_undetermined"><i class="fas fa-link"></i></a>
+</h6>
 <p>Code ‘x’ if mom is not fully visible and you cannot reliably code ‘l’, or ‘f’, but you can tell that mom is in motion. It is clear based on the movement of the top half of the body that mom is locomoting but it is impossible to code the exact onset and offset of the locomotor bout. An ‘x’ bout must last for at least 1 second.
 Do not make judgment calls if you cannot clearly determine the onset and offset even if the mom is visibly locomoting. Code instead as ‘x’.
 The goal of this code is that it uses the exact same criteria for onset and offset of missing, but allows the coder to indicate that at some point during this missing, the mom clearly locomoted.</p>
@@ -621,7 +412,8 @@ The goal of this code is that it uses the exact same criteria for onset and offs
 </div>
 </div>
 <div id="how-to-code-the-mom-locomotion-column" class="section level3 unnumbered">
-<h3>How to Code the Mom Locomotion Column</h3>
+<h3>How to Code the Mom Locomotion Column<a class="anchor" aria-label="anchor" href="#how-to-code-the-mom-locomotion-column"><i class="fas fa-link"></i></a>
+</h3>
 <ul>
 <li>Set “JUMP-BACK-BY” key to 1 s.</li>
 <li>Enable cell highlighting on the controller (cmd + shift +F). Enable temporal mode (cmd T).</li>
@@ -632,7 +424,8 @@ The goal of this code is that it uses the exact same criteria for onset and offs
 </ul>
 </div>
 <div id="check-the-final-mom-locomotion-coded-pass" class="section level3 unnumbered">
-<h3>Check the final Mom Locomotion Coded Pass</h3>
+<h3>Check the final Mom Locomotion Coded Pass<a class="anchor" aria-label="anchor" href="#check-the-final-mom-locomotion-coded-pass"><i class="fas fa-link"></i></a>
+</h3>
 <p>When finished coding, run the script to check for typos in the mom locomotion column. The script will flag any occurrence of typos that arise from an error in setting the onset or offset (not coded, cell with no duration, overlapping cells), consecutive ‘l’ cells that are less than 1s apart (and should be merged), and any invalid codes (any characters besides ‘l’, ‘f’, ‘.’ or ‘x’). Fix errors and run the script again. When all the errors have been resolved the script will inform that no errors are found.</p>
 
 </div>
@@ -641,66 +434,53 @@ The goal of this code is that it uses the exact same criteria for onset and offs
 
 
 
-            </section>
+  <div class="chapter-nav">
+<div class="prev"><a href="objects.html"><span class="header-section-number">10</span> Objects</a></div>
+<div class="next"><a href="data-management.html"><span class="header-section-number">12</span> Data management</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#locomotion"><span class="header-section-number">11</span> Locomotion</a></li>
+<li><a class="nav-link" href="#workflow-4"><span class="header-section-number">11.1</span> Workflow</a></li>
+<li>
+<a class="nav-link" href="#child-locomotion-pass"><span class="header-section-number">11.2</span> Child locomotion pass</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#datavyu-locomotion-codes-for-child">Datavyu locomotion codes for child</a></li>
+<li><a class="nav-link" href="#how-to-code-the-child-locomotion-column">How to Code the Child Locomotion Column</a></li>
+<li><a class="nav-link" href="#check-the-final-coded-pass-2">Check the final coded pass</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#mom-locomotion-pass"><span class="header-section-number">11.3</span> Mom locomotion pass</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#datavyu-locomotion-codes-for-mom">Datavyu Locomotion Codes for Mom</a></li>
+<li><a class="nav-link" href="#how-to-code-the-mom-locomotion-column">How to Code the Mom Locomotion Column</a></li>
+<li><a class="nav-link" href="#check-the-final-mom-locomotion-coded-pass">Check the final Mom Locomotion Coded Pass</a></li>
+</ul>
+</li>
+</ul>
 
-          </div>
-        </div>
-      </div>
-<a href="objects.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-management.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
-    </div>
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/PLAY-behaviorome/protocol/blob/master/11-coding_locomotion.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/PLAY-behaviorome/protocol/edit/master/11-coding_locomotion.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>PLAY Project: The Protocol</strong>" was written by Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore. It was last built on 2022-12-09.</p>
   </div>
-<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
-<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
-<script>
-gitbook.require(["gitbook"], function(gitbook) {
-gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": "https://github.com/PLAY-behaviorome/protocol/edit/main/11-coding_locomotion.Rmd",
-"text": "Edit"
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["_main.pdf", "_main.epub"],
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
-});
-});
-</script>
 
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
 </body>
-
 </html>

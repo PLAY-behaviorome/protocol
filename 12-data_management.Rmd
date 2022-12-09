@@ -32,7 +32,7 @@ Here are the main steps:
 
 1. Download XLSX-formatted files from KoBoToolbox.org via the API. Save the downloaded files in a local directory that is **not** synched to GitHub. See <https://play-behaviorome.github.io/kobotoolbox/01-download-from-KoBo.html> for more details.
 
-2. Import the XLSX files and export them as CSVs to a separate local directory that is **not** synched to GitHub. See <https://play-behaviorome.github.io/kobotoolbox/02-save_raw_csvs.html> for more details. 
+2. Import the XLSX files and export them as CSVs to a separate local directory that is **not** synced to GitHub. See <https://play-behaviorome.github.io/kobotoolbox/02-save_raw_csvs.html> for more details. 
 
 3. Import the raw CSV files and split them into separate files, one for the MB-CDI questions and a second for all other non-MBCDI questions. <https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html> for more details.  
 

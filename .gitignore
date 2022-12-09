@@ -5,3 +5,4 @@
 protocol.Rproj
 play_protocol.Rproj
 .databrary.RData
+.DS_Store

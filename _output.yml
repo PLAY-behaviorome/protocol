@@ -1,3 +1,9 @@
+bookdown::bs4_book:
+  css: include/css/style.css
+  theme:
+    primary: "#096B72"
+  repo: 'https://github.com/PLAY-behaviorome/protocol'
+  
 bookdown::gitbook:
   css: style.css
   config:
@@ -8,10 +14,14 @@ bookdown::gitbook:
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     download: ["pdf", "epub"]
     edit: https://github.com/PLAY-behaviorome/protocol/edit/main/%s
+
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
+
 bookdown::epub_book: default
+
+

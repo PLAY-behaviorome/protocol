@@ -2,138 +2,168 @@
 
 # Transcription
 
-PLAY has developed a streamlined process to expedite the transcription of videos. Certain common markers (such as closures of utterances with “.”, “!” and “,”; no accents for Spanish) are not marked to save time. However, we aim to ensure accuracy around timing, content, and segmenting of utterances, and run reliabilities and quality assurance on those features. We adopted specific rules around segmenting utterances, and so on that apply to English and Spanish language transcriptions. Interested researchers may apply new rules of transcription to fit their needs, and do additional scripting and coding of transcripts based on their questions. Researchers interested in code switching of English-Spanish dual language transcripts can refer to the Communication coding column of each Datavyu file.
+PLAY has developed a streamlined process to expedite the transcription of videos. 
+Certain common markers (such as closures of utterances with “.”, “!” and “,”; no accents for Spanish) are not marked to save time. 
+However, we aim to ensure accuracy around timing, content, and segmenting of utterances, and run reliabilities and quality assurance on those features. 
+We adopted specific rules around segmenting utterances, and so on that apply to English and Spanish language transcriptions. 
+Interested researchers may apply new rules of transcription to fit their needs, and do additional scripting and coding of transcripts based on their questions. 
+Researchers interested in code switching of English-Spanish dual language transcripts can refer to the Communication coding column of each Datavyu file.
 
 ## File Locations and Saving
 
 All necessary files are located on your NYU Box account.
 
-## Where to locate Datavyu Templates
+### Where to locate [Datavyu](#datavyu_software) Templates
 
-Find the .opf file that corresponds to the subject you are assigned to transcribe. DO NOT create a new .opf file on your own. The opf file you are assigned to will be located in your “1_ToBeCoded_DownloadOnly” folder on Box.
-Where to get the video for transcription
+Find the .opf file that corresponds to the subject you are assigned to transcribe. 
+DO NOT create a new .opf file on your own. 
+The opf file you are assigned to will be located in your “1_ToBeCoded_DownloadOnly” folder on Box.
 
-After you open the Datavyu file you will need to link the Datavyu spreadsheet with the video that you will transcribe. To do this go to the Box text file titled “Links_for_videos”. The file will have your name and the link to the video (with the ID matching the opf template). Click the link and then click the black pop up to navigate to the video.
-Where to save files as you are still working on them:
+### Where to get the video for transcription
+
+After you open the Datavyu file you will need to link the Datavyu spreadsheet with the video that you will transcribe. 
+To do this go to the Box text file titled “Links_for_videos”. 
+The file will have your name and the link to the video (with the ID matching the opf template). 
+Click the link and then click the black pop up to navigate to the video.
+
+### Where to save files as you are still working on them:
 
 If you are still working on a transcription, but are done for the day, save your file. Save the file in your “2_InProgress” Box folder. Do not rename the file.
-Where to save files once you are completely done transcribing a video:
 
-After you complete all transcription for a file, run all the check scripts described later in the manual, and correct all mistakes, save your file in the “2_InProgress” folder on your Box account. Then move the file to your “3_Submitted_CannotEditAnymore” Box folder.
+### Where to save files once you are completely done transcribing a video:
+
+After you complete all transcription for a file, run all the check scripts described later in the manual, and correct all mistakes, save your file in the “2_InProgress” folder on your Box account. 
+Then move the file to your “3_Submitted_CannotEditAnymore” Box folder.
 Once you move your file to the “3_Submitted_CannotEditAnymore” folder, you will not be able to make any more changes or download the file, so ensure that you make all changes before moving the file.
-Overview of Transcription Datavyu File Contents
+
+## Overview of Transcription Datavyu File Contents
 
 A transcription Datavyu file includes 5 columns:
 
-Column Name: PLAY_id 
-Code: (<play_id>,<birthdate>,<testdate>,<language_1>,<language_2>)
-Note: this column is prefilled for you, you do not need to make any changes.
-Column name: transcribe 
-Code: (<source> <content>)
-Column name: trans_id 
-Code: <transcriber>,<trans_startdate>,<trans_finishdate>,<trans_mins>,<qa_light_heavy>,<qa_coder>, <qa_date>
-Column name: trans_comments
-Code: <source_mc>,<comment>
-Column name: missing_child
-Code: <error>
+**Column Name**: PLAY_id 
+**Code**: (<play_id>,<birthdate>,<testdate>,<language_1>,<language_2>)
+*Note**: this column is prefilled for you, you do not need to make any changes.
+
+**Column name**: transcribe 
+**Code**: (<source> <content>)
+
+**Column name**: trans_id 
+**Code**: <transcriber>,<trans_startdate>,<trans_finishdate>,<trans_mins>,<qa_light_heavy>,<qa_coder>, <qa_date>
+
+**Column name**: trans_comments
+**Code**: <source_mc>,<comment>
+
+**Column name**: missing_child
+**Code**: <error>
 Note: this column is prefilled for you, you do not need to make any changes).
-Transcription Conventions and Rules
 
-## What is an utterance?
+## Transcription Conventions and Rules
 
-An utterance is a unit of speech separated by grammatical closure, intonation contour, or prolonged pausing, which can function as a natural “break” during speech. Note: Some utterances may contain complete sentences or phrases (e.g., that’s a blue truck), and others incomplete ones (e.g., that’s a……)
-Segmenting speech into utterances
+### What is an utterance?
+
+An utterance is a unit of speech separated by grammatical closure, intonation contour, or prolonged pausing, which can function as a natural “break” during speech. 
+Note: Some utterances may contain complete sentences or phrases (e.g., that’s a blue truck), and others incomplete ones (e.g., that’s a……)
+
+### Segmenting speech into utterances
 
 Rules about segmenting utterances are critical to ensure that the data generated from transcriptions are consistent across transcribers in: (a) the number of utterances in a session; (b) the length of utterances or complexity of speech, such as how many words/morphemes comprise an utterance, which may be estimated through calculation such as MLU (mean length utterance) through Child Language ANalysis (CLAN in CHILDES).
  
-Transcribers who fail to segment utterances at points of grammatical closure, for example by running multiple sentences/phrases together (e.g., The ball. The blue ball. Big ball. In a single utterance line), may bias analyses toward more complex utterances. Conversely, if transcribers over-segment, for example by transcribing each word as a new ‘utterance’, they may bias analyses towards less complex utterances. Transcribing at the utterance level strikes a useful balance.
-·          Examples: “Here you go. That’s a shoe.” should be marked as 2 different utterances. But, “shoe, shoe, shoe” without any pauses would be a single utterance.
-·          Some utterances where pauses occur but thoughts by the mother were continuous can be marked with the // symbol at the end. This indicates that an utterance had a pause so it was parsed into two cells, but was one continuous thought.
-·          Utterances that are elongated (e.g., prosody changes throughout the utterance) but are a single thought should be kept together.
-·          Each “segmented” single utterance is coded as an event/point cell, and separated by gray representing time when no utterance is spoken.
-·          Only the onset of the utterance is tagged. We do not code the offset for the event. Thus, a single time during the utterance is time coded.
+Transcribers who fail to segment utterances at points of grammatical closure, for example by running multiple sentences/phrases together (e.g., The ball. The blue ball. Big ball. 
+In a single utterance line), may bias analyses toward more complex utterances. Conversely, if transcribers over-segment, for example by transcribing each word as a new ‘utterance’, they may bias analyses towards less complex utterances. Transcribing at the utterance level strikes a useful balance.
+
+- Examples: “Here you go. That’s a shoe.” should be marked as 2 different utterances. But, “shoe, shoe, shoe” without any pauses would be a single utterance.
+- Some utterances where pauses occur but thoughts by the mother were continuous can be marked with the // symbol at the end. This indicates that an utterance had a pause so it was parsed into two cells, but was one continuous thought.
+- Utterances that are elongated (e.g., prosody changes throughout the utterance) but are a single thought should be kept together.
+- Each “segmented” single utterance is coded as an event/point cell, and separated by gray representing time when no utterance is spoken.
+- Only the onset of the utterance is tagged. We do not code the offset for the event. Thus, a single time during the utterance is time coded.
 
 ### Whose language is transcribed?
 
-The goal for the following rules is to capture the typical language environment between the mother and child in the home. We want to avoid transcribing language that would not occur if the experimenter were not present (i.e., talk to the experimenter).
+The goal for the following rules is to capture the typical language environment between the mother and child in the home. 
+We want to avoid transcribing language that would not occur if the experimenter were not present (i.e., talk to the experimenter).
  
-·          Only transcribe utterances made by the child and the mother.
-·          Do not transcribe utterances made by anyone but the mother and child (e.g., experimenter, another caregiver). If the mother is speaking to a person other than the child, do not transcribe it. All other utterances, whether stated out loud to herself, to a pet, or to the child are transcribed.
-·          Do not transcribe voices of absent people (e.g., voicemail messages, Amazon Alexa or other voice assistants, or phone calls/Skype/Facetime on speakers).
-·          Do transcribe mother’s utterances if she is speaking to Alexa or another voice assistant.
-What should be transcribed?
+- Only transcribe utterances made by the child and the mother.
+- Do not transcribe utterances made by anyone but the mother and child (e.g., experimenter, another caregiver). If the mother is speaking to a person other than the child, do not transcribe it. All other utterances, whether stated out loud to herself, to a pet, or to the child are transcribed.
+- Do not transcribe voices of absent people (e.g., voicemail messages, Amazon Alexa or other voice assistants, or phone calls/Skype/Facetime on speakers).
+- Do transcribe mother’s utterances if she is speaking to Alexa or another voice assistant.
+
+## What should be transcribed?
 
 The goal for the following rules is to strike a useful balance between capturing the home language environment between mother and child, while also ensuring expediency for transcription.
-·          Transcribe all speech sounds. Speech sounds should have a phonetic structure and can be babbles such as “baba” da” “ga”, etc. even by the mother.
-·          Use xxx when a speech sound is difficult to transcribe phonetically.
-·          Do not transcribe vegetative and other non-speech sounds by the mother or child, such as coughs, sneezes, or yawns.
-·          For mother, do not transcribe hums, whistling, sighs, gasps, or laughs.
-·          Words during singing are transcribed.
-·          For child, mark non-linguistic vocalizations (e.g., crying, screaming, grunting, laughs) as ‘v’. For further details on coding conventions see the Rules for Transcribing the Content of Utterances section.
-·          Babbling (consonant-vowel combination, such as da, ba, ma) is coded as ‘b’. For further details on coding conventions see the Rules for Transcribing the Content of Utterances section.
-Transcription Codes
 
-<source>
+- Transcribe all speech sounds. Speech sounds should have a phonetic structure and can be babbles such as “baba” da” “ga”, etc. even by the mother.
+- Use xxx when a speech sound is difficult to transcribe phonetically.
+- Do not transcribe vegetative and other non-speech sounds by the mother or child, such as coughs, sneezes, or yawns.
+- For mother, do not transcribe hums, whistling, sighs, gasps, or laughs.
+- Words during singing are transcribed.
+- For child, mark non-linguistic vocalizations (e.g., crying, screaming, grunting, laughs) as ‘v’. For further details on coding conventions see the Rules for Transcribing the Content of Utterances section.
+- Babbling (consonant-vowel combination, such as da, ba, ma) is coded as ‘b’. For further details on coding conventions see the Rules for Transcribing the Content of Utterances section.
 
-·          Source is the section of the transcription column where the source of the utterance is tagged in each cell. For PLAY, only mother and child utterances are tagged.
-·          Sources are tagged using the quick keys function on Datavyu.
-m = mother
+## Transcription Codes
 
-·          Code 'm' if the mother is the source of the utterance. This code will be filled in using quick keys.
+**<source>**
+
+- Source is the section of the transcription column where the source of the utterance is tagged in each cell. For PLAY, only mother and child utterances are tagged.
+- Sources are tagged using the quick keys function on Datavyu.
+
+**m = mother**
+
+- Code 'm' if the mother is the source of the utterance. This code will be filled in using quick keys.
  
-c= child
+**c = child**
 
-·          Code 'c' if the child is the source of the utterance. This code will be filled in using quick keys.
-<content>
+- Code 'c' if the child is the source of the utterance. This code will be filled in using quick keys.
 
-·          Content is the transcription column where the words or sounds of each utterance by mother and child are transcribed with time-locked codes.
+**<content>**
+
+- Content is the transcription column where the words or sounds of each utterance by mother and child are transcribed with time-locked codes.
  
 ### Rules for Transcribing the Content of Utterances
 
 If the words in an utterance can be heard clearly then…
 
-·          Type what was said in each utterance in the content section of the transcription column.
-·          Place separate utterances in separate cells.
+- Type what was said in each utterance in the content section of the transcription column.
+- Place separate utterances in separate cells.
  
 If one or more of the words in an utterance cannot be heard or made out ….
 
-·          If child or mother uses an utterance that contains more than one word, and you can only make out part of the utterance, transcribe what can be deciphered and fill in ‘xxx’ for the unintelligible parts (e.g., mother says “give me” followed by an unintelligible word, code “give me ‘xxx’).
-·          For the mother, if the full utterance is unintelligible, type ‘xxx’ as the content of the utterance (e.g., the mother says multiple words, but they are all unintelligible, so the entire code is ‘xxx’).
-·          Note: ‘xxx’ should only be used for the child if one or more words within a longer utterance are intelligible, and the remaining word (vocalization) is not. Do not use xxx for child utterances that are fully unintelligible. This prevents transcribers from attempting to interpret a child babble as a word or not in ambiguous contexts. See the next section for how to tag a full utterance by the child that is unintelligible.
-·          Overlapping speech or low speech is one condition where a child’s unintelligible utterance may be marked as xxx.
+- If child or mother uses an utterance that contains more than one word, and you can only make out part of the utterance, transcribe what can be deciphered and fill in ‘xxx’ for the unintelligible parts (e.g., mother says “give me” followed by an unintelligible word, code “give me ‘xxx’).
+- For the mother, if the full utterance is unintelligible, type ‘xxx’ as the content of the utterance (e.g., the mother says multiple words, but they are all unintelligible, so the entire code is ‘xxx’).
+- Note: ‘xxx’ should only be used for the child if one or more words within a longer utterance are intelligible, and the remaining word (vocalization) is not. Do not use xxx for child utterances that are fully unintelligible. This prevents transcribers from attempting to interpret a child babble as a word or not in ambiguous contexts. See the next section for how to tag a full utterance by the child that is unintelligible.
+- Overlapping speech or low speech is one condition where a child’s unintelligible utterance may be marked as xxx.
  
 ### When an utterance does not contain words
 
-b = babbling/vowel-consonant sound by the baby
+**b = babbling/vowel-consonant sound by the baby**
 
-·          Use the letter ‘b’ in the content section of the transcription column when the child is babbling.
-·          If you think an utterance may have been a word by the child, but can’t make out the word, replay the video 3X. If you still cannot make out the word, mark the utterance as a babble (‘b’) to be conservative.
-·          If the child produces an utterance such as “mhmm”, “oh”, or another similar word from the list of Standardized Spellings (located at the end of this manual), type that word using the provided standardized spelling (i.e., do not use ‘b’).
-·          Cooing/vowel sounds such as ooh aah should be coded as ‘b’.
-·          Utterances from the child that are not conventional words, but appear to be idiosyncratic forms of a conventional word (based on video context) should be transcribed phonetically (e.g. child says ‘baba’ when reaching for a water bottle should be coded as ‘baba’).
-·          If a transcriber identifies what appears to be a child’s idiosyncratic word form, and the same sounding vocalization had previously been marked as a babble, the transcriber should replace the previous babble with the phonetic spelling based on the child’s pronunciation to be consistent.
-·          Babbling should be parsed using the same convention as utterances, where a pause indicates the start of a new babble.
+- Use the letter ‘b’ in the content section of the transcription column when the child is babbling.
+- If you think an utterance may have been a word by the child, but can’t make out the word, replay the video 3X. If you still cannot make out the word, mark the utterance as a babble (‘b’) to be conservative.
+- If the child produces an utterance such as “mhmm”, “oh”, or another similar word from the list of Standardized Spellings (located at the end of this manual), type that word using the provided standardized spelling (i.e., do not use ‘b’).
+- Cooing/vowel sounds such as ooh aah should be coded as ‘b’.
+- Utterances from the child that are not conventional words, but appear to be idiosyncratic forms of a conventional word (based on video context) should be transcribed phonetically (e.g. child says ‘baba’ when reaching for a water bottle should be coded as ‘baba’).
+- If a transcriber identifies what appears to be a child’s idiosyncratic word form, and the same sounding vocalization had previously been marked as a babble, the transcriber should replace the previous babble with the phonetic spelling based on the child’s pronunciation to be consistent.
+- Babbling should be parsed using the same convention as utterances, where a pause indicates the start of a new babble.
  
-v = vocalizations like crying, screaming, laugh, grunting, audible gasp sound by the baby
+**v = vocalizations like crying, screaming, laugh, grunting, audible gasp sound by the baby**
 
-·          Use the letter ‘v’ in the content section of the transcription column when the child emits a vocalization that is not a word or consonant-vowel babble.
-·          Consonant alone sounds should be coded as ‘v’ (e.g., sounds without a vowel).
-·          Vegetative sounds that the child makes/anything non-syllabic are not transcribed (e.g., burping, sneezing, coughing).
-·          If the child vocalizes in the middle of an utterance, split the utterance at the point of the vocalization.
+- Use the letter ‘v’ in the content section of the transcription column when the child emits a vocalization that is not a word or consonant-vowel babble.
+- Consonant alone sounds should be coded as ‘v’ (e.g., sounds without a vowel).
+- Vegetative sounds that the child makes/anything non-syllabic are not transcribed (e.g., burping, sneezing, coughing).
+- If the child vocalizes in the middle of an utterance, split the utterance at the point of the vocalization.
  
 ### General rules
 
-·          Type the complete utterance.
-·          Type everything in lower case, except for proper names (e.g., Mommy, I, Anna, pet names, characters from movies or shows, etc.).
-·          You do not have to capitalize the names of brands, products, book titles or companies (e.g., alexa, google).
-·          Use apostrophes correctly for contractions and possessives (e.g., don't, where's, how’d, Daddy's, Lily's).
-·          Do not use “,” commas. Commas likely indicate a natural pause or the beginning of a new and distinct phrase which should be a separate utterance.
-·          Put a question mark “?” at the end of any utterance that is a question. The grammar/structure of the sentence should indicate whether the utterance is a question. If there is any doubt that it is a question, do not mark it as a question.
-·          Be conservative when marking questions for children. For a child to be credited with asking a question, intonation alone is insufficient. The child’s utterance must include words such as “what…” or “why…”, starting with “is”, etc. for the utterance to end in a question mark.  
-·          Do not use exclamation marks “!” as their usage is subjective and does not convey additional content information.
-·          Avoid using hyphens for words that may typically use hyphens (e.g., play-doh should be typed as playdoh)
-·          Individual letters (e.g., mother spells out zoo as “z” “o” “o”) need to be marked with an @ (at symbol) so that they're not confused with actual words, for example z@ o@ o@. This rule applies to songs with letters (e.g., “Now I know my a@ b@ c@’s…”, “old McDonald had a farm e@ i@ e@ i@ o@”...). Make sure there are spaces in between each marked letter (e.g., e@ i@ NOT e@i@). Use existing rules for utterances to decide if each letter is its own utterance.
-·          Write out the name of numbers (e.g., type “five little monkeys”, not “5 little monkeys”). Do not use Arabic numerals.
+- Type the complete utterance.
+- Type everything in lower case, except for proper names (e.g., Mommy, I, Anna, pet names, characters from movies or shows, etc.).
+- You do not have to capitalize the names of brands, products, book titles or companies (e.g., alexa, google).
+- Use apostrophes correctly for contractions and possessives (e.g., don't, where's, how’d, Daddy's, Lily's).
+- Do not use “,” commas. Commas likely indicate a natural pause or the beginning of a new and distinct phrase which should be a separate utterance.
+- Put a question mark “?” at the end of any utterance that is a question. The grammar/structure of the sentence should indicate whether the utterance is a question. If there is any doubt that it is a question, do not mark it as a question.
+- Be conservative when marking questions for children. For a child to be credited with asking a question, intonation alone is insufficient. The child’s utterance must include words such as “what…” or “why…”, starting with “is”, etc. for the utterance to end in a question mark.  
+- Do not use exclamation marks “!” as their usage is subjective and does not convey additional content information.
+- Avoid using hyphens for words that may typically use hyphens (e.g., play-doh should be typed as playdoh)
+- Individual letters (e.g., mother spells out zoo as “z” “o” “o”) need to be marked with an @ (at symbol) so that they're not confused with actual words, for example z@ o@ o@. This rule applies to songs with letters (e.g., “Now I know my a@ b@ c@’s…”, “old McDonald had a farm e@ i@ e@ i@ o@”...). Make sure there are spaces in between each marked letter (e.g., e@ i@ NOT e@i@). Use existing rules for utterances to decide if each letter is its own utterance.
+- Write out the name of numbers (e.g., type “five little monkeys”, not “5 little monkeys”). Do not use Arabic numerals.
  
 ### Special Cases for Utterances
 
@@ -141,762 +171,731 @@ Our goal for the following rules in this section is to ensure that we capture th
  
 ### Retracted/incomplete words
 
-·          If the child or the mother starts to say a word but then retracts it, or otherwise does not complete the word, type out the full word, and insert a forward slash ‘/’at the point in which the word is retracted. For example, the mother starts to say ‘banana’ but then corrects herself, so code “do you want a ba/nana I mean apple?”
-·          Do this for retracted words where it is clear from context of the video and utterance what the word was (e.g., the mother gestures an action, or the retracted word matches the name of an object on screen).
-·          In the case that the retracted word is hard to decipher and cannot be inferred from contextual cues, only code the part of the word that can be deciphered and end the word with a forward slash. From the previous example if it is not possible to infer that the mother is saying ‘banana’ from contextual cues, code “do you want a ba/ I mean apple?”
+- If the child or the mother starts to say a word but then retracts it, or otherwise does not complete the word, type out the full word, and insert a forward slash ‘/’at the point in which the word is retracted. For example, the mother starts to say ‘banana’ but then corrects herself, so code “do you want a ba/nana I mean apple?”
+- Do this for retracted words where it is clear from context of the video and utterance what the word was (e.g., the mother gestures an action, or the retracted word matches the name of an object on screen).
+- In the case that the retracted word is hard to decipher and cannot be inferred from contextual cues, only code the part of the word that can be deciphered and end the word with a forward slash. From the previous example if it is not possible to infer that the mother is saying ‘banana’ from contextual cues, code “do you want a ba/ I mean apple?”
  
 ### Assimilated Words
 
-·      Mothers and children may sometimes use assimilated words (e.g., ‘gonna’ instead of ‘going’).
-·      When an assimilation is used, transcribe the assimilation in it’s “non-standard” spelling (e.g., spell “gonna”, do not change to “going to”).
-·      Use the “Nonstandard” columns in the following list of spellings for assimilations to maintain consistency in spelling of assimilations across transcriptions (use the “Standard” column to help you in cases where you are unsure what the assimilation means, but do not use that spelling, use the “Nonstandard” spelling).
+- Mothers and children may sometimes use assimilated words (e.g., ‘gonna’ instead of ‘going’).
+- When an assimilation is used, transcribe the assimilation in it’s “non-standard” spelling (e.g., spell “gonna”, do not change to “going to”).
+- Use the “Nonstandard” columns in the following list of spellings for assimilations to maintain consistency in spelling of assimilations across transcriptions (use the “Standard” column to help you in cases where you are unsure what the assimilation means, but do not use that spelling, use the “Nonstandard” spelling).
  
- 
- 
-Nonstandard
-Standard
-Nonstandard
-Standard
-coulda(ve)
-could have
-mighta
-might have
-dunno
-don’t know
-need(t)a
-need to
-dyou
-do you
-oughta
-ought to
-gimmie
-give me
-posta
-supposed to
-gonna
-going to
-tryna
-trying to
-gotta
-got to
-shoulda(ve)
-should have
-hadta
-had to
-sorta
-sort of
-hasta
-has to
-wanna
-want to
-hafta
-have to
-wassup
-what’s up
-kinda
-kind of
-whaddya
-why did you
-lemme
-let me
-whatcha
-what do you
-lostsa
-lots of
-whyntcha
-why didn’t you
+| Nonstandard | Standard |
+|-------------|----------|
+| coulda(ve) | could have |
+| mighta     | might have |
+| dunno | don’t know |
+| need(t)a | need to |
+| dyou | do you |
+| oughta | ought to | 
+| gimmie | give me |
+| posta | supposed to |
+| gonna | going to |
+| tryna | trying to |
+| gotta | got to |
+| shoulda(ve) | should have |
+| hadta | had to |
+| sorta | sort of |
+| hasta | has to |
+| wanna | want to |
+| hafta | have to |
+| wassup | what’s up |
+| kinda | kind of
+| whaddya | why did you |
+| lemme | let me |
+| whatcha | what do you |
+| lostsa | lots of |
+| whyntcha | why didn’t you |
  
 ### Spelling and Pronunciation
 
-·      Our goal for the following rules is to ensure that counts and tokens when analyzing the content of utterances are unbiased (e.g., “sketti” and “spaghetti” are not counted as two different words during analyses).
-·          If the adult says a word, that is not assimilation, and clearly refers to a conventional word but with an alternative phonetic structure (e.g., baba for bottle), transcribe the ‘conventional version of the word. For example, if the mother says ‘sketti’ when talking about spaghetti, transcribe as ‘wanna eat your spaghetti?’ This saves transcription time, but also avoids biasing a mother toward more word types, if for example she said “banana? You want nana?”
-·          If a mother pronounces a word differently due to dialect or accent, use the conventional spelling of the word (e.g., “gettin’” should be spelled as getting; occasions where someone speaking Spanish “eats” a letter during pronunciation like “e’ta aqui” for “esta aqui” would be spelled as “esta aqui”).
-·          Pronunciations such as “workin’” or “‘cause” should be spelled using the conventional spelling for the word (e.g., ‘working’, ‘because’)
-·          Transcribe any time a novel word is produced using the conventional spelling when a change in the word is based on accent or intentional.
+- Our goal for the following rules is to ensure that counts and tokens when analyzing the content of utterances are unbiased (e.g., “sketti” and “spaghetti” are not counted as two different words during analyses).
+- If the adult says a word, that is not assimilation, and clearly refers to a conventional word but with an alternative phonetic structure (e.g., baba for bottle), transcribe the ‘conventional version of the word. For example, if the mother says ‘sketti’ when talking about spaghetti, transcribe as ‘wanna eat your spaghetti?’ This saves transcription time, but also avoids biasing a mother toward more word types, if for example she said “banana? You want nana?”
+- If a mother pronounces a word differently due to dialect or accent, use the conventional spelling of the word (e.g., “gettin’” should be spelled as getting; occasions where someone speaking Spanish “eats” a letter during pronunciation like “e’ta aqui” for “esta aqui” would be spelled as “esta aqui”).
+- Pronunciations such as “workin’” or “‘cause” should be spelled using the conventional spelling for the word (e.g., ‘working’, ‘because’)
+- Transcribe any time a novel word is produced using the conventional spelling when a change in the word is based on accent or intentional.
  
 ### Regionalisms and Colloquialisms
 
 PLAY will collect data across the United States. It is expected that words in either English or Spanish may vary regionally. The goals for the following rules are to 1) ensure we capture the diversity of language based on regionality and 2) build a set of up-to-date regionalisms for PLAY and other researchers to use in future transcriptions.
-·      Different regions and groups in the United States may use different words to refer to similar concepts (e.g., “pop”, soda”, “coke”). During transcription, it may be hard to understand particular words at first if you are not from the area or familiar with the dialect.
-·      If you encounter a word that you do not recognize, and you do not know how to spell the word, but think it may be a regionalism, look for it on the List of Regionalisms (at the end of this manual).
-·      If the word in question is not on the list, do some additional searching online and/or ask a lead person on your project for more information on how to proceed. It is possible that the PLAY team will need to reach out to collaborators at the original data collection site for further clarity on regionalisms in their area.
-·      Note: PLAY will continue to expand on the list of English and Spanish regionalisms as transcription continues.
-Adult non-verbal vocalizations and sound effects
+- Different regions and groups in the United States may use different words to refer to similar concepts (e.g., “pop”, soda”, “coke”). During transcription, it may be hard to understand particular words at first if you are not from the area or familiar with the dialect.
+- If you encounter a word that you do not recognize, and you do not know how to spell the word, but think it may be a regionalism, look for it on the List of Regionalisms (at the end of this manual).
+- If the word in question is not on the list, do some additional searching online and/or ask a lead person on your project for more information on how to proceed. It is possible that the PLAY team will need to reach out to collaborators at the original data collection site for further clarity on regionalisms in their area.
+- Note: PLAY will continue to expand on the list of English and Spanish regionalisms as transcription continues.
 
-·          If mother makes a mouth sound that conveys meaning to the child but cannot be transcribed phonetically (e.g., lip sucking to show something is sweet, kissing sound to call the baby over), check the list of Standardized Spellings for a way to transcribe the sound. For example, the mother is making chewing or biting noises as part of pretend play, type out ‘nom nom’ or similar sound.
-·          Only transcribe sound effects that are part of communication with the child. Many sound effects are used during communication in symbolic play, so it is important to document them.
-·          Some sound effects and vocalizations sound the same in English and in Spanish (e.g., beep beep). When a sound effect is the same in both languages, defer to the English spelling. If a sound effect is different for Spanish, use the Spanish spelling (e.g., quiquiriqui for rooster sound).
-·          Note: The list of Standardized Spellings in English and Spanish is ongoing and will grow as more transcriptions are completed.
+### Adult non-verbal vocalizations and sound effects
+
+- If mother makes a mouth sound that conveys meaning to the child but cannot be transcribed phonetically (e.g., lip sucking to show something is sweet, kissing sound to call the baby over), check the list of Standardized Spellings for a way to transcribe the sound. For example, the mother is making chewing or biting noises as part of pretend play, type out ‘nom nom’ or similar sound.
+- Only transcribe sound effects that are part of communication with the child. Many sound effects are used during communication in symbolic play, so it is important to document them.
+- Some sound effects and vocalizations sound the same in English and in Spanish (e.g., beep beep). When a sound effect is the same in both languages, defer to the English spelling. If a sound effect is different for Spanish, use the Spanish spelling (e.g., quiquiriqui for rooster sound).
+- Note: The list of Standardized Spellings in English and Spanish is ongoing and will grow as more transcriptions are completed.
  
-
 ### Adult babble
 
 Instances where adults ‘babble’ can be coded one of two ways:
-·          If the adult babble is decipherable and can be transcribed phonetically, transcribe the consonant-vowel pairs and repeated as much as the adult vocalizes that babble: for example, ‘gagagaga’ and ‘ayayayaya’ are valid adult babble utterances.
+- If the adult babble is decipherable and can be transcribed phonetically, transcribe the consonant-vowel pairs and repeated as much as the adult vocalizes that babble: for example, ‘gagagaga’ and ‘ayayayaya’ are valid adult babble utterances.
 If you cannot decipher the spelling of the babble, you can use xxx
  
 ## Transcribing Using Datavyu
 
-Open the .opf file and tag utterances. This is the first part of an iterative pass done for a small section of the video (roughly 1-2 minutes, until a good break in activity is reached).
-Tagging Utterances
+Open the .opf file and tag utterances. 
+This is the first part of an iterative pass done for a small section of the video (roughly 1-2 minutes, until a good break in activity is reached).
 
-·          Turn on Quick Keys mode by hitting Shift-Cmnd-K. You will see <QUICK KEY MODE> in the spreadsheet window header.
-·          Quick Keys mode will enable a function that every time an alphanumeric key is pressed, a new point cell is inserted in your selected column.
-·          The alphanumeric key you press will be inserted as the code of the first argument in the column.
-·          Quick Keys mode will be used to insert the source of the utterance: “m” for mother and “c” for child.
-·          Place your left index finger on the “c” key and your right index finger on the “m” key.
-·          Use your right hand to jump to the numpad to start and stop playback. Play the video at ½ or ¼ speed (depending on how much speech is occurring during the segment you are transcribing; more speech may require ¼ speed for tagging utterances) by pressing PLAY [8] then SHUTTLE BACK [4].
-·          Press the “m” or “c” key every time the mother or child has an utterance, while you play the video back.
-·          Insert cells as soon as you hear something. Be as alert and attentive as possible.
-·          Tip: If you think you hear an utterance, tag it. It's much better to be fast and insert extra cells, rather than judge yourself and have to go back later to fix the time or insert a cell for an utterance you missed.
-·          You can easily delete cells or fix the source code using shortcut keys during the actual transcription
-·          Onsets are as close to the utterance onset as you possibly can get. Optimize your attention and coding for speed of tagging (reminder: offsets are not coded.).
-·          Tip: The best strategy is to have an unbroken playback session of 1-2 mins where you just tag utterances without stopping. Stop playback once 1-2 mins have elapsed or you hit a good breaking point in an activity before hitting the 1-2 minute mark (e.g. baby moves onto playing with a new toy). Try to stop tagging utterances as soon as you tag a new utterance, rather than playing further into silence of the video; that way you can jump to and pick up right where you left off at an utterance for the next tagging pass, instead of potentially re-playing the same part of the video.
-·          Play the video at regular or ½ speed for tagging during periods of none or few utterances.
+### Tagging Utterances
+
+- Turn on Quick Keys mode by hitting Shift-Cmnd-K. You will see <QUICK KEY MODE> in the spreadsheet window header.
+- Quick Keys mode will enable a function that every time an alphanumeric key is pressed, a new point cell is inserted in your selected column.
+- The alphanumeric key you press will be inserted as the code of the first argument in the column.
+- Quick Keys mode will be used to insert the source of the utterance: “m” for mother and “c” for child.
+- Place your left index finger on the “c” key and your right index finger on the “m” key.
+- Use your right hand to jump to the numpad to start and stop playback. Play the video at ½ or ¼ speed (depending on how much speech is occurring during the segment you are transcribing; more speech may require ¼ speed for tagging utterances) by pressing PLAY [8] then SHUTTLE BACK [4].
+- Press the “m” or “c” key every time the mother or child has an utterance, while you play the video back.
+- Insert cells as soon as you hear something. Be as alert and attentive as possible.
+- Tip: If you think you hear an utterance, tag it. It's much better to be fast and insert extra cells, rather than judge yourself and have to go back later to fix the time or insert a cell for an utterance you missed.
+- You can easily delete cells or fix the source code using shortcut keys during the actual transcription
+- Onsets are as close to the utterance onset as you possibly can get. Optimize your attention and coding for speed of tagging (reminder: offsets are not coded.).
+- Tip: The best strategy is to have an unbroken playback session of 1-2 mins where you just tag utterances without stopping. Stop playback once 1-2 mins have elapsed or you hit a good breaking point in an activity before hitting the 1-2 minute mark (e.g. baby moves onto playing with a new toy). Try to stop tagging utterances as soon as you tag a new utterance, rather than playing further into silence of the video; that way you can jump to and pick up right where you left off at an utterance for the next tagging pass, instead of potentially re-playing the same part of the video.
+- Play the video at regular or ½ speed for tagging during periods of none or few utterances.
  
-Transcribing Utterances
+### Transcribing Utterances
 
 This is the second part of an iterative pass and should be completed after a set of utterances was tagged.
-·          Turn off Quick Keys (Shift-Cmnd-K).
+
+- Turn off Quick Keys (Shift-Cmnd-K).
 Run the addtime_transcribe.rb script. This will add 250 ms to the offset, which will help in highlighting for the next step (located in “Scripts for Transcription” folder on Box).
-·          Set “Jump back by” on the Controller to 2 seconds [screenshot].
-·          Scroll up to the first cell from the most recent utterance tagging done. Click on that cell and Find the onset of that first cell (+ key) and then JUMP-BACK-BY 2 s (- key).
-·          Selecting the script and scrolling and clicking to the first cell in the recent utterance tagging should be the only time you are touching the mouse!
-·          Turn on Highlight and Focus Mode by hitting Shift-Cmnd-F. This will highlight each cell (green is the current cell, red cells have past, and white cells are upcoming) as you loop back through the 1-2 mins you just tagged utterances in and put the focus of data entry (cursor) into the first uncoded argument in that cell (which will be <content>).
-·          Press the PLAY key [8] to play the video at 1x speed.
-·          Listen to each utterance within the context of the ongoing stream of speech.
-·      JUMP-BACK and re-listen at least 3 times if you are unsure of the content of the utterance.
-·          Once you are sure of the utterance, stop playback and transcribe the utterance or insert the appropriate code (for the child).
-·          Tip: Do not start transcription on the first listen of an utterance unless it is a child code (“b” or “v”).
-·          Loop through 2-3 cells to hear what was previously transcribed and “ramp into” the new utterances to transcribe. Continue this looping to ensure you are not missing utterances or inserting utterances into incorrect cells.
-·          Use the arrow keys as needed to put your cursor into the correct cell. Minimize hand movements by always keeping the left hand on the alpha keys and jumping your right hand to the alpha keys only once you have decided on a transcription. Otherwise, your right hand should rest on the numpad (middle finger on [8] and right finger ready to hit [-]).
-·          If you go past an utterance and miss transcribing it, hit the jump back key until you are right before it. If you get lost in the transcription, JUMP BACK 2-3 cells (by arrowing or jump back key) until you find where you are confident you understand where you are. It's much better to use the keyboard to navigate and loop back (jump back or arrow up or down) rather than using the mouse or scrolling. If you use the mouse you will lose time and if you jump around, you will get lost.
-·          If you find a cell for an utterance that was tagged by mistake (you thought there was an utterance but there wasn't) then delete that cell. JUMP-BACK-BY 2 s before the cell you deleted and confirmed there was no utterance and that the next utterance is tagged at the correct time. Use arrow keys to select the correct cell.
-·          If you need to change the onset of an utterance, ARROW into it (or let autofocus move you into it) and hit the 7 key to set onset to the current time.
-·          If you missed tagging an utterance in the first part, find the time of the utterance onset while you are transcribing. Hit = to set the onset-offset as a point cell. Use tab key to mark the <source> and then tab again to transcribe into <content>.
-·          At minimum, the onset of the utterance should occur during the utterance. Do not spend too much time adjusting utterance onset times to be exact, rather make sure they are occurring within the utterance and optimally close to the beginning (never at the end!).
-·          Turn off Highlight and Focus Mode (SHIFT-CMND-F).
-·          Save the file with CMND-S.
-·          Now turn Quick Keys (SHIFT-CMND-K), find [+] the onset of the last cell transcribed, JUMP BACK BY 2s, and revert back to the strategy for tagging utterances.
+- Set “Jump back by” on the Controller to 2 seconds [screenshot].
+- Scroll up to the first cell from the most recent utterance tagging done. Click on that cell and Find the onset of that first cell (+ key) and then JUMP-BACK-BY 2 s (- key).
+- Selecting the script and scrolling and clicking to the first cell in the recent utterance tagging should be the only time you are touching the mouse!
+- Turn on Highlight and Focus Mode by hitting Shift-Cmnd-F. This will highlight each cell (green is the current cell, red cells have past, and white cells are upcoming) as you loop back through the 1-2 mins you just tagged utterances in and put the focus of data entry (cursor) into the first uncoded argument in that cell (which will be <content>).
+- Press the PLAY key [8] to play the video at 1x speed.
+- Listen to each utterance within the context of the ongoing stream of speech.
+- JUMP-BACK and re-listen at least 3 times if you are unsure of the content of the utterance.
+- Once you are sure of the utterance, stop playback and transcribe the utterance or insert the appropriate code (for the child).
+- Tip: Do not start transcription on the first listen of an utterance unless it is a child code (“b” or “v”).
+- Loop through 2-3 cells to hear what was previously transcribed and “ramp into” the new utterances to transcribe. Continue this looping to ensure you are not missing utterances or inserting utterances into incorrect cells.
+- Use the arrow keys as needed to put your cursor into the correct cell. Minimize hand movements by always keeping the left hand on the alpha keys and jumping your right hand to the alpha keys only once you have decided on a transcription. Otherwise, your right hand should rest on the numpad (middle finger on [8] and right finger ready to hit [-]).
+- If you go past an utterance and miss transcribing it, hit the jump back key until you are right before it. If you get lost in the transcription, JUMP BACK 2-3 cells (by arrowing or jump back key) until you find where you are confident you understand where you are. It's much better to use the keyboard to navigate and loop back (jump back or arrow up or down) rather than using the mouse or scrolling. If you use the mouse you will lose time and if you jump around, you will get lost.
+- If you find a cell for an utterance that was tagged by mistake (you thought there was an utterance but there wasn't) then delete that cell. JUMP-BACK-BY 2 s before the cell you deleted and confirmed there was no utterance and that the next utterance is tagged at the correct time. Use arrow keys to select the correct cell.
+- If you need to change the onset of an utterance, ARROW into it (or let autofocus move you into it) and hit the 7 key to set onset to the current time.
+- If you missed tagging an utterance in the first part, find the time of the utterance onset while you are transcribing. Hit = to set the onset-offset as a point cell. Use tab key to mark the <source> and then tab again to transcribe into <content>.
+- At minimum, the onset of the utterance should occur during the utterance. Do not spend too much time adjusting utterance onset times to be exact, rather make sure they are occurring within the utterance and optimally close to the beginning (never at the end!).
+- Turn off Highlight and Focus Mode (SHIFT-CMND-F).
+- Save the file with CMND-S.
+- Now turn Quick Keys (SHIFT-CMND-K), find [+] the onset of the last cell transcribed, JUMP BACK BY 2s, and revert back to the strategy for tagging utterances.
 Repeat until all utterances in the video were tagged and transcribed.
 Transcription Clean Up
 
 After you are done transcribing, you must run clean up scripts on your transcription file to ensure that there are no mistakes or typos. DO NOT skip this process, because it will slow down the process of quality assurance.
-Script #1: Convert Utterances to Point Cells
+
+### Script #1: Convert Utterances to Point Cells
 
 After ALL utterances are tagged and transcribed, make all utterances point cells by running a script called “changeOffsets.rb” (located in “Scripts for Transcription” folder on Box).
 To run the script, open your .opf file in Datavyu and click on: “script”, then click on “Run script”. Then you need to select the file “changeOffsets.rb”.  
-Script #2: Error Check
+
+### Script #2: Error Check
 
 CHECK YOUR WORK by running the script called “PLAYcheck_transcripts.rb”, which will open a “Scripting Console” that tells you if there are potential mistakes in the transcript.
 The check_transcripts.rb” script will check for you:
-·      Unallowed characters (e.g., commas, periods, exclamation points, etc.)
-·      Utterances where the source is not tagged as ‘m’ or ‘c’
-·      Empty cells with no content
-·      Cells for ‘m’ that include only 1 character
-·      Cells for ‘c’ that include only 1 character that is not ‘b’ or ‘v’
-·      Cells for ‘c’ that include only ‘xxx’
+- Unallowed characters (e.g., commas, periods, exclamation points, etc.)
+- Utterances where the source is not tagged as ‘m’ or ‘c’
+- Empty cells with no content
+- Cells for ‘m’ that include only 1 character
+- Cells for ‘c’ that include only 1 character that is not ‘b’ or ‘v’
+- Cells for ‘c’ that include only ‘xxx’
 To run the script, open your .opf file in Datavyu and click on: “script”, then click on “Run script”. Then you need to select the file “check_transcripts.rb” (located in “Scripts for Transcription” folder on Box).
  
 Double check the content in all cells flagged in the “Scripting Console”. If there is an actual error, correct the error and then re-run the script until all true errors are resolved. The console will only show you the cells with potential issues and it will print for you the number of the cell that has a potential issue so you can go back manually, find it and fix it if necessary. Some of the mistakes are:
-A code for source that is not allowed
-The only allowed sources are m and c.
-To fix, find the cell, listen to it and type the correct source
-A cell with the message “"CELL # ONSET does not equal OFFSET". To fix, find the cell with the key + and then press the key 9 to create a point cell
-A cell with no content. To fix, find the cell, listen to it and transcribe the utterance.
+
+- A code for source that is not allowed
+    - The only allowed sources are m and c.
+- To fix, find the cell, listen to it and type the correct source
+- A cell with the message “"CELL # ONSET does not equal OFFSET". To fix, find the cell with the key + and then press the key 9 to create a point cell
+- A cell with no content. To fix, find the cell, listen to it and transcribe the utterance.
  
 After you double check all the flagged cells and fix any mistakes, run again until all true errors are fixed.
  
 Finally, save your transcription and move it to your box folder titled “3_Submitted_CannotEditAnymore”.
  
-Standardized Spellings: Sound Effects, Words, and Vocalizations
+## Standardized Spellings: Sound Effects, Words, and Vocalizations
 
 Note: all sound effects should be treated as if they were real words, transcribe every such utterance the speaker makes (e.g. Mother making a train sound effect x2 times is transcribed as ‘choo choo’). Note that many of the words on the English portion of this list are interchangeable between English and Spanish. However, refer to the separate list of Spanish Standardized Spellings for words and sound effects that are only produced in Spanish.
  
-ah
+**ah**</br>
 should not be spelled as ‘ahh’, ‘aah’ etc. regardless of duration
  
-ahhah
+**ahhah**</br>
+
 vocalization meaning “discovery”; should not be spelled as ‘ah hah’
  
-ahem
+**ahem**</br>
 vocalization meaning “ready to speak”
-aw
+
+**aw**</br>
 vocalization meaning “sympathy”
  
-ay
+**ay**</br>
 vocalization meaning “surprise”
  
-ha
-note: this spelling should only be used if person is not laughing, such as reading from a book, repeating a phrase, or being sarcastic
-transcribe each ‘ha’ as a separate word, should not be spelled as ‘haha’, ‘haahaa’
-hee
+**ha**</br>
+note: this spelling should only be used if person is not laughing, such as reading from a book, repeating a phrase, or being sarcastic. Transcribe each ‘ha’ as a separate word, should not be spelled as ‘haha’, ‘haahaa’
+
+**hee**</br>
  
-huh?
+**huh?**</br>
 vocalization that serves a questioning function
  
-huhuh
+**huhuh**</br>
 vocalization meaning “no”
  
-hmm
-vocalization meaning “thinking or questioning”
-should not be spelled as ‘hm’
+**hmm**</br>
+vocalization meaning “thinking or questioning”. 
+Should not be spelled as ‘hm’
  
-hmm?
+**hmm?**</br>
 vocalization that serves a questioning function
  
-mmhm
+**mmhm**</br>
 vocalization meaning “yes”
  
- 
-mmm
+**mmm**</br>
 vocalization meaning “tasty, good”
  
-mnm
+**mnm**</br>
 vocalization meaning “no”
  
-oh
+**oh**</br>
 vocalization denoting realizing something (e.g., “oh no”)
  
-okay
+**okay**</br>
 spelling for “o.k.”
  
-oy
+**oy**</br>
 vocalization for getting someone’s attention or ??
  
-peekaboo
+**peekaboo**</br>
 spelling for game
  
-pst
-vocalization meaning “listen here”
-function to attract the child’s attention
+**pst**</br>
+vocalization meaning “listen here”; function to attract the child’s attention
  
-sh
+**sh**</br>
 vocalization meaning “shushing”
  
-tsk
-vocalization meaning “shame”
-sound made by clicking tongue on back of teeth
+**tsk**</br>
+vocalization meaning “shame”; sound made by clicking tongue on back of teeth
  
-uh
+**uh**</br>
 vocalization indicating a pause or thinking
  
-uhhuh
+**uhhuh**</br>
 vocalization meaning “yes”
  
-uhoh
+**uhoh**</br>
 vocalization meaning “blunder/accident”
  
-ugh
+**ugh**</br>
 vocalization meaning “blunder/accident/disgust”
  
-uhuh
+**uhuh**</br>
 vocalization meaning “no”
- 
-umm
+
+**umm**</br>
 vocalization indicating a pause or thinking
  
-wanna
+**wanna**</br>
 contraction of “want to”
- 
-whee
+
+**whee**</br>
 vocalization meaning “excitement, exuberance”
  
-whoah
+**whoah**</br>
 vocalization meaning “surprise”
  
-whoops
+**whoops**</br>
 vocalization meaning “mistake” (variations can include whoopsie)
  
-wow
-vocalization meaning “amazement”
-should not be spelled as ‘woow’, ‘wooow’ etc. regardless of duration
+**wow**</br>
+vocalization meaning “amazement”; should not be spelled as ‘woow’, ‘wooow’ etc. regardless of duration
  
-yeah
-vocalization meaning “yes”
-a cheer
-should not be spelled as ‘yea’
+**yeah**</br>
+vocalization meaning “yes”; a cheer; should not be spelled as ‘yea’
  
-yay
-vocalization meaning “excitement”
-a cheer
-should not be spelled as ‘yaay’, ‘yaaay’ etc. regardless of duration
+**yay**</br>
+vocalization meaning “excitement”; a cheer; should not be spelled as ‘yaay’, ‘yaaay’ etc. regardless of duration
  
-yup
+**yup**</br>
 vocalization meaning “yes”
 do not spell as ‘yep’
  
-beep
+**beep**</br>
 utterance for adult making any ‘beep’ sound regardless of duration (i.e. we do not differentiate between ‘beep’ and ‘beeeeeeeeeeep’)
  
-muah
+**muah**</br>
 utterance for a kiss-like sound effect.
  
-baa
+**baa**</br>
 spelling for utterances making a sheep-like sound effect. transcribe every such utterances the speaker makes
  
-choo
+**choo**</br>
 spelling for utterances making a train-like sound effect. transcribe every such utterance the speaker makes
  
-cockadoodledoo
+**cockadoodledoo**</br>
 spelling for utterances making a sound effect of rooster crowing. must be this specific rooster sound, do not use for all ‘chicken’-related sound effects.
-cluck
+
+**cluck**</br>
 spelling for utterances making a sound effect for a chicken.
  
-grrr
+**grrr**</br>
 spelling for utterances making any growling sounds. these utterances do not need to be ‘acted out’: growls resulting from a real emotional outburst also use this spelling.
  
-meow
+**meow**</br>
 spelling for utterances making a cat-like sound effect.
  
-moo
+**moo**</br>
 spelling for utterances making a cow-like sound effect.
  
-nom/ nom nom
+**nom/nom nom**</br>
 Spelling for utterances making a chewing or biting sound
  
-ouch
+**ouch**</br>
 spelling for utterances where the speaker expresses hurt or pain. this spelling applies to both reading and ‘real’ situations.
  
-ohmm
+**ohmm**</br>
 spelling for utterances making a big bite or swallowing kind of sound. Used frequently in pretend play.
  
-quack
+**quack*</br>
 spelling for utterances making a duck-like sound effect.
  
-roar
-spelling for all ‘roaring’ noises
-do not spell as ‘rawr’, ‘roaaaar’, ‘roarrr’ etc. regardless of duration
+**roar**</br>
+spelling for all ‘roaring’ noises; do not spell as ‘rawr’, ‘roaaaar’, ‘roarrr’ etc. regardless of duration
  
-ribbet
+**ribbet**</br>
 Spelling for frog croaking
-shhu
+
+**shhu**</br>
 spelling for sound effect for flying
-tun
+
+**tun**</br>
 spelling for some music sounds
-vroom
+
+**vroom**</br>
 spelling for utterances making a car- or speeding- sound effect, typically in reference to vehicles.
  
-woof
+**woof**</br>
 spelling for utterances making a dog-like sound effect.
  
-yum
+**yum**</br>
 spelling for utterances where speaker expresses or suggests satisfaction with food or drink (i.e. both ‘yum do you want this apple?’ and ‘that carrot was yum yum’). this spelling applies to both reading and ‘real’ situations.
  
-yucky
+**yucky**</br>
 spelling for utterances where the speaker expresses something is gross or not tasty (variations include yuck)
  
-Spanish Standardized Spellings: Sound Effect, Words, and Vocalizations
+### Spanish Standardized Spellings: Sound Effect, Words, and Vocalizations
 
 Note: accent marks and ~ are not marked here as they are not transcribed in order to expedite transcription process.
  
-alo
+**alo**</br>
 spelling for common word used to answer the phone
  
-chiqui
+**chiqui**</br>
 spelling for common affectionate nickname; diminutive of “chiquito/chiquita”
  
-guau guau
+**guau guau**</br>
 spelling for utterances making a dog or barking sound
  
-pio pio
+**pio pio**</br>
 spelling for utterances making a chicken (gallina) or baby chick (pollito) sound, could also be used for birds in general
  
-quiquiriqui
+**quiquiriqui**</br>
 spelling for utterances making a rooster/gallo sound
  
-shhu
+**shhu**</br>
 spelling for sound effect for flying
  
-oop
+**oop**</br>
 spelling for sound effect when a mistake happens (similar who “whoops” in context)
  
+### Regionalisms Standardized Spellings (English)
 
-Regionalisms Standardized Spellings (English)
-
- 
-bodega
+**bodega**</br>
 regional word (U.S. New York) for “corner grocery store”
  
-brook
+**brook**</br>
 regional word (U.S. North East) for “creek”
  
-bubbler
+**bubbler**</br>
 regional word (U.S. New England) for “fountain”
  
-buggy
+**buggy**</br>
 regional spelling (U.S. Pennsylvania) for “shopping cart” or “baby carriage”
  
-commode
+**commode**</br>
 regional word (South and Mid U.S.) for “restroom” or “toilet”
  
-dippy
+**dippy**</br>
 regional spelling (Pennsylvania) for something that is good to dip into (e.g., coffee, egg yolk)
- 
-dooryard
+
+**dooryard**</br>
 regional word (U.S. North New England) for area around the main entry door of a house
  
-dungarees
+**dungarees**</br>
 regional word (U.S. New York) for “jeans”
  
-frappe
- regional word (U.S. New England) for a “milkshake”
+**frappe**</br>
+regional word (U.S. New England) for a “milkshake”
  
-hoagie
+**hoagie**</br>
 regional word (U.S. North East) for submarine sandwich/sub
  
-hoosier
+**hoosier**</br>
 regional word (Mid U.S.) for person from a rural area
  
-jag
+**jag**</br>
 regional spelling (Pennsylvania) for “prick”, “stab”, also for “to tease”
  
-jimmies
+**jimmies**</br>
 regional word (U.S. North East) for “sprinkles”
  
-muckle
+**muckle**</br>
 regional word (U.S. North New England) for “grasp”, “hold-fast”, or “tear into”
  
-neb
+**neb**</br>
 regional spelling (Pennsylvania) for prying into a conversation
  
-nebby
+**nebby**</br>
 regional spelling (Pennsylvania) for someone who is prying into a conversation
  
-parlor
+**parlor**</br>
 regional word (U.S. North East) for “living room”
  
-pavement
+**pavement**</br>
 regional word (U.S. North East) for “sidewalk”
  
-potsy
+**potsy**</br>
 regional word (U.S. New York) for “hopscotch”
- 
-red up
+
+**red up**</br>
 regional spelling (Pennsylvania) for “tidy up” or “clean p”
  
-slippy
+**slippy**</br>
 regional spelling (Pennsylvania) for “slippery”
  
-spigot
+**spigot**</br>
 regional word (U.S. South) for “faucet”
  
-stoop
+**stoop**</br>
 regional word (U.S. New York) for “small porch” or steps in front of a building
  
-teeter-totter
+**teeter-totter**</br>
 regional word (U.S. North) for “seesaw”
  
-y’all
+**y’all**</br>
 regional spelling (U.S. South, Texas) for “you all”
  
-yonder
+**yonder**</br>
 regional spelling (U.S. South) for “over there”
  
-you’uns
+**you’uns**</br>
 regional spelling (Western PA) for “you all”
  
-yins
+**yins**</br>
 regional spelling (Western PA) for “you all”
  
-youse
+**youse**</br>
 regional spelling (NY, NJ, PA) for “you all”
  
- 
-Regionalisms Standardized Spellings (Spanish)
+### Regionalisms Standardized Spellings (Spanish)
 
 Note: accent marks and ~ are not marked here as they are not transcribed in order to expedite transcription process.
  
-alubias
+**alubias**</br>
 variant of “frijoles”, “judias”, “habichuelas”, “porotos”, or “caraotas” (i.e., beans)
  
-anteojos
+**anteojos**</br>
 variant of “espejuelos”, “gafas”, or “lentes” (i.e., glasses)
  
-aretes
+**aretes**</br>
 variant of “aros” or “zarcillos” (i.e., earrings)
  
-aros
+**aros**</br>
 variant of “aretes” or “zarcillos” (i.e., earrings)
  
-bacinica
+**bacinica**</br>
 variant of “inodoro”, “sanitario”, “orinal”, “pelela”, or “poceta” (i.e., potty or toilet)
  
-barriga
+**barriga**</br>
 variant of “estomago” or “panza” (i.e., tummy)
  
-banadera
+**banadera**</br>
 variant of “banera” or “tina” (i.e., bathtub)
  
-banera
+**banera**</br>
 variant of “banadera” or “tina” (i.e., bathtub)
  
- 
-bebida
+**bebida**</br>
 variant of “gaseosa”, “soda”, or “refresco” (i.e., soda)
  
-bicho
+**bicho**</br>
 variant of “insecto” (i.e., insect/bug), or referring to a boy or girl (bicha)
  
-bizcocho
+**bizcocho**</br>
 variant of “cake”, “torta”, “pastel”, or “queque” (i.e., cake)
  
-boina
+**boina**</br>
 variant of “gorro”, “sombrero”, or “casco” (i.e., hat)
  
-bomba
+**bomba**</br>
 variant of “globo” (i.e., balloon)
  
-borrego
+**borrego**</br>
 variant of “cordero” (i.e., lamb)
  
-cabello
+**cabello**</br>
 variant of “pelo” (i.e., hair)
  
-cabra
+**cabra**</br>
 variant of “chivo” (i.e., goat)
-chamaco/chamaquito
+
+**chamaco/chamaquito**</br>
 referring to a boy or girl (chamaca/chamaquita)
-chamo/chamito
+
+**chamo/chamito**</br>
 referring to a boy or girl (chama/chamita)
  
-calcetin
+**calcetin**</br>
 variant of “media” (i.e., sock)
  
-camisa
+**camisa**</br>
 variant of “playera” or “remera” or “polera” (i.e., shirt)
  
-cambur
+**cambur**</br>
 variant of “banana” or “plátano”
  
-canal
+**canal**</br>
 variant of “canal”, “resbalin”, “resbaladilla”, or “tobogan” (i.e., slide)
  
-casco
+**casco**</br>
 variant of “boina”, “gorro”, “sombrero” (i.e., hat)
  
-caraotas
+**caraotas**</br>
 variant of “frijoles”, “judias”, “habichuelas”, “porotos”, or “alubias” (i.e., beans)
  
-cordero
+**cordero**</br>
 variant of “borrego” (i.e., lamb)
  
-carriola
+**carriola**
 variant of “coche” or “cochecito” (i.e., stroller)
  
-cartera
+**cartera**</br>
 variant of “bolso” (i.e., purse)
  
-cobija
+**cobija**</br>
 variant of “manta” or “frazada” or “colcha” (i.e., blanket or sheet)
  
-coche
+**coche**</br>
 variant of “carro” (i.e., car or stroller)
  
-colcha
+**colcha**</br>
 variant of “manta” or “frazada” or “cobija” (i.e., blanket or sheet)
  
-columpio
+**columpio**</br>
 variant of “hamaca” (i.e., swing)
  
-chivo
+**chivo**</br>
 variant of “cabra” (i.e., goat)
  
-chompa
+**chompa**</br>
 variant of “sueter" or “poleron” (i.e., sweater)
  
-cuarto
+**cuarto**</br>
 variant of “dormitorio”, “habitacion”, “recamara”, or “pieza” (i.e., bedroom)
  
-danzar
+**danzar**</br>
 variant of “bailar” (i.e., dance)
  
-dormitorio
+**dormitorio**</br>
 variant of ““cuarto”, “habitacion”, “pieza”, or “recamara” (i.e., bedroom)
  
-espejuelos
+**espejuelos**</br>
 variant of “anteojos”, “gafas”, or “lentes” (i.e., glasses)
  
-estomago
+**estomago**</br>
 variant of “barriga” or “panza” (i.e., tummy) 
  
-falda
+**falda**</br>
 variant of “saya” (i.e., skirt)
  
-frazada
+**frazada**</br>
 variant of “manta” or “cobija” or “colcha” (i.e., blanket or sheet)
- 
- 
-frijoles
+
+**frijoles**</br>
 variant of “judias”, “habichuelas”, “caraotas”, or “alubias” (i.e., beans)
  
-fuchi
+**fuchi**</br>
 variant of “cochino”, “guacala” or “sucio” (i.e., yucky)
  
-gafas
+**gafas**</br>
 variant of “lentes” or “espejuelos” (i.e., blanket or sheet)
  
-gaseosa
+**gaseosa**</br>
 variant of “bebida”, “soda”, or “refresco” (i.e., soda)
  
-golosina
+**golosina**</br>
 variant of “dulce” or “caramelo” (i.e., candy)
  
-gorro
+**gorro**</br>
 variant of “sombrero”, “boina”, or “casco” (i.e., hat)
  
-guagua
+**guagua**</br>
 variant of “autobus” or “micro” (i.e., bus)
  
-guácala
+**guácala**</br>
 variant of “cochino”, “fuchi” or “sucio” (i.e., yucky)
  
-guajalote
+**guajalote**</br>
 variant of “pavo” (i.e., turkey)
  
-guanajo
+**guanajo**</br>
 variant of “pavo” (i.e., turkey)
  
-habichuelas
+**habichuelas**</br>
 variant of “frijoles”, “judias”, “caraotas”, “porotos”, or “alubias” (i.e., beans)
  
-habitacion
+**habitacion**</br>
 variant of ““cuarto”, “dormitorio”, “pieza”, “recamara” (i.e., bedroom)
  
-hamaca
+**hamaca**</br>
 variant of “columpio” (i.e., swing) or a hammock
  
-inodoro
+**inodoro**</br>
 variant of “poceta”, “sanitario”, “orinal”, “pelela”, or “bacinica” (i.e., potty or toilet)
  
-judias
+**judias**</br>
 variant of “frijoles”, “judias”, “caraotas”, “porotos”, or “alubias” (i.e., beans)
  
-lavabo
+**lavabo**</br>
 variant of “lavamanos” (i.e., sink)
  
-lavamanos
+**lavamanos**</br>
 variant of “lavabo” (i.e., sink)
  
-lentes
+**lentes**</br>
 variant of “gafas” or “espejuelos” (i.e., glasses)
  
-mamilla
+**mamilla**</br>
 variant of “botella”, “tetero”, or “mamadera” (i.e., bottle)
  
-mamadera
+**mamadera**</br>
 variant of “botella”, “tetero”, or “mamilla” (i.e., bottle)
  
-manta
+**manta**</br>
 variant of “cobija” or “frazada” or “colcha” (i.e., blanket or sheets)
  
-media
+**media**</br>
 variant of calcetín (i.e., sock)
  
-mercado
+**mercado**</br>
 variant of “tienda” or “comprar” (i.e., store, supermarket, grocery shopping)
  
-mico
+**mico**</br>
 variant of “mono” (i.e., monkey)
  
-micro
+**micro**</br>
 variant of “autobus” or “guagua” (i.e., bus)
  
-nevera
+**nevera**</br>
 variant of “refrigerador” (i.e., refrigerator)
  
-orinal
+**orinal**</br>
 variant of “inodoro”, “sanitario”, “poceta”, “pelela”, or “bacinica” (i.e., potty or toilet)
  
-pamper
+**pamper**</br>
 variant of “panal” (i.e., diaper)
  
-panza
+**panza**</br>
 variant of “barriga” (i.e., tummy)
  
-panal
+**panal**</br>
 variant of “pamper” (i.e., diaper)
  
-pastel
+**pastel**</br>
 variant of “bizcocho”, “queque”, or “torta” (i.e., cake)
  
-peine
+**peine**</br>
 variant of “peineta” (i.e., comb) 
  
-peineta
+**peineta**</br>
 variant of “peine” (i.e., comb)
  
-pelela
+**pelela**</br>
 variant of “inodoro”, “sanitario”, “poceta”, “orinal”, or “bacinica” (i.e., potty or toilet)
  
-pieza
+**pieza**</br>
 variant of “cuarto”, “dormitorio”, “habitacion”, or “recamara” (i.e., bedroom)
  
-playera
+**playera**</br>
 variant of “camisa” or “remera” (i.e., shirt)
  
-polera
+**polera**</br>
 variant of “camisa” or “remera” or “playera” (i.e., shirt)
  
-poleron
+**poleron**</br>
 variant of “chompa” or “sueter” (i.e., sweater)
  
-porotos
+**porotos**</br>
 variant of “frijoles”, “judias”, “caraotas”, “judias”, or “alubias” (i.e., beans)
  
-poceta
+**poceta**</br>
 variant of “inodoro”, “sanitario”, “orinal”, “pelela”, or “bacinica” (i.e., potty or toilet)
   
-porotos
+**porotos**</br>
 variant of “frijoles”, “judías”, “habichuelas”, “caraotas”, or “alubias” (i.e., beans)
  
-pulover
+**pulover**</br>
 variant of “camisa” or “remera” or “playera” or also “sueter” or “poleron” (i.e., shirt or sweater)
  
-queque
+**queque**</br>
 variant of “bizcocho”, “pastel”, or “torta” (i.e., cake)
  
-remera
+**remera**</br>
 variant of “camisa” or “playera” (i.e., shirt)
  
-recamara
+**recamara**</br>
 variant of “cuarto”, “dormitorio”, “habitacion”, or “pieza” (i.e., bedroom)
  
-resbalin
+**resbalin**</br>
 variant of “canal”, “resbaladilla”, or “tobogan” (i.e., slide)
  
-resbaladilla
+**resbaladilla**</br>
 variant of “canal”, “resbalin”, or “tobogan” (i.e., slide)
  
-sabana
+**sabana**</br>
 variant of “cobija” or “frazada” or “colcha” (i.e., blanket, sheet)
  
-sanitario
+**sanitario**</br>
 variant of “inodoro”, “poceta”, “orinal”, “pelela”, or “bacinica” (i.e., potty or toilet)
  
-saya
+**saya**</br>
 variant of “falda” (i.e., skirt)
  
-sueter
+**sueter**</br>
 variant of “chompa” or “poleron” (i.e., sweater)
  
-tetero
+**tetero**</br>
 variant of “botella”, “mamila”, “mamadera” (i.e., bottle)
  
-tina
+**tina**</br>
 variant of “banadera” or “banera” (i.e., bathtub)
  
-tobogan
+**tobogan**</br>
 variant of “resbaladilla” or “canal” (i.e., slide)
  
-torta
+**torta**</br>
 variant of “bizcocho”, “pastel”, or “queque” (i.e., cake)
  
-zarcillos
+**zarcillos**</br>
 variant of “aros” or “aretes” (i.e., earrings)
  
-zumo
+**zumo**</br>
 variant of “jugo” (i.e., juice)
- 
- 
-

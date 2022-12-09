@@ -1,0 +1,5 @@
+# Datavyu
+
+## Latest release {- #datavyu_software}
+
+The latest release of Datavyu (1.5.3) can be found here: <https://github.com/databrary/datavyu/releases/tag/v1.5.3>

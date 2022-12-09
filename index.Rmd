@@ -1,5 +1,5 @@
 --- 
-title: "Play & Learning Across a Year (PLAY): The Protocol"
+title: "PLAY Project: The Protocol"
 author: "Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -86,30 +86,25 @@ Co-Principal Investigator
 
 ### Team {- #staff}
 
-<div class="row">
-  <div class="column-left">
-  <img src="img/people-kasey.png" width="150"></br>
-  **Kasey Soska, Ph.D.**</br>
-  Scientific Director
-  <br><a href="mailto:kasey.soska@databrary.org">email</a>
-  </div>
-  <div class="column-right">
-  <img src="img/people-orit.jpg" width="150"></br>
-  **Orit Herzberg-Keller, D.P.T.**</br>
-  Research Scientist
-  <br><a href="mailto:ohk2@nyu.edu">email</a>
-  </div>
-</div>
-<br><br>
-<div class="row">
-  <div class="column-left">
-  <img src="img/people-tiger.png" width="150"></br>
-  **Tiger Teng, B.A.**</br>
-  Research Associate
-  <br><a href="mailto:tyt228@nyu.edu">email</a>
-  </div>
-</div>
-<br><br>
+<table>
+<tr>
+<td><img src="img/people-kasey.png" width="150"><br><br><br></td>
+<td style="padding:10px">
+**Kasey Soska, Ph.D.**</br>
+Scientific Director
+<br><a href="mailto:kasey.soska@databrary.org">email</a>
+</td>
+</tr>
+
+<tr>
+<td><img src="img/people-orit.jpg" width="150"><br><br><br></td>
+<td style="padding:10px">
+**Orit Herzberg-Keller, D.P.T.**</br>
+Research Scientist
+<br><a href="mailto:ohk2@nyu.edu">email</a>
+</td>
+</tr>
+</table>
 
 ### Collaborating Investigators {- #collaborators}
 
