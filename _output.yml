@@ -5,7 +5,7 @@ bookdown::bs4_book:
   repo: 'https://github.com/PLAY-behaviorome/protocol'
   
 bookdown::gitbook:
-  css: style.css
+  css: include/css/style.css
   config:
     toc:
       before: |

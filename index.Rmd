@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Preface {-}
+# About {-}
 
 ```{r PLAY_logo_img, fig.link='https://play-project.org'}
 knitr::include_graphics("include/img/PLAY-logo.png")
@@ -239,5 +239,5 @@ _David Hunter is Professor of Statistics at the Pennsylvania State University an
 ```{r include=FALSE}
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
+), 'include/bib/packages.bib')
 ```
