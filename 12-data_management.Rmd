@@ -38,23 +38,24 @@ The form/file names are reasonably orderly, so that we can search for strings li
 
 Here are the main steps:
 
-1. Download XLSX-formatted files from KoBoToolbox.org via the API. Save the downloaded files in a local directory that is **not** synched to GitHub. See <https://play-behaviorome.github.io/kobotoolbox/01-download-from-KoBo.html> for more details.
+1. Download XLSX-formatted files from KoBoToolbox.org via the API. Save the downloaded files in a local directory that is **not** synched to GitHub.
 
-2. Import the XLSX files and export them as CSVs to a separate local directory that is **not** synced to GitHub. See <https://play-behaviorome.github.io/kobotoolbox/02-save_raw_csvs.html> for more details. 
+2. Import the XLSX files and export them as CSVs to a separate local directory that is **not** synced to GitHub.
 
-3. Import the raw CSV files and split them into separate files, one for the MB-CDI questions and a second for all other non-MBCDI questions. <https://play-behaviorome.github.io/kobotoolbox/03-split_MBCDI_others.html> for more details.  
+3. Import the raw CSV files and split them into separate files, one for the MB-CDI questions and a second for all other non-MBCDI questions. 
 
-4. Remove identifying information like names, exact dates, and contact information before exporting these files. See <https://play-behaviorome.github.io/kobotoolbox/04-remove_identifiers.html>.
+4. Remove identifying information like names, exact dates, and contact information before exporting these files.
 
-5. Carry out preliminary 'light' quality assurance (QA) on the data files. See <https://play-behaviorome.github.io/kobotoolbox/05-conduct_initial_qa.html>.
+5. Carry out preliminary 'light' quality assurance (QA) on the data files.
 
-6. Create aggregate files that combine non-MB-CDI data across the forms, age groups, and language groups. We will consult with the PLAY language expert group about how to do additional post-processing and cleaning of the MB-CDI data. This step also (optionally) merges the data from KoBoToolbox with that stored about the associated Databrary sessions. See <https://play-behaviorome.github.io/kobotoolbox/06-make_aggregate_csv.html>.
+6. Create aggregate files that combine non-MB-CDI data across the forms, age groups, and language groups. 
+We will consult with the PLAY language expert group about how to do additional post-processing and cleaning of the MB-CDI data. 
+This step also (optionally) merges the data from KoBoToolbox with that stored about the associated Databrary sessions.
 
-Once these steps are completed, it is possible to render a document that provides simple visualizations of the survey data, as in <https://play-behaviorome.github.io/kobotoolbox/release_1.0_survey_report.html>. 
-As of 2022-03-18, this report contains information that links sessions to specific data collection sites, so the team is not sharing this publicly.
+Once these steps are completed, it is possible to test the exported data via some simple visualizations. See <https://play-behaviorome.github.io/KoBoToolbox/visualizations.html> for some examples.
 
 ### Data sharing
 
 Our plan is to copy the aggregate CSV to a materials folder on the shared Databrary volume.
 
-In the future, we will export session-level data files to the session folders for each participant.
+In the future, we will export session-level data files to the shared session folders for each participant.

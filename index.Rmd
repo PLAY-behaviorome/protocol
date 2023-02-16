@@ -1,5 +1,5 @@
 --- 
-title: "PLAY Project: The Protocol"
+title: "PLAY Project: Protocol"
 author: "Kasey Soska, Orit Hertzberg, Karen Adolph, Catherine Tamis-LeMonda, and Rick Gilmore"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
